@@ -1,0 +1,531 @@
+{
+  "input_images": 20,
+  "complete": 20,
+  "runs": [
+    {
+      "image": "/Users/mathew/Documents/ChatGPT/VietReceipt/output/vietreceipt-terminal/git-20/images/R001.jpg",
+      "output": "/Users/mathew/Documents/ChatGPT/VietReceipt/output/vietreceipt-terminal/runs/table-footer-checked-20261116-124445/001-R001",
+      "stages": {
+        "reader": {
+          "status": "OK",
+          "log": "core.log"
+        },
+        "segmentation": {
+          "status": "OK",
+          "warnings": []
+        },
+        "table": {
+          "status": "OK"
+        },
+        "header": {
+          "status": "OK",
+          "log": "header-final.log"
+        },
+        "footer": {
+          "status": "OK",
+          "log": "footer.log"
+        }
+      },
+      "complete": true
+    },
+    {
+      "image": "/Users/mathew/Documents/ChatGPT/VietReceipt/output/vietreceipt-terminal/git-20/images/VRSYN2-00001__clean_png.png",
+      "output": "/Users/mathew/Documents/ChatGPT/VietReceipt/output/vietreceipt-terminal/runs/table-footer-checked-20261116-124445/002-VRSYN2-00001__clean_png",
+      "stages": {
+        "reader": {
+          "status": "OK",
+          "log": "core.log"
+        },
+        "segmentation": {
+          "status": "OK",
+          "warnings": []
+        },
+        "table": {
+          "status": "OK"
+        },
+        "header": {
+          "status": "OK",
+          "log": "header-final.log"
+        },
+        "footer": {
+          "status": "OK",
+          "log": "footer.log"
+        }
+      },
+      "complete": true
+    },
+    {
+      "image": "/Users/mathew/Documents/ChatGPT/VietReceipt/output/vietreceipt-terminal/git-20/images/VRSYN2-00002__blur_png.png",
+      "output": "/Users/mathew/Documents/ChatGPT/VietReceipt/output/vietreceipt-terminal/runs/table-footer-checked-20261116-124445/003-VRSYN2-00002__blur_png",
+      "stages": {
+        "reader": {
+          "status": "OK",
+          "log": "core.log"
+        },
+        "segmentation": {
+          "status": "OK",
+          "warnings": []
+        },
+        "table": {
+          "status": "OK"
+        },
+        "header": {
+          "status": "OK",
+          "log": "header-final.log"
+        },
+        "footer": {
+          "status": "OK",
+          "log": "footer.log"
+        }
+      },
+      "complete": true
+    },
+    {
+      "image": "/Users/mathew/Documents/ChatGPT/VietReceipt/output/vietreceipt-terminal/git-20/images/VRSYN2-00003__clean_png.png",
+      "output": "/Users/mathew/Documents/ChatGPT/VietReceipt/output/vietreceipt-terminal/runs/table-footer-checked-20261116-124445/004-VRSYN2-00003__clean_png",
+      "stages": {
+        "reader": {
+          "status": "OK",
+          "log": "core.log"
+        },
+        "segmentation": {
+          "status": "OK",
+          "warnings": []
+        },
+        "table": {
+          "status": "OK"
+        },
+        "header": {
+          "status": "OK",
+          "log": "header-final.log"
+        },
+        "footer": {
+          "status": "OK",
+          "log": "footer.log"
+        }
+      },
+      "complete": true
+    },
+    {
+      "image": "/Users/mathew/Documents/ChatGPT/VietReceipt/output/vietreceipt-terminal/git-20/images/VRSYN2-00004__clean_png.png",
+      "output": "/Users/mathew/Documents/ChatGPT/VietReceipt/output/vietreceipt-terminal/runs/table-footer-checked-20261116-124445/005-VRSYN2-00004__clean_png",
+      "stages": {
+        "reader": {
+          "status": "OK",
+          "log": "core.log"
+        },
+        "segmentation": {
+          "status": "OK",
+          "warnings": []
+        },
+        "table": {
+          "status": "OK"
+        },
+        "header": {
+          "status": "OK",
+          "log": "header-final.log"
+        },
+        "footer": {
+          "status": "OK",
+          "log": "footer.log"
+        }
+      },
+      "complete": true
+    },
+    {
+      "image": "/Users/mathew/Documents/ChatGPT/VietReceipt/output/vietreceipt-terminal/git-20/images/VRSYN2-00007__blur_png.png",
+      "output": "/Users/mathew/Documents/ChatGPT/VietReceipt/output/vietreceipt-terminal/runs/table-footer-checked-20261116-124445/006-VRSYN2-00007__blur_png",
+      "stages": {
+        "reader": {
+          "status": "OK",
+          "log": "core.log"
+        },
+        "segmentation": {
+          "status": "OK",
+          "warnings": []
+        },
+        "table": {
+          "status": "OK"
+        },
+        "header": {
+          "status": "OK",
+          "log": "header-final.log"
+        },
+        "footer": {
+          "status": "OK",
+          "log": "footer.log"
+        }
+      },
+      "complete": true
+    },
+    {
+      "image": "/Users/mathew/Documents/ChatGPT/VietReceipt/output/vietreceipt-terminal/git-20/images/VRSYN2-00008__clean_png.png",
+      "output": "/Users/mathew/Documents/ChatGPT/VietReceipt/output/vietreceipt-terminal/runs/table-footer-checked-20261116-124445/007-VRSYN2-00008__clean_png",
+      "stages": {
+        "reader": {
+          "status": "OK",
+          "log": "core.log"
+        },
+        "segmentation": {
+          "status": "OK",
+          "warnings": []
+        },
+        "table": {
+          "status": "OK"
+        },
+        "header": {
+          "status": "OK",
+          "log": "header-final.log"
+        },
+        "footer": {
+          "status": "OK",
+          "log": "footer.log"
+        }
+      },
+      "complete": true
+    },
+    {
+      "image": "/Users/mathew/Documents/ChatGPT/VietReceipt/output/vietreceipt-terminal/git-20/images/VRSYN2-00009__clean_png.png",
+      "output": "/Users/mathew/Documents/ChatGPT/VietReceipt/output/vietreceipt-terminal/runs/table-footer-checked-20261116-124445/008-VRSYN2-00009__clean_png",
+      "stages": {
+        "reader": {
+          "status": "OK",
+          "log": "core.log"
+        },
+        "segmentation": {
+          "status": "OK",
+          "warnings": []
+        },
+        "table": {
+          "status": "OK"
+        },
+        "header": {
+          "status": "OK",
+          "log": "header-final.log"
+        },
+        "footer": {
+          "status": "OK",
+          "log": "footer.log"
+        }
+      },
+      "complete": true
+    },
+    {
+      "image": "/Users/mathew/Documents/ChatGPT/VietReceipt/output/vietreceipt-terminal/git-20/images/VRSYN2-00010__blur_png.png",
+      "output": "/Users/mathew/Documents/ChatGPT/VietReceipt/output/vietreceipt-terminal/runs/table-footer-checked-20261116-124445/009-VRSYN2-00010__blur_png",
+      "stages": {
+        "reader": {
+          "status": "OK",
+          "log": "core.log"
+        },
+        "segmentation": {
+          "status": "OK",
+          "warnings": []
+        },
+        "table": {
+          "status": "OK"
+        },
+        "header": {
+          "status": "OK",
+          "log": "header-final.log"
+        },
+        "footer": {
+          "status": "OK",
+          "log": "footer.log"
+        }
+      },
+      "complete": true
+    },
+    {
+      "image": "/Users/mathew/Documents/ChatGPT/VietReceipt/output/vietreceipt-terminal/git-20/images/VRSYN2-00013__clean_png.png",
+      "output": "/Users/mathew/Documents/ChatGPT/VietReceipt/output/vietreceipt-terminal/runs/table-footer-checked-20261116-124445/010-VRSYN2-00013__clean_png",
+      "stages": {
+        "reader": {
+          "status": "OK",
+          "log": "core.log"
+        },
+        "segmentation": {
+          "status": "OK",
+          "warnings": []
+        },
+        "table": {
+          "status": "OK"
+        },
+        "header": {
+          "status": "OK",
+          "log": "header-final.log"
+        },
+        "footer": {
+          "status": "OK",
+          "log": "footer.log"
+        }
+      },
+      "complete": true
+    },
+    {
+      "image": "/Users/mathew/Documents/ChatGPT/VietReceipt/output/vietreceipt-terminal/git-20/images/VRSYN2-00014__clean_png.png",
+      "output": "/Users/mathew/Documents/ChatGPT/VietReceipt/output/vietreceipt-terminal/runs/table-footer-checked-20261116-124445/011-VRSYN2-00014__clean_png",
+      "stages": {
+        "reader": {
+          "status": "OK",
+          "log": "core.log"
+        },
+        "segmentation": {
+          "status": "OK",
+          "warnings": []
+        },
+        "table": {
+          "status": "OK"
+        },
+        "header": {
+          "status": "OK",
+          "log": "header-final.log"
+        },
+        "footer": {
+          "status": "OK",
+          "log": "footer.log"
+        }
+      },
+      "complete": true
+    },
+    {
+      "image": "/Users/mathew/Documents/ChatGPT/VietReceipt/output/vietreceipt-terminal/git-20/images/VRSYN2-00015__blur_png.png",
+      "output": "/Users/mathew/Documents/ChatGPT/VietReceipt/output/vietreceipt-terminal/runs/table-footer-checked-20261116-124445/012-VRSYN2-00015__blur_png",
+      "stages": {
+        "reader": {
+          "status": "OK",
+          "log": "core.log"
+        },
+        "segmentation": {
+          "status": "OK",
+          "warnings": []
+        },
+        "table": {
+          "status": "OK"
+        },
+        "header": {
+          "status": "OK",
+          "log": "header-final.log"
+        },
+        "footer": {
+          "status": "OK",
+          "log": "footer.log"
+        }
+      },
+      "complete": true
+    },
+    {
+      "image": "/Users/mathew/Documents/ChatGPT/VietReceipt/output/vietreceipt-terminal/git-20/images/VRSYN2-00016__clean_png.png",
+      "output": "/Users/mathew/Documents/ChatGPT/VietReceipt/output/vietreceipt-terminal/runs/table-footer-checked-20261116-124445/013-VRSYN2-00016__clean_png",
+      "stages": {
+        "reader": {
+          "status": "OK",
+          "log": "core.log"
+        },
+        "segmentation": {
+          "status": "OK",
+          "warnings": []
+        },
+        "table": {
+          "status": "OK"
+        },
+        "header": {
+          "status": "OK",
+          "log": "header-final.log"
+        },
+        "footer": {
+          "status": "OK",
+          "log": "footer.log"
+        }
+      },
+      "complete": true
+    },
+    {
+      "image": "/Users/mathew/Documents/ChatGPT/VietReceipt/output/vietreceipt-terminal/git-20/images/VRSYN2-00019__clean_png.png",
+      "output": "/Users/mathew/Documents/ChatGPT/VietReceipt/output/vietreceipt-terminal/runs/table-footer-checked-20261116-124445/014-VRSYN2-00019__clean_png",
+      "stages": {
+        "reader": {
+          "status": "OK",
+          "log": "core.log"
+        },
+        "segmentation": {
+          "status": "OK",
+          "warnings": []
+        },
+        "table": {
+          "status": "OK"
+        },
+        "header": {
+          "status": "OK",
+          "log": "header-final.log"
+        },
+        "footer": {
+          "status": "OK",
+          "log": "footer.log"
+        }
+      },
+      "complete": true
+    },
+    {
+      "image": "/Users/mathew/Documents/ChatGPT/VietReceipt/output/vietreceipt-terminal/git-20/images/VRSYN2-00020__blur_png.png",
+      "output": "/Users/mathew/Documents/ChatGPT/VietReceipt/output/vietreceipt-terminal/runs/table-footer-checked-20261116-124445/015-VRSYN2-00020__blur_png",
+      "stages": {
+        "reader": {
+          "status": "OK",
+          "log": "core.log"
+        },
+        "segmentation": {
+          "status": "OK",
+          "warnings": []
+        },
+        "table": {
+          "status": "OK"
+        },
+        "header": {
+          "status": "OK",
+          "log": "header-final.log"
+        },
+        "footer": {
+          "status": "OK",
+          "log": "footer.log"
+        }
+      },
+      "complete": true
+    },
+    {
+      "image": "/Users/mathew/Documents/ChatGPT/VietReceipt/output/vietreceipt-terminal/git-20/images/VRSYN2-00021__clean_png.png",
+      "output": "/Users/mathew/Documents/ChatGPT/VietReceipt/output/vietreceipt-terminal/runs/table-footer-checked-20261116-124445/016-VRSYN2-00021__clean_png",
+      "stages": {
+        "reader": {
+          "status": "OK",
+          "log": "core.log"
+        },
+        "segmentation": {
+          "status": "OK",
+          "warnings": []
+        },
+        "table": {
+          "status": "OK"
+        },
+        "header": {
+          "status": "OK",
+          "log": "header-final.log"
+        },
+        "footer": {
+          "status": "OK",
+          "log": "footer.log"
+        }
+      },
+      "complete": true
+    },
+    {
+      "image": "/Users/mathew/Documents/ChatGPT/VietReceipt/output/vietreceipt-terminal/git-20/images/VRSYN2-00022__clean_png.png",
+      "output": "/Users/mathew/Documents/ChatGPT/VietReceipt/output/vietreceipt-terminal/runs/table-footer-checked-20261116-124445/017-VRSYN2-00022__clean_png",
+      "stages": {
+        "reader": {
+          "status": "OK",
+          "log": "core.log"
+        },
+        "segmentation": {
+          "status": "OK",
+          "warnings": []
+        },
+        "table": {
+          "status": "OK"
+        },
+        "header": {
+          "status": "OK",
+          "log": "header-final.log"
+        },
+        "footer": {
+          "status": "OK",
+          "log": "footer.log"
+        }
+      },
+      "complete": true
+    },
+    {
+      "image": "/Users/mathew/Documents/ChatGPT/VietReceipt/output/vietreceipt-terminal/git-20/images/VRSYN2-00025__blur_png.png",
+      "output": "/Users/mathew/Documents/ChatGPT/VietReceipt/output/vietreceipt-terminal/runs/table-footer-checked-20261116-124445/018-VRSYN2-00025__blur_png",
+      "stages": {
+        "reader": {
+          "status": "OK",
+          "log": "core.log"
+        },
+        "segmentation": {
+          "status": "OK",
+          "warnings": []
+        },
+        "table": {
+          "status": "OK"
+        },
+        "header": {
+          "status": "OK",
+          "log": "header-final.log"
+        },
+        "footer": {
+          "status": "OK",
+          "log": "footer.log"
+        }
+      },
+      "complete": true
+    },
+    {
+      "image": "/Users/mathew/Documents/ChatGPT/VietReceipt/output/vietreceipt-terminal/git-20/images/VRSYN2-00026__clean_png.png",
+      "output": "/Users/mathew/Documents/ChatGPT/VietReceipt/output/vietreceipt-terminal/runs/table-footer-checked-20261116-124445/019-VRSYN2-00026__clean_png",
+      "stages": {
+        "reader": {
+          "status": "OK",
+          "log": "core.log"
+        },
+        "segmentation": {
+          "status": "OK",
+          "warnings": []
+        },
+        "table": {
+          "status": "OK"
+        },
+        "header": {
+          "status": "OK",
+          "log": "header-final.log"
+        },
+        "footer": {
+          "status": "OK",
+          "log": "footer.log"
+        }
+      },
+      "complete": true
+    },
+    {
+      "image": "/Users/mathew/Documents/ChatGPT/VietReceipt/output/vietreceipt-terminal/git-20/images/VRSYN2-00027__clean_png.png",
+      "output": "/Users/mathew/Documents/ChatGPT/VietReceipt/output/vietreceipt-terminal/runs/table-footer-checked-20261116-124445/020-VRSYN2-00027__clean_png",
+      "stages": {
+        "reader": {
+          "status": "OK",
+          "log": "core.log"
+        },
+        "segmentation": {
+          "status": "OK",
+          "warnings": []
+        },
+        "table": {
+          "status": "OK"
+        },
+        "header": {
+          "status": "OK",
+          "log": "header-final.log"
+        },
+        "footer": {
+          "status": "OK",
+          "log": "footer.log"
+        }
+      },
+      "complete": true
+    }
+  ],
+  "rerun_stage": "header",
+  "rerun_stages": [
+    "table_refinement",
+    "footer_refinement"
+  ]
+}

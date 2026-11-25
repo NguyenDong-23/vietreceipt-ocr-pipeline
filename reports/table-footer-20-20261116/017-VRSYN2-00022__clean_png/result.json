@@ -1,0 +1,4244 @@
+{
+  "schema_version": "vietreceipt-terminal-pilot-1.0",
+  "image": "/Users/mathew/Documents/ChatGPT/VietReceipt/output/vietreceipt-terminal/git-20/images/VRSYN2-00022__clean_png.png",
+  "image_sha256": "c9b863971e232293b72ef45be0a4c423547d8e8cc87a9a0421abe970fe7608e9",
+  "output_dir": "/Users/mathew/Documents/ChatGPT/VietReceipt/output/vietreceipt-terminal/runs/table-footer-checked-20261116-124445/017-VRSYN2-00022__clean_png",
+  "stages": {
+    "reader": {
+      "status": "OK",
+      "log": "core.log"
+    },
+    "segmentation": {
+      "status": "OK",
+      "warnings": []
+    },
+    "table": {
+      "status": "OK"
+    },
+    "header": {
+      "status": "OK",
+      "log": "header-final.log"
+    },
+    "footer": {
+      "status": "OK",
+      "log": "footer.log"
+    }
+  },
+  "reader": {
+    "schema_version": "document-2.0",
+    "receipt_id": "d3c574a5-cdd7-4b5d-9151-bc61f5ef05c9",
+    "ocr_run_id": "fa6ae676-474a-41c5-b1d4-a119bc711fa0",
+    "pages": [
+      {
+        "page_index": 0,
+        "evidence": {
+          "schema_version": "1.3",
+          "receipt_id": "d3c574a5-cdd7-4b5d-9151-bc61f5ef05c9",
+          "ocr_run_id": "fa6ae676-474a-41c5-b1d4-a119bc711fa0",
+          "engine": {
+            "name": "paddleocr",
+            "version": "3.0.3"
+          },
+          "image": {
+            "width_px": 1263,
+            "height_px": 1050
+          },
+          "blocks": [
+            {
+              "block_id": "p0_b000000",
+              "text": "HOADO'N GIA TRI GIA TANG",
+              "confidence": 0.959031,
+              "polygon": [
+                {
+                  "x": 0.370546,
+                  "y": 0.028571
+                },
+                {
+                  "x": 0.629454,
+                  "y": 0.028571
+                },
+                {
+                  "x": 0.629454,
+                  "y": 0.050476
+                },
+                {
+                  "x": 0.370546,
+                  "y": 0.050476
+                }
+              ],
+              "reading_order": 0
+            },
+            {
+              "block_id": "p0_b000001",
+              "text": "Mau sö: 1",
+              "confidence": 0.89422,
+              "polygon": [
+                {
+                  "x": 0.034046,
+                  "y": 0.08381
+                },
+                {
+                  "x": 0.087886,
+                  "y": 0.08381
+                },
+                {
+                  "x": 0.087886,
+                  "y": 0.1
+                },
+                {
+                  "x": 0.034046,
+                  "y": 0.1
+                }
+              ],
+              "reading_order": 1
+            },
+            {
+              "block_id": "p0_b000002",
+              "text": "Do'n vi bän häng: CU'A HANG MAU SAO VIET",
+              "confidence": 0.939628,
+              "polygon": [
+                {
+                  "x": 0.459224,
+                  "y": 0.08381
+                },
+                {
+                  "x": 0.705463,
+                  "y": 0.08381
+                },
+                {
+                  "x": 0.705463,
+                  "y": 0.1
+                },
+                {
+                  "x": 0.459224,
+                  "y": 0.1
+                }
+              ],
+              "reading_order": 2
+            },
+            {
+              "block_id": "p0_b000003",
+              "text": "Ky hi&u: C26T2A",
+              "confidence": 0.956824,
+              "polygon": [
+                {
+                  "x": 0.034838,
+                  "y": 0.109524
+                },
+                {
+                  "x": 0.125891,
+                  "y": 0.109524
+                },
+                {
+                  "x": 0.125891,
+                  "y": 0.125714
+                },
+                {
+                  "x": 0.034838,
+                  "y": 0.125714
+                }
+              ],
+              "reading_order": 3
+            },
+            {
+              "block_id": "p0_b000004",
+              "text": "MST ngui bän: 0000000022",
+              "confidence": 0.959085,
+              "polygon": [
+                {
+                  "x": 0.460016,
+                  "y": 0.110476
+                },
+                {
+                  "x": 0.615202,
+                  "y": 0.110476
+                },
+                {
+                  "x": 0.615202,
+                  "y": 0.12381
+                },
+                {
+                  "x": 0.460016,
+                  "y": 0.12381
+                }
+              ],
+              "reading_order": 4
+            },
+            {
+              "block_id": "p0_b000005",
+              "text": "So hóa don 00000022",
+              "confidence": 0.900159,
+              "polygon": [
+                {
+                  "x": 0.036421,
+                  "y": 0.134286
+                },
+                {
+                  "x": 0.155978,
+                  "y": 0.134286
+                },
+                {
+                  "x": 0.155978,
+                  "y": 0.147619
+                },
+                {
+                  "x": 0.036421,
+                  "y": 0.147619
+                }
+              ],
+              "reading_order": 5
+            },
+            {
+              "block_id": "p0_b000006",
+              "text": "Dia chi ngui bän: 22 Dung Mau, Thanh phó Ha Ni",
+              "confidence": 0.924235,
+              "polygon": [
+                {
+                  "x": 0.458432,
+                  "y": 0.133333
+                },
+                {
+                  "x": 0.74426,
+                  "y": 0.132381
+                },
+                {
+                  "x": 0.74426,
+                  "y": 0.148571
+                },
+                {
+                  "x": 0.458432,
+                  "y": 0.149524
+                }
+              ],
+              "reading_order": 6
+            },
+            {
+              "block_id": "p0_b000007",
+              "text": "Ngay l@p: 2026-10-22",
+              "confidence": 0.975404,
+              "polygon": [
+                {
+                  "x": 0.033254,
+                  "y": 0.159048
+                },
+                {
+                  "x": 0.149644,
+                  "y": 0.157143
+                },
+                {
+                  "x": 0.149644,
+                  "y": 0.173333
+                },
+                {
+                  "x": 0.034046,
+                  "y": 0.175238
+                }
+              ],
+              "reading_order": 7
+            },
+            {
+              "block_id": "p0_b000008",
+              "text": "Ngui mua: KHACH HANG THU' NGHIEM",
+              "confidence": 0.970678,
+              "polygon": [
+                {
+                  "x": 0.458432,
+                  "y": 0.158095
+                },
+                {
+                  "x": 0.685669,
+                  "y": 0.157143
+                },
+                {
+                  "x": 0.685669,
+                  "y": 0.173333
+                },
+                {
+                  "x": 0.458432,
+                  "y": 0.174286
+                }
+              ],
+              "reading_order": 8
+            },
+            {
+              "block_id": "p0_b000009",
+              "text": "MST nguoi mua: 0000003022",
+              "confidence": 0.970452,
+              "polygon": [
+                {
+                  "x": 0.460016,
+                  "y": 0.18381
+                },
+                {
+                  "x": 0.618369,
+                  "y": 0.18381
+                },
+                {
+                  "x": 0.618369,
+                  "y": 0.197143
+                },
+                {
+                  "x": 0.460016,
+                  "y": 0.197143
+                }
+              ],
+              "reading_order": 9
+            },
+            {
+              "block_id": "p0_b000010",
+              "text": "Ten hang / dich v",
+              "confidence": 0.959231,
+              "polygon": [
+                {
+                  "x": 0.034838,
+                  "y": 0.239048
+                },
+                {
+                  "x": 0.124307,
+                  "y": 0.239048
+                },
+                {
+                  "x": 0.124307,
+                  "y": 0.254286
+                },
+                {
+                  "x": 0.034838,
+                  "y": 0.254286
+                }
+              ],
+              "reading_order": 10
+            },
+            {
+              "block_id": "p0_b000011",
+              "text": "DVT",
+              "confidence": 0.986172,
+              "polygon": [
+                {
+                  "x": 0.459224,
+                  "y": 0.23619
+                },
+                {
+                  "x": 0.486936,
+                  "y": 0.23619
+                },
+                {
+                  "x": 0.486936,
+                  "y": 0.257143
+                },
+                {
+                  "x": 0.459224,
+                  "y": 0.257143
+                }
+              ],
+              "reading_order": 11
+            },
+            {
+              "block_id": "p0_b000012",
+              "text": "SL",
+              "confidence": 0.959801,
+              "polygon": [
+                {
+                  "x": 0.561362,
+                  "y": 0.23619
+                },
+                {
+                  "x": 0.581156,
+                  "y": 0.23619
+                },
+                {
+                  "x": 0.581156,
+                  "y": 0.258095
+                },
+                {
+                  "x": 0.561362,
+                  "y": 0.258095
+                }
+              ],
+              "reading_order": 12
+            },
+            {
+              "block_id": "p0_b000013",
+              "text": "Don gia",
+              "confidence": 0.9373,
+              "polygon": [
+                {
+                  "x": 0.655582,
+                  "y": 0.23619
+                },
+                {
+                  "x": 0.697546,
+                  "y": 0.23619
+                },
+                {
+                  "x": 0.697546,
+                  "y": 0.25619
+                },
+                {
+                  "x": 0.655582,
+                  "y": 0.25619
+                }
+              ],
+              "reading_order": 13
+            },
+            {
+              "block_id": "p0_b000014",
+              "text": "Thanh tién",
+              "confidence": 0.912897,
+              "polygon": [
+                {
+                  "x": 0.796516,
+                  "y": 0.238095
+                },
+                {
+                  "x": 0.848773,
+                  "y": 0.238095
+                },
+                {
+                  "x": 0.848773,
+                  "y": 0.254286
+                },
+                {
+                  "x": 0.796516,
+                  "y": 0.254286
+                }
+              ],
+              "reading_order": 14
+            },
+            {
+              "block_id": "p0_b000015",
+              "text": "Dich v in tai li@u",
+              "confidence": 0.993049,
+              "polygon": [
+                {
+                  "x": 0.035629,
+                  "y": 0.273333
+                },
+                {
+                  "x": 0.117181,
+                  "y": 0.273333
+                },
+                {
+                  "x": 0.117181,
+                  "y": 0.289524
+                },
+                {
+                  "x": 0.035629,
+                  "y": 0.289524
+                }
+              ],
+              "reading_order": 15
+            },
+            {
+              "block_id": "p0_b000016",
+              "text": "Lan",
+              "confidence": 0.983516,
+              "polygon": [
+                {
+                  "x": 0.460016,
+                  "y": 0.270476
+                },
+                {
+                  "x": 0.482977,
+                  "y": 0.270476
+                },
+                {
+                  "x": 0.482977,
+                  "y": 0.290476
+                },
+                {
+                  "x": 0.460016,
+                  "y": 0.290476
+                }
+              ],
+              "reading_order": 16
+            },
+            {
+              "block_id": "p0_b000017",
+              "text": "2",
+              "confidence": 0.999901,
+              "polygon": [
+                {
+                  "x": 0.559778,
+                  "y": 0.270476
+                },
+                {
+                  "x": 0.57403,
+                  "y": 0.270476
+                },
+                {
+                  "x": 0.57403,
+                  "y": 0.291429
+                },
+                {
+                  "x": 0.559778,
+                  "y": 0.291429
+                }
+              ],
+              "reading_order": 17
+            },
+            {
+              "block_id": "p0_b000018",
+              "text": "12.000",
+              "confidence": 0.999937,
+              "polygon": [
+                {
+                  "x": 0.656374,
+                  "y": 0.272381
+                },
+                {
+                  "x": 0.692003,
+                  "y": 0.272381
+                },
+                {
+                  "x": 0.692003,
+                  "y": 0.289524
+                },
+                {
+                  "x": 0.656374,
+                  "y": 0.289524
+                }
+              ],
+              "reading_order": 18
+            },
+            {
+              "block_id": "p0_b000019",
+              "text": "24.000",
+              "confidence": 0.999594,
+              "polygon": [
+                {
+                  "x": 0.794933,
+                  "y": 0.272381
+                },
+                {
+                  "x": 0.831354,
+                  "y": 0.272381
+                },
+                {
+                  "x": 0.831354,
+                  "y": 0.289524
+                },
+                {
+                  "x": 0.794933,
+                  "y": 0.289524
+                }
+              ],
+              "reading_order": 19
+            },
+            {
+              "block_id": "p0_b000020",
+              "text": "Bia h so",
+              "confidence": 0.996496,
+              "polygon": [
+                {
+                  "x": 0.034838,
+                  "y": 0.312381
+                },
+                {
+                  "x": 0.083135,
+                  "y": 0.312381
+                },
+                {
+                  "x": 0.083135,
+                  "y": 0.329524
+                },
+                {
+                  "x": 0.034838,
+                  "y": 0.329524
+                }
+              ],
+              "reading_order": 20
+            },
+            {
+              "block_id": "p0_b000021",
+              "text": "Cai",
+              "confidence": 0.862836,
+              "polygon": [
+                {
+                  "x": 0.460808,
+                  "y": 0.311429
+                },
+                {
+                  "x": 0.481394,
+                  "y": 0.311429
+                },
+                {
+                  "x": 0.481394,
+                  "y": 0.331429
+                },
+                {
+                  "x": 0.460808,
+                  "y": 0.331429
+                }
+              ],
+              "reading_order": 21
+            },
+            {
+              "block_id": "p0_b000022",
+              "text": "4",
+              "confidence": 0.87437,
+              "polygon": [
+                {
+                  "x": 0.561362,
+                  "y": 0.309524
+                },
+                {
+                  "x": 0.57403,
+                  "y": 0.309524
+                },
+                {
+                  "x": 0.57403,
+                  "y": 0.332381
+                },
+                {
+                  "x": 0.561362,
+                  "y": 0.332381
+                }
+              ],
+              "reading_order": 22
+            },
+            {
+              "block_id": "p0_b000023",
+              "text": "7.000",
+              "confidence": 0.999831,
+              "polygon": [
+                {
+                  "x": 0.65479,
+                  "y": 0.310476
+                },
+                {
+                  "x": 0.687253,
+                  "y": 0.310476
+                },
+                {
+                  "x": 0.687253,
+                  "y": 0.331429
+                },
+                {
+                  "x": 0.65479,
+                  "y": 0.331429
+                }
+              ],
+              "reading_order": 23
+            },
+            {
+              "block_id": "p0_b000024",
+              "text": "28.000",
+              "confidence": 0.999851,
+              "polygon": [
+                {
+                  "x": 0.793349,
+                  "y": 0.310476
+                },
+                {
+                  "x": 0.832146,
+                  "y": 0.308571
+                },
+                {
+                  "x": 0.832937,
+                  "y": 0.329524
+                },
+                {
+                  "x": 0.794141,
+                  "y": 0.331429
+                }
+              ],
+              "reading_order": 24
+            },
+            {
+              "block_id": "p0_b000025",
+              "text": "Bia ho so",
+              "confidence": 0.925749,
+              "polygon": [
+                {
+                  "x": 0.034838,
+                  "y": 0.352381
+                },
+                {
+                  "x": 0.082344,
+                  "y": 0.352381
+                },
+                {
+                  "x": 0.082344,
+                  "y": 0.369524
+                },
+                {
+                  "x": 0.034838,
+                  "y": 0.369524
+                }
+              ],
+              "reading_order": 25
+            },
+            {
+              "block_id": "p0_b000026",
+              "text": "Cai",
+              "confidence": 0.978775,
+              "polygon": [
+                {
+                  "x": 0.459224,
+                  "y": 0.353333
+                },
+                {
+                  "x": 0.480602,
+                  "y": 0.349524
+                },
+                {
+                  "x": 0.482185,
+                  "y": 0.369524
+                },
+                {
+                  "x": 0.460808,
+                  "y": 0.372381
+                }
+              ],
+              "reading_order": 26
+            },
+            {
+              "block_id": "p0_b000027",
+              "text": "2",
+              "confidence": 0.999358,
+              "polygon": [
+                {
+                  "x": 0.562154,
+                  "y": 0.352381
+                },
+                {
+                  "x": 0.57403,
+                  "y": 0.352381
+                },
+                {
+                  "x": 0.57403,
+                  "y": 0.372381
+                },
+                {
+                  "x": 0.562154,
+                  "y": 0.372381
+                }
+              ],
+              "reading_order": 27
+            },
+            {
+              "block_id": "p0_b000028",
+              "text": "7.000",
+              "confidence": 0.999831,
+              "polygon": [
+                {
+                  "x": 0.65479,
+                  "y": 0.350476
+                },
+                {
+                  "x": 0.687253,
+                  "y": 0.350476
+                },
+                {
+                  "x": 0.687253,
+                  "y": 0.371429
+                },
+                {
+                  "x": 0.65479,
+                  "y": 0.371429
+                }
+              ],
+              "reading_order": 28
+            },
+            {
+              "block_id": "p0_b000029",
+              "text": "14.000",
+              "confidence": 0.999961,
+              "polygon": [
+                {
+                  "x": 0.795724,
+                  "y": 0.352381
+                },
+                {
+                  "x": 0.831354,
+                  "y": 0.352381
+                },
+                {
+                  "x": 0.831354,
+                  "y": 0.369524
+                },
+                {
+                  "x": 0.795724,
+                  "y": 0.369524
+                }
+              ],
+              "reading_order": 29
+            },
+            {
+              "block_id": "p0_b000030",
+              "text": "Giay in A4",
+              "confidence": 0.968593,
+              "polygon": [
+                {
+                  "x": 0.034838,
+                  "y": 0.391429
+                },
+                {
+                  "x": 0.087094,
+                  "y": 0.391429
+                },
+                {
+                  "x": 0.087094,
+                  "y": 0.411429
+                },
+                {
+                  "x": 0.034838,
+                  "y": 0.411429
+                }
+              ],
+              "reading_order": 30
+            },
+            {
+              "block_id": "p0_b000031",
+              "text": "Ram",
+              "confidence": 0.999331,
+              "polygon": [
+                {
+                  "x": 0.460808,
+                  "y": 0.392381
+                },
+                {
+                  "x": 0.487728,
+                  "y": 0.392381
+                },
+                {
+                  "x": 0.487728,
+                  "y": 0.411429
+                },
+                {
+                  "x": 0.460808,
+                  "y": 0.411429
+                }
+              ],
+              "reading_order": 31
+            },
+            {
+              "block_id": "p0_b000032",
+              "text": "o",
+              "confidence": 0.304064,
+              "polygon": [
+                {
+                  "x": 0.561362,
+                  "y": 0.390476
+                },
+                {
+                  "x": 0.57403,
+                  "y": 0.390476
+                },
+                {
+                  "x": 0.57403,
+                  "y": 0.413333
+                },
+                {
+                  "x": 0.561362,
+                  "y": 0.413333
+                }
+              ],
+              "reading_order": 32
+            },
+            {
+              "block_id": "p0_b000033",
+              "text": "65.000",
+              "confidence": 0.999879,
+              "polygon": [
+                {
+                  "x": 0.656374,
+                  "y": 0.392381
+                },
+                {
+                  "x": 0.692003,
+                  "y": 0.392381
+                },
+                {
+                  "x": 0.692003,
+                  "y": 0.410476
+                },
+                {
+                  "x": 0.656374,
+                  "y": 0.410476
+                }
+              ],
+              "reading_order": 33
+            },
+            {
+              "block_id": "p0_b000034",
+              "text": "325.000",
+              "confidence": 0.999935,
+              "polygon": [
+                {
+                  "x": 0.794933,
+                  "y": 0.391429
+                },
+                {
+                  "x": 0.83848,
+                  "y": 0.391429
+                },
+                {
+                  "x": 0.83848,
+                  "y": 0.411429
+                },
+                {
+                  "x": 0.794933,
+                  "y": 0.411429
+                }
+              ],
+              "reading_order": 34
+            },
+            {
+              "block_id": "p0_b000035",
+              "text": "Thué suat GTGT: 5%",
+              "confidence": 0.932757,
+              "polygon": [
+                {
+                  "x": 0.036421,
+                  "y": 0.457143
+                },
+                {
+                  "x": 0.14806,
+                  "y": 0.457143
+                },
+                {
+                  "x": 0.14806,
+                  "y": 0.473333
+                },
+                {
+                  "x": 0.036421,
+                  "y": 0.473333
+                }
+              ],
+              "reading_order": 35
+            },
+            {
+              "block_id": "p0_b000036",
+              "text": "Cöng tien hang: 391.000",
+              "confidence": 0.964118,
+              "polygon": [
+                {
+                  "x": 0.539984,
+                  "y": 0.481905
+                },
+                {
+                  "x": 0.669834,
+                  "y": 0.481905
+                },
+                {
+                  "x": 0.669834,
+                  "y": 0.498095
+                },
+                {
+                  "x": 0.539984,
+                  "y": 0.498095
+                }
+              ],
+              "reading_order": 36
+            },
+            {
+              "block_id": "p0_b000037",
+              "text": "Tién thué GTGT: 19.550",
+              "confidence": 0.948605,
+              "polygon": [
+                {
+                  "x": 0.539192,
+                  "y": 0.50381
+                },
+                {
+                  "x": 0.66825,
+                  "y": 0.504762
+                },
+                {
+                  "x": 0.66825,
+                  "y": 0.52381
+                },
+                {
+                  "x": 0.539192,
+                  "y": 0.522857
+                }
+              ],
+              "reading_order": 37
+            },
+            {
+              "block_id": "p0_b000038",
+              "text": "Töng thanh toän: 410.550",
+              "confidence": 0.953028,
+              "polygon": [
+                {
+                  "x": 0.539192,
+                  "y": 0.528571
+                },
+                {
+                  "x": 0.69042,
+                  "y": 0.528571
+                },
+                {
+                  "x": 0.69042,
+                  "y": 0.547619
+                },
+                {
+                  "x": 0.539192,
+                  "y": 0.547619
+                }
+              ],
+              "reading_order": 38
+            },
+            {
+              "block_id": "p0_b000039",
+              "text": "Tién te: VND",
+              "confidence": 0.89525,
+              "polygon": [
+                {
+                  "x": 0.538401,
+                  "y": 0.553333
+                },
+                {
+                  "x": 0.608076,
+                  "y": 0.553333
+                },
+                {
+                  "x": 0.608076,
+                  "y": 0.573333
+                },
+                {
+                  "x": 0.538401,
+                  "y": 0.573333
+                }
+              ],
+              "reading_order": 39
+            },
+            {
+              "block_id": "p0_b000040",
+              "text": "DO' LIEU GIA LAP - KHONG CO GIA TRI THANH TOAN",
+              "confidence": 0.953365,
+              "polygon": [
+                {
+                  "x": 0.036421,
+                  "y": 0.617143
+                },
+                {
+                  "x": 0.274743,
+                  "y": 0.617143
+                },
+                {
+                  "x": 0.274743,
+                  "y": 0.630476
+                },
+                {
+                  "x": 0.036421,
+                  "y": 0.630476
+                }
+              ],
+              "reading_order": 40
+            }
+          ],
+          "average_confidence": 0.944807,
+          "duration_ms": 1884
+        }
+      }
+    ]
+  },
+  "reader_metadata": {
+    "config": {
+      "dpi": 200,
+      "max_bytes": 31457280,
+      "max_pages": 30,
+      "max_pixels": 40000000,
+      "max_pdf_chars": 200000,
+      "min_pdf_chars": 20,
+      "orientation": "auto",
+      "max_side": 0,
+      "contrast": 1.0,
+      "force_pdf_ocr": false
+    },
+    "pages": [
+      {
+        "orientation_clockwise": 0,
+        "orientation_model": "PP-LCNet_x1_0_doc_ori",
+        "orientation_score": 0.9280400276184082,
+        "engine": {
+          "name": "paddleocr",
+          "version": "3.0.3"
+        },
+        "width_px": 1263,
+        "height_px": 1050,
+        "source": "IMAGE_OCR"
+      }
+    ],
+    "duration_ms": 3622
+  },
+  "layout": {
+    "schema_version": "tv2-layout-handoff-0.1",
+    "media_type": "image/png",
+    "page_count": 1,
+    "annotation_status": "PREDICTION_PENDING_REVIEW",
+    "source": {
+      "sha256": "c9b863971e232293b72ef45be0a4c423547d8e8cc87a9a0421abe970fe7608e9",
+      "encoded_width_px": 1263,
+      "encoded_height_px": 1050,
+      "exif_orientation": 1
+    },
+    "pages": [
+      {
+        "page_index": 0,
+        "width_px": 1263,
+        "height_px": 1050,
+        "regions": [
+          {
+            "region_id": "region-1",
+            "label": "header",
+            "polygon_original_pixels": [
+              [
+                35.820055,
+                20.820055000000004
+              ],
+              [
+                946.179945,
+                20.820055000000004
+              ],
+              [
+                946.179945,
+                212.179945
+              ],
+              [
+                35.820055,
+                212.179945
+              ]
+            ],
+            "bbox_original_pixels": [
+              35.820055,
+              20.820055000000004,
+              946.179945,
+              212.179945
+            ],
+            "polygon_original_normalized": [
+              {
+                "x": 0.02836108867775139,
+                "y": 0.019828623809523813
+              },
+              {
+                "x": 0.7491527672209026,
+                "y": 0.019828623809523813
+              },
+              {
+                "x": 0.7491527672209026,
+                "y": 0.2020761380952381
+              },
+              {
+                "x": 0.02836108867775139,
+                "y": 0.2020761380952381
+              }
+            ]
+          },
+          {
+            "region_id": "region-2",
+            "label": "table",
+            "polygon_original_pixels": [
+              [
+                39.820449,
+                243.819555
+              ],
+              [
+                1076.1802440000001,
+                243.819555
+              ],
+              [
+                1076.1802440000001,
+                436.180395
+              ],
+              [
+                39.820449,
+                436.180395
+              ]
+            ],
+            "bbox_original_pixels": [
+              39.820449,
+              243.819555,
+              1076.1802440000001,
+              436.180395
+            ],
+            "polygon_original_normalized": [
+              {
+                "x": 0.03152846318289786,
+                "y": 0.2322091
+              },
+              {
+                "x": 0.8520825368171022,
+                "y": 0.2322091
+              },
+              {
+                "x": 0.8520825368171022,
+                "y": 0.4154099
+              },
+              {
+                "x": 0.03152846318289786,
+                "y": 0.4154099
+              }
+            ]
+          },
+          {
+            "region_id": "region-3",
+            "label": "footer",
+            "polygon_original_pixels": [
+              [
+                36.820055,
+                472.820055
+              ],
+              [
+                877.179945,
+                472.820055
+              ],
+              [
+                877.179945,
+                666.179745
+              ],
+              [
+                36.820055,
+                666.179745
+              ]
+            ],
+            "bbox_original_pixels": [
+              36.820055,
+              472.820055,
+              877.179945,
+              666.179745
+            ],
+            "polygon_original_normalized": [
+              {
+                "x": 0.029152854315122725,
+                "y": 0.4503048142857143
+              },
+              {
+                "x": 0.6945209382422802,
+                "y": 0.4503048142857143
+              },
+              {
+                "x": 0.6945209382422802,
+                "y": 0.6344569
+              },
+              {
+                "x": 0.029152854315122725,
+                "y": 0.6344569
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "provenance": {
+      "layout_model": "PP-DocLayoutV3",
+      "checkpoint_sha256": "5ea422c6cc5fe759a47e1357c35639b58173508e025a3131cbe4b6ac59e2b85e",
+      "semantic_adapter": "PP native + original Reader text and coordinates",
+      "ocr": {
+        "name": "paddleocr",
+        "version": "3.0.3"
+      },
+      "code_sha256": {
+        "pipeline": "9a5bece7d97a5d01d53f93d15461dfaf9e59048e4a4ff8a0cc22e8a7584fc7a1",
+        "image_input": "e14ec59791cf6ef5b32d7ff7e288b90625baf648a4e1714f8391141373fe1398",
+        "ocr_engine": "1846c2380ef06ed98756deefdf5b86a567c6ae3684dd316a0abd32fe4f7844fb",
+        "region_rules": "7655ea01a541dfd00fdd8b46ee3a45f042db293d71eecc27a1a0f937a8f5d190",
+        "visual_fallback": "b5cff5dbde131764f3ce3ba2dce6f73f94ace1a62e2a4696c455f213d5a8c633",
+        "boundary_refiner": "874a0ebd6bda9f654d515b2433c723d8fdd99952f23ea6f69ea236c01cb290f9",
+        "compact_regions": "9d61b0c61f974f3791303396fbf201e84c28dd5253427d2b355da6816ddac7b5"
+      }
+    },
+    "boundary_adjustments": []
+  },
+  "layout_links": {
+    "schema_version": "reader-layout-links-0.1",
+    "source_sha256": "c9b863971e232293b72ef45be0a4c423547d8e8cc87a9a0421abe970fe7608e9",
+    "receipt_id": "d3c574a5-cdd7-4b5d-9151-bc61f5ef05c9",
+    "ocr_run_id": "fa6ae676-474a-41c5-b1d4-a119bc711fa0",
+    "page_count": 1,
+    "coordinate_frame": "EXIF-normalized source pixels",
+    "policy": "retain all regions covering at least half the OCR block area",
+    "blocks": [
+      {
+        "page_index": 0,
+        "block_id": "p0_b000000",
+        "status": "ASSIGNED",
+        "matches": [
+          {
+            "region_id": "region-1",
+            "label": "header",
+            "block_area_fraction": 0.9999999725836554
+          }
+        ],
+        "overlaps": [
+          {
+            "region_id": "region-1",
+            "label": "header",
+            "block_area_fraction": 0.9999999725836554
+          }
+        ],
+        "boundary_review_required": false,
+        "text_review_status": "NOT_EVALUATED"
+      },
+      {
+        "page_index": 0,
+        "block_id": "p0_b000001",
+        "status": "ASSIGNED",
+        "matches": [
+          {
+            "region_id": "region-1",
+            "label": "header",
+            "block_area_fraction": 1.0
+          }
+        ],
+        "overlaps": [
+          {
+            "region_id": "region-1",
+            "label": "header",
+            "block_area_fraction": 1.0
+          }
+        ],
+        "boundary_review_required": false,
+        "text_review_status": "NOT_EVALUATED"
+      },
+      {
+        "page_index": 0,
+        "block_id": "p0_b000002",
+        "status": "ASSIGNED",
+        "matches": [
+          {
+            "region_id": "region-1",
+            "label": "header",
+            "block_area_fraction": 1.0
+          }
+        ],
+        "overlaps": [
+          {
+            "region_id": "region-1",
+            "label": "header",
+            "block_area_fraction": 1.0
+          }
+        ],
+        "boundary_review_required": false,
+        "text_review_status": "NOT_EVALUATED"
+      },
+      {
+        "page_index": 0,
+        "block_id": "p0_b000003",
+        "status": "ASSIGNED",
+        "matches": [
+          {
+            "region_id": "region-1",
+            "label": "header",
+            "block_area_fraction": 1.0
+          }
+        ],
+        "overlaps": [
+          {
+            "region_id": "region-1",
+            "label": "header",
+            "block_area_fraction": 1.0
+          }
+        ],
+        "boundary_review_required": false,
+        "text_review_status": "NOT_EVALUATED"
+      },
+      {
+        "page_index": 0,
+        "block_id": "p0_b000004",
+        "status": "ASSIGNED",
+        "matches": [
+          {
+            "region_id": "region-1",
+            "label": "header",
+            "block_area_fraction": 1.0
+          }
+        ],
+        "overlaps": [
+          {
+            "region_id": "region-1",
+            "label": "header",
+            "block_area_fraction": 1.0
+          }
+        ],
+        "boundary_review_required": false,
+        "text_review_status": "NOT_EVALUATED"
+      },
+      {
+        "page_index": 0,
+        "block_id": "p0_b000005",
+        "status": "ASSIGNED",
+        "matches": [
+          {
+            "region_id": "region-1",
+            "label": "header",
+            "block_area_fraction": 0.9999999820363772
+          }
+        ],
+        "overlaps": [
+          {
+            "region_id": "region-1",
+            "label": "header",
+            "block_area_fraction": 0.9999999820363772
+          }
+        ],
+        "boundary_review_required": false,
+        "text_review_status": "NOT_EVALUATED"
+      },
+      {
+        "page_index": 0,
+        "block_id": "p0_b000006",
+        "status": "ASSIGNED",
+        "matches": [
+          {
+            "region_id": "region-1",
+            "label": "header",
+            "block_area_fraction": 0.9999999950236577
+          }
+        ],
+        "overlaps": [
+          {
+            "region_id": "region-1",
+            "label": "header",
+            "block_area_fraction": 0.9999999950236577
+          }
+        ],
+        "boundary_review_required": false,
+        "text_review_status": "NOT_EVALUATED"
+      },
+      {
+        "page_index": 0,
+        "block_id": "p0_b000007",
+        "status": "ASSIGNED",
+        "matches": [
+          {
+            "region_id": "region-1",
+            "label": "header",
+            "block_area_fraction": 1.0
+          }
+        ],
+        "overlaps": [
+          {
+            "region_id": "region-1",
+            "label": "header",
+            "block_area_fraction": 1.0
+          }
+        ],
+        "boundary_review_required": false,
+        "text_review_status": "NOT_EVALUATED"
+      },
+      {
+        "page_index": 0,
+        "block_id": "p0_b000008",
+        "status": "ASSIGNED",
+        "matches": [
+          {
+            "region_id": "region-1",
+            "label": "header",
+            "block_area_fraction": 0.9999999921799825
+          }
+        ],
+        "overlaps": [
+          {
+            "region_id": "region-1",
+            "label": "header",
+            "block_area_fraction": 0.9999999921799825
+          }
+        ],
+        "boundary_review_required": false,
+        "text_review_status": "NOT_EVALUATED"
+      },
+      {
+        "page_index": 0,
+        "block_id": "p0_b000009",
+        "status": "ASSIGNED",
+        "matches": [
+          {
+            "region_id": "region-1",
+            "label": "header",
+            "block_area_fraction": 1.0
+          }
+        ],
+        "overlaps": [
+          {
+            "region_id": "region-1",
+            "label": "header",
+            "block_area_fraction": 1.0
+          }
+        ],
+        "boundary_review_required": false,
+        "text_review_status": "NOT_EVALUATED"
+      },
+      {
+        "page_index": 0,
+        "block_id": "p0_b000010",
+        "status": "ASSIGNED",
+        "matches": [
+          {
+            "region_id": "region-2",
+            "label": "table",
+            "block_area_fraction": 1.0
+          }
+        ],
+        "overlaps": [
+          {
+            "region_id": "region-2",
+            "label": "table",
+            "block_area_fraction": 1.0
+          }
+        ],
+        "boundary_review_required": false,
+        "text_review_status": "NOT_EVALUATED"
+      },
+      {
+        "page_index": 0,
+        "block_id": "p0_b000011",
+        "status": "ASSIGNED",
+        "matches": [
+          {
+            "region_id": "region-2",
+            "label": "table",
+            "block_area_fraction": 0.999999979976092
+          }
+        ],
+        "overlaps": [
+          {
+            "region_id": "region-2",
+            "label": "table",
+            "block_area_fraction": 0.999999979976092
+          }
+        ],
+        "boundary_review_required": false,
+        "text_review_status": "NOT_EVALUATED"
+      },
+      {
+        "page_index": 0,
+        "block_id": "p0_b000012",
+        "status": "ASSIGNED",
+        "matches": [
+          {
+            "region_id": "region-2",
+            "label": "table",
+            "block_area_fraction": 0.9999999735456844
+          }
+        ],
+        "overlaps": [
+          {
+            "region_id": "region-2",
+            "label": "table",
+            "block_area_fraction": 0.9999999735456844
+          }
+        ],
+        "boundary_review_required": false,
+        "text_review_status": "NOT_EVALUATED"
+      },
+      {
+        "page_index": 0,
+        "block_id": "p0_b000013",
+        "status": "ASSIGNED",
+        "matches": [
+          {
+            "region_id": "region-2",
+            "label": "table",
+            "block_area_fraction": 0.9999999862830175
+          }
+        ],
+        "overlaps": [
+          {
+            "region_id": "region-2",
+            "label": "table",
+            "block_area_fraction": 0.9999999862830175
+          }
+        ],
+        "boundary_review_required": false,
+        "text_review_status": "NOT_EVALUATED"
+      },
+      {
+        "page_index": 0,
+        "block_id": "p0_b000014",
+        "status": "ASSIGNED",
+        "matches": [
+          {
+            "region_id": "region-2",
+            "label": "table",
+            "block_area_fraction": 1.0
+          }
+        ],
+        "overlaps": [
+          {
+            "region_id": "region-2",
+            "label": "table",
+            "block_area_fraction": 1.0
+          }
+        ],
+        "boundary_review_required": false,
+        "text_review_status": "NOT_EVALUATED"
+      },
+      {
+        "page_index": 0,
+        "block_id": "p0_b000015",
+        "status": "ASSIGNED",
+        "matches": [
+          {
+            "region_id": "region-2",
+            "label": "table",
+            "block_area_fraction": 1.0
+          }
+        ],
+        "overlaps": [
+          {
+            "region_id": "region-2",
+            "label": "table",
+            "block_area_fraction": 1.0
+          }
+        ],
+        "boundary_review_required": false,
+        "text_review_status": "NOT_EVALUATED"
+      },
+      {
+        "page_index": 0,
+        "block_id": "p0_b000016",
+        "status": "ASSIGNED",
+        "matches": [
+          {
+            "region_id": "region-2",
+            "label": "table",
+            "block_area_fraction": 1.0
+          }
+        ],
+        "overlaps": [
+          {
+            "region_id": "region-2",
+            "label": "table",
+            "block_area_fraction": 1.0
+          }
+        ],
+        "boundary_review_required": false,
+        "text_review_status": "NOT_EVALUATED"
+      },
+      {
+        "page_index": 0,
+        "block_id": "p0_b000017",
+        "status": "ASSIGNED",
+        "matches": [
+          {
+            "region_id": "region-2",
+            "label": "table",
+            "block_area_fraction": 0.9999999995860971
+          }
+        ],
+        "overlaps": [
+          {
+            "region_id": "region-2",
+            "label": "table",
+            "block_area_fraction": 0.9999999995860971
+          }
+        ],
+        "boundary_review_required": false,
+        "text_review_status": "NOT_EVALUATED"
+      },
+      {
+        "page_index": 0,
+        "block_id": "p0_b000018",
+        "status": "ASSIGNED",
+        "matches": [
+          {
+            "region_id": "region-2",
+            "label": "table",
+            "block_area_fraction": 0.9999999624273178
+          }
+        ],
+        "overlaps": [
+          {
+            "region_id": "region-2",
+            "label": "table",
+            "block_area_fraction": 0.9999999624273178
+          }
+        ],
+        "boundary_review_required": false,
+        "text_review_status": "NOT_EVALUATED"
+      },
+      {
+        "page_index": 0,
+        "block_id": "p0_b000019",
+        "status": "ASSIGNED",
+        "matches": [
+          {
+            "region_id": "region-2",
+            "label": "table",
+            "block_area_fraction": 1.0
+          }
+        ],
+        "overlaps": [
+          {
+            "region_id": "region-2",
+            "label": "table",
+            "block_area_fraction": 1.0
+          }
+        ],
+        "boundary_review_required": false,
+        "text_review_status": "NOT_EVALUATED"
+      },
+      {
+        "page_index": 0,
+        "block_id": "p0_b000020",
+        "status": "ASSIGNED",
+        "matches": [
+          {
+            "region_id": "region-2",
+            "label": "table",
+            "block_area_fraction": 0.9999999792780525
+          }
+        ],
+        "overlaps": [
+          {
+            "region_id": "region-2",
+            "label": "table",
+            "block_area_fraction": 0.9999999792780525
+          }
+        ],
+        "boundary_review_required": false,
+        "text_review_status": "NOT_EVALUATED"
+      },
+      {
+        "page_index": 0,
+        "block_id": "p0_b000021",
+        "status": "ASSIGNED",
+        "matches": [
+          {
+            "region_id": "region-2",
+            "label": "table",
+            "block_area_fraction": 1.0
+          }
+        ],
+        "overlaps": [
+          {
+            "region_id": "region-2",
+            "label": "table",
+            "block_area_fraction": 1.0
+          }
+        ],
+        "boundary_review_required": false,
+        "text_review_status": "NOT_EVALUATED"
+      },
+      {
+        "page_index": 0,
+        "block_id": "p0_b000022",
+        "status": "ASSIGNED",
+        "matches": [
+          {
+            "region_id": "region-2",
+            "label": "table",
+            "block_area_fraction": 0.999999999878731
+          }
+        ],
+        "overlaps": [
+          {
+            "region_id": "region-2",
+            "label": "table",
+            "block_area_fraction": 0.999999999878731
+          }
+        ],
+        "boundary_review_required": false,
+        "text_review_status": "NOT_EVALUATED"
+      },
+      {
+        "page_index": 0,
+        "block_id": "p0_b000023",
+        "status": "ASSIGNED",
+        "matches": [
+          {
+            "region_id": "region-2",
+            "label": "table",
+            "block_area_fraction": 0.9999999994094346
+          }
+        ],
+        "overlaps": [
+          {
+            "region_id": "region-2",
+            "label": "table",
+            "block_area_fraction": 0.9999999994094346
+          }
+        ],
+        "boundary_review_required": false,
+        "text_review_status": "NOT_EVALUATED"
+      },
+      {
+        "page_index": 0,
+        "block_id": "p0_b000024",
+        "status": "ASSIGNED",
+        "matches": [
+          {
+            "region_id": "region-2",
+            "label": "table",
+            "block_area_fraction": 0.9999999436083156
+          }
+        ],
+        "overlaps": [
+          {
+            "region_id": "region-2",
+            "label": "table",
+            "block_area_fraction": 0.9999999436083156
+          }
+        ],
+        "boundary_review_required": false,
+        "text_review_status": "NOT_EVALUATED"
+      },
+      {
+        "page_index": 0,
+        "block_id": "p0_b000025",
+        "status": "ASSIGNED",
+        "matches": [
+          {
+            "region_id": "region-2",
+            "label": "table",
+            "block_area_fraction": 1.0
+          }
+        ],
+        "overlaps": [
+          {
+            "region_id": "region-2",
+            "label": "table",
+            "block_area_fraction": 1.0
+          }
+        ],
+        "boundary_review_required": false,
+        "text_review_status": "NOT_EVALUATED"
+      },
+      {
+        "page_index": 0,
+        "block_id": "p0_b000026",
+        "status": "ASSIGNED",
+        "matches": [
+          {
+            "region_id": "region-2",
+            "label": "table",
+            "block_area_fraction": 1.0
+          }
+        ],
+        "overlaps": [
+          {
+            "region_id": "region-2",
+            "label": "table",
+            "block_area_fraction": 1.0
+          }
+        ],
+        "boundary_review_required": false,
+        "text_review_status": "NOT_EVALUATED"
+      },
+      {
+        "page_index": 0,
+        "block_id": "p0_b000027",
+        "status": "ASSIGNED",
+        "matches": [
+          {
+            "region_id": "region-2",
+            "label": "table",
+            "block_area_fraction": 1.0
+          }
+        ],
+        "overlaps": [
+          {
+            "region_id": "region-2",
+            "label": "table",
+            "block_area_fraction": 1.0
+          }
+        ],
+        "boundary_review_required": false,
+        "text_review_status": "NOT_EVALUATED"
+      },
+      {
+        "page_index": 0,
+        "block_id": "p0_b000028",
+        "status": "ASSIGNED",
+        "matches": [
+          {
+            "region_id": "region-2",
+            "label": "table",
+            "block_area_fraction": 0.9999999994094346
+          }
+        ],
+        "overlaps": [
+          {
+            "region_id": "region-2",
+            "label": "table",
+            "block_area_fraction": 0.9999999994094346
+          }
+        ],
+        "boundary_review_required": false,
+        "text_review_status": "NOT_EVALUATED"
+      },
+      {
+        "page_index": 0,
+        "block_id": "p0_b000029",
+        "status": "ASSIGNED",
+        "matches": [
+          {
+            "region_id": "region-2",
+            "label": "table",
+            "block_area_fraction": 1.0
+          }
+        ],
+        "overlaps": [
+          {
+            "region_id": "region-2",
+            "label": "table",
+            "block_area_fraction": 1.0
+          }
+        ],
+        "boundary_review_required": false,
+        "text_review_status": "NOT_EVALUATED"
+      },
+      {
+        "page_index": 0,
+        "block_id": "p0_b000030",
+        "status": "ASSIGNED",
+        "matches": [
+          {
+            "region_id": "region-2",
+            "label": "table",
+            "block_area_fraction": 0.9999999862383266
+          }
+        ],
+        "overlaps": [
+          {
+            "region_id": "region-2",
+            "label": "table",
+            "block_area_fraction": 0.9999999862383266
+          }
+        ],
+        "boundary_review_required": false,
+        "text_review_status": "NOT_EVALUATED"
+      },
+      {
+        "page_index": 0,
+        "block_id": "p0_b000031",
+        "status": "ASSIGNED",
+        "matches": [
+          {
+            "region_id": "region-2",
+            "label": "table",
+            "block_area_fraction": 1.0
+          }
+        ],
+        "overlaps": [
+          {
+            "region_id": "region-2",
+            "label": "table",
+            "block_area_fraction": 1.0
+          }
+        ],
+        "boundary_review_required": false,
+        "text_review_status": "NOT_EVALUATED"
+      },
+      {
+        "page_index": 0,
+        "block_id": "p0_b000032",
+        "status": "ASSIGNED",
+        "matches": [
+          {
+            "region_id": "region-2",
+            "label": "table",
+            "block_area_fraction": 0.9999999999029849
+          }
+        ],
+        "overlaps": [
+          {
+            "region_id": "region-2",
+            "label": "table",
+            "block_area_fraction": 0.9999999999029849
+          }
+        ],
+        "boundary_review_required": false,
+        "text_review_status": "NOT_EVALUATED"
+      },
+      {
+        "page_index": 0,
+        "block_id": "p0_b000033",
+        "status": "ASSIGNED",
+        "matches": [
+          {
+            "region_id": "region-2",
+            "label": "table",
+            "block_area_fraction": 1.0
+          }
+        ],
+        "overlaps": [
+          {
+            "region_id": "region-2",
+            "label": "table",
+            "block_area_fraction": 1.0
+          }
+        ],
+        "boundary_review_required": false,
+        "text_review_status": "NOT_EVALUATED"
+      },
+      {
+        "page_index": 0,
+        "block_id": "p0_b000034",
+        "status": "ASSIGNED",
+        "matches": [
+          {
+            "region_id": "region-2",
+            "label": "table",
+            "block_area_fraction": 1.0
+          }
+        ],
+        "overlaps": [
+          {
+            "region_id": "region-2",
+            "label": "table",
+            "block_area_fraction": 1.0
+          }
+        ],
+        "boundary_review_required": false,
+        "text_review_status": "NOT_EVALUATED"
+      },
+      {
+        "page_index": 0,
+        "block_id": "p0_b000035",
+        "status": "ASSIGNED",
+        "matches": [
+          {
+            "region_id": "region-3",
+            "label": "footer",
+            "block_area_fraction": 1.0
+          }
+        ],
+        "overlaps": [
+          {
+            "region_id": "region-3",
+            "label": "footer",
+            "block_area_fraction": 1.0
+          }
+        ],
+        "boundary_review_required": false,
+        "text_review_status": "NOT_EVALUATED"
+      },
+      {
+        "page_index": 0,
+        "block_id": "p0_b000036",
+        "status": "ASSIGNED",
+        "matches": [
+          {
+            "region_id": "region-3",
+            "label": "footer",
+            "block_area_fraction": 0.9999999782035591
+          }
+        ],
+        "overlaps": [
+          {
+            "region_id": "region-3",
+            "label": "footer",
+            "block_area_fraction": 0.9999999782035591
+          }
+        ],
+        "boundary_review_required": false,
+        "text_review_status": "NOT_EVALUATED"
+      },
+      {
+        "page_index": 0,
+        "block_id": "p0_b000037",
+        "status": "ASSIGNED",
+        "matches": [
+          {
+            "region_id": "region-3",
+            "label": "footer",
+            "block_area_fraction": 0.9999999625640883
+          }
+        ],
+        "overlaps": [
+          {
+            "region_id": "region-3",
+            "label": "footer",
+            "block_area_fraction": 0.9999999625640883
+          }
+        ],
+        "boundary_review_required": false,
+        "text_review_status": "NOT_EVALUATED"
+      },
+      {
+        "page_index": 0,
+        "block_id": "p0_b000038",
+        "status": "ASSIGNED",
+        "matches": [
+          {
+            "region_id": "region-3",
+            "label": "footer",
+            "block_area_fraction": 1.0
+          }
+        ],
+        "overlaps": [
+          {
+            "region_id": "region-3",
+            "label": "footer",
+            "block_area_fraction": 1.0
+          }
+        ],
+        "boundary_review_required": false,
+        "text_review_status": "NOT_EVALUATED"
+      },
+      {
+        "page_index": 0,
+        "block_id": "p0_b000039",
+        "status": "ASSIGNED",
+        "matches": [
+          {
+            "region_id": "region-3",
+            "label": "footer",
+            "block_area_fraction": 1.0
+          }
+        ],
+        "overlaps": [
+          {
+            "region_id": "region-3",
+            "label": "footer",
+            "block_area_fraction": 1.0
+          }
+        ],
+        "boundary_review_required": false,
+        "text_review_status": "NOT_EVALUATED"
+      },
+      {
+        "page_index": 0,
+        "block_id": "p0_b000040",
+        "status": "ASSIGNED",
+        "matches": [
+          {
+            "region_id": "region-3",
+            "label": "footer",
+            "block_area_fraction": 0.9999999728910544
+          }
+        ],
+        "overlaps": [
+          {
+            "region_id": "region-3",
+            "label": "footer",
+            "block_area_fraction": 0.9999999728910544
+          }
+        ],
+        "boundary_review_required": false,
+        "text_review_status": "NOT_EVALUATED"
+      }
+    ],
+    "counts": {
+      "ASSIGNED": 41,
+      "AMBIGUOUS": 0,
+      "UNASSIGNED": 0
+    }
+  },
+  "header": {
+    "schema_version": "header-study-1.0",
+    "receipt_id": "d3c574a5-cdd7-4b5d-9151-bc61f5ef05c9",
+    "ocr_run_id": "a0146cc2-75ee-4b3f-b029-c1d95a0fef1b",
+    "fields": {
+      "invoice_template_number": {
+        "raw_text": "Mẫu số: 1",
+        "predicted_value": "1",
+        "normalized_value": "1",
+        "normalization": {
+          "rule": "identity_string",
+          "version": "normalization-v0.1"
+        },
+        "value_status": "PRESENT",
+        "confidence": null,
+        "heuristic_score": 0.95,
+        "score_version": "invoice-heuristic-2.0.0",
+        "machine_needs_review": true,
+        "review_reasons": [
+          "OCR_RECOGNIZER_DISAGREEMENT"
+        ],
+        "review_policy_version": "invoice-review-2.0.0",
+        "source_block_ids": [
+          "p0_b000001"
+        ]
+      },
+      "invoice_symbol": {
+        "raw_text": "Ký hiệu: C26T2A",
+        "predicted_value": "C26T2A",
+        "normalized_value": "C26T2A",
+        "normalization": {
+          "rule": "identity_string",
+          "version": "normalization-v0.1"
+        },
+        "value_status": "PRESENT",
+        "confidence": null,
+        "heuristic_score": 0.95,
+        "score_version": "invoice-heuristic-2.0.0",
+        "machine_needs_review": true,
+        "review_reasons": [
+          "OCR_RECOGNIZER_DISAGREEMENT"
+        ],
+        "review_policy_version": "invoice-review-2.0.0",
+        "source_block_ids": [
+          "p0_b000003"
+        ]
+      },
+      "invoice_number": {
+        "raw_text": "Số hóa đơn: 00000022",
+        "predicted_value": "00000022",
+        "normalized_value": "00000022",
+        "normalization": {
+          "rule": "identity_string",
+          "version": "normalization-v0.1"
+        },
+        "value_status": "PRESENT",
+        "confidence": null,
+        "heuristic_score": 0.95,
+        "score_version": "invoice-heuristic-2.0.0",
+        "machine_needs_review": true,
+        "review_reasons": [
+          "OCR_RECOGNIZER_DISAGREEMENT"
+        ],
+        "review_policy_version": "invoice-review-2.0.0",
+        "source_block_ids": [
+          "p0_b000005"
+        ]
+      },
+      "invoice_date": {
+        "raw_text": "Ngày lập: 2026-10-22",
+        "predicted_value": "2026-10-22",
+        "normalized_value": "2026-10-22",
+        "normalization": {
+          "rule": "iso_date",
+          "version": "normalization-v0.1"
+        },
+        "value_status": "PRESENT",
+        "confidence": null,
+        "heuristic_score": 0.95,
+        "score_version": "invoice-heuristic-2.0.0",
+        "machine_needs_review": true,
+        "review_reasons": [
+          "OCR_RECOGNIZER_DISAGREEMENT"
+        ],
+        "review_policy_version": "invoice-review-2.0.0",
+        "source_block_ids": [
+          "p0_b000007"
+        ]
+      },
+      "seller_name": {
+        "raw_text": "Đơn vị bán hàng: Cửa Hàng Mẫu Sao Việt",
+        "predicted_value": "Cửa Hàng Mẫu Sao Việt",
+        "normalized_value": "Cửa Hàng Mẫu Sao Việt",
+        "normalization": {
+          "rule": "identity_string",
+          "version": "normalization-v0.1"
+        },
+        "value_status": "PRESENT",
+        "confidence": null,
+        "heuristic_score": 0.95,
+        "score_version": "invoice-heuristic-2.0.0",
+        "machine_needs_review": true,
+        "review_reasons": [
+          "OCR_RECOGNIZER_DISAGREEMENT"
+        ],
+        "review_policy_version": "invoice-review-2.0.0",
+        "source_block_ids": [
+          "p0_b000002"
+        ]
+      },
+      "seller_tax_id": {
+        "raw_text": "MST người bán: 0000000022",
+        "predicted_value": "0000000022",
+        "normalized_value": "0000000022",
+        "normalization": {
+          "rule": "tax_id_printed_separators",
+          "version": "invoice-normalization-2.0.0"
+        },
+        "value_status": "PRESENT",
+        "confidence": null,
+        "heuristic_score": 0.95,
+        "score_version": "invoice-heuristic-2.0.0",
+        "machine_needs_review": true,
+        "review_reasons": [
+          "OCR_RECOGNIZER_DISAGREEMENT"
+        ],
+        "review_policy_version": "invoice-review-2.0.0",
+        "source_block_ids": [
+          "p0_b000004"
+        ]
+      },
+      "seller_address": {
+        "raw_text": "Địa chỉ người bán: 22 Đường Mẫu, Thành phố Hà Nội",
+        "predicted_value": "22 Đường Mẫu, Thành phố Hà Nội",
+        "normalized_value": "22 Đường Mẫu, Thành phố Hà Nội",
+        "normalization": {
+          "rule": "identity_string",
+          "version": "normalization-v0.1"
+        },
+        "value_status": "PRESENT",
+        "confidence": null,
+        "heuristic_score": 0.95,
+        "score_version": "invoice-heuristic-2.0.0",
+        "machine_needs_review": true,
+        "review_reasons": [
+          "OCR_RECOGNIZER_DISAGREEMENT"
+        ],
+        "review_policy_version": "invoice-review-2.0.0",
+        "source_block_ids": [
+          "p0_b000006"
+        ]
+      },
+      "buyer_name": {
+        "raw_text": "Người mua: KHÁCH HÀNG THỬ NGHIỆM",
+        "predicted_value": "KHÁCH HÀNG THỬ NGHIỆM",
+        "normalized_value": "KHÁCH HÀNG THỬ NGHIỆM",
+        "normalization": {
+          "rule": "labelled_second_pass",
+          "version": "1.0"
+        },
+        "value_status": "PRESENT",
+        "confidence": null,
+        "heuristic_score": 0.0,
+        "score_version": "header-second-pass-1.0",
+        "machine_needs_review": true,
+        "review_reasons": [
+          "OCR_RECOGNIZER_DISAGREEMENT"
+        ],
+        "review_policy_version": "invoice-review-2.0.0",
+        "source_block_ids": [
+          "p0_b000008"
+        ]
+      },
+      "buyer_tax_id": {
+        "raw_text": "MST người mua: 0000003022",
+        "predicted_value": "0000003022",
+        "normalized_value": "0000003022",
+        "normalization": {
+          "rule": "tax_id_printed_separators",
+          "version": "invoice-normalization-2.0.0"
+        },
+        "value_status": "PRESENT",
+        "confidence": null,
+        "heuristic_score": 0.95,
+        "score_version": "invoice-heuristic-2.0.0",
+        "machine_needs_review": true,
+        "review_reasons": [
+          "OCR_RECOGNIZER_DISAGREEMENT"
+        ],
+        "review_policy_version": "invoice-review-2.0.0",
+        "source_block_ids": [
+          "p0_b000009"
+        ]
+      }
+    },
+    "excluded_table_block_ids": [
+      "p0_b000010",
+      "p0_b000011",
+      "p0_b000012",
+      "p0_b000013",
+      "p0_b000014",
+      "p0_b000015",
+      "p0_b000016",
+      "p0_b000017",
+      "p0_b000018",
+      "p0_b000019",
+      "p0_b000020",
+      "p0_b000021",
+      "p0_b000022",
+      "p0_b000023",
+      "p0_b000024",
+      "p0_b000025",
+      "p0_b000026",
+      "p0_b000027",
+      "p0_b000028",
+      "p0_b000029",
+      "p0_b000030",
+      "p0_b000031",
+      "p0_b000032",
+      "p0_b000033",
+      "p0_b000034"
+    ],
+    "ocr_block_count": 41,
+    "field_sources": {
+      "buyer_name": {
+        "engine": "apple-vision",
+        "ocr_run_id": "133b598b-ad16-4e59-8001-fa1fd30bb916"
+      }
+    },
+    "pre_refinement_fields": {
+      "buyer_name": {
+        "cell": {
+          "raw_text": "Người mua: KHÁCH HÀNG THU NGHIỆM",
+          "predicted_value": "KHÁCH HÀNG THU NGHIỆM",
+          "normalized_value": "KHÁCH HÀNG THU NGHIỆM",
+          "normalization": {
+            "rule": "identity_string",
+            "version": "normalization-v0.1"
+          },
+          "value_status": "PRESENT",
+          "confidence": null,
+          "heuristic_score": 0.95,
+          "score_version": "invoice-heuristic-2.0.0",
+          "machine_needs_review": true,
+          "review_reasons": [
+            "OCR_RECOGNIZER_DISAGREEMENT"
+          ],
+          "review_policy_version": "invoice-review-2.0.0",
+          "source_block_ids": [
+            "p0_b000008"
+          ]
+        },
+        "source": {
+          "engine": "vietocr-checkpoint"
+        }
+      }
+    },
+    "supplemental_ocr": {
+      "apple-vision": {
+        "ocr_run_id": "133b598b-ad16-4e59-8001-fa1fd30bb916",
+        "parent_ocr_run_id": "fa6ae676-474a-41c5-b1d4-a119bc711fa0",
+        "reads": {
+          "p0_b000008": {
+            "text": "Người mua: KHÁCH HÀNG THỬ NGHIỆM",
+            "confidence": 1
+          },
+          "p0_b000002": {
+            "text": "Đơn vị bán hàng: CỬA HÀNG MẪU SAO VIỆT",
+            "confidence": 1
+          },
+          "p0_b000006": {
+            "text": "Địa chỉ người bán: 22 Đường Mẫu, Thành phố Hà Nội",
+            "confidence": 1
+          }
+        }
+      }
+    }
+  },
+  "header_evidence": {
+    "schema_version": "document-2.0",
+    "receipt_id": "d3c574a5-cdd7-4b5d-9151-bc61f5ef05c9",
+    "ocr_run_id": "a0146cc2-75ee-4b3f-b029-c1d95a0fef1b",
+    "pages": [
+      {
+        "page_index": 0,
+        "evidence": {
+          "schema_version": "1.3",
+          "receipt_id": "d3c574a5-cdd7-4b5d-9151-bc61f5ef05c9",
+          "ocr_run_id": "a0146cc2-75ee-4b3f-b029-c1d95a0fef1b",
+          "engine": {
+            "name": "paddle-boxes-vietocr-checkpoint",
+            "version": "1.0"
+          },
+          "image": {
+            "width_px": 1263,
+            "height_px": 1050
+          },
+          "blocks": [
+            {
+              "block_id": "p0_b000000",
+              "text": "HÓA ĐƠN GIÁ TRỊ GIA T.NG",
+              "confidence": 0.948640995969375,
+              "polygon": [
+                {
+                  "x": 0.370546,
+                  "y": 0.028571
+                },
+                {
+                  "x": 0.629454,
+                  "y": 0.028571
+                },
+                {
+                  "x": 0.629454,
+                  "y": 0.050476
+                },
+                {
+                  "x": 0.370546,
+                  "y": 0.050476
+                }
+              ],
+              "reading_order": 0
+            },
+            {
+              "block_id": "p0_b000001",
+              "text": "Mẫu số: 1",
+              "confidence": 0.9154581560028924,
+              "polygon": [
+                {
+                  "x": 0.034046,
+                  "y": 0.08381
+                },
+                {
+                  "x": 0.087886,
+                  "y": 0.08381
+                },
+                {
+                  "x": 0.087886,
+                  "y": 0.1
+                },
+                {
+                  "x": 0.034046,
+                  "y": 0.1
+                }
+              ],
+              "reading_order": 1
+            },
+            {
+              "block_id": "p0_b000002",
+              "text": "Đơn vị bán hàng: Cửa Hàng Mẫu Sao Việt",
+              "confidence": 0.9096529707312584,
+              "polygon": [
+                {
+                  "x": 0.459224,
+                  "y": 0.08381
+                },
+                {
+                  "x": 0.705463,
+                  "y": 0.08381
+                },
+                {
+                  "x": 0.705463,
+                  "y": 0.1
+                },
+                {
+                  "x": 0.459224,
+                  "y": 0.1
+                }
+              ],
+              "reading_order": 2
+            },
+            {
+              "block_id": "p0_b000003",
+              "text": "Ký hiệu: C26T2A",
+              "confidence": 0.9848902662595113,
+              "polygon": [
+                {
+                  "x": 0.034838,
+                  "y": 0.109524
+                },
+                {
+                  "x": 0.125891,
+                  "y": 0.109524
+                },
+                {
+                  "x": 0.125891,
+                  "y": 0.125714
+                },
+                {
+                  "x": 0.034838,
+                  "y": 0.125714
+                }
+              ],
+              "reading_order": 3
+            },
+            {
+              "block_id": "p0_b000004",
+              "text": "MST người bán: 0000000022",
+              "confidence": 0.9821371221542359,
+              "polygon": [
+                {
+                  "x": 0.460016,
+                  "y": 0.110476
+                },
+                {
+                  "x": 0.615202,
+                  "y": 0.110476
+                },
+                {
+                  "x": 0.615202,
+                  "y": 0.12381
+                },
+                {
+                  "x": 0.460016,
+                  "y": 0.12381
+                }
+              ],
+              "reading_order": 4
+            },
+            {
+              "block_id": "p0_b000005",
+              "text": "Số hóa đơn: 00000022",
+              "confidence": 0.9802519738674164,
+              "polygon": [
+                {
+                  "x": 0.036421,
+                  "y": 0.134286
+                },
+                {
+                  "x": 0.155978,
+                  "y": 0.134286
+                },
+                {
+                  "x": 0.155978,
+                  "y": 0.147619
+                },
+                {
+                  "x": 0.036421,
+                  "y": 0.147619
+                }
+              ],
+              "reading_order": 5
+            },
+            {
+              "block_id": "p0_b000006",
+              "text": "Địa chỉ người bán: 22 Đường Mẫu, Thành phố Hà Nội",
+              "confidence": 0.9570568495867203,
+              "polygon": [
+                {
+                  "x": 0.458432,
+                  "y": 0.133333
+                },
+                {
+                  "x": 0.74426,
+                  "y": 0.132381
+                },
+                {
+                  "x": 0.74426,
+                  "y": 0.148571
+                },
+                {
+                  "x": 0.458432,
+                  "y": 0.149524
+                }
+              ],
+              "reading_order": 6
+            },
+            {
+              "block_id": "p0_b000007",
+              "text": "Ngày lập: 2026-10-22",
+              "confidence": 0.9686060428619385,
+              "polygon": [
+                {
+                  "x": 0.033254,
+                  "y": 0.159048
+                },
+                {
+                  "x": 0.149644,
+                  "y": 0.157143
+                },
+                {
+                  "x": 0.149644,
+                  "y": 0.173333
+                },
+                {
+                  "x": 0.034046,
+                  "y": 0.175238
+                }
+              ],
+              "reading_order": 7
+            },
+            {
+              "block_id": "p0_b000008",
+              "text": "Người mua: KHÁCH HÀNG THU NGHIỆM",
+              "confidence": 0.932245931820944,
+              "polygon": [
+                {
+                  "x": 0.458432,
+                  "y": 0.158095
+                },
+                {
+                  "x": 0.685669,
+                  "y": 0.157143
+                },
+                {
+                  "x": 0.685669,
+                  "y": 0.173333
+                },
+                {
+                  "x": 0.458432,
+                  "y": 0.174286
+                }
+              ],
+              "reading_order": 8
+            },
+            {
+              "block_id": "p0_b000009",
+              "text": "MST người mua: 0000003022",
+              "confidence": 0.96255446434021,
+              "polygon": [
+                {
+                  "x": 0.460016,
+                  "y": 0.18381
+                },
+                {
+                  "x": 0.618369,
+                  "y": 0.18381
+                },
+                {
+                  "x": 0.618369,
+                  "y": 0.197143
+                },
+                {
+                  "x": 0.460016,
+                  "y": 0.197143
+                }
+              ],
+              "reading_order": 9
+            },
+            {
+              "block_id": "p0_b000010",
+              "text": "Tên hàng / dịch vụ",
+              "confidence": 0.9445173624489043,
+              "polygon": [
+                {
+                  "x": 0.034838,
+                  "y": 0.239048
+                },
+                {
+                  "x": 0.124307,
+                  "y": 0.239048
+                },
+                {
+                  "x": 0.124307,
+                  "y": 0.254286
+                },
+                {
+                  "x": 0.034838,
+                  "y": 0.254286
+                }
+              ],
+              "reading_order": 10
+            },
+            {
+              "block_id": "p0_b000011",
+              "text": "ĐVT",
+              "confidence": 0.9889776905377706,
+              "polygon": [
+                {
+                  "x": 0.459224,
+                  "y": 0.23619
+                },
+                {
+                  "x": 0.486936,
+                  "y": 0.23619
+                },
+                {
+                  "x": 0.486936,
+                  "y": 0.257143
+                },
+                {
+                  "x": 0.459224,
+                  "y": 0.257143
+                }
+              ],
+              "reading_order": 11
+            },
+            {
+              "block_id": "p0_b000012",
+              "text": "SL",
+              "confidence": 0.9811556041240692,
+              "polygon": [
+                {
+                  "x": 0.561362,
+                  "y": 0.23619
+                },
+                {
+                  "x": 0.581156,
+                  "y": 0.23619
+                },
+                {
+                  "x": 0.581156,
+                  "y": 0.258095
+                },
+                {
+                  "x": 0.561362,
+                  "y": 0.258095
+                }
+              ],
+              "reading_order": 12
+            },
+            {
+              "block_id": "p0_b000013",
+              "text": "Đơn giá",
+              "confidence": 0.9944216694150653,
+              "polygon": [
+                {
+                  "x": 0.655582,
+                  "y": 0.23619
+                },
+                {
+                  "x": 0.697546,
+                  "y": 0.23619
+                },
+                {
+                  "x": 0.697546,
+                  "y": 0.25619
+                },
+                {
+                  "x": 0.655582,
+                  "y": 0.25619
+                }
+              ],
+              "reading_order": 13
+            },
+            {
+              "block_id": "p0_b000014",
+              "text": "Thành tiền",
+              "confidence": 0.9936329782009125,
+              "polygon": [
+                {
+                  "x": 0.796516,
+                  "y": 0.238095
+                },
+                {
+                  "x": 0.848773,
+                  "y": 0.238095
+                },
+                {
+                  "x": 0.848773,
+                  "y": 0.254286
+                },
+                {
+                  "x": 0.796516,
+                  "y": 0.254286
+                }
+              ],
+              "reading_order": 14
+            },
+            {
+              "block_id": "p0_b000015",
+              "text": "Dịch vụ in tài liệu",
+              "confidence": 0.9663509663782621,
+              "polygon": [
+                {
+                  "x": 0.035629,
+                  "y": 0.273333
+                },
+                {
+                  "x": 0.117181,
+                  "y": 0.273333
+                },
+                {
+                  "x": 0.117181,
+                  "y": 0.289524
+                },
+                {
+                  "x": 0.035629,
+                  "y": 0.289524
+                }
+              ],
+              "reading_order": 15
+            },
+            {
+              "block_id": "p0_b000016",
+              "text": "Lần",
+              "confidence": 0.9912909468015035,
+              "polygon": [
+                {
+                  "x": 0.460016,
+                  "y": 0.270476
+                },
+                {
+                  "x": 0.482977,
+                  "y": 0.270476
+                },
+                {
+                  "x": 0.482977,
+                  "y": 0.290476
+                },
+                {
+                  "x": 0.460016,
+                  "y": 0.290476
+                }
+              ],
+              "reading_order": 16
+            },
+            {
+              "block_id": "p0_b000017",
+              "text": "2",
+              "confidence": 0.9933009147644043,
+              "polygon": [
+                {
+                  "x": 0.559778,
+                  "y": 0.270476
+                },
+                {
+                  "x": 0.57403,
+                  "y": 0.270476
+                },
+                {
+                  "x": 0.57403,
+                  "y": 0.291429
+                },
+                {
+                  "x": 0.559778,
+                  "y": 0.291429
+                }
+              ],
+              "reading_order": 17
+            },
+            {
+              "block_id": "p0_b000018",
+              "text": "12.000",
+              "confidence": 0.9954932630062103,
+              "polygon": [
+                {
+                  "x": 0.656374,
+                  "y": 0.272381
+                },
+                {
+                  "x": 0.692003,
+                  "y": 0.272381
+                },
+                {
+                  "x": 0.692003,
+                  "y": 0.289524
+                },
+                {
+                  "x": 0.656374,
+                  "y": 0.289524
+                }
+              ],
+              "reading_order": 18
+            },
+            {
+              "block_id": "p0_b000019",
+              "text": "24.000",
+              "confidence": 0.9945581158002218,
+              "polygon": [
+                {
+                  "x": 0.794933,
+                  "y": 0.272381
+                },
+                {
+                  "x": 0.831354,
+                  "y": 0.272381
+                },
+                {
+                  "x": 0.831354,
+                  "y": 0.289524
+                },
+                {
+                  "x": 0.794933,
+                  "y": 0.289524
+                }
+              ],
+              "reading_order": 19
+            },
+            {
+              "block_id": "p0_b000020",
+              "text": "Bìa hồ sơ",
+              "confidence": 0.9663092891375223,
+              "polygon": [
+                {
+                  "x": 0.034838,
+                  "y": 0.312381
+                },
+                {
+                  "x": 0.083135,
+                  "y": 0.312381
+                },
+                {
+                  "x": 0.083135,
+                  "y": 0.329524
+                },
+                {
+                  "x": 0.034838,
+                  "y": 0.329524
+                }
+              ],
+              "reading_order": 20
+            },
+            {
+              "block_id": "p0_b000021",
+              "text": "Cái",
+              "confidence": 0.9934194087982178,
+              "polygon": [
+                {
+                  "x": 0.460808,
+                  "y": 0.311429
+                },
+                {
+                  "x": 0.481394,
+                  "y": 0.311429
+                },
+                {
+                  "x": 0.481394,
+                  "y": 0.331429
+                },
+                {
+                  "x": 0.460808,
+                  "y": 0.331429
+                }
+              ],
+              "reading_order": 21
+            },
+            {
+              "block_id": "p0_b000022",
+              "text": "4",
+              "confidence": 0.9802436828613281,
+              "polygon": [
+                {
+                  "x": 0.561362,
+                  "y": 0.309524
+                },
+                {
+                  "x": 0.57403,
+                  "y": 0.309524
+                },
+                {
+                  "x": 0.57403,
+                  "y": 0.332381
+                },
+                {
+                  "x": 0.561362,
+                  "y": 0.332381
+                }
+              ],
+              "reading_order": 22
+            },
+            {
+              "block_id": "p0_b000023",
+              "text": "7.000",
+              "confidence": 0.9896311521530151,
+              "polygon": [
+                {
+                  "x": 0.65479,
+                  "y": 0.310476
+                },
+                {
+                  "x": 0.687253,
+                  "y": 0.310476
+                },
+                {
+                  "x": 0.687253,
+                  "y": 0.331429
+                },
+                {
+                  "x": 0.65479,
+                  "y": 0.331429
+                }
+              ],
+              "reading_order": 23
+            },
+            {
+              "block_id": "p0_b000024",
+              "text": "28.000",
+              "confidence": 0.9955296516418457,
+              "polygon": [
+                {
+                  "x": 0.793349,
+                  "y": 0.310476
+                },
+                {
+                  "x": 0.832146,
+                  "y": 0.308571
+                },
+                {
+                  "x": 0.832937,
+                  "y": 0.329524
+                },
+                {
+                  "x": 0.794141,
+                  "y": 0.331429
+                }
+              ],
+              "reading_order": 24
+            },
+            {
+              "block_id": "p0_b000025",
+              "text": "Bìa hồ sơ",
+              "confidence": 0.9621408118142022,
+              "polygon": [
+                {
+                  "x": 0.034838,
+                  "y": 0.352381
+                },
+                {
+                  "x": 0.082344,
+                  "y": 0.352381
+                },
+                {
+                  "x": 0.082344,
+                  "y": 0.369524
+                },
+                {
+                  "x": 0.034838,
+                  "y": 0.369524
+                }
+              ],
+              "reading_order": 25
+            },
+            {
+              "block_id": "p0_b000026",
+              "text": "Cái",
+              "confidence": 0.9932958285013834,
+              "polygon": [
+                {
+                  "x": 0.459224,
+                  "y": 0.353333
+                },
+                {
+                  "x": 0.480602,
+                  "y": 0.349524
+                },
+                {
+                  "x": 0.482185,
+                  "y": 0.369524
+                },
+                {
+                  "x": 0.460808,
+                  "y": 0.372381
+                }
+              ],
+              "reading_order": 26
+            },
+            {
+              "block_id": "p0_b000027",
+              "text": "2",
+              "confidence": 0.9949674010276794,
+              "polygon": [
+                {
+                  "x": 0.562154,
+                  "y": 0.352381
+                },
+                {
+                  "x": 0.57403,
+                  "y": 0.352381
+                },
+                {
+                  "x": 0.57403,
+                  "y": 0.372381
+                },
+                {
+                  "x": 0.562154,
+                  "y": 0.372381
+                }
+              ],
+              "reading_order": 27
+            },
+            {
+              "block_id": "p0_b000028",
+              "text": "7.000",
+              "confidence": 0.9896311521530151,
+              "polygon": [
+                {
+                  "x": 0.65479,
+                  "y": 0.350476
+                },
+                {
+                  "x": 0.687253,
+                  "y": 0.350476
+                },
+                {
+                  "x": 0.687253,
+                  "y": 0.371429
+                },
+                {
+                  "x": 0.65479,
+                  "y": 0.371429
+                }
+              ],
+              "reading_order": 28
+            },
+            {
+              "block_id": "p0_b000029",
+              "text": "14.000",
+              "confidence": 0.9946251610914866,
+              "polygon": [
+                {
+                  "x": 0.795724,
+                  "y": 0.352381
+                },
+                {
+                  "x": 0.831354,
+                  "y": 0.352381
+                },
+                {
+                  "x": 0.831354,
+                  "y": 0.369524
+                },
+                {
+                  "x": 0.795724,
+                  "y": 0.369524
+                }
+              ],
+              "reading_order": 29
+            },
+            {
+              "block_id": "p0_b000030",
+              "text": "Giấy in A4",
+              "confidence": 0.9857486188411713,
+              "polygon": [
+                {
+                  "x": 0.034838,
+                  "y": 0.391429
+                },
+                {
+                  "x": 0.087094,
+                  "y": 0.391429
+                },
+                {
+                  "x": 0.087094,
+                  "y": 0.411429
+                },
+                {
+                  "x": 0.034838,
+                  "y": 0.411429
+                }
+              ],
+              "reading_order": 30
+            },
+            {
+              "block_id": "p0_b000031",
+              "text": "Ram",
+              "confidence": 0.9850755532582601,
+              "polygon": [
+                {
+                  "x": 0.460808,
+                  "y": 0.392381
+                },
+                {
+                  "x": 0.487728,
+                  "y": 0.392381
+                },
+                {
+                  "x": 0.487728,
+                  "y": 0.411429
+                },
+                {
+                  "x": 0.460808,
+                  "y": 0.411429
+                }
+              ],
+              "reading_order": 31
+            },
+            {
+              "block_id": "p0_b000032",
+              "text": "5",
+              "confidence": 0.9851841926574707,
+              "polygon": [
+                {
+                  "x": 0.561362,
+                  "y": 0.390476
+                },
+                {
+                  "x": 0.57403,
+                  "y": 0.390476
+                },
+                {
+                  "x": 0.57403,
+                  "y": 0.413333
+                },
+                {
+                  "x": 0.561362,
+                  "y": 0.413333
+                }
+              ],
+              "reading_order": 32
+            },
+            {
+              "block_id": "p0_b000033",
+              "text": "65.000",
+              "confidence": 0.994614710410436,
+              "polygon": [
+                {
+                  "x": 0.656374,
+                  "y": 0.392381
+                },
+                {
+                  "x": 0.692003,
+                  "y": 0.392381
+                },
+                {
+                  "x": 0.692003,
+                  "y": 0.410476
+                },
+                {
+                  "x": 0.656374,
+                  "y": 0.410476
+                }
+              ],
+              "reading_order": 33
+            },
+            {
+              "block_id": "p0_b000034",
+              "text": "325.000",
+              "confidence": 0.9930580428668431,
+              "polygon": [
+                {
+                  "x": 0.794933,
+                  "y": 0.391429
+                },
+                {
+                  "x": 0.83848,
+                  "y": 0.391429
+                },
+                {
+                  "x": 0.83848,
+                  "y": 0.411429
+                },
+                {
+                  "x": 0.794933,
+                  "y": 0.411429
+                }
+              ],
+              "reading_order": 34
+            },
+            {
+              "block_id": "p0_b000035",
+              "text": "Thuế suất GTGT: 5%",
+              "confidence": 0.9412565910153918,
+              "polygon": [
+                {
+                  "x": 0.036421,
+                  "y": 0.457143
+                },
+                {
+                  "x": 0.14806,
+                  "y": 0.457143
+                },
+                {
+                  "x": 0.14806,
+                  "y": 0.473333
+                },
+                {
+                  "x": 0.036421,
+                  "y": 0.473333
+                }
+              ],
+              "reading_order": 35
+            },
+            {
+              "block_id": "p0_b000036",
+              "text": "Cộng tiền hàng: 391.000",
+              "confidence": 0.9861189049223195,
+              "polygon": [
+                {
+                  "x": 0.539984,
+                  "y": 0.481905
+                },
+                {
+                  "x": 0.669834,
+                  "y": 0.481905
+                },
+                {
+                  "x": 0.669834,
+                  "y": 0.498095
+                },
+                {
+                  "x": 0.539984,
+                  "y": 0.498095
+                }
+              ],
+              "reading_order": 36
+            },
+            {
+              "block_id": "p0_b000037",
+              "text": "Tiền thuế GTGT: 19.550",
+              "confidence": 0.9848069819537076,
+              "polygon": [
+                {
+                  "x": 0.539192,
+                  "y": 0.50381
+                },
+                {
+                  "x": 0.66825,
+                  "y": 0.504762
+                },
+                {
+                  "x": 0.66825,
+                  "y": 0.52381
+                },
+                {
+                  "x": 0.539192,
+                  "y": 0.522857
+                }
+              ],
+              "reading_order": 37
+            },
+            {
+              "block_id": "p0_b000038",
+              "text": "Tổng thanh toán: 410.550",
+              "confidence": 0.9888538966576258,
+              "polygon": [
+                {
+                  "x": 0.539192,
+                  "y": 0.528571
+                },
+                {
+                  "x": 0.69042,
+                  "y": 0.528571
+                },
+                {
+                  "x": 0.69042,
+                  "y": 0.547619
+                },
+                {
+                  "x": 0.539192,
+                  "y": 0.547619
+                }
+              ],
+              "reading_order": 38
+            },
+            {
+              "block_id": "p0_b000039",
+              "text": "Tiền tệ: VND",
+              "confidence": 0.9792182097832361,
+              "polygon": [
+                {
+                  "x": 0.538401,
+                  "y": 0.553333
+                },
+                {
+                  "x": 0.608076,
+                  "y": 0.553333
+                },
+                {
+                  "x": 0.608076,
+                  "y": 0.573333
+                },
+                {
+                  "x": 0.538401,
+                  "y": 0.573333
+                }
+              ],
+              "reading_order": 39
+            },
+            {
+              "block_id": "p0_b000040",
+              "text": "TH TH LIỆU GIẢ LẬP - KHÔNG CỔ GIÁ TRỊ THANH TOÁN",
+              "confidence": 0.8659623544663191,
+              "polygon": [
+                {
+                  "x": 0.036421,
+                  "y": 0.617143
+                },
+                {
+                  "x": 0.274743,
+                  "y": 0.617143
+                },
+                {
+                  "x": 0.274743,
+                  "y": 0.630476
+                },
+                {
+                  "x": 0.036421,
+                  "y": 0.630476
+                }
+              ],
+              "reading_order": 40
+            }
+          ],
+          "average_confidence": 0.9740216068557148,
+          "duration_ms": 773
+        }
+      }
+    ]
+  },
+  "header_selection": {
+    "schema_version": "header-recognizer-selection-1.0",
+    "primary_recognizer": "vietocr-checkpoint",
+    "effective_text_source": "vietocr-checkpoint",
+    "checkpoint_sha256": "a4b7a6985859b8817af993870c1de5ffef8e3c3322c4e317f3964d07d317a2c2",
+    "source_sha256": "c9b863971e232293b72ef45be0a4c423547d8e8cc87a9a0421abe970fe7608e9",
+    "header_ocr_run_id": "a0146cc2-75ee-4b3f-b029-c1d95a0fef1b",
+    "parent_ocr_run_id": "fa6ae676-474a-41c5-b1d4-a119bc711fa0",
+    "reader_calls_in_this_adapter": 0,
+    "paddle_text_role": "reference_only; never substituted into OCR blocks",
+    "paddle_fallback": false,
+    "uses_gold_for_selection": false,
+    "empty_prediction_policy": "omit_and_record; do_not_fill_using_paddle",
+    "checkpoint_failure_policy": "raise_error; do_not_silently_switch_to_paddle",
+    "pdf_text_policy": "preserve native PDF text; rerecognize OCR pages only",
+    "adapter_bundle": "HEADER-CHECKPOINT-TICH-HOP"
+  },
+  "header_checkpoint_provenance": {
+    "parent_ocr_run_id": "fa6ae676-474a-41c5-b1d4-a119bc711fa0",
+    "ocr_run_id": "a0146cc2-75ee-4b3f-b029-c1d95a0fef1b",
+    "checkpoint_sha256": "a4b7a6985859b8817af993870c1de5ffef8e3c3322c4e317f3964d07d317a2c2",
+    "recognizer": "vietocr-pos-disambiguation",
+    "source_evidence_sha256": "c84c42656e06f883c03bcd54d42a8fee8257adf15aec79f31af921e54ecfeaff",
+    "geometry_policy": "reuse_reader_polygons_in_source_frame; do_not_generate_new_boxes",
+    "confidence_semantics": "VietOCR mean token probability, not calibrated against Paddle; never copy Paddle confidence to VietOCR",
+    "ocr_blocks_processed": 41,
+    "changed_text_blocks": 28,
+    "omitted_empty_block_ids": [],
+    "pdf_text_pages_preserved": [],
+    "decode_length_limit_block_ids": [],
+    "seconds": 0.7772552920505404,
+    "review_status": "EXPERIMENTAL_PENDING_GROUP_REVIEW"
+  },
+  "table": {
+    "schema_version": "retail-table-0.1.0",
+    "currency_context": "VND",
+    "line_items": [
+      {
+        "line_id": "line-0001",
+        "description": {
+          "raw_text": "Dich v in tai li@u",
+          "predicted_value": "Dịch vụ in tài liệu",
+          "normalized_value": "Dịch vụ in tài liệu",
+          "normalization": {
+            "rule": "identity_string",
+            "version": "normalization-v0.1"
+          },
+          "value_status": "PRESENT",
+          "confidence": null,
+          "heuristic_score": 0.95,
+          "score_version": "invoice-heuristic-2.0.0",
+          "machine_needs_review": true,
+          "review_reasons": [
+            "AMBIGUOUS_FORMAT"
+          ],
+          "review_policy_version": "invoice-review-2.0.0",
+          "source_block_ids": [
+            "p0_b000015"
+          ]
+        },
+        "unit": {
+          "raw_text": "Lan",
+          "predicted_value": "Lần",
+          "normalized_value": "Lần",
+          "normalization": {
+            "rule": "printed_unit",
+            "version": "retail-table-0.1.0"
+          },
+          "value_status": "PRESENT",
+          "confidence": null,
+          "heuristic_score": 0.95,
+          "score_version": "invoice-heuristic-2.0.0",
+          "machine_needs_review": false,
+          "review_reasons": [],
+          "review_policy_version": "invoice-review-2.0.0",
+          "source_block_ids": [
+            "p0_b000016"
+          ]
+        },
+        "quantity": {
+          "raw_text": "2",
+          "predicted_value": "2",
+          "normalized_value": 2.0,
+          "normalization": {
+            "rule": "quantity_decimal_no_grouping",
+            "version": "invoice-normalization-2.0.0"
+          },
+          "value_status": "PRESENT",
+          "confidence": null,
+          "heuristic_score": 0.95,
+          "score_version": "invoice-heuristic-2.0.0",
+          "machine_needs_review": false,
+          "review_reasons": [],
+          "review_policy_version": "invoice-review-2.0.0",
+          "source_block_ids": [
+            "p0_b000017"
+          ]
+        },
+        "unit_price": {
+          "raw_text": "12.000",
+          "predicted_value": "12.000",
+          "normalized_value": 12000,
+          "normalization": {
+            "rule": "printed_vnd_integer",
+            "version": "retail-table-0.1.0"
+          },
+          "value_status": "PRESENT",
+          "confidence": null,
+          "heuristic_score": 0.95,
+          "score_version": "invoice-heuristic-2.0.0",
+          "machine_needs_review": false,
+          "review_reasons": [],
+          "review_policy_version": "invoice-review-2.0.0",
+          "source_block_ids": [
+            "p0_b000018"
+          ]
+        },
+        "amount": {
+          "raw_text": "24.000",
+          "predicted_value": "24.000",
+          "normalized_value": 24000,
+          "normalization": {
+            "rule": "printed_vnd_integer",
+            "version": "retail-table-0.1.0"
+          },
+          "value_status": "PRESENT",
+          "confidence": null,
+          "heuristic_score": 0.95,
+          "score_version": "invoice-heuristic-2.0.0",
+          "machine_needs_review": false,
+          "review_reasons": [],
+          "review_policy_version": "invoice-review-2.0.0",
+          "source_block_ids": [
+            "p0_b000019"
+          ]
+        },
+        "source_block_ids": [
+          "p0_b000015",
+          "p0_b000016",
+          "p0_b000017",
+          "p0_b000018",
+          "p0_b000019"
+        ],
+        "review_policy_version": "invoice-review-2.0.0",
+        "review_reasons": [
+          "AMBIGUOUS_FORMAT"
+        ],
+        "machine_needs_review": true
+      },
+      {
+        "line_id": "line-0002",
+        "description": {
+          "raw_text": "Bia h so",
+          "predicted_value": "Bìa hồ sơ",
+          "normalized_value": "Bìa hồ sơ",
+          "normalization": {
+            "rule": "identity_string",
+            "version": "normalization-v0.1"
+          },
+          "value_status": "PRESENT",
+          "confidence": null,
+          "heuristic_score": 0.95,
+          "score_version": "invoice-heuristic-2.0.0",
+          "machine_needs_review": true,
+          "review_reasons": [
+            "AMBIGUOUS_FORMAT"
+          ],
+          "review_policy_version": "invoice-review-2.0.0",
+          "source_block_ids": [
+            "p0_b000020"
+          ]
+        },
+        "unit": {
+          "raw_text": "Cai",
+          "predicted_value": "Cai",
+          "normalized_value": "Cai",
+          "normalization": {
+            "rule": "printed_unit",
+            "version": "retail-table-0.1.0"
+          },
+          "value_status": "PRESENT",
+          "confidence": null,
+          "heuristic_score": 0.95,
+          "score_version": "invoice-heuristic-2.0.0",
+          "machine_needs_review": false,
+          "review_reasons": [],
+          "review_policy_version": "invoice-review-2.0.0",
+          "source_block_ids": [
+            "p0_b000021"
+          ]
+        },
+        "quantity": {
+          "raw_text": "4",
+          "predicted_value": "4",
+          "normalized_value": 4.0,
+          "normalization": {
+            "rule": "quantity_decimal_no_grouping",
+            "version": "invoice-normalization-2.0.0"
+          },
+          "value_status": "PRESENT",
+          "confidence": null,
+          "heuristic_score": 0.95,
+          "score_version": "invoice-heuristic-2.0.0",
+          "machine_needs_review": false,
+          "review_reasons": [],
+          "review_policy_version": "invoice-review-2.0.0",
+          "source_block_ids": [
+            "p0_b000022"
+          ]
+        },
+        "unit_price": {
+          "raw_text": "7.000",
+          "predicted_value": "7.000",
+          "normalized_value": 7000,
+          "normalization": {
+            "rule": "printed_vnd_integer",
+            "version": "retail-table-0.1.0"
+          },
+          "value_status": "PRESENT",
+          "confidence": null,
+          "heuristic_score": 0.95,
+          "score_version": "invoice-heuristic-2.0.0",
+          "machine_needs_review": false,
+          "review_reasons": [],
+          "review_policy_version": "invoice-review-2.0.0",
+          "source_block_ids": [
+            "p0_b000023"
+          ]
+        },
+        "amount": {
+          "raw_text": "28.000",
+          "predicted_value": "28.000",
+          "normalized_value": 28000,
+          "normalization": {
+            "rule": "printed_vnd_integer",
+            "version": "retail-table-0.1.0"
+          },
+          "value_status": "PRESENT",
+          "confidence": null,
+          "heuristic_score": 0.95,
+          "score_version": "invoice-heuristic-2.0.0",
+          "machine_needs_review": false,
+          "review_reasons": [],
+          "review_policy_version": "invoice-review-2.0.0",
+          "source_block_ids": [
+            "p0_b000024"
+          ]
+        },
+        "source_block_ids": [
+          "p0_b000020",
+          "p0_b000021",
+          "p0_b000022",
+          "p0_b000023",
+          "p0_b000024"
+        ],
+        "review_policy_version": "invoice-review-2.0.0",
+        "review_reasons": [
+          "AMBIGUOUS_FORMAT"
+        ],
+        "machine_needs_review": true
+      },
+      {
+        "line_id": "line-0003",
+        "description": {
+          "raw_text": "Bia ho so",
+          "predicted_value": "Bìa hồ sơ",
+          "normalized_value": "Bìa hồ sơ",
+          "normalization": {
+            "rule": "identity_string",
+            "version": "normalization-v0.1"
+          },
+          "value_status": "PRESENT",
+          "confidence": null,
+          "heuristic_score": 0.95,
+          "score_version": "invoice-heuristic-2.0.0",
+          "machine_needs_review": true,
+          "review_reasons": [
+            "AMBIGUOUS_FORMAT"
+          ],
+          "review_policy_version": "invoice-review-2.0.0",
+          "source_block_ids": [
+            "p0_b000025"
+          ]
+        },
+        "unit": {
+          "raw_text": "Cai",
+          "predicted_value": "Cai",
+          "normalized_value": "Cai",
+          "normalization": {
+            "rule": "printed_unit",
+            "version": "retail-table-0.1.0"
+          },
+          "value_status": "PRESENT",
+          "confidence": null,
+          "heuristic_score": 0.95,
+          "score_version": "invoice-heuristic-2.0.0",
+          "machine_needs_review": false,
+          "review_reasons": [],
+          "review_policy_version": "invoice-review-2.0.0",
+          "source_block_ids": [
+            "p0_b000026"
+          ]
+        },
+        "quantity": {
+          "raw_text": "2",
+          "predicted_value": "2",
+          "normalized_value": 2.0,
+          "normalization": {
+            "rule": "quantity_decimal_no_grouping",
+            "version": "invoice-normalization-2.0.0"
+          },
+          "value_status": "PRESENT",
+          "confidence": null,
+          "heuristic_score": 0.95,
+          "score_version": "invoice-heuristic-2.0.0",
+          "machine_needs_review": false,
+          "review_reasons": [],
+          "review_policy_version": "invoice-review-2.0.0",
+          "source_block_ids": [
+            "p0_b000027"
+          ]
+        },
+        "unit_price": {
+          "raw_text": "7.000",
+          "predicted_value": "7.000",
+          "normalized_value": 7000,
+          "normalization": {
+            "rule": "printed_vnd_integer",
+            "version": "retail-table-0.1.0"
+          },
+          "value_status": "PRESENT",
+          "confidence": null,
+          "heuristic_score": 0.95,
+          "score_version": "invoice-heuristic-2.0.0",
+          "machine_needs_review": false,
+          "review_reasons": [],
+          "review_policy_version": "invoice-review-2.0.0",
+          "source_block_ids": [
+            "p0_b000028"
+          ]
+        },
+        "amount": {
+          "raw_text": "14.000",
+          "predicted_value": "14.000",
+          "normalized_value": 14000,
+          "normalization": {
+            "rule": "printed_vnd_integer",
+            "version": "retail-table-0.1.0"
+          },
+          "value_status": "PRESENT",
+          "confidence": null,
+          "heuristic_score": 0.95,
+          "score_version": "invoice-heuristic-2.0.0",
+          "machine_needs_review": false,
+          "review_reasons": [],
+          "review_policy_version": "invoice-review-2.0.0",
+          "source_block_ids": [
+            "p0_b000029"
+          ]
+        },
+        "source_block_ids": [
+          "p0_b000025",
+          "p0_b000026",
+          "p0_b000027",
+          "p0_b000028",
+          "p0_b000029"
+        ],
+        "review_policy_version": "invoice-review-2.0.0",
+        "review_reasons": [
+          "AMBIGUOUS_FORMAT"
+        ],
+        "machine_needs_review": true
+      },
+      {
+        "line_id": "line-0004",
+        "description": {
+          "raw_text": "Giay in A4\nRam\no",
+          "predicted_value": "Giay in A4 Ram o",
+          "normalized_value": "Giay in A4 Ram o",
+          "normalization": {
+            "rule": "identity_string",
+            "version": "normalization-v0.1"
+          },
+          "value_status": "PRESENT",
+          "confidence": null,
+          "heuristic_score": 0.75,
+          "score_version": "invoice-heuristic-2.0.0",
+          "machine_needs_review": true,
+          "review_reasons": [
+            "LOW_CONFIDENCE",
+            "AMBIGUOUS_FORMAT"
+          ],
+          "review_policy_version": "invoice-review-2.0.0",
+          "source_block_ids": [
+            "p0_b000030",
+            "p0_b000031",
+            "p0_b000032"
+          ]
+        },
+        "unit": {
+          "raw_text": null,
+          "predicted_value": null,
+          "normalized_value": null,
+          "normalization": null,
+          "value_status": "NOT_PRESENT",
+          "confidence": null,
+          "heuristic_score": 0.0,
+          "score_version": "invoice-heuristic-2.0.0",
+          "machine_needs_review": false,
+          "review_reasons": [],
+          "review_policy_version": "invoice-review-2.0.0",
+          "source_block_ids": []
+        },
+        "quantity": {
+          "raw_text": null,
+          "predicted_value": null,
+          "normalized_value": null,
+          "normalization": null,
+          "value_status": "NOT_PRESENT",
+          "confidence": null,
+          "heuristic_score": 0.0,
+          "score_version": "invoice-heuristic-2.0.0",
+          "machine_needs_review": false,
+          "review_reasons": [],
+          "review_policy_version": "invoice-review-2.0.0",
+          "source_block_ids": []
+        },
+        "unit_price": {
+          "raw_text": "65.000",
+          "predicted_value": "65.000",
+          "normalized_value": 65000,
+          "normalization": {
+            "rule": "printed_vnd_integer",
+            "version": "retail-table-0.1.0"
+          },
+          "value_status": "PRESENT",
+          "confidence": null,
+          "heuristic_score": 0.95,
+          "score_version": "invoice-heuristic-2.0.0",
+          "machine_needs_review": false,
+          "review_reasons": [],
+          "review_policy_version": "invoice-review-2.0.0",
+          "source_block_ids": [
+            "p0_b000033"
+          ]
+        },
+        "amount": {
+          "raw_text": "325.000",
+          "predicted_value": "325.000",
+          "normalized_value": 325000,
+          "normalization": {
+            "rule": "printed_vnd_integer",
+            "version": "retail-table-0.1.0"
+          },
+          "value_status": "PRESENT",
+          "confidence": null,
+          "heuristic_score": 0.95,
+          "score_version": "invoice-heuristic-2.0.0",
+          "machine_needs_review": false,
+          "review_reasons": [],
+          "review_policy_version": "invoice-review-2.0.0",
+          "source_block_ids": [
+            "p0_b000034"
+          ]
+        },
+        "source_block_ids": [
+          "p0_b000030",
+          "p0_b000031",
+          "p0_b000032",
+          "p0_b000033",
+          "p0_b000034"
+        ],
+        "review_policy_version": "invoice-review-2.0.0",
+        "review_reasons": [
+          "LOW_CONFIDENCE",
+          "AMBIGUOUS_FORMAT"
+        ],
+        "machine_needs_review": true
+      }
+    ],
+    "pages": [
+      {
+        "page": 0,
+        "status": "PARSED",
+        "start_row": 7,
+        "stop_row": 12,
+        "line_count": 4
+      }
+    ],
+    "refinement": {
+      "engine": "apple-vision",
+      "reader_ocr_run_id": "fa6ae676-474a-41c5-b1d4-a119bc711fa0",
+      "changes": [
+        {
+          "line_id": "line-0001",
+          "field": "description",
+          "before": {
+            "raw_text": "Dich v in tai li@u\nLan",
+            "predicted_value": "Dich v in tai li@u Lan",
+            "normalized_value": "Dich v in tai li@u Lan",
+            "normalization": {
+              "rule": "identity_string",
+              "version": "normalization-v0.1"
+            },
+            "value_status": "PRESENT",
+            "confidence": null,
+            "heuristic_score": 0.95,
+            "score_version": "invoice-heuristic-2.0.0",
+            "machine_needs_review": true,
+            "review_reasons": [
+              "AMBIGUOUS_FORMAT"
+            ],
+            "review_policy_version": "invoice-review-2.0.0",
+            "source_block_ids": [
+              "p0_b000015",
+              "p0_b000016"
+            ]
+          },
+          "block_ids": [
+            "p0_b000015"
+          ]
+        },
+        {
+          "line_id": "line-0001",
+          "field": "unit",
+          "before": {
+            "raw_text": null,
+            "predicted_value": null,
+            "normalized_value": null,
+            "normalization": null,
+            "value_status": "NOT_PRESENT",
+            "confidence": null,
+            "heuristic_score": 0.0,
+            "score_version": "invoice-heuristic-2.0.0",
+            "machine_needs_review": false,
+            "review_reasons": [],
+            "review_policy_version": "invoice-review-2.0.0",
+            "source_block_ids": []
+          },
+          "block_ids": [
+            "p0_b000016"
+          ]
+        },
+        {
+          "line_id": "line-0002",
+          "field": "description",
+          "before": {
+            "raw_text": "Bia h so",
+            "predicted_value": "Bia h so",
+            "normalized_value": "Bia h so",
+            "normalization": {
+              "rule": "identity_string",
+              "version": "normalization-v0.1"
+            },
+            "value_status": "PRESENT",
+            "confidence": null,
+            "heuristic_score": 0.95,
+            "score_version": "invoice-heuristic-2.0.0",
+            "machine_needs_review": true,
+            "review_reasons": [
+              "AMBIGUOUS_FORMAT"
+            ],
+            "review_policy_version": "invoice-review-2.0.0",
+            "source_block_ids": [
+              "p0_b000020"
+            ]
+          },
+          "block_ids": [
+            "p0_b000020"
+          ]
+        },
+        {
+          "line_id": "line-0003",
+          "field": "description",
+          "before": {
+            "raw_text": "Bia ho so",
+            "predicted_value": "Bia ho so",
+            "normalized_value": "Bia ho so",
+            "normalization": {
+              "rule": "identity_string",
+              "version": "normalization-v0.1"
+            },
+            "value_status": "PRESENT",
+            "confidence": null,
+            "heuristic_score": 0.95,
+            "score_version": "invoice-heuristic-2.0.0",
+            "machine_needs_review": true,
+            "review_reasons": [
+              "AMBIGUOUS_FORMAT"
+            ],
+            "review_policy_version": "invoice-review-2.0.0",
+            "source_block_ids": [
+              "p0_b000025"
+            ]
+          },
+          "block_ids": [
+            "p0_b000025"
+          ]
+        }
+      ],
+      "reads": {
+        "p0_b000015": {
+          "text": "Dịch vụ in tài liệu",
+          "confidence": 1
+        },
+        "p0_b000016": {
+          "text": "Lần",
+          "confidence": 1
+        },
+        "p0_b000020": {
+          "text": "Bìa hồ sơ",
+          "confidence": 1
+        },
+        "p0_b000025": {
+          "text": "Bìa hồ sơ",
+          "confidence": 1
+        }
+      }
+    }
+  },
+  "footer": {
+    "box": [
+      37,
+      493,
+      879,
+      1050
+    ],
+    "method": "summary cue",
+    "text": "Cng tièn hàng: 391.000\nTièn thué GTGT: 19.550\nTng thanh toán: 410.550\nTin t: VND\nDÛ' LIU GIĂ LP - KHÔNG CÓ GIÁ TR THANH TOÁN",
+    "lines": [
+      {
+        "text": "Cng tièn hàng: 391.000",
+        "score": 0.958354,
+        "poly": [
+          [
+            682.0,
+            504.0
+          ],
+          [
+            847.0,
+            504.0
+          ],
+          [
+            847.0,
+            522.0
+          ],
+          [
+            682.0,
+            522.0
+          ]
+        ]
+      },
+      {
+        "text": "Tièn thué GTGT: 19.550",
+        "score": 0.957352,
+        "poly": [
+          [
+            679.0,
+            527.0
+          ],
+          [
+            846.0,
+            528.0
+          ],
+          [
+            846.0,
+            548.0
+          ],
+          [
+            679.0,
+            547.0
+          ]
+        ]
+      },
+      {
+        "text": "Tng thanh toán: 410.550",
+        "score": 0.984411,
+        "poly": [
+          [
+            679.0,
+            551.0
+          ],
+          [
+            872.0,
+            552.0
+          ],
+          [
+            872.0,
+            574.0
+          ],
+          [
+            679.0,
+            573.0
+          ]
+        ]
+      },
+      {
+        "text": "Tin t: VND",
+        "score": 0.956077,
+        "poly": [
+          [
+            679.0,
+            579.0
+          ],
+          [
+            769.0,
+            579.0
+          ],
+          [
+            769.0,
+            601.0
+          ],
+          [
+            679.0,
+            601.0
+          ]
+        ]
+      },
+      {
+        "text": "DÛ' LIU GIĂ LP - KHÔNG CÓ GIÁ TR THANH TOÁN",
+        "score": 0.938952,
+        "poly": [
+          [
+            45.0,
+            647.0
+          ],
+          [
+            347.0,
+            647.0
+          ],
+          [
+            347.0,
+            661.0
+          ],
+          [
+            45.0,
+            661.0
+          ]
+        ]
+      }
+    ],
+    "row_geometry": [
+      20.0,
+      0.0
+    ],
+    "layout_input_shape": [
+      1050,
+      1263
+    ],
+    "layout_seconds": 13.536,
+    "footer_seconds": 3.391,
+    "payment": {
+      "status": "PRESENT",
+      "amount_vnd": 410550,
+      "source_rows": [
+        "Tng thanh toán: 410.550"
+      ],
+      "source": "PADDLE_FOOTER"
+    },
+    "recognizer": "PP-OCRv5_server_det + latin_PP-OCRv5_mobile_rec",
+    "coordinate_system": "pixels_on_footer_upright_png",
+    "orientation_clockwise": 0,
+    "display": {
+      "rows": [
+        {
+          "text": "Thuế suất GTGT: 5%",
+          "segments": [
+            {
+              "block_id": "p0_b000035",
+              "text": "Thuế suất GTGT: 5%",
+              "source": "apple-vision"
+            }
+          ]
+        },
+        {
+          "text": "Cộng tiền hàng: 391.000",
+          "segments": [
+            {
+              "block_id": "p0_b000036",
+              "text": "Cộng tiền hàng: 391.000",
+              "source": "apple-vision"
+            }
+          ]
+        },
+        {
+          "text": "Tiền thuế GTGT: 19.550",
+          "segments": [
+            {
+              "block_id": "p0_b000037",
+              "text": "Tiền thuế GTGT: 19.550",
+              "source": "apple-vision"
+            }
+          ]
+        },
+        {
+          "text": "Tổng thanh toán: 410.550",
+          "segments": [
+            {
+              "block_id": "p0_b000038",
+              "text": "Tổng thanh toán: 410.550",
+              "source": "apple-vision"
+            }
+          ]
+        },
+        {
+          "text": "Tiền tệ: VND",
+          "segments": [
+            {
+              "block_id": "p0_b000039",
+              "text": "Tiền tệ: VND",
+              "source": "apple-vision"
+            }
+          ]
+        },
+        {
+          "text": "DỮ LIỆU GIẢ LẬP - KHÔNG CÓ GIÁ TRỊ THANH TOÁN",
+          "segments": [
+            {
+              "block_id": "p0_b000040",
+              "text": "DỮ LIỆU GIẢ LẬP - KHÔNG CÓ GIÁ TRỊ THANH TOÁN",
+              "source": "apple-vision"
+            }
+          ]
+        }
+      ],
+      "reader_ocr_run_id": "fa6ae676-474a-41c5-b1d4-a119bc711fa0"
+    }
+  },
+  "table_region_check": {
+    "rows_with_evidence_outside_pp_table": [],
+    "policy": "diagnostic_only"
+  },
+  "elapsed_seconds": 35.387
+}

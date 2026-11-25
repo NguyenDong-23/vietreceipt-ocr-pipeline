@@ -1,0 +1,1428 @@
+[
+  {
+    "page": 0,
+    "block_id": "p0_b000000",
+    "polygon": [
+      {
+        "x": 0.058231,
+        "y": 0.022961
+      },
+      {
+        "x": 0.425532,
+        "y": 0.022961
+      },
+      {
+        "x": 0.425532,
+        "y": 0.041964
+      },
+      {
+        "x": 0.058231,
+        "y": 0.041964
+      }
+    ],
+    "paddle_text": "HOA DO'N GIA TRI GIA TANG",
+    "vietocr_text": "HÓA ĐƠN GIÁ TRỊ GIA TĂNG",
+    "paddle_confidence": 0.929033,
+    "vietocr_model_probability": 0.9576399214565754,
+    "different": true,
+    "review_required": true,
+    "decode_hit_length_limit": false,
+    "protected_value_disagreement": false,
+    "crop": null
+  },
+  {
+    "page": 0,
+    "block_id": "p0_b000001",
+    "polygon": [
+      {
+        "x": 0.055991,
+        "y": 0.072051
+      },
+      {
+        "x": 0.335946,
+        "y": 0.072051
+      },
+      {
+        "x": 0.335946,
+        "y": 0.083135
+      },
+      {
+        "x": 0.055991,
+        "y": 0.083135
+      }
+    ],
+    "paddle_text": "Don vi ban hang: CU'A HANG MAU SAO VIET",
+    "vietocr_text": "Đơn vị bán hàng: C.AAHHNG MÁU SAO VIỆT",
+    "paddle_confidence": 0.962942,
+    "vietocr_model_probability": 0.8793041088471287,
+    "different": true,
+    "review_required": true,
+    "decode_hit_length_limit": false,
+    "protected_value_disagreement": false,
+    "crop": null
+  },
+  {
+    "page": 0,
+    "block_id": "p0_b000002",
+    "polygon": [
+      {
+        "x": 0.566629,
+        "y": 0.070467
+      },
+      {
+        "x": 0.638298,
+        "y": 0.070467
+      },
+      {
+        "x": 0.638298,
+        "y": 0.083927
+      },
+      {
+        "x": 0.566629,
+        "y": 0.083927
+      }
+    ],
+    "paddle_text": "Mau sö: 1",
+    "vietocr_text": "Mẫu số: 1",
+    "paddle_confidence": 0.874809,
+    "vietocr_model_probability": 0.9204392300711738,
+    "different": true,
+    "review_required": true,
+    "decode_hit_length_limit": false,
+    "protected_value_disagreement": true,
+    "crop": null
+  },
+  {
+    "page": 0,
+    "block_id": "p0_b000003",
+    "polygon": [
+      {
+        "x": 0.055991,
+        "y": 0.091053
+      },
+      {
+        "x": 0.232923,
+        "y": 0.091053
+      },
+      {
+        "x": 0.232923,
+        "y": 0.10293
+      },
+      {
+        "x": 0.055991,
+        "y": 0.10293
+      }
+    ],
+    "paddle_text": "MST ngui ban: 0000000001",
+    "vietocr_text": "MST người bán: 0000000001",
+    "paddle_confidence": 0.966766,
+    "vietocr_model_probability": 0.9786869955062866,
+    "different": true,
+    "review_required": true,
+    "decode_hit_length_limit": false,
+    "protected_value_disagreement": true,
+    "crop": null
+  },
+  {
+    "page": 0,
+    "block_id": "p0_b000004",
+    "polygon": [
+      {
+        "x": 0.566629,
+        "y": 0.08947
+      },
+      {
+        "x": 0.68533,
+        "y": 0.087886
+      },
+      {
+        "x": 0.68533,
+        "y": 0.101346
+      },
+      {
+        "x": 0.567749,
+        "y": 0.103721
+      }
+    ],
+    "paddle_text": "Ky hi@u: C26T1A",
+    "vietocr_text": "Ký hiệu: C26T1A",
+    "paddle_confidence": 0.989547,
+    "vietocr_model_probability": 0.9819643497467041,
+    "different": true,
+    "review_required": true,
+    "decode_hit_length_limit": false,
+    "protected_value_disagreement": true,
+    "crop": null
+  },
+  {
+    "page": 0,
+    "block_id": "p0_b000005",
+    "polygon": [
+      {
+        "x": 0.055991,
+        "y": 0.110847
+      },
+      {
+        "x": 0.371781,
+        "y": 0.110847
+      },
+      {
+        "x": 0.371781,
+        "y": 0.121932
+      },
+      {
+        "x": 0.055991,
+        "y": 0.121932
+      }
+    ],
+    "paddle_text": "Dia chi ngui ban: 1 Dung Mau, Thanh phö Ha Ni",
+    "vietocr_text": "Địa chỉ người bán: 1 Đường Mẫu, Thành phố Hà Nội",
+    "paddle_confidence": 0.946572,
+    "vietocr_model_probability": 0.9536616280674934,
+    "different": true,
+    "review_required": true,
+    "decode_hit_length_limit": false,
+    "protected_value_disagreement": true,
+    "crop": null
+  },
+  {
+    "page": 0,
+    "block_id": "p0_b000006",
+    "polygon": [
+      {
+        "x": 0.568869,
+        "y": 0.110055
+      },
+      {
+        "x": 0.724524,
+        "y": 0.110055
+      },
+      {
+        "x": 0.724524,
+        "y": 0.12114
+      },
+      {
+        "x": 0.568869,
+        "y": 0.12114
+      }
+    ],
+    "paddle_text": "So hóa don: 00000001",
+    "vietocr_text": "Số hóa đơn: 00000001",
+    "paddle_confidence": 0.964335,
+    "vietocr_model_probability": 0.9886723309755325,
+    "different": true,
+    "review_required": true,
+    "decode_hit_length_limit": false,
+    "protected_value_disagreement": true,
+    "crop": null
+  },
+  {
+    "page": 0,
+    "block_id": "p0_b000007",
+    "polygon": [
+      {
+        "x": 0.053751,
+        "y": 0.128266
+      },
+      {
+        "x": 0.31467,
+        "y": 0.127474
+      },
+      {
+        "x": 0.31467,
+        "y": 0.140934
+      },
+      {
+        "x": 0.053751,
+        "y": 0.141726
+      }
+    ],
+    "paddle_text": "Ngui mua: KHACH HANG THU NGHIEM",
+    "vietocr_text": "Người mua: KHÁCH HÀNG THU NGHIỆM",
+    "paddle_confidence": 0.98501,
+    "vietocr_model_probability": 0.9362373847980052,
+    "different": true,
+    "review_required": true,
+    "decode_hit_length_limit": false,
+    "protected_value_disagreement": false,
+    "crop": null
+  },
+  {
+    "page": 0,
+    "block_id": "p0_b000008",
+    "polygon": [
+      {
+        "x": 0.567749,
+        "y": 0.129058
+      },
+      {
+        "x": 0.715566,
+        "y": 0.129058
+      },
+      {
+        "x": 0.715566,
+        "y": 0.140143
+      },
+      {
+        "x": 0.567749,
+        "y": 0.140143
+      }
+    ],
+    "paddle_text": "Ngay lap: 2026-01-01",
+    "vietocr_text": "Ngày lập: 2026-01-01",
+    "paddle_confidence": 0.955409,
+    "vietocr_model_probability": 0.9689959406852722,
+    "different": true,
+    "review_required": true,
+    "decode_hit_length_limit": false,
+    "protected_value_disagreement": true,
+    "crop": null
+  },
+  {
+    "page": 0,
+    "block_id": "p0_b000009",
+    "polygon": [
+      {
+        "x": 0.055991,
+        "y": 0.14806
+      },
+      {
+        "x": 0.237402,
+        "y": 0.14806
+      },
+      {
+        "x": 0.237402,
+        "y": 0.159145
+      },
+      {
+        "x": 0.055991,
+        "y": 0.159145
+      }
+    ],
+    "paddle_text": "MST ngui mua: 0000003001",
+    "vietocr_text": "MST người mua: 0000003001",
+    "paddle_confidence": 0.988823,
+    "vietocr_model_probability": 0.9821636390686035,
+    "different": true,
+    "review_required": true,
+    "decode_hit_length_limit": false,
+    "protected_value_disagreement": true,
+    "crop": null
+  },
+  {
+    "page": 0,
+    "block_id": "p0_b000010",
+    "polygon": [
+      {
+        "x": 0.054871,
+        "y": 0.220111
+      },
+      {
+        "x": 0.182531,
+        "y": 0.220111
+      },
+      {
+        "x": 0.182531,
+        "y": 0.234363
+      },
+      {
+        "x": 0.054871,
+        "y": 0.234363
+      }
+    ],
+    "paddle_text": "Tén hang / dich vu",
+    "vietocr_text": "Tên hàng / dịch vụ",
+    "paddle_confidence": 0.917905,
+    "vietocr_model_probability": 0.9475351158115599,
+    "different": true,
+    "review_required": true,
+    "decode_hit_length_limit": false,
+    "protected_value_disagreement": true,
+    "crop": null
+  },
+  {
+    "page": 0,
+    "block_id": "p0_b000011",
+    "polygon": [
+      {
+        "x": 0.461366,
+        "y": 0.219319
+      },
+      {
+        "x": 0.49832,
+        "y": 0.219319
+      },
+      {
+        "x": 0.49832,
+        "y": 0.235154
+      },
+      {
+        "x": 0.461366,
+        "y": 0.235154
+      }
+    ],
+    "paddle_text": "DVT",
+    "vietocr_text": "ĐVT",
+    "paddle_confidence": 0.975303,
+    "vietocr_model_probability": 0.9866135517756144,
+    "different": true,
+    "review_required": true,
+    "decode_hit_length_limit": false,
+    "protected_value_disagreement": false,
+    "crop": null
+  },
+  {
+    "page": 0,
+    "block_id": "p0_b000012",
+    "polygon": [
+      {
+        "x": 0.558791,
+        "y": 0.220111
+      },
+      {
+        "x": 0.582307,
+        "y": 0.220111
+      },
+      {
+        "x": 0.582307,
+        "y": 0.235154
+      },
+      {
+        "x": 0.558791,
+        "y": 0.235154
+      }
+    ],
+    "paddle_text": "SL",
+    "vietocr_text": "SL",
+    "paddle_confidence": 0.988116,
+    "vietocr_model_probability": 0.9803867042064667,
+    "different": false,
+    "review_required": false,
+    "decode_hit_length_limit": false,
+    "protected_value_disagreement": false,
+    "crop": null
+  },
+  {
+    "page": 0,
+    "block_id": "p0_b000013",
+    "polygon": [
+      {
+        "x": 0.647256,
+        "y": 0.220111
+      },
+      {
+        "x": 0.705487,
+        "y": 0.220111
+      },
+      {
+        "x": 0.705487,
+        "y": 0.235154
+      },
+      {
+        "x": 0.647256,
+        "y": 0.235154
+      }
+    ],
+    "paddle_text": "Don gia",
+    "vietocr_text": "Đơn giá",
+    "paddle_confidence": 0.928041,
+    "vietocr_model_probability": 0.9941497104508537,
+    "different": true,
+    "review_required": true,
+    "decode_hit_length_limit": false,
+    "protected_value_disagreement": false,
+    "crop": null
+  },
+  {
+    "page": 0,
+    "block_id": "p0_b000014",
+    "polygon": [
+      {
+        "x": 0.781635,
+        "y": 0.220111
+      },
+      {
+        "x": 0.855543,
+        "y": 0.220111
+      },
+      {
+        "x": 0.855543,
+        "y": 0.234363
+      },
+      {
+        "x": 0.781635,
+        "y": 0.234363
+      }
+    ],
+    "paddle_text": "Thanh tien",
+    "vietocr_text": "Thành tiền",
+    "paddle_confidence": 0.968295,
+    "vietocr_model_probability": 0.9939298033714294,
+    "different": true,
+    "review_required": true,
+    "decode_hit_length_limit": false,
+    "protected_value_disagreement": false,
+    "crop": null
+  },
+  {
+    "page": 0,
+    "block_id": "p0_b000015",
+    "polygon": [
+      {
+        "x": 0.054871,
+        "y": 0.248614
+      },
+      {
+        "x": 0.1243,
+        "y": 0.248614
+      },
+      {
+        "x": 0.1243,
+        "y": 0.262074
+      },
+      {
+        "x": 0.054871,
+        "y": 0.262074
+      }
+    ],
+    "paddle_text": "Bia ho so",
+    "vietocr_text": "Bìa hồ sơ",
+    "paddle_confidence": 0.893895,
+    "vietocr_model_probability": 0.9659871988826327,
+    "different": true,
+    "review_required": true,
+    "decode_hit_length_limit": false,
+    "protected_value_disagreement": false,
+    "crop": null
+  },
+  {
+    "page": 0,
+    "block_id": "p0_b000016",
+    "polygon": [
+      {
+        "x": 0.462486,
+        "y": 0.247823
+      },
+      {
+        "x": 0.491601,
+        "y": 0.247823
+      },
+      {
+        "x": 0.491601,
+        "y": 0.263658
+      },
+      {
+        "x": 0.462486,
+        "y": 0.263658
+      }
+    ],
+    "paddle_text": "Cai",
+    "vietocr_text": "Cái",
+    "paddle_confidence": 0.892115,
+    "vietocr_model_probability": 0.9942310055096945,
+    "different": true,
+    "review_required": true,
+    "decode_hit_length_limit": false,
+    "protected_value_disagreement": false,
+    "crop": null
+  },
+  {
+    "page": 0,
+    "block_id": "p0_b000017",
+    "polygon": [
+      {
+        "x": 0.558791,
+        "y": 0.248614
+      },
+      {
+        "x": 0.572228,
+        "y": 0.248614
+      },
+      {
+        "x": 0.572228,
+        "y": 0.262866
+      },
+      {
+        "x": 0.558791,
+        "y": 0.262866
+      }
+    ],
+    "paddle_text": "6",
+    "vietocr_text": "6",
+    "paddle_confidence": 0.665406,
+    "vietocr_model_probability": 0.9814344644546509,
+    "different": false,
+    "review_required": false,
+    "decode_hit_length_limit": false,
+    "protected_value_disagreement": false,
+    "crop": null
+  },
+  {
+    "page": 0,
+    "block_id": "p0_b000018",
+    "polygon": [
+      {
+        "x": 0.647256,
+        "y": 0.247823
+      },
+      {
+        "x": 0.690929,
+        "y": 0.247823
+      },
+      {
+        "x": 0.690929,
+        "y": 0.262866
+      },
+      {
+        "x": 0.647256,
+        "y": 0.262866
+      }
+    ],
+    "paddle_text": "7.000",
+    "vietocr_text": "7.000",
+    "paddle_confidence": 0.999859,
+    "vietocr_model_probability": 0.9896486401557922,
+    "different": false,
+    "review_required": false,
+    "decode_hit_length_limit": false,
+    "protected_value_disagreement": false,
+    "crop": null
+  },
+  {
+    "page": 0,
+    "block_id": "p0_b000019",
+    "polygon": [
+      {
+        "x": 0.780515,
+        "y": 0.248614
+      },
+      {
+        "x": 0.833147,
+        "y": 0.248614
+      },
+      {
+        "x": 0.833147,
+        "y": 0.262866
+      },
+      {
+        "x": 0.780515,
+        "y": 0.262866
+      }
+    ],
+    "paddle_text": "42.000",
+    "vietocr_text": "42.000",
+    "paddle_confidence": 0.999818,
+    "vietocr_model_probability": 0.9951624472935995,
+    "different": false,
+    "review_required": false,
+    "decode_hit_length_limit": false,
+    "protected_value_disagreement": false,
+    "crop": null
+  },
+  {
+    "page": 0,
+    "block_id": "p0_b000020",
+    "polygon": [
+      {
+        "x": 0.054871,
+        "y": 0.277118
+      },
+      {
+        "x": 0.135498,
+        "y": 0.277118
+      },
+      {
+        "x": 0.135498,
+        "y": 0.290578
+      },
+      {
+        "x": 0.054871,
+        "y": 0.290578
+      }
+    ],
+    "paddle_text": "Büt bi xanh",
+    "vietocr_text": "Bút bi xanh",
+    "paddle_confidence": 0.977103,
+    "vietocr_model_probability": 0.9477041417902167,
+    "different": true,
+    "review_required": true,
+    "decode_hit_length_limit": false,
+    "protected_value_disagreement": false,
+    "crop": null
+  },
+  {
+    "page": 0,
+    "block_id": "p0_b000021",
+    "polygon": [
+      {
+        "x": 0.462486,
+        "y": 0.277118
+      },
+      {
+        "x": 0.496081,
+        "y": 0.277118
+      },
+      {
+        "x": 0.496081,
+        "y": 0.292953
+      },
+      {
+        "x": 0.462486,
+        "y": 0.292953
+      }
+    ],
+    "paddle_text": "Cay",
+    "vietocr_text": "Cây",
+    "paddle_confidence": 0.897399,
+    "vietocr_model_probability": 0.9523124297459921,
+    "different": true,
+    "review_required": true,
+    "decode_hit_length_limit": false,
+    "protected_value_disagreement": false,
+    "crop": null
+  },
+  {
+    "page": 0,
+    "block_id": "p0_b000022",
+    "polygon": [
+      {
+        "x": 0.557671,
+        "y": 0.277118
+      },
+      {
+        "x": 0.572228,
+        "y": 0.277118
+      },
+      {
+        "x": 0.572228,
+        "y": 0.29137
+      },
+      {
+        "x": 0.557671,
+        "y": 0.29137
+      }
+    ],
+    "paddle_text": "4",
+    "vietocr_text": "4",
+    "paddle_confidence": 0.999563,
+    "vietocr_model_probability": 0.978473961353302,
+    "different": false,
+    "review_required": false,
+    "decode_hit_length_limit": false,
+    "protected_value_disagreement": false,
+    "crop": null
+  },
+  {
+    "page": 0,
+    "block_id": "p0_b000023",
+    "polygon": [
+      {
+        "x": 0.647256,
+        "y": 0.277118
+      },
+      {
+        "x": 0.690929,
+        "y": 0.277118
+      },
+      {
+        "x": 0.690929,
+        "y": 0.29137
+      },
+      {
+        "x": 0.647256,
+        "y": 0.29137
+      }
+    ],
+    "paddle_text": "5.000",
+    "vietocr_text": "5.000",
+    "paddle_confidence": 0.999782,
+    "vietocr_model_probability": 0.9941688895225524,
+    "different": false,
+    "review_required": false,
+    "decode_hit_length_limit": false,
+    "protected_value_disagreement": false,
+    "crop": null
+  },
+  {
+    "page": 0,
+    "block_id": "p0_b000024",
+    "polygon": [
+      {
+        "x": 0.780515,
+        "y": 0.277118
+      },
+      {
+        "x": 0.833147,
+        "y": 0.277118
+      },
+      {
+        "x": 0.833147,
+        "y": 0.29137
+      },
+      {
+        "x": 0.780515,
+        "y": 0.29137
+      }
+    ],
+    "paddle_text": "20.000",
+    "vietocr_text": "20.000",
+    "paddle_confidence": 0.999354,
+    "vietocr_model_probability": 0.9957027037938436,
+    "different": false,
+    "review_required": false,
+    "decode_hit_length_limit": false,
+    "protected_value_disagreement": false,
+    "crop": null
+  },
+  {
+    "page": 0,
+    "block_id": "p0_b000025",
+    "polygon": [
+      {
+        "x": 0.054871,
+        "y": 0.306413
+      },
+      {
+        "x": 0.135498,
+        "y": 0.306413
+      },
+      {
+        "x": 0.135498,
+        "y": 0.319873
+      },
+      {
+        "x": 0.054871,
+        "y": 0.319873
+      }
+    ],
+    "paddle_text": "Büt bi xanh",
+    "vietocr_text": "Bút bi xanh",
+    "paddle_confidence": 0.952742,
+    "vietocr_model_probability": 0.9675500555471941,
+    "different": true,
+    "review_required": true,
+    "decode_hit_length_limit": false,
+    "protected_value_disagreement": false,
+    "crop": null
+  },
+  {
+    "page": 0,
+    "block_id": "p0_b000026",
+    "polygon": [
+      {
+        "x": 0.462486,
+        "y": 0.303246
+      },
+      {
+        "x": 0.494961,
+        "y": 0.305622
+      },
+      {
+        "x": 0.492721,
+        "y": 0.322249
+      },
+      {
+        "x": 0.460246,
+        "y": 0.320665
+      }
+    ],
+    "paddle_text": "Cay",
+    "vietocr_text": "Cây",
+    "paddle_confidence": 0.965744,
+    "vietocr_model_probability": 0.943382461865743,
+    "different": true,
+    "review_required": true,
+    "decode_hit_length_limit": false,
+    "protected_value_disagreement": false,
+    "crop": null
+  },
+  {
+    "page": 0,
+    "block_id": "p0_b000027",
+    "polygon": [
+      {
+        "x": 0.558791,
+        "y": 0.306413
+      },
+      {
+        "x": 0.572228,
+        "y": 0.306413
+      },
+      {
+        "x": 0.572228,
+        "y": 0.320665
+      },
+      {
+        "x": 0.558791,
+        "y": 0.320665
+      }
+    ],
+    "paddle_text": "5",
+    "vietocr_text": "5",
+    "paddle_confidence": 0.752455,
+    "vietocr_model_probability": 0.9880779385566711,
+    "different": false,
+    "review_required": false,
+    "decode_hit_length_limit": false,
+    "protected_value_disagreement": false,
+    "crop": null
+  },
+  {
+    "page": 0,
+    "block_id": "p0_b000028",
+    "polygon": [
+      {
+        "x": 0.647256,
+        "y": 0.305622
+      },
+      {
+        "x": 0.690929,
+        "y": 0.305622
+      },
+      {
+        "x": 0.690929,
+        "y": 0.320665
+      },
+      {
+        "x": 0.647256,
+        "y": 0.320665
+      }
+    ],
+    "paddle_text": "5.000",
+    "vietocr_text": "5.000",
+    "paddle_confidence": 0.998914,
+    "vietocr_model_probability": 0.9943210244178772,
+    "different": false,
+    "review_required": false,
+    "decode_hit_length_limit": false,
+    "protected_value_disagreement": false,
+    "crop": null
+  },
+  {
+    "page": 0,
+    "block_id": "p0_b000029",
+    "polygon": [
+      {
+        "x": 0.780515,
+        "y": 0.306413
+      },
+      {
+        "x": 0.833147,
+        "y": 0.306413
+      },
+      {
+        "x": 0.833147,
+        "y": 0.320665
+      },
+      {
+        "x": 0.780515,
+        "y": 0.320665
+      }
+    ],
+    "paddle_text": "25.000",
+    "vietocr_text": "25.000",
+    "paddle_confidence": 0.999889,
+    "vietocr_model_probability": 0.9963779548803965,
+    "different": false,
+    "review_required": false,
+    "decode_hit_length_limit": false,
+    "protected_value_disagreement": false,
+    "crop": null
+  },
+  {
+    "page": 0,
+    "block_id": "p0_b000030",
+    "polygon": [
+      {
+        "x": 0.053751,
+        "y": 0.333333
+      },
+      {
+        "x": 0.176932,
+        "y": 0.334917
+      },
+      {
+        "x": 0.175812,
+        "y": 0.348377
+      },
+      {
+        "x": 0.053751,
+        "y": 0.346793
+      }
+    ],
+    "paddle_text": "sö tay van phöng",
+    "vietocr_text": "Số tay văn phòng",
+    "paddle_confidence": 0.917623,
+    "vietocr_model_probability": 0.9736510179936886,
+    "different": true,
+    "review_required": true,
+    "decode_hit_length_limit": false,
+    "protected_value_disagreement": false,
+    "crop": null
+  },
+  {
+    "page": 0,
+    "block_id": "p0_b000031",
+    "polygon": [
+      {
+        "x": 0.462486,
+        "y": 0.333333
+      },
+      {
+        "x": 0.510638,
+        "y": 0.333333
+      },
+      {
+        "x": 0.510638,
+        "y": 0.348377
+      },
+      {
+        "x": 0.462486,
+        "y": 0.348377
+      }
+    ],
+    "paddle_text": "Quyén",
+    "vietocr_text": "Quyển",
+    "paddle_confidence": 0.939678,
+    "vietocr_model_probability": 0.9099695920944214,
+    "different": true,
+    "review_required": true,
+    "decode_hit_length_limit": false,
+    "protected_value_disagreement": false,
+    "crop": null
+  },
+  {
+    "page": 0,
+    "block_id": "p0_b000032",
+    "polygon": [
+      {
+        "x": 0.557671,
+        "y": 0.334917
+      },
+      {
+        "x": 0.572228,
+        "y": 0.334917
+      },
+      {
+        "x": 0.572228,
+        "y": 0.349169
+      },
+      {
+        "x": 0.557671,
+        "y": 0.349169
+      }
+    ],
+    "paddle_text": "4",
+    "vietocr_text": "4",
+    "paddle_confidence": 0.999505,
+    "vietocr_model_probability": 0.9760265946388245,
+    "different": false,
+    "review_required": false,
+    "decode_hit_length_limit": false,
+    "protected_value_disagreement": false,
+    "crop": null
+  },
+  {
+    "page": 0,
+    "block_id": "p0_b000033",
+    "polygon": [
+      {
+        "x": 0.647256,
+        "y": 0.334125
+      },
+      {
+        "x": 0.699888,
+        "y": 0.334125
+      },
+      {
+        "x": 0.699888,
+        "y": 0.348377
+      },
+      {
+        "x": 0.647256,
+        "y": 0.348377
+      }
+    ],
+    "paddle_text": "18.000",
+    "vietocr_text": "18.000",
+    "paddle_confidence": 0.999872,
+    "vietocr_model_probability": 0.9948136309782664,
+    "different": false,
+    "review_required": false,
+    "decode_hit_length_limit": false,
+    "protected_value_disagreement": false,
+    "crop": null
+  },
+  {
+    "page": 0,
+    "block_id": "p0_b000034",
+    "polygon": [
+      {
+        "x": 0.780515,
+        "y": 0.334125
+      },
+      {
+        "x": 0.833147,
+        "y": 0.334125
+      },
+      {
+        "x": 0.833147,
+        "y": 0.348377
+      },
+      {
+        "x": 0.780515,
+        "y": 0.348377
+      }
+    ],
+    "paddle_text": "72.000",
+    "vietocr_text": "72.000",
+    "paddle_confidence": 0.999914,
+    "vietocr_model_probability": 0.9915060500303904,
+    "different": false,
+    "review_required": false,
+    "decode_hit_length_limit": false,
+    "protected_value_disagreement": false,
+    "crop": null
+  },
+  {
+    "page": 0,
+    "block_id": "p0_b000035",
+    "polygon": [
+      {
+        "x": 0.053751,
+        "y": 0.362629
+      },
+      {
+        "x": 0.137738,
+        "y": 0.362629
+      },
+      {
+        "x": 0.137738,
+        "y": 0.37688
+      },
+      {
+        "x": 0.053751,
+        "y": 0.37688
+      }
+    ],
+    "paddle_text": "Mc may in",
+    "vietocr_text": "Mực máy in",
+    "paddle_confidence": 0.968141,
+    "vietocr_model_probability": 0.9308361560106277,
+    "different": true,
+    "review_required": true,
+    "decode_hit_length_limit": false,
+    "protected_value_disagreement": false,
+    "crop": null
+  },
+  {
+    "page": 0,
+    "block_id": "p0_b000036",
+    "polygon": [
+      {
+        "x": 0.460246,
+        "y": 0.360253
+      },
+      {
+        "x": 0.496081,
+        "y": 0.362629
+      },
+      {
+        "x": 0.493841,
+        "y": 0.379256
+      },
+      {
+        "x": 0.458007,
+        "y": 0.37688
+      }
+    ],
+    "paddle_text": "Hop",
+    "vietocr_text": "Hộp",
+    "paddle_confidence": 0.845454,
+    "vietocr_model_probability": 0.8964961369832357,
+    "different": true,
+    "review_required": true,
+    "decode_hit_length_limit": false,
+    "protected_value_disagreement": false,
+    "crop": null
+  },
+  {
+    "page": 0,
+    "block_id": "p0_b000037",
+    "polygon": [
+      {
+        "x": 0.558791,
+        "y": 0.361837
+      },
+      {
+        "x": 0.572228,
+        "y": 0.361837
+      },
+      {
+        "x": 0.572228,
+        "y": 0.378464
+      },
+      {
+        "x": 0.558791,
+        "y": 0.378464
+      }
+    ],
+    "paddle_text": "5",
+    "vietocr_text": "5",
+    "paddle_confidence": 0.747972,
+    "vietocr_model_probability": 0.9227083325386047,
+    "different": false,
+    "review_required": false,
+    "decode_hit_length_limit": false,
+    "protected_value_disagreement": false,
+    "crop": null
+  },
+  {
+    "page": 0,
+    "block_id": "p0_b000038",
+    "polygon": [
+      {
+        "x": 0.648376,
+        "y": 0.361837
+      },
+      {
+        "x": 0.707727,
+        "y": 0.361837
+      },
+      {
+        "x": 0.707727,
+        "y": 0.37688
+      },
+      {
+        "x": 0.648376,
+        "y": 0.37688
+      }
+    ],
+    "paddle_text": "145.000",
+    "vietocr_text": "145.000",
+    "paddle_confidence": 0.999976,
+    "vietocr_model_probability": 0.9940118278775897,
+    "different": false,
+    "review_required": false,
+    "decode_hit_length_limit": false,
+    "protected_value_disagreement": false,
+    "crop": null
+  },
+  {
+    "page": 0,
+    "block_id": "p0_b000039",
+    "polygon": [
+      {
+        "x": 0.781635,
+        "y": 0.361837
+      },
+      {
+        "x": 0.839866,
+        "y": 0.361837
+      },
+      {
+        "x": 0.839866,
+        "y": 0.37688
+      },
+      {
+        "x": 0.781635,
+        "y": 0.37688
+      }
+    ],
+    "paddle_text": "725.000",
+    "vietocr_text": "725.000",
+    "paddle_confidence": 0.999967,
+    "vietocr_model_probability": 0.9920089329992022,
+    "different": false,
+    "review_required": false,
+    "decode_hit_length_limit": false,
+    "protected_value_disagreement": false,
+    "crop": null
+  },
+  {
+    "page": 0,
+    "block_id": "p0_b000040",
+    "polygon": [
+      {
+        "x": 0.057111,
+        "y": 0.411718
+      },
+      {
+        "x": 0.217245,
+        "y": 0.411718
+      },
+      {
+        "x": 0.217245,
+        "y": 0.425178
+      },
+      {
+        "x": 0.057111,
+        "y": 0.425178
+      }
+    ],
+    "paddle_text": "Thué suät GTGT: 0%",
+    "vietocr_text": "Thuế suất GTGT: 0%",
+    "paddle_confidence": 0.92056,
+    "vietocr_model_probability": 0.9389197379350662,
+    "different": true,
+    "review_required": true,
+    "decode_hit_length_limit": false,
+    "protected_value_disagreement": true,
+    "crop": null
+  },
+  {
+    "page": 0,
+    "block_id": "p0_b000041",
+    "polygon": [
+      {
+        "x": 0.539754,
+        "y": 0.430721
+      },
+      {
+        "x": 0.724524,
+        "y": 0.430721
+      },
+      {
+        "x": 0.724524,
+        "y": 0.444972
+      },
+      {
+        "x": 0.539754,
+        "y": 0.444972
+      }
+    ],
+    "paddle_text": "Cöng tien hang: 884.000",
+    "vietocr_text": "Cộng tiền hàng: 884.000",
+    "paddle_confidence": 0.91535,
+    "vietocr_model_probability": 0.9868460116179093,
+    "different": true,
+    "review_required": true,
+    "decode_hit_length_limit": false,
+    "protected_value_disagreement": true,
+    "crop": null
+  },
+  {
+    "page": 0,
+    "block_id": "p0_b000042",
+    "polygon": [
+      {
+        "x": 0.538634,
+        "y": 0.450515
+      },
+      {
+        "x": 0.680851,
+        "y": 0.450515
+      },
+      {
+        "x": 0.680851,
+        "y": 0.463975
+      },
+      {
+        "x": 0.538634,
+        "y": 0.463975
+      }
+    ],
+    "paddle_text": "Tien thué GTGT: 0",
+    "vietocr_text": "Tiền thuể GTGT: 0",
+    "paddle_confidence": 0.955427,
+    "vietocr_model_probability": 0.9584922930773567,
+    "different": true,
+    "review_required": true,
+    "decode_hit_length_limit": false,
+    "protected_value_disagreement": true,
+    "crop": null
+  },
+  {
+    "page": 0,
+    "block_id": "p0_b000043",
+    "polygon": [
+      {
+        "x": 0.537514,
+        "y": 0.467933
+      },
+      {
+        "x": 0.7514,
+        "y": 0.467933
+      },
+      {
+        "x": 0.7514,
+        "y": 0.481394
+      },
+      {
+        "x": 0.537514,
+        "y": 0.481394
+      }
+    ],
+    "paddle_text": "Töng thanh toän: 884.000",
+    "vietocr_text": "Tổng thanh toán: 884.000",
+    "paddle_confidence": 0.951379,
+    "vietocr_model_probability": 0.9888472656408945,
+    "different": true,
+    "review_required": true,
+    "decode_hit_length_limit": false,
+    "protected_value_disagreement": true,
+    "crop": null
+  },
+  {
+    "page": 0,
+    "block_id": "p0_b000044",
+    "polygon": [
+      {
+        "x": 0.538634,
+        "y": 0.487728
+      },
+      {
+        "x": 0.636058,
+        "y": 0.487728
+      },
+      {
+        "x": 0.636058,
+        "y": 0.501979
+      },
+      {
+        "x": 0.538634,
+        "y": 0.501979
+      }
+    ],
+    "paddle_text": "Tien te: VND",
+    "vietocr_text": "Tiền tệ: VND",
+    "paddle_confidence": 0.909708,
+    "vietocr_model_probability": 0.9784934918085734,
+    "different": true,
+    "review_required": true,
+    "decode_hit_length_limit": false,
+    "protected_value_disagreement": false,
+    "crop": null
+  },
+  {
+    "page": 0,
+    "block_id": "p0_b000045",
+    "polygon": [
+      {
+        "x": 0.057111,
+        "y": 0.539192
+      },
+      {
+        "x": 0.396417,
+        "y": 0.539192
+      },
+      {
+        "x": 0.396417,
+        "y": 0.549485
+      },
+      {
+        "x": 0.057111,
+        "y": 0.549485
+      }
+    ],
+    "paddle_text": "DO LIEU GIA LAP - KHONG CO GIA TRI THANH TOAN",
+    "vietocr_text": "TH DỮ LIỆU GIẢ LẬP - KHÔNG CÓ GIÁ TRỊ THANH TOÁN",
+    "paddle_confidence": 0.963402,
+    "vietocr_model_probability": 0.8985807461043199,
+    "different": true,
+    "review_required": true,
+    "decode_hit_length_limit": false,
+    "protected_value_disagreement": false,
+    "crop": null
+  }
+]

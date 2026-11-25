@@ -1,0 +1,730 @@
+{
+  "schema_version": "reader-layout-links-0.1",
+  "source_sha256": "cb23a12d8cb9aafadb00216a0f4ae031d3b64ef1511cde857b67afa88d77e7f3",
+  "receipt_id": "2512b889-0022-47b1-877f-797b532b1ddd",
+  "ocr_run_id": "d19f79b7-27a0-45ab-a6cf-8c277a3bf34e",
+  "page_count": 1,
+  "coordinate_frame": "EXIF-normalized source pixels",
+  "policy": "retain all regions covering at least half the OCR block area",
+  "blocks": [
+    {
+      "page_index": 0,
+      "block_id": "p0_b000000",
+      "status": "ASSIGNED",
+      "matches": [
+        {
+          "region_id": "region-1",
+          "label": "header",
+          "block_area_fraction": 1.0
+        }
+      ],
+      "overlaps": [
+        {
+          "region_id": "region-1",
+          "label": "header",
+          "block_area_fraction": 1.0
+        }
+      ],
+      "boundary_review_required": false,
+      "text_review_status": "NOT_EVALUATED"
+    },
+    {
+      "page_index": 0,
+      "block_id": "p0_b000001",
+      "status": "ASSIGNED",
+      "matches": [
+        {
+          "region_id": "region-1",
+          "label": "header",
+          "block_area_fraction": 1.0
+        }
+      ],
+      "overlaps": [
+        {
+          "region_id": "region-1",
+          "label": "header",
+          "block_area_fraction": 1.0
+        }
+      ],
+      "boundary_review_required": false,
+      "text_review_status": "NOT_EVALUATED"
+    },
+    {
+      "page_index": 0,
+      "block_id": "p0_b000002",
+      "status": "ASSIGNED",
+      "matches": [
+        {
+          "region_id": "region-1",
+          "label": "header",
+          "block_area_fraction": 0.9999999421603857
+        }
+      ],
+      "overlaps": [
+        {
+          "region_id": "region-1",
+          "label": "header",
+          "block_area_fraction": 0.9999999421603857
+        }
+      ],
+      "boundary_review_required": false,
+      "text_review_status": "NOT_EVALUATED"
+    },
+    {
+      "page_index": 0,
+      "block_id": "p0_b000003",
+      "status": "ASSIGNED",
+      "matches": [
+        {
+          "region_id": "region-1",
+          "label": "header",
+          "block_area_fraction": 0.9999999873480687
+        }
+      ],
+      "overlaps": [
+        {
+          "region_id": "region-1",
+          "label": "header",
+          "block_area_fraction": 0.9999999873480687
+        }
+      ],
+      "boundary_review_required": false,
+      "text_review_status": "NOT_EVALUATED"
+    },
+    {
+      "page_index": 0,
+      "block_id": "p0_b000004",
+      "status": "ASSIGNED",
+      "matches": [
+        {
+          "region_id": "region-1",
+          "label": "header",
+          "block_area_fraction": 1.0
+        }
+      ],
+      "overlaps": [
+        {
+          "region_id": "region-1",
+          "label": "header",
+          "block_area_fraction": 1.0
+        }
+      ],
+      "boundary_review_required": false,
+      "text_review_status": "NOT_EVALUATED"
+    },
+    {
+      "page_index": 0,
+      "block_id": "p0_b000005",
+      "status": "ASSIGNED",
+      "matches": [
+        {
+          "region_id": "region-1",
+          "label": "header",
+          "block_area_fraction": 1.0
+        }
+      ],
+      "overlaps": [
+        {
+          "region_id": "region-1",
+          "label": "header",
+          "block_area_fraction": 1.0
+        }
+      ],
+      "boundary_review_required": false,
+      "text_review_status": "NOT_EVALUATED"
+    },
+    {
+      "page_index": 0,
+      "block_id": "p0_b000006",
+      "status": "ASSIGNED",
+      "matches": [
+        {
+          "region_id": "region-1",
+          "label": "header",
+          "block_area_fraction": 0.9999999902117366
+        }
+      ],
+      "overlaps": [
+        {
+          "region_id": "region-1",
+          "label": "header",
+          "block_area_fraction": 0.9999999902117366
+        }
+      ],
+      "boundary_review_required": false,
+      "text_review_status": "NOT_EVALUATED"
+    },
+    {
+      "page_index": 0,
+      "block_id": "p0_b000007",
+      "status": "ASSIGNED",
+      "matches": [
+        {
+          "region_id": "region-1",
+          "label": "header",
+          "block_area_fraction": 0.9999999718018415
+        }
+      ],
+      "overlaps": [
+        {
+          "region_id": "region-1",
+          "label": "header",
+          "block_area_fraction": 0.9999999718018415
+        }
+      ],
+      "boundary_review_required": false,
+      "text_review_status": "NOT_EVALUATED"
+    },
+    {
+      "page_index": 0,
+      "block_id": "p0_b000008",
+      "status": "ASSIGNED",
+      "matches": [
+        {
+          "region_id": "region-2",
+          "label": "table",
+          "block_area_fraction": 1.0
+        }
+      ],
+      "overlaps": [
+        {
+          "region_id": "region-2",
+          "label": "table",
+          "block_area_fraction": 1.0
+        }
+      ],
+      "boundary_review_required": false,
+      "text_review_status": "NOT_EVALUATED"
+    },
+    {
+      "page_index": 0,
+      "block_id": "p0_b000009",
+      "status": "ASSIGNED",
+      "matches": [
+        {
+          "region_id": "region-2",
+          "label": "table",
+          "block_area_fraction": 1.0
+        }
+      ],
+      "overlaps": [
+        {
+          "region_id": "region-2",
+          "label": "table",
+          "block_area_fraction": 1.0
+        }
+      ],
+      "boundary_review_required": false,
+      "text_review_status": "NOT_EVALUATED"
+    },
+    {
+      "page_index": 0,
+      "block_id": "p0_b000010",
+      "status": "ASSIGNED",
+      "matches": [
+        {
+          "region_id": "region-2",
+          "label": "table",
+          "block_area_fraction": 1.0
+        }
+      ],
+      "overlaps": [
+        {
+          "region_id": "region-2",
+          "label": "table",
+          "block_area_fraction": 1.0
+        }
+      ],
+      "boundary_review_required": false,
+      "text_review_status": "NOT_EVALUATED"
+    },
+    {
+      "page_index": 0,
+      "block_id": "p0_b000011",
+      "status": "ASSIGNED",
+      "matches": [
+        {
+          "region_id": "region-2",
+          "label": "table",
+          "block_area_fraction": 0.9999999495765024
+        }
+      ],
+      "overlaps": [
+        {
+          "region_id": "region-2",
+          "label": "table",
+          "block_area_fraction": 0.9999999495765024
+        }
+      ],
+      "boundary_review_required": false,
+      "text_review_status": "NOT_EVALUATED"
+    },
+    {
+      "page_index": 0,
+      "block_id": "p0_b000012",
+      "status": "ASSIGNED",
+      "matches": [
+        {
+          "region_id": "region-2",
+          "label": "table",
+          "block_area_fraction": 1.0
+        }
+      ],
+      "overlaps": [
+        {
+          "region_id": "region-2",
+          "label": "table",
+          "block_area_fraction": 1.0
+        }
+      ],
+      "boundary_review_required": false,
+      "text_review_status": "NOT_EVALUATED"
+    },
+    {
+      "page_index": 0,
+      "block_id": "p0_b000013",
+      "status": "ASSIGNED",
+      "matches": [
+        {
+          "region_id": "region-2",
+          "label": "table",
+          "block_area_fraction": 0.9999999514593891
+        }
+      ],
+      "overlaps": [
+        {
+          "region_id": "region-2",
+          "label": "table",
+          "block_area_fraction": 0.9999999514593891
+        }
+      ],
+      "boundary_review_required": false,
+      "text_review_status": "NOT_EVALUATED"
+    },
+    {
+      "page_index": 0,
+      "block_id": "p0_b000014",
+      "status": "ASSIGNED",
+      "matches": [
+        {
+          "region_id": "region-2",
+          "label": "table",
+          "block_area_fraction": 0.9999999999864534
+        }
+      ],
+      "overlaps": [
+        {
+          "region_id": "region-2",
+          "label": "table",
+          "block_area_fraction": 0.9999999999864534
+        }
+      ],
+      "boundary_review_required": false,
+      "text_review_status": "NOT_EVALUATED"
+    },
+    {
+      "page_index": 0,
+      "block_id": "p0_b000015",
+      "status": "ASSIGNED",
+      "matches": [
+        {
+          "region_id": "region-2",
+          "label": "table",
+          "block_area_fraction": 1.0
+        }
+      ],
+      "overlaps": [
+        {
+          "region_id": "region-2",
+          "label": "table",
+          "block_area_fraction": 1.0
+        }
+      ],
+      "boundary_review_required": false,
+      "text_review_status": "NOT_EVALUATED"
+    },
+    {
+      "page_index": 0,
+      "block_id": "p0_b000016",
+      "status": "ASSIGNED",
+      "matches": [
+        {
+          "region_id": "region-2",
+          "label": "table",
+          "block_area_fraction": 0.999999999904753
+        }
+      ],
+      "overlaps": [
+        {
+          "region_id": "region-2",
+          "label": "table",
+          "block_area_fraction": 0.999999999904753
+        }
+      ],
+      "boundary_review_required": false,
+      "text_review_status": "NOT_EVALUATED"
+    },
+    {
+      "page_index": 0,
+      "block_id": "p0_b000017",
+      "status": "ASSIGNED",
+      "matches": [
+        {
+          "region_id": "region-2",
+          "label": "table",
+          "block_area_fraction": 1.0
+        }
+      ],
+      "overlaps": [
+        {
+          "region_id": "region-2",
+          "label": "table",
+          "block_area_fraction": 1.0
+        }
+      ],
+      "boundary_review_required": false,
+      "text_review_status": "NOT_EVALUATED"
+    },
+    {
+      "page_index": 0,
+      "block_id": "p0_b000018",
+      "status": "ASSIGNED",
+      "matches": [
+        {
+          "region_id": "region-2",
+          "label": "table",
+          "block_area_fraction": 1.0
+        }
+      ],
+      "overlaps": [
+        {
+          "region_id": "region-2",
+          "label": "table",
+          "block_area_fraction": 1.0
+        }
+      ],
+      "boundary_review_required": false,
+      "text_review_status": "NOT_EVALUATED"
+    },
+    {
+      "page_index": 0,
+      "block_id": "p0_b000019",
+      "status": "ASSIGNED",
+      "matches": [
+        {
+          "region_id": "region-2",
+          "label": "table",
+          "block_area_fraction": 1.0
+        }
+      ],
+      "overlaps": [
+        {
+          "region_id": "region-2",
+          "label": "table",
+          "block_area_fraction": 1.0
+        }
+      ],
+      "boundary_review_required": false,
+      "text_review_status": "NOT_EVALUATED"
+    },
+    {
+      "page_index": 0,
+      "block_id": "p0_b000020",
+      "status": "ASSIGNED",
+      "matches": [
+        {
+          "region_id": "region-2",
+          "label": "table",
+          "block_area_fraction": 0.9999999999441198
+        }
+      ],
+      "overlaps": [
+        {
+          "region_id": "region-2",
+          "label": "table",
+          "block_area_fraction": 0.9999999999441198
+        }
+      ],
+      "boundary_review_required": false,
+      "text_review_status": "NOT_EVALUATED"
+    },
+    {
+      "page_index": 0,
+      "block_id": "p0_b000021",
+      "status": "ASSIGNED",
+      "matches": [
+        {
+          "region_id": "region-2",
+          "label": "table",
+          "block_area_fraction": 0.9999999998888787
+        }
+      ],
+      "overlaps": [
+        {
+          "region_id": "region-2",
+          "label": "table",
+          "block_area_fraction": 0.9999999998888787
+        }
+      ],
+      "boundary_review_required": false,
+      "text_review_status": "NOT_EVALUATED"
+    },
+    {
+      "page_index": 0,
+      "block_id": "p0_b000022",
+      "status": "ASSIGNED",
+      "matches": [
+        {
+          "region_id": "region-2",
+          "label": "table",
+          "block_area_fraction": 1.0
+        }
+      ],
+      "overlaps": [
+        {
+          "region_id": "region-2",
+          "label": "table",
+          "block_area_fraction": 1.0
+        }
+      ],
+      "boundary_review_required": false,
+      "text_review_status": "NOT_EVALUATED"
+    },
+    {
+      "page_index": 0,
+      "block_id": "p0_b000023",
+      "status": "ASSIGNED",
+      "matches": [
+        {
+          "region_id": "region-2",
+          "label": "table",
+          "block_area_fraction": 1.0
+        }
+      ],
+      "overlaps": [
+        {
+          "region_id": "region-2",
+          "label": "table",
+          "block_area_fraction": 1.0
+        }
+      ],
+      "boundary_review_required": false,
+      "text_review_status": "NOT_EVALUATED"
+    },
+    {
+      "page_index": 0,
+      "block_id": "p0_b000024",
+      "status": "ASSIGNED",
+      "matches": [
+        {
+          "region_id": "region-2",
+          "label": "table",
+          "block_area_fraction": 1.0
+        }
+      ],
+      "overlaps": [
+        {
+          "region_id": "region-2",
+          "label": "table",
+          "block_area_fraction": 1.0
+        }
+      ],
+      "boundary_review_required": false,
+      "text_review_status": "NOT_EVALUATED"
+    },
+    {
+      "page_index": 0,
+      "block_id": "p0_b000025",
+      "status": "ASSIGNED",
+      "matches": [
+        {
+          "region_id": "region-2",
+          "label": "table",
+          "block_area_fraction": 1.0
+        }
+      ],
+      "overlaps": [
+        {
+          "region_id": "region-2",
+          "label": "table",
+          "block_area_fraction": 1.0
+        }
+      ],
+      "boundary_review_required": false,
+      "text_review_status": "NOT_EVALUATED"
+    },
+    {
+      "page_index": 0,
+      "block_id": "p0_b000026",
+      "status": "ASSIGNED",
+      "matches": [
+        {
+          "region_id": "region-2",
+          "label": "table",
+          "block_area_fraction": 1.0
+        }
+      ],
+      "overlaps": [
+        {
+          "region_id": "region-2",
+          "label": "table",
+          "block_area_fraction": 1.0
+        }
+      ],
+      "boundary_review_required": false,
+      "text_review_status": "NOT_EVALUATED"
+    },
+    {
+      "page_index": 0,
+      "block_id": "p0_b000027",
+      "status": "ASSIGNED",
+      "matches": [
+        {
+          "region_id": "region-2",
+          "label": "table",
+          "block_area_fraction": 1.0
+        }
+      ],
+      "overlaps": [
+        {
+          "region_id": "region-2",
+          "label": "table",
+          "block_area_fraction": 1.0
+        }
+      ],
+      "boundary_review_required": false,
+      "text_review_status": "NOT_EVALUATED"
+    },
+    {
+      "page_index": 0,
+      "block_id": "p0_b000028",
+      "status": "ASSIGNED",
+      "matches": [
+        {
+          "region_id": "region-3",
+          "label": "footer",
+          "block_area_fraction": 0.999999989193616
+        }
+      ],
+      "overlaps": [
+        {
+          "region_id": "region-3",
+          "label": "footer",
+          "block_area_fraction": 0.999999989193616
+        }
+      ],
+      "boundary_review_required": false,
+      "text_review_status": "NOT_EVALUATED"
+    },
+    {
+      "page_index": 0,
+      "block_id": "p0_b000029",
+      "status": "ASSIGNED",
+      "matches": [
+        {
+          "region_id": "region-3",
+          "label": "footer",
+          "block_area_fraction": 1.0
+        }
+      ],
+      "overlaps": [
+        {
+          "region_id": "region-3",
+          "label": "footer",
+          "block_area_fraction": 1.0
+        }
+      ],
+      "boundary_review_required": false,
+      "text_review_status": "NOT_EVALUATED"
+    },
+    {
+      "page_index": 0,
+      "block_id": "p0_b000030",
+      "status": "ASSIGNED",
+      "matches": [
+        {
+          "region_id": "region-3",
+          "label": "footer",
+          "block_area_fraction": 0.9999999890082125
+        }
+      ],
+      "overlaps": [
+        {
+          "region_id": "region-3",
+          "label": "footer",
+          "block_area_fraction": 0.9999999890082125
+        }
+      ],
+      "boundary_review_required": false,
+      "text_review_status": "NOT_EVALUATED"
+    },
+    {
+      "page_index": 0,
+      "block_id": "p0_b000031",
+      "status": "ASSIGNED",
+      "matches": [
+        {
+          "region_id": "region-3",
+          "label": "footer",
+          "block_area_fraction": 0.9999999753846454
+        }
+      ],
+      "overlaps": [
+        {
+          "region_id": "region-3",
+          "label": "footer",
+          "block_area_fraction": 0.9999999753846454
+        }
+      ],
+      "boundary_review_required": false,
+      "text_review_status": "NOT_EVALUATED"
+    },
+    {
+      "page_index": 0,
+      "block_id": "p0_b000032",
+      "status": "ASSIGNED",
+      "matches": [
+        {
+          "region_id": "region-3",
+          "label": "footer",
+          "block_area_fraction": 1.0
+        }
+      ],
+      "overlaps": [
+        {
+          "region_id": "region-3",
+          "label": "footer",
+          "block_area_fraction": 1.0
+        }
+      ],
+      "boundary_review_required": false,
+      "text_review_status": "NOT_EVALUATED"
+    },
+    {
+      "page_index": 0,
+      "block_id": "p0_b000033",
+      "status": "ASSIGNED",
+      "matches": [
+        {
+          "region_id": "region-3",
+          "label": "footer",
+          "block_area_fraction": 0.9999999926233787
+        }
+      ],
+      "overlaps": [
+        {
+          "region_id": "region-3",
+          "label": "footer",
+          "block_area_fraction": 0.9999999926233787
+        }
+      ],
+      "boundary_review_required": false,
+      "text_review_status": "NOT_EVALUATED"
+    }
+  ],
+  "counts": {
+    "ASSIGNED": 34,
+    "AMBIGUOUS": 0,
+    "UNASSIGNED": 0
+  }
+}

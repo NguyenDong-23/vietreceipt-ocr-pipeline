@@ -1,0 +1,507 @@
+{
+  "schema_version": "retail-table-0.1.0",
+  "currency_context": "VND",
+  "line_items": [
+    {
+      "line_id": "line-0001",
+      "description": {
+        "raw_text": "Giäy in A4",
+        "predicted_value": "Giấy in A4",
+        "normalized_value": "Giấy in A4",
+        "normalization": {
+          "rule": "identity_string",
+          "version": "normalization-v0.1"
+        },
+        "value_status": "PRESENT",
+        "confidence": null,
+        "heuristic_score": 0.95,
+        "score_version": "invoice-heuristic-2.0.0",
+        "machine_needs_review": true,
+        "review_reasons": [
+          "AMBIGUOUS_FORMAT"
+        ],
+        "review_policy_version": "invoice-review-2.0.0",
+        "source_block_ids": [
+          "p0_b000015"
+        ]
+      },
+      "unit": {
+        "raw_text": "Ram",
+        "predicted_value": "Ram",
+        "normalized_value": "Ram",
+        "normalization": {
+          "rule": "printed_unit",
+          "version": "retail-table-0.1.0"
+        },
+        "value_status": "PRESENT",
+        "confidence": null,
+        "heuristic_score": 0.95,
+        "score_version": "invoice-heuristic-2.0.0",
+        "machine_needs_review": false,
+        "review_reasons": [],
+        "review_policy_version": "invoice-review-2.0.0",
+        "source_block_ids": [
+          "p0_b000016"
+        ]
+      },
+      "quantity": {
+        "raw_text": "2",
+        "predicted_value": "2",
+        "normalized_value": 2.0,
+        "normalization": {
+          "rule": "quantity_decimal_no_grouping",
+          "version": "invoice-normalization-2.0.0"
+        },
+        "value_status": "PRESENT",
+        "confidence": null,
+        "heuristic_score": 0.95,
+        "score_version": "invoice-heuristic-2.0.0",
+        "machine_needs_review": false,
+        "review_reasons": [],
+        "review_policy_version": "invoice-review-2.0.0",
+        "source_block_ids": [
+          "p0_b000017"
+        ]
+      },
+      "unit_price": {
+        "raw_text": "65.000",
+        "predicted_value": "65.000",
+        "normalized_value": 65000,
+        "normalization": {
+          "rule": "printed_vnd_integer",
+          "version": "retail-table-0.1.0"
+        },
+        "value_status": "PRESENT",
+        "confidence": null,
+        "heuristic_score": 0.95,
+        "score_version": "invoice-heuristic-2.0.0",
+        "machine_needs_review": false,
+        "review_reasons": [],
+        "review_policy_version": "invoice-review-2.0.0",
+        "source_block_ids": [
+          "p0_b000018"
+        ]
+      },
+      "amount": {
+        "raw_text": "130.000",
+        "predicted_value": "130.000",
+        "normalized_value": 130000,
+        "normalization": {
+          "rule": "printed_vnd_integer",
+          "version": "retail-table-0.1.0"
+        },
+        "value_status": "PRESENT",
+        "confidence": null,
+        "heuristic_score": 0.95,
+        "score_version": "invoice-heuristic-2.0.0",
+        "machine_needs_review": false,
+        "review_reasons": [],
+        "review_policy_version": "invoice-review-2.0.0",
+        "source_block_ids": [
+          "p0_b000019"
+        ]
+      },
+      "source_block_ids": [
+        "p0_b000015",
+        "p0_b000016",
+        "p0_b000017",
+        "p0_b000018",
+        "p0_b000019"
+      ],
+      "review_policy_version": "invoice-review-2.0.0",
+      "review_reasons": [
+        "AMBIGUOUS_FORMAT"
+      ],
+      "machine_needs_review": true
+    },
+    {
+      "line_id": "line-0002",
+      "description": {
+        "raw_text": "Büt bi xanh",
+        "predicted_value": "Bút bi xanh",
+        "normalized_value": "Bút bi xanh",
+        "normalization": {
+          "rule": "identity_string",
+          "version": "normalization-v0.1"
+        },
+        "value_status": "PRESENT",
+        "confidence": null,
+        "heuristic_score": 0.95,
+        "score_version": "invoice-heuristic-2.0.0",
+        "machine_needs_review": true,
+        "review_reasons": [
+          "AMBIGUOUS_FORMAT"
+        ],
+        "review_policy_version": "invoice-review-2.0.0",
+        "source_block_ids": [
+          "p0_b000020"
+        ]
+      },
+      "unit": {
+        "raw_text": "Cay",
+        "predicted_value": "Cây",
+        "normalized_value": "Cây",
+        "normalization": {
+          "rule": "printed_unit",
+          "version": "retail-table-0.1.0"
+        },
+        "value_status": "PRESENT",
+        "confidence": null,
+        "heuristic_score": 0.95,
+        "score_version": "invoice-heuristic-2.0.0",
+        "machine_needs_review": false,
+        "review_reasons": [],
+        "review_policy_version": "invoice-review-2.0.0",
+        "source_block_ids": [
+          "p0_b000021"
+        ]
+      },
+      "quantity": {
+        "raw_text": "1",
+        "predicted_value": "1",
+        "normalized_value": 1.0,
+        "normalization": {
+          "rule": "quantity_decimal_no_grouping",
+          "version": "invoice-normalization-2.0.0"
+        },
+        "value_status": "PRESENT",
+        "confidence": null,
+        "heuristic_score": 0.95,
+        "score_version": "invoice-heuristic-2.0.0",
+        "machine_needs_review": false,
+        "review_reasons": [],
+        "review_policy_version": "invoice-review-2.0.0",
+        "source_block_ids": [
+          "p0_b000022"
+        ]
+      },
+      "unit_price": {
+        "raw_text": "5.000",
+        "predicted_value": "5.000",
+        "normalized_value": 5000,
+        "normalization": {
+          "rule": "printed_vnd_integer",
+          "version": "retail-table-0.1.0"
+        },
+        "value_status": "PRESENT",
+        "confidence": null,
+        "heuristic_score": 0.95,
+        "score_version": "invoice-heuristic-2.0.0",
+        "machine_needs_review": false,
+        "review_reasons": [],
+        "review_policy_version": "invoice-review-2.0.0",
+        "source_block_ids": [
+          "p0_b000023"
+        ]
+      },
+      "amount": {
+        "raw_text": "5.000",
+        "predicted_value": "5.000",
+        "normalized_value": 5000,
+        "normalization": {
+          "rule": "printed_vnd_integer",
+          "version": "retail-table-0.1.0"
+        },
+        "value_status": "PRESENT",
+        "confidence": null,
+        "heuristic_score": 0.95,
+        "score_version": "invoice-heuristic-2.0.0",
+        "machine_needs_review": false,
+        "review_reasons": [],
+        "review_policy_version": "invoice-review-2.0.0",
+        "source_block_ids": [
+          "p0_b000024"
+        ]
+      },
+      "source_block_ids": [
+        "p0_b000020",
+        "p0_b000021",
+        "p0_b000022",
+        "p0_b000023",
+        "p0_b000024"
+      ],
+      "review_policy_version": "invoice-review-2.0.0",
+      "review_reasons": [
+        "AMBIGUOUS_FORMAT"
+      ],
+      "machine_needs_review": true
+    },
+    {
+      "line_id": "line-0003",
+      "description": {
+        "raw_text": "Bia hö so",
+        "predicted_value": "Bìa hồ sơ",
+        "normalized_value": "Bìa hồ sơ",
+        "normalization": {
+          "rule": "identity_string",
+          "version": "normalization-v0.1"
+        },
+        "value_status": "PRESENT",
+        "confidence": null,
+        "heuristic_score": 0.95,
+        "score_version": "invoice-heuristic-2.0.0",
+        "machine_needs_review": true,
+        "review_reasons": [
+          "AMBIGUOUS_FORMAT"
+        ],
+        "review_policy_version": "invoice-review-2.0.0",
+        "source_block_ids": [
+          "p0_b000025"
+        ]
+      },
+      "unit": {
+        "raw_text": "Cai",
+        "predicted_value": "Cai",
+        "normalized_value": "Cai",
+        "normalization": {
+          "rule": "printed_unit",
+          "version": "retail-table-0.1.0"
+        },
+        "value_status": "PRESENT",
+        "confidence": null,
+        "heuristic_score": 0.95,
+        "score_version": "invoice-heuristic-2.0.0",
+        "machine_needs_review": false,
+        "review_reasons": [],
+        "review_policy_version": "invoice-review-2.0.0",
+        "source_block_ids": [
+          "p0_b000026"
+        ]
+      },
+      "quantity": {
+        "raw_text": "2",
+        "predicted_value": "2",
+        "normalized_value": 2.0,
+        "normalization": {
+          "rule": "quantity_decimal_no_grouping",
+          "version": "invoice-normalization-2.0.0"
+        },
+        "value_status": "PRESENT",
+        "confidence": null,
+        "heuristic_score": 0.95,
+        "score_version": "invoice-heuristic-2.0.0",
+        "machine_needs_review": false,
+        "review_reasons": [],
+        "review_policy_version": "invoice-review-2.0.0",
+        "source_block_ids": [
+          "p0_b000027"
+        ]
+      },
+      "unit_price": {
+        "raw_text": "7.000",
+        "predicted_value": "7.000",
+        "normalized_value": 7000,
+        "normalization": {
+          "rule": "printed_vnd_integer",
+          "version": "retail-table-0.1.0"
+        },
+        "value_status": "PRESENT",
+        "confidence": null,
+        "heuristic_score": 0.95,
+        "score_version": "invoice-heuristic-2.0.0",
+        "machine_needs_review": false,
+        "review_reasons": [],
+        "review_policy_version": "invoice-review-2.0.0",
+        "source_block_ids": [
+          "p0_b000028"
+        ]
+      },
+      "amount": {
+        "raw_text": "14.000",
+        "predicted_value": "14.000",
+        "normalized_value": 14000,
+        "normalization": {
+          "rule": "printed_vnd_integer",
+          "version": "retail-table-0.1.0"
+        },
+        "value_status": "PRESENT",
+        "confidence": null,
+        "heuristic_score": 0.95,
+        "score_version": "invoice-heuristic-2.0.0",
+        "machine_needs_review": false,
+        "review_reasons": [],
+        "review_policy_version": "invoice-review-2.0.0",
+        "source_block_ids": [
+          "p0_b000029"
+        ]
+      },
+      "source_block_ids": [
+        "p0_b000025",
+        "p0_b000026",
+        "p0_b000027",
+        "p0_b000028",
+        "p0_b000029"
+      ],
+      "review_policy_version": "invoice-review-2.0.0",
+      "review_reasons": [
+        "AMBIGUOUS_FORMAT"
+      ],
+      "machine_needs_review": true
+    }
+  ],
+  "pages": [
+    {
+      "page": 0,
+      "status": "PARSED",
+      "start_row": 11,
+      "stop_row": 15,
+      "line_count": 3
+    }
+  ],
+  "refinement": {
+    "engine": "apple-vision",
+    "reader_ocr_run_id": "961b29da-d35f-4f4b-8b29-7af78fd6d754",
+    "changes": [
+      {
+        "line_id": "line-0001",
+        "field": "description",
+        "before": {
+          "raw_text": "Giäy in A4\nRam",
+          "predicted_value": "Giäy in A4 Ram",
+          "normalized_value": "Giäy in A4 Ram",
+          "normalization": {
+            "rule": "identity_string",
+            "version": "normalization-v0.1"
+          },
+          "value_status": "PRESENT",
+          "confidence": null,
+          "heuristic_score": 0.95,
+          "score_version": "invoice-heuristic-2.0.0",
+          "machine_needs_review": true,
+          "review_reasons": [
+            "AMBIGUOUS_FORMAT"
+          ],
+          "review_policy_version": "invoice-review-2.0.0",
+          "source_block_ids": [
+            "p0_b000015",
+            "p0_b000016"
+          ]
+        },
+        "block_ids": [
+          "p0_b000015"
+        ]
+      },
+      {
+        "line_id": "line-0001",
+        "field": "unit",
+        "before": {
+          "raw_text": null,
+          "predicted_value": null,
+          "normalized_value": null,
+          "normalization": null,
+          "value_status": "NOT_PRESENT",
+          "confidence": null,
+          "heuristic_score": 0.0,
+          "score_version": "invoice-heuristic-2.0.0",
+          "machine_needs_review": false,
+          "review_reasons": [],
+          "review_policy_version": "invoice-review-2.0.0",
+          "source_block_ids": []
+        },
+        "block_ids": [
+          "p0_b000016"
+        ]
+      },
+      {
+        "line_id": "line-0002",
+        "field": "description",
+        "before": {
+          "raw_text": "Büt bi xanh\nCay",
+          "predicted_value": "Büt bi xanh Cay",
+          "normalized_value": "Büt bi xanh Cay",
+          "normalization": {
+            "rule": "identity_string",
+            "version": "normalization-v0.1"
+          },
+          "value_status": "PRESENT",
+          "confidence": null,
+          "heuristic_score": 0.95,
+          "score_version": "invoice-heuristic-2.0.0",
+          "machine_needs_review": true,
+          "review_reasons": [
+            "AMBIGUOUS_FORMAT"
+          ],
+          "review_policy_version": "invoice-review-2.0.0",
+          "source_block_ids": [
+            "p0_b000020",
+            "p0_b000021"
+          ]
+        },
+        "block_ids": [
+          "p0_b000020"
+        ]
+      },
+      {
+        "line_id": "line-0002",
+        "field": "unit",
+        "before": {
+          "raw_text": null,
+          "predicted_value": null,
+          "normalized_value": null,
+          "normalization": null,
+          "value_status": "NOT_PRESENT",
+          "confidence": null,
+          "heuristic_score": 0.0,
+          "score_version": "invoice-heuristic-2.0.0",
+          "machine_needs_review": false,
+          "review_reasons": [],
+          "review_policy_version": "invoice-review-2.0.0",
+          "source_block_ids": []
+        },
+        "block_ids": [
+          "p0_b000021"
+        ]
+      },
+      {
+        "line_id": "line-0003",
+        "field": "description",
+        "before": {
+          "raw_text": "Bia hö so",
+          "predicted_value": "Bia hö so",
+          "normalized_value": "Bia hö so",
+          "normalization": {
+            "rule": "identity_string",
+            "version": "normalization-v0.1"
+          },
+          "value_status": "PRESENT",
+          "confidence": null,
+          "heuristic_score": 0.95,
+          "score_version": "invoice-heuristic-2.0.0",
+          "machine_needs_review": true,
+          "review_reasons": [
+            "AMBIGUOUS_FORMAT"
+          ],
+          "review_policy_version": "invoice-review-2.0.0",
+          "source_block_ids": [
+            "p0_b000025"
+          ]
+        },
+        "block_ids": [
+          "p0_b000025"
+        ]
+      }
+    ],
+    "reads": {
+      "p0_b000015": {
+        "text": "Giấy in A4",
+        "confidence": 1
+      },
+      "p0_b000016": {
+        "confidence": 1,
+        "text": "Ram"
+      },
+      "p0_b000020": {
+        "text": "Bút bi xanh",
+        "confidence": 1
+      },
+      "p0_b000021": {
+        "confidence": 1,
+        "text": "Cây"
+      },
+      "p0_b000025": {
+        "confidence": 1,
+        "text": "Bìa hồ sơ"
+      }
+    }
+  }
+}

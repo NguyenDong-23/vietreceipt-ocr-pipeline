@@ -1,0 +1,409 @@
+{
+  "schema_version": "retail-table-0.1.0",
+  "currency_context": "VND",
+  "line_items": [
+    {
+      "line_id": "line-0001",
+      "description": {
+        "raw_text": "s tay van phong",
+        "predicted_value": "Số tay văn phòng",
+        "normalized_value": "Số tay văn phòng",
+        "normalization": {
+          "rule": "identity_string",
+          "version": "normalization-v0.1"
+        },
+        "value_status": "PRESENT",
+        "confidence": null,
+        "heuristic_score": 0.95,
+        "score_version": "invoice-heuristic-2.0.0",
+        "machine_needs_review": true,
+        "review_reasons": [
+          "AMBIGUOUS_FORMAT"
+        ],
+        "review_policy_version": "invoice-review-2.0.0",
+        "source_block_ids": [
+          "p0_b000013"
+        ]
+      },
+      "unit": {
+        "raw_text": "Quyen",
+        "predicted_value": "Quyển",
+        "normalized_value": "Quyển",
+        "normalization": {
+          "rule": "printed_unit",
+          "version": "retail-table-0.1.0"
+        },
+        "value_status": "PRESENT",
+        "confidence": null,
+        "heuristic_score": 0.95,
+        "score_version": "invoice-heuristic-2.0.0",
+        "machine_needs_review": false,
+        "review_reasons": [],
+        "review_policy_version": "invoice-review-2.0.0",
+        "source_block_ids": [
+          "p0_b000014"
+        ]
+      },
+      "quantity": {
+        "raw_text": "1",
+        "predicted_value": "1",
+        "normalized_value": 1.0,
+        "normalization": {
+          "rule": "quantity_decimal_no_grouping",
+          "version": "invoice-normalization-2.0.0"
+        },
+        "value_status": "PRESENT",
+        "confidence": null,
+        "heuristic_score": 0.95,
+        "score_version": "invoice-heuristic-2.0.0",
+        "machine_needs_review": false,
+        "review_reasons": [],
+        "review_policy_version": "invoice-review-2.0.0",
+        "source_block_ids": [
+          "p0_b000015"
+        ]
+      },
+      "unit_price": {
+        "raw_text": "18.000",
+        "predicted_value": "18.000",
+        "normalized_value": 18000,
+        "normalization": {
+          "rule": "printed_vnd_integer",
+          "version": "retail-table-0.1.0"
+        },
+        "value_status": "PRESENT",
+        "confidence": null,
+        "heuristic_score": 0.95,
+        "score_version": "invoice-heuristic-2.0.0",
+        "machine_needs_review": false,
+        "review_reasons": [],
+        "review_policy_version": "invoice-review-2.0.0",
+        "source_block_ids": [
+          "p0_b000016"
+        ]
+      },
+      "amount": {
+        "raw_text": "18.000",
+        "predicted_value": "18.000",
+        "normalized_value": 18000,
+        "normalization": {
+          "rule": "printed_vnd_integer",
+          "version": "retail-table-0.1.0"
+        },
+        "value_status": "PRESENT",
+        "confidence": null,
+        "heuristic_score": 0.95,
+        "score_version": "invoice-heuristic-2.0.0",
+        "machine_needs_review": false,
+        "review_reasons": [],
+        "review_policy_version": "invoice-review-2.0.0",
+        "source_block_ids": [
+          "p0_b000017"
+        ]
+      },
+      "source_block_ids": [
+        "p0_b000013",
+        "p0_b000014",
+        "p0_b000015",
+        "p0_b000016",
+        "p0_b000017"
+      ],
+      "review_policy_version": "invoice-review-2.0.0",
+      "review_reasons": [
+        "AMBIGUOUS_FORMAT"
+      ],
+      "machine_needs_review": true
+    },
+    {
+      "line_id": "line-0002",
+      "description": {
+        "raw_text": "But bi xanh\nCay",
+        "predicted_value": "But bi xanh Cay",
+        "normalized_value": "But bi xanh Cay",
+        "normalization": {
+          "rule": "identity_string",
+          "version": "normalization-v0.1"
+        },
+        "value_status": "PRESENT",
+        "confidence": null,
+        "heuristic_score": 0.95,
+        "score_version": "invoice-heuristic-2.0.0",
+        "machine_needs_review": true,
+        "review_reasons": [
+          "AMBIGUOUS_FORMAT"
+        ],
+        "review_policy_version": "invoice-review-2.0.0",
+        "source_block_ids": [
+          "p0_b000018",
+          "p0_b000019"
+        ]
+      },
+      "unit": {
+        "raw_text": null,
+        "predicted_value": null,
+        "normalized_value": null,
+        "normalization": null,
+        "value_status": "NOT_PRESENT",
+        "confidence": null,
+        "heuristic_score": 0.0,
+        "score_version": "invoice-heuristic-2.0.0",
+        "machine_needs_review": false,
+        "review_reasons": [],
+        "review_policy_version": "invoice-review-2.0.0",
+        "source_block_ids": []
+      },
+      "quantity": {
+        "raw_text": "1",
+        "predicted_value": "1",
+        "normalized_value": 1.0,
+        "normalization": {
+          "rule": "quantity_decimal_no_grouping",
+          "version": "invoice-normalization-2.0.0"
+        },
+        "value_status": "PRESENT",
+        "confidence": null,
+        "heuristic_score": 0.95,
+        "score_version": "invoice-heuristic-2.0.0",
+        "machine_needs_review": false,
+        "review_reasons": [],
+        "review_policy_version": "invoice-review-2.0.0",
+        "source_block_ids": [
+          "p0_b000020"
+        ]
+      },
+      "unit_price": {
+        "raw_text": "5.000",
+        "predicted_value": "5.000",
+        "normalized_value": 5000,
+        "normalization": {
+          "rule": "printed_vnd_integer",
+          "version": "retail-table-0.1.0"
+        },
+        "value_status": "PRESENT",
+        "confidence": null,
+        "heuristic_score": 0.95,
+        "score_version": "invoice-heuristic-2.0.0",
+        "machine_needs_review": false,
+        "review_reasons": [],
+        "review_policy_version": "invoice-review-2.0.0",
+        "source_block_ids": [
+          "p0_b000021"
+        ]
+      },
+      "amount": {
+        "raw_text": "5.000",
+        "predicted_value": "5.000",
+        "normalized_value": 5000,
+        "normalization": {
+          "rule": "printed_vnd_integer",
+          "version": "retail-table-0.1.0"
+        },
+        "value_status": "PRESENT",
+        "confidence": null,
+        "heuristic_score": 0.95,
+        "score_version": "invoice-heuristic-2.0.0",
+        "machine_needs_review": false,
+        "review_reasons": [],
+        "review_policy_version": "invoice-review-2.0.0",
+        "source_block_ids": [
+          "p0_b000022"
+        ]
+      },
+      "source_block_ids": [
+        "p0_b000018",
+        "p0_b000019",
+        "p0_b000020",
+        "p0_b000021",
+        "p0_b000022"
+      ],
+      "review_policy_version": "invoice-review-2.0.0",
+      "review_reasons": [
+        "AMBIGUOUS_FORMAT"
+      ],
+      "machine_needs_review": true
+    },
+    {
+      "line_id": "line-0003",
+      "description": {
+        "raw_text": "But bi xanh\nCay",
+        "predicted_value": "But bi xanh Cay",
+        "normalized_value": "But bi xanh Cay",
+        "normalization": {
+          "rule": "identity_string",
+          "version": "normalization-v0.1"
+        },
+        "value_status": "PRESENT",
+        "confidence": null,
+        "heuristic_score": 0.95,
+        "score_version": "invoice-heuristic-2.0.0",
+        "machine_needs_review": true,
+        "review_reasons": [
+          "AMBIGUOUS_FORMAT"
+        ],
+        "review_policy_version": "invoice-review-2.0.0",
+        "source_block_ids": [
+          "p0_b000023",
+          "p0_b000024"
+        ]
+      },
+      "unit": {
+        "raw_text": null,
+        "predicted_value": null,
+        "normalized_value": null,
+        "normalization": null,
+        "value_status": "NOT_PRESENT",
+        "confidence": null,
+        "heuristic_score": 0.0,
+        "score_version": "invoice-heuristic-2.0.0",
+        "machine_needs_review": false,
+        "review_reasons": [],
+        "review_policy_version": "invoice-review-2.0.0",
+        "source_block_ids": []
+      },
+      "quantity": {
+        "raw_text": "4",
+        "predicted_value": "4",
+        "normalized_value": 4.0,
+        "normalization": {
+          "rule": "quantity_decimal_no_grouping",
+          "version": "invoice-normalization-2.0.0"
+        },
+        "value_status": "PRESENT",
+        "confidence": null,
+        "heuristic_score": 0.95,
+        "score_version": "invoice-heuristic-2.0.0",
+        "machine_needs_review": false,
+        "review_reasons": [],
+        "review_policy_version": "invoice-review-2.0.0",
+        "source_block_ids": [
+          "p0_b000025"
+        ]
+      },
+      "unit_price": {
+        "raw_text": "5.000",
+        "predicted_value": "5.000",
+        "normalized_value": 5000,
+        "normalization": {
+          "rule": "printed_vnd_integer",
+          "version": "retail-table-0.1.0"
+        },
+        "value_status": "PRESENT",
+        "confidence": null,
+        "heuristic_score": 0.95,
+        "score_version": "invoice-heuristic-2.0.0",
+        "machine_needs_review": false,
+        "review_reasons": [],
+        "review_policy_version": "invoice-review-2.0.0",
+        "source_block_ids": [
+          "p0_b000026"
+        ]
+      },
+      "amount": {
+        "raw_text": "20.000",
+        "predicted_value": "20.000",
+        "normalized_value": 20000,
+        "normalization": {
+          "rule": "printed_vnd_integer",
+          "version": "retail-table-0.1.0"
+        },
+        "value_status": "PRESENT",
+        "confidence": null,
+        "heuristic_score": 0.95,
+        "score_version": "invoice-heuristic-2.0.0",
+        "machine_needs_review": false,
+        "review_reasons": [],
+        "review_policy_version": "invoice-review-2.0.0",
+        "source_block_ids": [
+          "p0_b000027"
+        ]
+      },
+      "source_block_ids": [
+        "p0_b000023",
+        "p0_b000024",
+        "p0_b000025",
+        "p0_b000026",
+        "p0_b000027"
+      ],
+      "review_policy_version": "invoice-review-2.0.0",
+      "review_reasons": [
+        "AMBIGUOUS_FORMAT"
+      ],
+      "machine_needs_review": true
+    }
+  ],
+  "pages": [
+    {
+      "page": 0,
+      "status": "PARSED",
+      "start_row": 6,
+      "stop_row": 10,
+      "line_count": 3
+    }
+  ],
+  "refinement": {
+    "engine": "apple-vision",
+    "reader_ocr_run_id": "fbb4fcc4-a5e0-436f-83f3-4e13e57d281d",
+    "changes": [
+      {
+        "line_id": "line-0001",
+        "field": "description",
+        "before": {
+          "raw_text": "s tay van phong\nQuyen",
+          "predicted_value": "s tay van phong Quyen",
+          "normalized_value": "s tay van phong Quyen",
+          "normalization": {
+            "rule": "identity_string",
+            "version": "normalization-v0.1"
+          },
+          "value_status": "PRESENT",
+          "confidence": null,
+          "heuristic_score": 0.95,
+          "score_version": "invoice-heuristic-2.0.0",
+          "machine_needs_review": true,
+          "review_reasons": [
+            "AMBIGUOUS_FORMAT"
+          ],
+          "review_policy_version": "invoice-review-2.0.0",
+          "source_block_ids": [
+            "p0_b000013",
+            "p0_b000014"
+          ]
+        },
+        "block_ids": [
+          "p0_b000013"
+        ]
+      },
+      {
+        "line_id": "line-0001",
+        "field": "unit",
+        "before": {
+          "raw_text": null,
+          "predicted_value": null,
+          "normalized_value": null,
+          "normalization": null,
+          "value_status": "NOT_PRESENT",
+          "confidence": null,
+          "heuristic_score": 0.0,
+          "score_version": "invoice-heuristic-2.0.0",
+          "machine_needs_review": false,
+          "review_reasons": [],
+          "review_policy_version": "invoice-review-2.0.0",
+          "source_block_ids": []
+        },
+        "block_ids": [
+          "p0_b000014"
+        ]
+      }
+    ],
+    "reads": {
+      "p0_b000013": {
+        "confidence": 1,
+        "text": "Số tay văn phòng"
+      },
+      "p0_b000014": {
+        "confidence": 1,
+        "text": "Quyên"
+      }
+    }
+  }
+}

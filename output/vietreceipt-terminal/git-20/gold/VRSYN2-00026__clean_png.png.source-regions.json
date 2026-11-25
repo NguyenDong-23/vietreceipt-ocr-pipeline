@@ -1,0 +1,272 @@
+[
+  {
+    "cell": "fields.invoice_template_number",
+    "page_index": 0,
+    "text": "Mẫu số: 1",
+    "selected_value_text": "1",
+    "bounds": [
+      0.05,
+      0.075,
+      0.1497980291193182,
+      0.09342105263157895
+    ],
+    "coordinate_system": "normalized top-left source page",
+    "annotation_origin": "generator render specification, not OCR/KIE",
+    "qa_status": "AUTOMATED_SOURCE_CHECK_ONLY"
+  },
+  {
+    "cell": "fields.invoice_symbol",
+    "page_index": 0,
+    "text": "Ký hiệu: C26T6A",
+    "selected_value_text": "C26T6A",
+    "bounds": [
+      0.05,
+      0.09473684210526316,
+      0.2218084161931818,
+      0.11315789473684211
+    ],
+    "coordinate_system": "normalized top-left source page",
+    "annotation_origin": "generator render specification, not OCR/KIE",
+    "qa_status": "AUTOMATED_SOURCE_CHECK_ONLY"
+  },
+  {
+    "cell": "fields.invoice_number",
+    "page_index": 0,
+    "text": "Số hóa đơn: 00000026",
+    "selected_value_text": "00000026",
+    "bounds": [
+      0.05,
+      0.11447368421052631,
+      0.2822776100852273,
+      0.13289473684210526
+    ],
+    "coordinate_system": "normalized top-left source page",
+    "annotation_origin": "generator render specification, not OCR/KIE",
+    "qa_status": "AUTOMATED_SOURCE_CHECK_ONLY"
+  },
+  {
+    "cell": "fields.invoice_date",
+    "page_index": 0,
+    "text": "Ngày lập: 2026-02-26",
+    "selected_value_text": "2026-02-26",
+    "bounds": [
+      0.05,
+      0.13421052631578947,
+      0.2685835404829545,
+      0.15263157894736842
+    ],
+    "coordinate_system": "normalized top-left source page",
+    "annotation_origin": "generator render specification, not OCR/KIE",
+    "qa_status": "AUTOMATED_SOURCE_CHECK_ONLY"
+  },
+  {
+    "cell": "fields.seller_name",
+    "page_index": 0,
+    "text": "Đơn vị bán hàng: CÔNG TY MẪU HOA SEN",
+    "selected_value_text": "CÔNG TY MẪU HOA SEN",
+    "bounds": [
+      0.05,
+      0.15394736842105264,
+      0.49938520951704546,
+      0.1723684210526316
+    ],
+    "coordinate_system": "normalized top-left source page",
+    "annotation_origin": "generator render specification, not OCR/KIE",
+    "qa_status": "AUTOMATED_SOURCE_CHECK_ONLY"
+  },
+  {
+    "cell": "fields.seller_tax_id",
+    "page_index": 0,
+    "text": "MST người bán: 0000000026",
+    "selected_value_text": "0000000026",
+    "bounds": [
+      0.05,
+      0.1736842105263158,
+      0.34799582741477275,
+      0.19210526315789472
+    ],
+    "coordinate_system": "normalized top-left source page",
+    "annotation_origin": "generator render specification, not OCR/KIE",
+    "qa_status": "AUTOMATED_SOURCE_CHECK_ONLY"
+  },
+  {
+    "cell": "fields.seller_address",
+    "page_index": 0,
+    "text": "Địa chỉ người bán: 26 Đường Mẫu, Thành phố Hà Nội",
+    "selected_value_text": "26 Đường Mẫu, Thành phố Hà Nội",
+    "bounds": [
+      0.05,
+      0.19342105263157894,
+      0.5941117720170455,
+      0.2118421052631579
+    ],
+    "coordinate_system": "normalized top-left source page",
+    "annotation_origin": "generator render specification, not OCR/KIE",
+    "qa_status": "AUTOMATED_SOURCE_CHECK_ONLY"
+  },
+  {
+    "cell": "fields.buyer_name",
+    "page_index": 0,
+    "text": "Người mua: KHÁCH HÀNG THỬ NGHIỆM",
+    "selected_value_text": "KHÁCH HÀNG THỬ NGHIỆM",
+    "bounds": [
+      0.05,
+      0.2131578947368421,
+      0.48215110085227275,
+      0.23157894736842105
+    ],
+    "coordinate_system": "normalized top-left source page",
+    "annotation_origin": "generator render specification, not OCR/KIE",
+    "qa_status": "AUTOMATED_SOURCE_CHECK_ONLY"
+  },
+  {
+    "cell": "fields.buyer_tax_id",
+    "page_index": 0,
+    "text": "MST người mua: 0000003026",
+    "selected_value_text": "0000003026",
+    "bounds": [
+      0.05,
+      0.23289473684210527,
+      0.35428799715909093,
+      0.2513157894736842
+    ],
+    "coordinate_system": "normalized top-left source page",
+    "annotation_origin": "generator render specification, not OCR/KIE",
+    "qa_status": "AUTOMATED_SOURCE_CHECK_ONLY"
+  },
+  {
+    "cell": "line_items.0.description",
+    "page_index": 0,
+    "text": "Bìa hồ sơ",
+    "selected_value_text": "Bìa hồ sơ",
+    "bounds": [
+      0.05,
+      0.3146052631578947,
+      0.13845991654829548,
+      0.33118421052631575
+    ],
+    "coordinate_system": "normalized top-left source page",
+    "annotation_origin": "generator render specification, not OCR/KIE",
+    "qa_status": "AUTOMATED_SOURCE_CHECK_ONLY"
+  },
+  {
+    "cell": "line_items.0.unit",
+    "page_index": 0,
+    "text": "Cái",
+    "selected_value_text": "Cái",
+    "bounds": [
+      0.46399999999999997,
+      0.3146052631578947,
+      0.4946918057528409,
+      0.33118421052631575
+    ],
+    "coordinate_system": "normalized top-left source page",
+    "annotation_origin": "generator render specification, not OCR/KIE",
+    "qa_status": "AUTOMATED_SOURCE_CHECK_ONLY"
+  },
+  {
+    "cell": "line_items.0.quantity",
+    "page_index": 0,
+    "text": "1",
+    "selected_value_text": "1",
+    "bounds": [
+      0.563,
+      0.3146052631578947,
+      0.5743758433948863,
+      0.33118421052631575
+    ],
+    "coordinate_system": "normalized top-left source page",
+    "annotation_origin": "generator render specification, not OCR/KIE",
+    "qa_status": "AUTOMATED_SOURCE_CHECK_ONLY"
+  },
+  {
+    "cell": "line_items.0.unit_price",
+    "page_index": 0,
+    "text": "7.000",
+    "selected_value_text": "7.000",
+    "bounds": [
+      0.653,
+      0.3146052631578947,
+      0.7041863014914772,
+      0.33118421052631575
+    ],
+    "coordinate_system": "normalized top-left source page",
+    "annotation_origin": "generator render specification, not OCR/KIE",
+    "qa_status": "AUTOMATED_SOURCE_CHECK_ONLY"
+  },
+  {
+    "cell": "line_items.0.amount",
+    "page_index": 0,
+    "text": "7.000",
+    "selected_value_text": "7.000",
+    "bounds": [
+      0.7879999999999999,
+      0.3146052631578947,
+      0.8391863014914772,
+      0.33118421052631575
+    ],
+    "coordinate_system": "normalized top-left source page",
+    "annotation_origin": "generator render specification, not OCR/KIE",
+    "qa_status": "AUTOMATED_SOURCE_CHECK_ONLY"
+  },
+  {
+    "cell": "fields.subtotal",
+    "page_index": 0,
+    "text": "Cộng tiền hàng: 7.000",
+    "selected_value_text": "7.000",
+    "bounds": [
+      0.05,
+      0.3881578947368421,
+      0.2736661044034091,
+      0.40657894736842104
+    ],
+    "coordinate_system": "normalized top-left source page",
+    "annotation_origin": "generator render specification, not OCR/KIE",
+    "qa_status": "AUTOMATED_SOURCE_CHECK_ONLY"
+  },
+  {
+    "cell": "fields.tax_amount",
+    "page_index": 0,
+    "text": "Tiền thuế GTGT: 350",
+    "selected_value_text": "350",
+    "bounds": [
+      0.05,
+      0.40789473684210525,
+      0.26474387428977275,
+      0.4263157894736842
+    ],
+    "coordinate_system": "normalized top-left source page",
+    "annotation_origin": "generator render specification, not OCR/KIE",
+    "qa_status": "AUTOMATED_SOURCE_CHECK_ONLY"
+  },
+  {
+    "cell": "fields.total_amount",
+    "page_index": 0,
+    "text": "Tổng thanh toán: 7.350",
+    "selected_value_text": "7.350",
+    "bounds": [
+      0.05,
+      0.4261842105263158,
+      0.308544921875,
+      0.44644736842105265
+    ],
+    "coordinate_system": "normalized top-left source page",
+    "annotation_origin": "generator render specification, not OCR/KIE",
+    "qa_status": "AUTOMATED_SOURCE_CHECK_ONLY"
+  },
+  {
+    "cell": "fields.currency",
+    "page_index": 0,
+    "text": "Tiền tệ: VND",
+    "selected_value_text": "VND",
+    "bounds": [
+      0.05,
+      0.4473684210526316,
+      0.1800936612215909,
+      0.46578947368421053
+    ],
+    "coordinate_system": "normalized top-left source page",
+    "annotation_origin": "generator render specification, not OCR/KIE",
+    "qa_status": "AUTOMATED_SOURCE_CHECK_ONLY"
+  }
+]

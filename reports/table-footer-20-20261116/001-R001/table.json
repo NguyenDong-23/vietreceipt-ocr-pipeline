@@ -1,0 +1,341 @@
+{
+  "schema_version": "retail-table-0.1.0",
+  "currency_context": "VND",
+  "line_items": [
+    {
+      "line_id": "line-0001",
+      "description": {
+        "raw_text": "8934755010156 BVS dianam6ng cänh NT",
+        "predicted_value": "BVS diana mỏng cánh",
+        "normalized_value": "BVS diana mỏng cánh",
+        "normalization": {
+          "rule": "identity_string",
+          "version": "normalization-v0.1"
+        },
+        "value_status": "PRESENT",
+        "confidence": null,
+        "heuristic_score": 0.95,
+        "score_version": "invoice-heuristic-2.0.0",
+        "machine_needs_review": true,
+        "review_reasons": [
+          "AMBIGUOUS_FORMAT"
+        ],
+        "review_policy_version": "invoice-review-2.0.0",
+        "source_block_ids": [
+          "p0_b000006"
+        ]
+      },
+      "unit": {
+        "raw_text": "GOI",
+        "predicted_value": "GOI",
+        "normalized_value": "GOI",
+        "normalization": {
+          "rule": "printed_unit",
+          "version": "retail-table-0.1.0"
+        },
+        "value_status": "PRESENT",
+        "confidence": null,
+        "heuristic_score": 0.95,
+        "score_version": "invoice-heuristic-2.0.0",
+        "machine_needs_review": false,
+        "review_reasons": [],
+        "review_policy_version": "invoice-review-2.0.0",
+        "source_block_ids": [
+          "p0_b000011"
+        ]
+      },
+      "quantity": {
+        "raw_text": "6",
+        "predicted_value": "6",
+        "normalized_value": 6.0,
+        "normalization": {
+          "rule": "quantity_decimal_no_grouping",
+          "version": "invoice-normalization-2.0.0"
+        },
+        "value_status": "PRESENT",
+        "confidence": null,
+        "heuristic_score": 0.95,
+        "score_version": "invoice-heuristic-2.0.0",
+        "machine_needs_review": false,
+        "review_reasons": [],
+        "review_policy_version": "invoice-review-2.0.0",
+        "source_block_ids": [
+          "p0_b000010"
+        ]
+      },
+      "unit_price": {
+        "raw_text": "16,500",
+        "predicted_value": "16,500",
+        "normalized_value": 16500,
+        "normalization": {
+          "rule": "printed_vnd_integer",
+          "version": "retail-table-0.1.0"
+        },
+        "value_status": "PRESENT",
+        "confidence": null,
+        "heuristic_score": 0.95,
+        "score_version": "invoice-heuristic-2.0.0",
+        "machine_needs_review": false,
+        "review_reasons": [],
+        "review_policy_version": "invoice-review-2.0.0",
+        "source_block_ids": [
+          "p0_b000012"
+        ]
+      },
+      "amount": {
+        "raw_text": "99,00",
+        "predicted_value": "99,000",
+        "normalized_value": 99000,
+        "normalization": {
+          "rule": "printed_vnd_integer",
+          "version": "retail-table-0.1.0"
+        },
+        "value_status": "PRESENT",
+        "confidence": null,
+        "heuristic_score": 0.95,
+        "score_version": "invoice-heuristic-2.0.0",
+        "machine_needs_review": false,
+        "review_reasons": [],
+        "review_policy_version": "invoice-review-2.0.0",
+        "source_block_ids": [
+          "p0_b000013"
+        ]
+      },
+      "source_block_ids": [
+        "p0_b000006",
+        "p0_b000011",
+        "p0_b000010",
+        "p0_b000012",
+        "p0_b000013"
+      ],
+      "review_policy_version": "invoice-review-2.0.0",
+      "review_reasons": [
+        "AMBIGUOUS_FORMAT"
+      ],
+      "machine_needs_review": true
+    },
+    {
+      "line_id": "line-0002",
+      "description": {
+        "raw_text": "291038530000 con thü dchai N0",
+        "predicted_value": "con thú đồ chơi",
+        "normalized_value": "con thú đồ chơi",
+        "normalization": {
+          "rule": "identity_string",
+          "version": "normalization-v0.1"
+        },
+        "value_status": "PRESENT",
+        "confidence": null,
+        "heuristic_score": 0.95,
+        "score_version": "invoice-heuristic-2.0.0",
+        "machine_needs_review": true,
+        "review_reasons": [
+          "AMBIGUOUS_FORMAT"
+        ],
+        "review_policy_version": "invoice-review-2.0.0",
+        "source_block_ids": [
+          "p0_b000014"
+        ]
+      },
+      "unit": {
+        "raw_text": "CAI",
+        "predicted_value": "CAI",
+        "normalized_value": "CAI",
+        "normalization": {
+          "rule": "printed_unit",
+          "version": "retail-table-0.1.0"
+        },
+        "value_status": "PRESENT",
+        "confidence": null,
+        "heuristic_score": 0.95,
+        "score_version": "invoice-heuristic-2.0.0",
+        "machine_needs_review": false,
+        "review_reasons": [],
+        "review_policy_version": "invoice-review-2.0.0",
+        "source_block_ids": [
+          "p0_b000016"
+        ]
+      },
+      "quantity": {
+        "raw_text": "1",
+        "predicted_value": "1",
+        "normalized_value": 1.0,
+        "normalization": {
+          "rule": "quantity_decimal_no_grouping",
+          "version": "invoice-normalization-2.0.0"
+        },
+        "value_status": "PRESENT",
+        "confidence": null,
+        "heuristic_score": 0.95,
+        "score_version": "invoice-heuristic-2.0.0",
+        "machine_needs_review": false,
+        "review_reasons": [],
+        "review_policy_version": "invoice-review-2.0.0",
+        "source_block_ids": [
+          "p0_b000015"
+        ]
+      },
+      "unit_price": {
+        "raw_text": "14,000",
+        "predicted_value": "14,000",
+        "normalized_value": 14000,
+        "normalization": {
+          "rule": "printed_vnd_integer",
+          "version": "retail-table-0.1.0"
+        },
+        "value_status": "PRESENT",
+        "confidence": null,
+        "heuristic_score": 0.95,
+        "score_version": "invoice-heuristic-2.0.0",
+        "machine_needs_review": false,
+        "review_reasons": [],
+        "review_policy_version": "invoice-review-2.0.0",
+        "source_block_ids": [
+          "p0_b000017"
+        ]
+      },
+      "amount": {
+        "raw_text": "14,000",
+        "predicted_value": "14,000",
+        "normalized_value": 14000,
+        "normalization": {
+          "rule": "printed_vnd_integer",
+          "version": "retail-table-0.1.0"
+        },
+        "value_status": "PRESENT",
+        "confidence": null,
+        "heuristic_score": 0.95,
+        "score_version": "invoice-heuristic-2.0.0",
+        "machine_needs_review": false,
+        "review_reasons": [],
+        "review_policy_version": "invoice-review-2.0.0",
+        "source_block_ids": [
+          "p0_b000018"
+        ]
+      },
+      "source_block_ids": [
+        "p0_b000014",
+        "p0_b000016",
+        "p0_b000015",
+        "p0_b000017",
+        "p0_b000018"
+      ],
+      "review_policy_version": "invoice-review-2.0.0",
+      "review_reasons": [
+        "AMBIGUOUS_FORMAT"
+      ],
+      "machine_needs_review": true
+    }
+  ],
+  "pages": [
+    {
+      "page": 0,
+      "status": "PARSED",
+      "start_row": 5,
+      "stop_row": 11,
+      "line_count": 2
+    }
+  ],
+  "refinement": {
+    "engine": "apple-vision",
+    "reader_ocr_run_id": "84e23786-eacc-4538-a668-f3eddbd0d631",
+    "changes": [
+      {
+        "line_id": "line-0001",
+        "field": "description",
+        "before": {
+          "raw_text": "8934755010156 BVS dianam6ng cänh NT",
+          "predicted_value": "BVS dianam6ng cänh",
+          "normalized_value": "BVS dianam6ng cänh",
+          "normalization": {
+            "rule": "identity_string",
+            "version": "normalization-v0.1"
+          },
+          "value_status": "PRESENT",
+          "confidence": null,
+          "heuristic_score": 0.95,
+          "score_version": "invoice-heuristic-2.0.0",
+          "machine_needs_review": true,
+          "review_reasons": [
+            "AMBIGUOUS_FORMAT"
+          ],
+          "review_policy_version": "invoice-review-2.0.0",
+          "source_block_ids": [
+            "p0_b000006"
+          ]
+        },
+        "block_ids": [
+          "p0_b000006"
+        ]
+      },
+      {
+        "line_id": "line-0001",
+        "field": "amount",
+        "before": {
+          "raw_text": "99,00",
+          "predicted_value": "99,00",
+          "normalized_value": null,
+          "normalization": null,
+          "value_status": "AMBIGUOUS",
+          "confidence": null,
+          "heuristic_score": 0.8,
+          "score_version": "invoice-heuristic-2.0.0",
+          "machine_needs_review": true,
+          "review_reasons": [
+            "NORMALIZATION_FAILED"
+          ],
+          "review_policy_version": "invoice-review-2.0.0",
+          "source_block_ids": [
+            "p0_b000013"
+          ]
+        },
+        "block_ids": [
+          "p0_b000013"
+        ],
+        "verified_with": "quantity_times_unit_price"
+      },
+      {
+        "line_id": "line-0002",
+        "field": "description",
+        "before": {
+          "raw_text": "291038530000 con thü dchai N0",
+          "predicted_value": "con thü dchai",
+          "normalized_value": "con thü dchai",
+          "normalization": {
+            "rule": "identity_string",
+            "version": "normalization-v0.1"
+          },
+          "value_status": "PRESENT",
+          "confidence": null,
+          "heuristic_score": 0.95,
+          "score_version": "invoice-heuristic-2.0.0",
+          "machine_needs_review": true,
+          "review_reasons": [
+            "AMBIGUOUS_FORMAT"
+          ],
+          "review_policy_version": "invoice-review-2.0.0",
+          "source_block_ids": [
+            "p0_b000014"
+          ]
+        },
+        "block_ids": [
+          "p0_b000014"
+        ]
+      }
+    ],
+    "reads": {
+      "p0_b000006": {
+        "text": "8934755010156 BVS diana mỏng cánh NT",
+        "confidence": 1
+      },
+      "p0_b000013": {
+        "text": "99,000",
+        "confidence": 1
+      },
+      "p0_b000014": {
+        "text": "291038530000 con thú đồ chơi NO",
+        "confidence": 1
+      }
+    }
+  }
+}

@@ -1,0 +1,190 @@
+{
+  "schema_version": "header-study-1.0",
+  "receipt_id": "3b08140c-f4c9-49b0-85f7-bbe947eda259",
+  "ocr_run_id": "27cb2039-8273-47de-9272-c1dc9601d575",
+  "fields": {
+    "invoice_template_number": {
+      "raw_text": null,
+      "predicted_value": null,
+      "normalized_value": null,
+      "normalization": null,
+      "value_status": "UNKNOWN",
+      "confidence": null,
+      "heuristic_score": 0.0,
+      "score_version": "invoice-heuristic-2.0.0",
+      "machine_needs_review": true,
+      "review_reasons": [
+        "NO_CANDIDATE"
+      ],
+      "review_policy_version": "invoice-review-2.0.0",
+      "source_block_ids": []
+    },
+    "invoice_symbol": {
+      "raw_text": null,
+      "predicted_value": null,
+      "normalized_value": null,
+      "normalization": null,
+      "value_status": "UNKNOWN",
+      "confidence": null,
+      "heuristic_score": 0.0,
+      "score_version": "invoice-heuristic-2.0.0",
+      "machine_needs_review": true,
+      "review_reasons": [
+        "NO_CANDIDATE"
+      ],
+      "review_policy_version": "invoice-review-2.0.0",
+      "source_block_ids": []
+    },
+    "invoice_number": {
+      "raw_text": null,
+      "predicted_value": null,
+      "normalized_value": null,
+      "normalization": null,
+      "value_status": "UNKNOWN",
+      "confidence": null,
+      "heuristic_score": 0.0,
+      "score_version": "invoice-heuristic-2.0.0",
+      "machine_needs_review": true,
+      "review_reasons": [
+        "NO_CANDIDATE"
+      ],
+      "review_policy_version": "invoice-review-2.0.0",
+      "source_block_ids": []
+    },
+    "invoice_date": {
+      "raw_text": null,
+      "predicted_value": null,
+      "normalized_value": null,
+      "normalization": null,
+      "value_status": "UNKNOWN",
+      "confidence": null,
+      "heuristic_score": 0.0,
+      "score_version": "invoice-heuristic-2.0.0",
+      "machine_needs_review": true,
+      "review_reasons": [
+        "NO_CANDIDATE"
+      ],
+      "review_policy_version": "invoice-review-2.0.0",
+      "source_block_ids": []
+    },
+    "seller_name": {
+      "raw_text": "MINIMART ANAN",
+      "predicted_value": "MINIMART ANAN",
+      "normalized_value": null,
+      "normalization": null,
+      "value_status": "AMBIGUOUS",
+      "confidence": null,
+      "heuristic_score": 0.7,
+      "score_version": "invoice-heuristic-2.0.0",
+      "machine_needs_review": true,
+      "review_reasons": [
+        "SOURCE_ROLE_UNCLEAR",
+        "LOW_CONFIDENCE"
+      ],
+      "review_policy_version": "invoice-review-2.0.0",
+      "source_block_ids": [
+        "p0_b000000"
+      ]
+    },
+    "seller_tax_id": {
+      "raw_text": null,
+      "predicted_value": null,
+      "normalized_value": null,
+      "normalization": null,
+      "value_status": "UNKNOWN",
+      "confidence": null,
+      "heuristic_score": 0.0,
+      "score_version": "invoice-heuristic-2.0.0",
+      "machine_needs_review": true,
+      "review_reasons": [
+        "NO_CANDIDATE"
+      ],
+      "review_policy_version": "invoice-review-2.0.0",
+      "source_block_ids": []
+    },
+    "seller_address": {
+      "raw_text": "Chợ Sủi Phú Thị Gia Lâm",
+      "predicted_value": "Chợ Sủi Phú Thị Gia Lâm",
+      "normalized_value": null,
+      "normalization": null,
+      "value_status": "AMBIGUOUS",
+      "confidence": null,
+      "heuristic_score": 0.7,
+      "score_version": "invoice-heuristic-2.0.0",
+      "machine_needs_review": true,
+      "review_reasons": [
+        "SOURCE_ROLE_UNCLEAR",
+        "LOW_CONFIDENCE"
+      ],
+      "review_policy_version": "invoice-review-2.0.0",
+      "source_block_ids": [
+        "p0_b000001"
+      ]
+    },
+    "buyer_name": {
+      "raw_text": null,
+      "predicted_value": null,
+      "normalized_value": null,
+      "normalization": null,
+      "value_status": "UNKNOWN",
+      "confidence": null,
+      "heuristic_score": 0.0,
+      "score_version": "invoice-heuristic-2.0.0",
+      "machine_needs_review": true,
+      "review_reasons": [
+        "NO_CANDIDATE"
+      ],
+      "review_policy_version": "invoice-review-2.0.0",
+      "source_block_ids": []
+    },
+    "buyer_tax_id": {
+      "raw_text": null,
+      "predicted_value": null,
+      "normalized_value": null,
+      "normalization": null,
+      "value_status": "UNKNOWN",
+      "confidence": null,
+      "heuristic_score": 0.0,
+      "score_version": "invoice-heuristic-2.0.0",
+      "machine_needs_review": true,
+      "review_reasons": [
+        "NO_CANDIDATE"
+      ],
+      "review_policy_version": "invoice-review-2.0.0",
+      "source_block_ids": []
+    }
+  },
+  "excluded_table_block_ids": [
+    "p0_b000004",
+    "p0_b000005",
+    "p0_b000006",
+    "p0_b000007",
+    "p0_b000008",
+    "p0_b000009",
+    "p0_b000010",
+    "p0_b000011",
+    "p0_b000012",
+    "p0_b000013",
+    "p0_b000014",
+    "p0_b000015",
+    "p0_b000016",
+    "p0_b000017",
+    "p0_b000018"
+  ],
+  "ocr_block_count": 31,
+  "field_sources": {},
+  "receipt_metadata": {
+    "transaction_id": {
+      "value": "000AC2212008001576",
+      "source_block_ids": [
+        "p0_b000028"
+      ]
+    },
+    "transaction_date": {
+      "value": "2020-08-12",
+      "source_block_ids": [
+        "p0_b000028"
+      ]
+    }
+  }
+}

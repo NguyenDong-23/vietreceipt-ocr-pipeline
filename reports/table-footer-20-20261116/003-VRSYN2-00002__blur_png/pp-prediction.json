@@ -1,0 +1,1826 @@
+{
+  "rules_version": "pp-ocr-regions-0.8-summary-alias",
+  "config": {
+    "ocr_min_confidence": 0.4,
+    "max_skew_degrees": 15,
+    "row_overlap": 0.35,
+    "padding_line_height": 0.22,
+    "allow_multiple_regions_per_class": true
+  },
+  "document_kind": "ITEMIZED_DOCUMENT_CANDIDATE",
+  "skew_degrees": 0.0,
+  "regions": [
+    {
+      "region_id": "region-1",
+      "label": "header",
+      "geometry": "polygon",
+      "polygon": [
+        [
+          22.1600616,
+          20.1600616
+        ],
+        [
+          499.8399384,
+          20.1600616
+        ],
+        [
+          499.8399384,
+          292.8399384
+        ],
+        [
+          22.1600616,
+          292.8399384
+        ]
+      ],
+      "bbox": [
+        22.1600616,
+        20.1600616,
+        499.8399384,
+        292.8399384
+      ],
+      "evidence_ocr_ids": [
+        "p0_b000000",
+        "p0_b000001",
+        "p0_b000002",
+        "p0_b000003",
+        "p0_b000004",
+        "p0_b000005",
+        "p0_b000006",
+        "p0_b000007",
+        "p0_b000008",
+        "p0_b000009"
+      ],
+      "decision_rows": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "attached_pp_image_indices": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "region_id": "region-2",
+      "label": "table",
+      "geometry": "polygon",
+      "polygon": [
+        [
+          24.159801599999998,
+          318.1596816
+        ],
+        [
+          589.8401784000001,
+          318.1596816
+        ],
+        [
+          589.8401784000001,
+          424.8398784
+        ],
+        [
+          24.159801599999998,
+          424.8398784
+        ]
+      ],
+      "bbox": [
+        24.159801599999998,
+        318.1596816,
+        589.8401784000001,
+        424.8398784
+      ],
+      "evidence_ocr_ids": [
+        "p0_b000010",
+        "p0_b000011",
+        "p0_b000012",
+        "p0_b000013",
+        "p0_b000014",
+        "p0_b000015",
+        "p0_b000016",
+        "p0_b000017",
+        "p0_b000018",
+        "p0_b000019",
+        "p0_b000020",
+        "p0_b000021",
+        "p0_b000023",
+        "p0_b000024"
+      ],
+      "decision_rows": [
+        10,
+        11,
+        12
+      ],
+      "attached_pp_image_indices": []
+    },
+    {
+      "region_id": "region-3",
+      "label": "footer",
+      "geometry": "polygon",
+      "polygon": [
+        [
+          23.1600616,
+          451.1600616
+        ],
+        [
+          341.8399384,
+          451.1600616
+        ],
+        [
+          341.8399384,
+          631.8399384
+        ],
+        [
+          23.1600616,
+          631.8399384
+        ]
+      ],
+      "bbox": [
+        23.1600616,
+        451.1600616,
+        341.8399384,
+        631.8399384
+      ],
+      "evidence_ocr_ids": [
+        "p0_b000025",
+        "p0_b000026",
+        "p0_b000027",
+        "p0_b000028",
+        "p0_b000029",
+        "p0_b000030"
+      ],
+      "decision_rows": [
+        13,
+        14,
+        15,
+        16,
+        17,
+        18
+      ],
+      "attached_pp_image_indices": [
+        6,
+        7
+      ]
+    }
+  ],
+  "rows": [
+    {
+      "bbox": [
+        165.0,
+        30.000239999999998,
+        494.0001,
+        56.00022
+      ],
+      "text": "HOADONGIA TR! GIA TANG",
+      "normalized_text": "hoadongia tr! gia tang",
+      "footer_reason": null,
+      "column_hits": 0,
+      "is_meta": false,
+      "pp_table_support": false,
+      "item_evidence": false,
+      "label": "header",
+      "decision": "before_table",
+      "ocr_ids": [
+        "p0_b000000"
+      ]
+    },
+    {
+      "bbox": [
+        30.000300000000003,
+        86.00046,
+        100.9998,
+        108.00018
+      ],
+      "text": "Mau sd:1",
+      "normalized_text": "mau sd:1",
+      "footer_reason": null,
+      "column_hits": 0,
+      "is_meta": false,
+      "pp_table_support": false,
+      "item_evidence": false,
+      "label": "header",
+      "decision": "before_table",
+      "ocr_ids": [
+        "p0_b000001"
+      ]
+    },
+    {
+      "bbox": [
+        28.99974,
+        108.99996,
+        146.99982,
+        131.99946
+      ],
+      "text": "Ky hiuC26T2A",
+      "normalized_text": "ky hiuc26t2a",
+      "footer_reason": null,
+      "column_hits": 0,
+      "is_meta": false,
+      "pp_table_support": false,
+      "item_evidence": false,
+      "label": "header",
+      "decision": "before_table",
+      "ocr_ids": [
+        "p0_b000002"
+      ]
+    },
+    {
+      "bbox": [
+        31.0002,
+        134.00016,
+        186.99978,
+        153.00054
+      ],
+      "text": "s6 hoa don: 00000002",
+      "normalized_text": "s6 hoa don: 00000002",
+      "footer_reason": null,
+      "column_hits": 0,
+      "is_meta": true,
+      "pp_table_support": false,
+      "item_evidence": false,
+      "label": "header",
+      "decision": "before_table",
+      "ocr_ids": [
+        "p0_b000003"
+      ]
+    },
+    {
+      "bbox": [
+        31.0002,
+        156.99966,
+        178.99992,
+        176.99982
+      ],
+      "text": "Ngay lap:2026-02-02",
+      "normalized_text": "ngay lap:2026-02-02",
+      "footer_reason": null,
+      "column_hits": 0,
+      "is_meta": true,
+      "pp_table_support": false,
+      "item_evidence": false,
+      "label": "header",
+      "decision": "before_table",
+      "ocr_ids": [
+        "p0_b000004"
+      ]
+    },
+    {
+      "bbox": [
+        30.000300000000003,
+        176.00003999999998,
+        330.9999,
+        197.99976
+      ],
+      "text": "Don vi ban hangCONG TY MAU HOA SEN",
+      "normalized_text": "don vi ban hangcong ty mau hoa sen",
+      "footer_reason": null,
+      "column_hits": 1,
+      "is_meta": false,
+      "pp_table_support": false,
+      "item_evidence": false,
+      "label": "header",
+      "decision": "before_table",
+      "ocr_ids": [
+        "p0_b000005"
+      ]
+    },
+    {
+      "bbox": [
+        32.0001,
+        202.9998,
+        229.0002,
+        219.99947999999998
+      ],
+      "text": "MST ngui ban:0000000002",
+      "normalized_text": "mst ngui ban:0000000002",
+      "footer_reason": null,
+      "column_hits": 0,
+      "is_meta": true,
+      "pp_table_support": false,
+      "item_evidence": false,
+      "label": "header",
+      "decision": "before_table",
+      "ocr_ids": [
+        "p0_b000006"
+      ]
+    },
+    {
+      "bbox": [
+        30.000300000000003,
+        222.00018,
+        383.99987999999996,
+        243.00011999999998
+      ],
+      "text": "Dja chi ngui ban:2Durng Mau,Thanh ph Ha Noi",
+      "normalized_text": "dja chi ngui ban:2durng mau,thanh ph ha noi",
+      "footer_reason": null,
+      "column_hits": 0,
+      "is_meta": false,
+      "pp_table_support": false,
+      "item_evidence": false,
+      "label": "header",
+      "decision": "before_table",
+      "ocr_ids": [
+        "p0_b000007"
+      ]
+    },
+    {
+      "bbox": [
+        31.0002,
+        245.99946,
+        319.99968,
+        265.99962
+      ],
+      "text": "Ngui mua: KHACH HANG THUNGHIEM",
+      "normalized_text": "ngui mua: khach hang thunghiem",
+      "footer_reason": null,
+      "column_hits": 0,
+      "is_meta": true,
+      "pp_table_support": false,
+      "item_evidence": false,
+      "label": "header",
+      "decision": "before_table",
+      "ocr_ids": [
+        "p0_b000008"
+      ]
+    },
+    {
+      "bbox": [
+        32.0001,
+        269.99988,
+        233.9997,
+        286.99956
+      ],
+      "text": "MST ngui mua: 0000003002",
+      "normalized_text": "mst ngui mua: 0000003002",
+      "footer_reason": null,
+      "column_hits": 0,
+      "is_meta": true,
+      "pp_table_support": false,
+      "item_evidence": false,
+      "label": "header",
+      "decision": "before_table",
+      "ocr_ids": [
+        "p0_b000009"
+      ]
+    },
+    {
+      "bbox": [
+        30.000300000000003,
+        322.99962,
+        585.0002400000001,
+        347.00004
+      ],
+      "text": "Ten hang/ dichv DVT SL Don gia Thanh ten",
+      "normalized_text": "ten hang/ dichv dvt sl don gia thanh ten",
+      "footer_reason": null,
+      "column_hits": 4,
+      "is_meta": false,
+      "pp_table_support": true,
+      "item_evidence": false,
+      "decision": "continue_table",
+      "label": "table",
+      "ocr_ids": [
+        "p0_b000010",
+        "p0_b000011",
+        "p0_b000012",
+        "p0_b000013",
+        "p0_b000014"
+      ]
+    },
+    {
+      "bbox": [
+        28.99974,
+        357.00012,
+        565.00026,
+        383.00010000000003
+      ],
+      "text": "s tay van phong Quyen 3 18.000 54.000",
+      "normalized_text": "s tay van phong quyen 3 18.000 54.000",
+      "footer_reason": null,
+      "column_hits": 0,
+      "is_meta": false,
+      "pp_table_support": true,
+      "item_evidence": true,
+      "decision": "continue_table",
+      "label": "table",
+      "ocr_ids": [
+        "p0_b000015",
+        "p0_b000016",
+        "p0_b000017",
+        "p0_b000018",
+        "p0_b000019"
+      ]
+    },
+    {
+      "bbox": [
+        28.99974,
+        393.99996,
+        565.00026,
+        419.99994
+      ],
+      "text": "Bla h so Cai 7.000 35.000",
+      "normalized_text": "bla h so cai 7.000 35.000",
+      "footer_reason": null,
+      "column_hits": 0,
+      "is_meta": false,
+      "pp_table_support": true,
+      "item_evidence": true,
+      "decision": "continue_table",
+      "label": "table",
+      "ocr_ids": [
+        "p0_b000020",
+        "p0_b000021",
+        "p0_b000023",
+        "p0_b000024"
+      ]
+    },
+    {
+      "bbox": [
+        31.0002,
+        457.99956,
+        176.00021999999998,
+        478.9995
+      ],
+      "text": "Thue suat GTGT: 5%",
+      "normalized_text": "thue suat gtgt: 5%",
+      "footer_reason": "tax",
+      "column_hits": 0,
+      "is_meta": false,
+      "pp_table_support": false,
+      "item_evidence": false,
+      "decision": "footer_anchor:tax",
+      "label": "footer",
+      "ocr_ids": [
+        "p0_b000025"
+      ]
+    },
+    {
+      "bbox": [
+        31.0002,
+        481.99998,
+        189.00024,
+        502.00014
+      ],
+      "text": "Cong tien hang89.000",
+      "normalized_text": "cong tien hang89.000",
+      "footer_reason": null,
+      "column_hits": 0,
+      "is_meta": false,
+      "pp_table_support": false,
+      "item_evidence": false,
+      "decision": "continue_footer",
+      "label": "footer",
+      "ocr_ids": [
+        "p0_b000026"
+      ]
+    },
+    {
+      "bbox": [
+        31.0002,
+        503.9997,
+        189.00024,
+        523.00008
+      ],
+      "text": "Tien thue GTGT4.450",
+      "normalized_text": "tien thue gtgt4.450",
+      "footer_reason": "tax",
+      "column_hits": 0,
+      "is_meta": false,
+      "pp_table_support": false,
+      "item_evidence": false,
+      "decision": "footer_anchor:tax",
+      "label": "footer",
+      "ocr_ids": [
+        "p0_b000027"
+      ]
+    },
+    {
+      "bbox": [
+        31.0002,
+        524.99964,
+        213.99972,
+        545.99958
+      ],
+      "text": "Tong thanh toan: 93.450",
+      "normalized_text": "tong thanh toan: 93.450",
+      "footer_reason": "total",
+      "column_hits": 0,
+      "is_meta": false,
+      "pp_table_support": false,
+      "item_evidence": false,
+      "decision": "footer_anchor:total",
+      "label": "footer",
+      "ocr_ids": [
+        "p0_b000028"
+      ]
+    },
+    {
+      "bbox": [
+        31.0002,
+        549.00006,
+        119.99988,
+        570.0
+      ],
+      "text": "Tien te: VND",
+      "normalized_text": "tien te: vnd",
+      "footer_reason": null,
+      "column_hits": 0,
+      "is_meta": false,
+      "pp_table_support": false,
+      "item_evidence": false,
+      "decision": "continue_footer",
+      "label": "footer",
+      "ocr_ids": [
+        "p0_b000029"
+      ]
+    },
+    {
+      "bbox": [
+        32.0001,
+        611.0001,
+        335.00016,
+        627.0
+      ],
+      "text": "DO LIEU GIA LAP-KHONG CO GIA TRI THANH TOAN",
+      "normalized_text": "do lieu gia lap-khong co gia tri thanh toan",
+      "footer_reason": null,
+      "column_hits": 0,
+      "is_meta": false,
+      "pp_table_support": false,
+      "item_evidence": false,
+      "decision": "continue_footer",
+      "label": "footer",
+      "ocr_ids": [
+        "p0_b000030"
+      ]
+    }
+  ],
+  "excluded_ocr_ids": [],
+  "table_start_reason": "column_headers",
+  "warnings": [],
+  "needs_review": true,
+  "provenance": "PP predictions + OCR only; no gold/sample-specific coordinates",
+  "compact_boundaries": {
+    "version": "shared-gap-0.1",
+    "changes": [],
+    "unresolved": []
+  },
+  "schema_version": "layout-prediction-1.1",
+  "input_file": "/Users/mathew/Documents/ChatGPT/VietReceipt/output/vietreceipt-terminal/git-20/images/VRSYN2-00002__blur_png.png",
+  "input_sha256": "278fafccd7e539ab638856e52aa5e52451c0fbc484cab7f1f41060a6e862e9fe",
+  "source": {
+    "path": "/Users/mathew/Documents/ChatGPT/VietReceipt/output/vietreceipt-terminal/git-20/images/VRSYN2-00002__blur_png.png",
+    "sha256": "278fafccd7e539ab638856e52aa5e52451c0fbc484cab7f1f41060a6e862e9fe",
+    "encoded_width": 660,
+    "encoded_height": 1140,
+    "exif_orientation": 1,
+    "upright_width": 660,
+    "upright_height": 1140,
+    "original_to_upright_matrix": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "upright_to_original_matrix": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "geometry_convention": "Continuous pixel edges, x in [0,width], y in [0,height]; use pixel centers for raster points"
+  },
+  "width": 660,
+  "height": 1140,
+  "coordinate_system": "pixel_xy_on_exif_normalized_image",
+  "regions_original": [
+    {
+      "region_id": "region-1",
+      "label": "header",
+      "evidence_ocr_ids": [
+        "p0_b000000",
+        "p0_b000001",
+        "p0_b000002",
+        "p0_b000003",
+        "p0_b000004",
+        "p0_b000005",
+        "p0_b000006",
+        "p0_b000007",
+        "p0_b000008",
+        "p0_b000009"
+      ],
+      "geometry": "polygon",
+      "polygon": [
+        [
+          22.1600616,
+          20.1600616
+        ],
+        [
+          499.8399384,
+          20.1600616
+        ],
+        [
+          499.8399384,
+          292.8399384
+        ],
+        [
+          22.1600616,
+          292.8399384
+        ]
+      ],
+      "bbox": [
+        22.1600616,
+        20.1600616,
+        499.8399384,
+        292.8399384
+      ],
+      "coordinate_system": "pixel_xy_on_original_encoded_image"
+    },
+    {
+      "region_id": "region-2",
+      "label": "table",
+      "evidence_ocr_ids": [
+        "p0_b000010",
+        "p0_b000011",
+        "p0_b000012",
+        "p0_b000013",
+        "p0_b000014",
+        "p0_b000015",
+        "p0_b000016",
+        "p0_b000017",
+        "p0_b000018",
+        "p0_b000019",
+        "p0_b000020",
+        "p0_b000021",
+        "p0_b000023",
+        "p0_b000024"
+      ],
+      "geometry": "polygon",
+      "polygon": [
+        [
+          24.159801599999998,
+          318.1596816
+        ],
+        [
+          589.8401784000001,
+          318.1596816
+        ],
+        [
+          589.8401784000001,
+          424.8398784
+        ],
+        [
+          24.159801599999998,
+          424.8398784
+        ]
+      ],
+      "bbox": [
+        24.159801599999998,
+        318.1596816,
+        589.8401784000001,
+        424.8398784
+      ],
+      "coordinate_system": "pixel_xy_on_original_encoded_image"
+    },
+    {
+      "region_id": "region-3",
+      "label": "footer",
+      "evidence_ocr_ids": [
+        "p0_b000025",
+        "p0_b000026",
+        "p0_b000027",
+        "p0_b000028",
+        "p0_b000029",
+        "p0_b000030"
+      ],
+      "geometry": "polygon",
+      "polygon": [
+        [
+          23.1600616,
+          451.1600616
+        ],
+        [
+          341.8399384,
+          451.1600616
+        ],
+        [
+          341.8399384,
+          631.8399384
+        ],
+        [
+          23.1600616,
+          631.8399384
+        ]
+      ],
+      "bbox": [
+        23.1600616,
+        451.1600616,
+        341.8399384,
+        631.8399384
+      ],
+      "coordinate_system": "pixel_xy_on_original_encoded_image"
+    }
+  ],
+  "evidence_coordinate_system": "pixel_xy_on_exif_normalized_image",
+  "pp_native": [
+    {
+      "native_label": "doc_title",
+      "confidence": 0.2625512480735779,
+      "bbox": [
+        162.1236114501953,
+        25.978191375732422,
+        496.22686767578125,
+        57.093101501464844
+      ],
+      "polygon": [
+        [
+          162,
+          25
+        ],
+        [
+          162,
+          56
+        ],
+        [
+          495,
+          56
+        ],
+        [
+          495,
+          25
+        ],
+        [
+          420,
+          25
+        ],
+        [
+          396,
+          25
+        ],
+        [
+          298,
+          25
+        ],
+        [
+          251,
+          25
+        ],
+        [
+          235,
+          25
+        ],
+        [
+          228,
+          25
+        ]
+      ]
+    },
+    {
+      "native_label": "paragraph_title",
+      "confidence": 0.33583706617355347,
+      "bbox": [
+        162.1236114501953,
+        25.978191375732422,
+        496.22686767578125,
+        57.093101501464844
+      ],
+      "polygon": [
+        [
+          162,
+          25
+        ],
+        [
+          162,
+          56
+        ],
+        [
+          495,
+          56
+        ],
+        [
+          495,
+          25
+        ],
+        [
+          420,
+          25
+        ],
+        [
+          396,
+          25
+        ],
+        [
+          298,
+          25
+        ],
+        [
+          251,
+          25
+        ],
+        [
+          235,
+          25
+        ],
+        [
+          228,
+          25
+        ]
+      ]
+    },
+    {
+      "native_label": "header",
+      "confidence": 0.5311228036880493,
+      "bbox": [
+        162.1236114501953,
+        25.978191375732422,
+        496.22686767578125,
+        57.093101501464844
+      ],
+      "polygon": [
+        [
+          162,
+          25
+        ],
+        [
+          162,
+          56
+        ],
+        [
+          495,
+          56
+        ],
+        [
+          495,
+          25
+        ],
+        [
+          420,
+          25
+        ],
+        [
+          396,
+          25
+        ],
+        [
+          298,
+          25
+        ],
+        [
+          251,
+          25
+        ],
+        [
+          235,
+          25
+        ],
+        [
+          228,
+          25
+        ]
+      ]
+    },
+    {
+      "native_label": "text",
+      "confidence": 0.877231240272522,
+      "bbox": [
+        27.904949188232422,
+        86.72576141357422,
+        388.1174011230469,
+        289.1019287109375
+      ],
+      "polygon": [
+        [
+          27,
+          86
+        ],
+        [
+          27,
+          288
+        ],
+        [
+          384,
+          288
+        ],
+        [
+          387,
+          283
+        ],
+        [
+          384,
+          92
+        ],
+        [
+          342,
+          86
+        ]
+      ]
+    },
+    {
+      "native_label": "table",
+      "confidence": 0.43306171894073486,
+      "bbox": [
+        27.5959415435791,
+        320.1317443847656,
+        587.3230590820312,
+        418.0710144042969
+      ],
+      "polygon": [
+        [
+          27,
+          326
+        ],
+        [
+          27,
+          417
+        ],
+        [
+          586,
+          417
+        ],
+        [
+          586,
+          320
+        ],
+        [
+          31,
+          320
+        ]
+      ]
+    },
+    {
+      "native_label": "table",
+      "confidence": 0.3051961660385132,
+      "bbox": [
+        299.0296630859375,
+        320.2485046386719,
+        587.3784790039062,
+        416.5011901855469
+      ],
+      "polygon": [
+        [
+          299,
+          320
+        ],
+        [
+          299,
+          415
+        ],
+        [
+          583,
+          415
+        ],
+        [
+          586,
+          410
+        ],
+        [
+          586,
+          320
+        ]
+      ]
+    },
+    {
+      "native_label": "text",
+      "confidence": 0.792076051235199,
+      "bbox": [
+        28.01963233947754,
+        456.2222595214844,
+        216.15286254882812,
+        569.1871948242188
+      ],
+      "polygon": [
+        [
+          28,
+          456
+        ],
+        [
+          28,
+          540
+        ],
+        [
+          32,
+          568
+        ],
+        [
+          215,
+          568
+        ],
+        [
+          215,
+          456
+        ]
+      ]
+    },
+    {
+      "native_label": "text",
+      "confidence": 0.689659833908081,
+      "bbox": [
+        29.178462982177734,
+        607.42724609375,
+        338.806396484375,
+        628.9102172851562
+      ],
+      "polygon": [
+        [
+          29,
+          613
+        ],
+        [
+          29,
+          627
+        ],
+        [
+          337,
+          627
+        ],
+        [
+          337,
+          607
+        ],
+        [
+          142,
+          607
+        ],
+        [
+          132,
+          607
+        ],
+        [
+          119,
+          607
+        ],
+        [
+          115,
+          607
+        ],
+        [
+          76,
+          607
+        ]
+      ]
+    }
+  ],
+  "ocr_lines": [
+    {
+      "ocr_id": "p0_b000000",
+      "text": "HOADONGIA TR! GIA TANG",
+      "confidence": 0.908175,
+      "polygon": [
+        [
+          165.0,
+          30.000239999999998
+        ],
+        [
+          494.0001,
+          30.000239999999998
+        ],
+        [
+          494.0001,
+          56.00022
+        ],
+        [
+          165.0,
+          56.00022
+        ]
+      ]
+    },
+    {
+      "ocr_id": "p0_b000001",
+      "text": "Mau sd:1",
+      "confidence": 0.813734,
+      "polygon": [
+        [
+          30.000300000000003,
+          86.00046
+        ],
+        [
+          100.9998,
+          86.00046
+        ],
+        [
+          100.9998,
+          108.00018
+        ],
+        [
+          30.000300000000003,
+          108.00018
+        ]
+      ]
+    },
+    {
+      "ocr_id": "p0_b000002",
+      "text": "Ky hiuC26T2A",
+      "confidence": 0.945617,
+      "polygon": [
+        [
+          28.99974,
+          110.99951999999999
+        ],
+        [
+          146.99982,
+          108.99996
+        ],
+        [
+          146.99982,
+          129.9999
+        ],
+        [
+          30.000300000000003,
+          131.99946
+        ]
+      ]
+    },
+    {
+      "ocr_id": "p0_b000003",
+      "text": "s6 hoa don: 00000002",
+      "confidence": 0.873725,
+      "polygon": [
+        [
+          31.0002,
+          134.00016
+        ],
+        [
+          186.99978,
+          134.00016
+        ],
+        [
+          186.99978,
+          153.00054
+        ],
+        [
+          31.0002,
+          153.00054
+        ]
+      ]
+    },
+    {
+      "ocr_id": "p0_b000004",
+      "text": "Ngay lap:2026-02-02",
+      "confidence": 0.935912,
+      "polygon": [
+        [
+          31.0002,
+          156.99966
+        ],
+        [
+          178.99992,
+          156.99966
+        ],
+        [
+          178.99992,
+          176.99982
+        ],
+        [
+          31.0002,
+          176.99982
+        ]
+      ]
+    },
+    {
+      "ocr_id": "p0_b000005",
+      "text": "Don vi ban hangCONG TY MAU HOA SEN",
+      "confidence": 0.922873,
+      "polygon": [
+        [
+          30.000300000000003,
+          177.99960000000002
+        ],
+        [
+          330.9999,
+          176.00003999999998
+        ],
+        [
+          330.9999,
+          196.0002
+        ],
+        [
+          31.0002,
+          197.99976
+        ]
+      ]
+    },
+    {
+      "ocr_id": "p0_b000006",
+      "text": "MST ngui ban:0000000002",
+      "confidence": 0.941881,
+      "polygon": [
+        [
+          32.0001,
+          202.9998
+        ],
+        [
+          229.0002,
+          202.9998
+        ],
+        [
+          229.0002,
+          219.99947999999998
+        ],
+        [
+          32.0001,
+          219.99947999999998
+        ]
+      ]
+    },
+    {
+      "ocr_id": "p0_b000007",
+      "text": "Dja chi ngui ban:2Durng Mau,Thanh ph Ha Noi",
+      "confidence": 0.893387,
+      "polygon": [
+        [
+          30.000300000000003,
+          223.99974
+        ],
+        [
+          383.99987999999996,
+          222.00018
+        ],
+        [
+          383.99987999999996,
+          241.00056
+        ],
+        [
+          31.0002,
+          243.00011999999998
+        ]
+      ]
+    },
+    {
+      "ocr_id": "p0_b000008",
+      "text": "Ngui mua: KHACH HANG THUNGHIEM",
+      "confidence": 0.944884,
+      "polygon": [
+        [
+          31.0002,
+          245.99946
+        ],
+        [
+          319.99968,
+          245.99946
+        ],
+        [
+          319.99968,
+          265.99962
+        ],
+        [
+          31.0002,
+          265.99962
+        ]
+      ]
+    },
+    {
+      "ocr_id": "p0_b000009",
+      "text": "MST ngui mua: 0000003002",
+      "confidence": 0.926661,
+      "polygon": [
+        [
+          32.0001,
+          269.99988
+        ],
+        [
+          233.9997,
+          269.99988
+        ],
+        [
+          233.9997,
+          286.99956
+        ],
+        [
+          32.0001,
+          286.99956
+        ]
+      ]
+    },
+    {
+      "ocr_id": "p0_b000010",
+      "text": "Ten hang/ dichv",
+      "confidence": 0.905517,
+      "polygon": [
+        [
+          31.0002,
+          322.99962
+        ],
+        [
+          145.99992,
+          326.00010000000003
+        ],
+        [
+          145.99992,
+          346.00025999999997
+        ],
+        [
+          30.000300000000003,
+          343.99956000000003
+        ]
+      ]
+    },
+    {
+      "ocr_id": "p0_b000011",
+      "text": "DVT",
+      "confidence": 0.971982,
+      "polygon": [
+        [
+          302.00016,
+          322.99962
+        ],
+        [
+          336.99996,
+          322.99962
+        ],
+        [
+          336.99996,
+          346.00025999999997
+        ],
+        [
+          302.00016,
+          346.00025999999997
+        ]
+      ]
+    },
+    {
+      "ocr_id": "p0_b000012",
+      "text": "SL",
+      "confidence": 0.964201,
+      "polygon": [
+        [
+          367.00026,
+          322.99962
+        ],
+        [
+          390.99983999999995,
+          322.99962
+        ],
+        [
+          390.99983999999995,
+          347.00004
+        ],
+        [
+          367.00026,
+          347.00004
+        ]
+      ]
+    },
+    {
+      "ocr_id": "p0_b000013",
+      "text": "Don gia",
+      "confidence": 0.932639,
+      "polygon": [
+        [
+          426.0003,
+          322.99962
+        ],
+        [
+          481.99998000000005,
+          322.99962
+        ],
+        [
+          481.99998000000005,
+          347.00004
+        ],
+        [
+          426.0003,
+          347.00004
+        ]
+      ]
+    },
+    {
+      "ocr_id": "p0_b000014",
+      "text": "Thanh ten",
+      "confidence": 0.976645,
+      "polygon": [
+        [
+          517.99968,
+          324.00054
+        ],
+        [
+          585.0002400000001,
+          324.00054
+        ],
+        [
+          585.0002400000001,
+          343.99956000000003
+        ],
+        [
+          517.99968,
+          343.99956000000003
+        ]
+      ]
+    },
+    {
+      "ocr_id": "p0_b000015",
+      "text": "s tay van phong",
+      "confidence": 0.938936,
+      "polygon": [
+        [
+          30.000300000000003,
+          358.99968
+        ],
+        [
+          139.99986,
+          361.00037999999995
+        ],
+        [
+          138.99996,
+          382.00032
+        ],
+        [
+          28.99974,
+          379.99962
+        ]
+      ]
+    },
+    {
+      "ocr_id": "p0_b000016",
+      "text": "Quyen",
+      "confidence": 0.972296,
+      "polygon": [
+        [
+          302.00016,
+          357.00012
+        ],
+        [
+          350.99988,
+          357.00012
+        ],
+        [
+          350.99988,
+          383.00010000000003
+        ],
+        [
+          302.00016,
+          383.00010000000003
+        ]
+      ]
+    },
+    {
+      "ocr_id": "p0_b000017",
+      "text": "3",
+      "confidence": 0.996469,
+      "polygon": [
+        [
+          365.99969999999996,
+          358.99968
+        ],
+        [
+          382.99998,
+          358.99968
+        ],
+        [
+          382.99998,
+          382.00032
+        ],
+        [
+          365.99969999999996,
+          382.00032
+        ]
+      ]
+    },
+    {
+      "ocr_id": "p0_b000018",
+      "text": "18.000",
+      "confidence": 0.997771,
+      "polygon": [
+        [
+          428.0001,
+          358.99968
+        ],
+        [
+          475.00002,
+          358.99968
+        ],
+        [
+          475.00002,
+          382.00032
+        ],
+        [
+          428.0001,
+          382.00032
+        ]
+      ]
+    },
+    {
+      "ocr_id": "p0_b000019",
+      "text": "54.000",
+      "confidence": 0.998097,
+      "polygon": [
+        [
+          516.99978,
+          358.99968
+        ],
+        [
+          565.00026,
+          358.99968
+        ],
+        [
+          565.00026,
+          382.00032
+        ],
+        [
+          516.99978,
+          382.00032
+        ]
+      ]
+    },
+    {
+      "ocr_id": "p0_b000020",
+      "text": "Bla h so",
+      "confidence": 0.896802,
+      "polygon": [
+        [
+          28.99974,
+          395.99952
+        ],
+        [
+          92.99994000000001,
+          395.99952
+        ],
+        [
+          92.99994000000001,
+          416.99946
+        ],
+        [
+          28.99974,
+          416.99946
+        ]
+      ]
+    },
+    {
+      "ocr_id": "p0_b000021",
+      "text": "Cai",
+      "confidence": 0.981713,
+      "polygon": [
+        [
+          302.00016,
+          393.99996
+        ],
+        [
+          330.9999,
+          393.99996
+        ],
+        [
+          330.9999,
+          419.99994
+        ],
+        [
+          302.00016,
+          419.99994
+        ]
+      ]
+    },
+    {
+      "ocr_id": "p0_b000022",
+      "text": "5",
+      "confidence": 0.345673,
+      "polygon": [
+        [
+          367.00026,
+          393.99996
+        ],
+        [
+          382.99998,
+          393.99996
+        ],
+        [
+          382.99998,
+          419.99994
+        ],
+        [
+          367.00026,
+          419.99994
+        ]
+      ]
+    },
+    {
+      "ocr_id": "p0_b000023",
+      "text": "7.000",
+      "confidence": 0.989756,
+      "polygon": [
+        [
+          426.0003,
+          394.99974
+        ],
+        [
+          468.00006,
+          394.99974
+        ],
+        [
+          468.00006,
+          419.00016
+        ],
+        [
+          426.0003,
+          419.00016
+        ]
+      ]
+    },
+    {
+      "ocr_id": "p0_b000024",
+      "text": "35.000",
+      "confidence": 0.99865,
+      "polygon": [
+        [
+          516.99978,
+          395.99952
+        ],
+        [
+          565.00026,
+          395.99952
+        ],
+        [
+          565.00026,
+          419.00016
+        ],
+        [
+          516.99978,
+          419.00016
+        ]
+      ]
+    },
+    {
+      "ocr_id": "p0_b000025",
+      "text": "Thue suat GTGT: 5%",
+      "confidence": 0.968591,
+      "polygon": [
+        [
+          31.0002,
+          457.99956
+        ],
+        [
+          176.00021999999998,
+          457.99956
+        ],
+        [
+          176.00021999999998,
+          478.9995
+        ],
+        [
+          31.0002,
+          478.9995
+        ]
+      ]
+    },
+    {
+      "ocr_id": "p0_b000026",
+      "text": "Cong tien hang89.000",
+      "confidence": 0.947997,
+      "polygon": [
+        [
+          31.0002,
+          481.99998
+        ],
+        [
+          189.00024,
+          481.99998
+        ],
+        [
+          189.00024,
+          502.00014
+        ],
+        [
+          31.0002,
+          502.00014
+        ]
+      ]
+    },
+    {
+      "ocr_id": "p0_b000027",
+      "text": "Tien thue GTGT4.450",
+      "confidence": 0.946755,
+      "polygon": [
+        [
+          31.0002,
+          503.9997
+        ],
+        [
+          189.00024,
+          503.9997
+        ],
+        [
+          189.00024,
+          523.00008
+        ],
+        [
+          31.0002,
+          523.00008
+        ]
+      ]
+    },
+    {
+      "ocr_id": "p0_b000028",
+      "text": "Tong thanh toan: 93.450",
+      "confidence": 0.941425,
+      "polygon": [
+        [
+          31.0002,
+          524.99964
+        ],
+        [
+          213.99972,
+          524.99964
+        ],
+        [
+          213.99972,
+          545.99958
+        ],
+        [
+          31.0002,
+          545.99958
+        ]
+      ]
+    },
+    {
+      "ocr_id": "p0_b000029",
+      "text": "Tien te: VND",
+      "confidence": 0.912653,
+      "polygon": [
+        [
+          31.0002,
+          549.00006
+        ],
+        [
+          119.99988,
+          549.00006
+        ],
+        [
+          119.99988,
+          570.0
+        ],
+        [
+          31.0002,
+          570.0
+        ]
+      ]
+    },
+    {
+      "ocr_id": "p0_b000030",
+      "text": "DO LIEU GIA LAP-KHONG CO GIA TRI THANH TOAN",
+      "confidence": 0.910428,
+      "polygon": [
+        [
+          32.0001,
+          611.0001
+        ],
+        [
+          335.00016,
+          611.0001
+        ],
+        [
+          335.00016,
+          627.0
+        ],
+        [
+          32.0001,
+          627.0
+        ]
+      ]
+    }
+  ],
+  "pp_checkpoint_sha256": "5ea422c6cc5fe759a47e1357c35639b58173508e025a3131cbe4b6ac59e2b85e",
+  "ocr_recognizer_sha256": null,
+  "ocr_provenance": {
+    "name": "paddleocr",
+    "version": "3.0.3"
+  },
+  "code_sha256": {
+    "pipeline": "9a5bece7d97a5d01d53f93d15461dfaf9e59048e4a4ff8a0cc22e8a7584fc7a1",
+    "image_input": "e14ec59791cf6ef5b32d7ff7e288b90625baf648a4e1714f8391141373fe1398",
+    "ocr_engine": "1846c2380ef06ed98756deefdf5b86a567c6ae3684dd316a0abd32fe4f7844fb",
+    "region_rules": "7655ea01a541dfd00fdd8b46ee3a45f042db293d71eecc27a1a0f937a8f5d190",
+    "visual_fallback": "b5cff5dbde131764f3ce3ba2dce6f73f94ace1a62e2a4696c455f213d5a8c633",
+    "boundary_refiner": "874a0ebd6bda9f654d515b2433c723d8fdd99952f23ea6f69ea236c01cb290f9",
+    "compact_regions": "9d61b0c61f974f3791303396fbf201e84c28dd5253427d2b355da6816ddac7b5"
+  },
+  "annotation_status": "PREDICTION_PENDING_REVIEW",
+  "training": false,
+  "elapsed_seconds": 1.6789294579648413
+}

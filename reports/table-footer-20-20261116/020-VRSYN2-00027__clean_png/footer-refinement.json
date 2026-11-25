@@ -1,0 +1,65 @@
+{
+  "rows": [
+    {
+      "text": "Thuế suất GTGT: 8%",
+      "segments": [
+        {
+          "block_id": "p0_b000030",
+          "text": "Thuế suất GTGT: 8%",
+          "source": "apple-vision"
+        }
+      ]
+    },
+    {
+      "text": "Cộng tiền hàng: 149.000",
+      "segments": [
+        {
+          "block_id": "p0_b000031",
+          "text": "Cộng tiền hàng: 149.000",
+          "source": "apple-vision"
+        }
+      ]
+    },
+    {
+      "text": "Tiền thuế GTGT: 11.920",
+      "segments": [
+        {
+          "block_id": "p0_b000032",
+          "text": "Tiền thuế GTGT: 11.920",
+          "source": "apple-vision"
+        }
+      ]
+    },
+    {
+      "text": "Tổng thanh toán: 160.920",
+      "segments": [
+        {
+          "block_id": "p0_b000033",
+          "text": "Tổng thanh toán: 160.920",
+          "source": "apple-vision"
+        }
+      ]
+    },
+    {
+      "text": "Tiền tệ: VND",
+      "segments": [
+        {
+          "block_id": "p0_b000034",
+          "text": "Tiền tệ: VND",
+          "source": "apple-vision"
+        }
+      ]
+    },
+    {
+      "text": "DỮ LIỆU GIẢ LẶP - KHÔNG CÓ GIÁ TRỊ THANH TOÁN",
+      "segments": [
+        {
+          "block_id": "p0_b000035",
+          "text": "DỮ LIỆU GIẢ LẶP - KHÔNG CÓ GIÁ TRỊ THANH TOÁN",
+          "source": "apple-vision"
+        }
+      ]
+    }
+  ],
+  "reader_ocr_run_id": "961b29da-d35f-4f4b-8b29-7af78fd6d754"
+}

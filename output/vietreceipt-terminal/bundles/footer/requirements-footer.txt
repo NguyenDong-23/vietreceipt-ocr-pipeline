@@ -1,0 +1,8 @@
+# Windows 64-bit, Python 3.11. Install the CPU build of Torch first as shown in the README.
+paddlepaddle==3.3.1
+paddleocr==3.7.0
+paddlex[ocr-core]==3.7.2
+numpy==2.2.6
+Pillow==10.2.0
+rapidfuzz==3.14.5
+torch==2.8.0

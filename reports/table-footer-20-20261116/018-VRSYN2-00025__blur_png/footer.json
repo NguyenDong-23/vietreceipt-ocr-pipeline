@@ -1,0 +1,208 @@
+{
+  "box": [
+    40,
+    460,
+    671,
+    1263
+  ],
+  "method": "summary cue",
+  "text": "Cng tin hàng: 43.000\nTièn thué GTGT: 0\nTng thanh toán: 43.000\nTièn t: VND\nD LIU GIÄ LP - KHNG C GIÁ TRI THANH TON",
+  "lines": [
+    {
+      "text": "Cng tin hàng: 43.000",
+      "score": 0.984965,
+      "poly": [
+        [
+          480.0,
+          469.0
+        ],
+        [
+          639.0,
+          469.0
+        ],
+        [
+          639.0,
+          490.0
+        ],
+        [
+          480.0,
+          490.0
+        ]
+      ]
+    },
+    {
+      "text": "Tièn thué GTGT: 0",
+      "score": 0.972233,
+      "poly": [
+        [
+          478.0,
+          491.0
+        ],
+        [
+          609.0,
+          493.0
+        ],
+        [
+          609.0,
+          514.0
+        ],
+        [
+          478.0,
+          512.0
+        ]
+      ]
+    },
+    {
+      "text": "Tng thanh toán: 43.000",
+      "score": 0.996278,
+      "poly": [
+        [
+          479.0,
+          516.0
+        ],
+        [
+          663.0,
+          516.0
+        ],
+        [
+          663.0,
+          537.0
+        ],
+        [
+          479.0,
+          537.0
+        ]
+      ]
+    },
+    {
+      "text": "Tièn t: VND",
+      "score": 0.967917,
+      "poly": [
+        [
+          477.0,
+          539.0
+        ],
+        [
+          570.0,
+          539.0
+        ],
+        [
+          570.0,
+          563.0
+        ],
+        [
+          477.0,
+          563.0
+        ]
+      ]
+    },
+    {
+      "text": "D LIU GIÄ LP - KHNG C GIÁ TRI THANH TON",
+      "score": 0.945158,
+      "poly": [
+        [
+          49.0,
+          603.0
+        ],
+        [
+          355.0,
+          603.0
+        ],
+        [
+          355.0,
+          623.0
+        ],
+        [
+          49.0,
+          623.0
+        ]
+      ]
+    }
+  ],
+  "row_geometry": [
+    21.0,
+    0.0
+  ],
+  "layout_input_shape": [
+    1263,
+    893
+  ],
+  "layout_seconds": 11.8,
+  "footer_seconds": 4.033,
+  "payment": {
+    "status": "PRESENT",
+    "amount_vnd": 43000,
+    "source_rows": [
+      "Tng thanh toán: 43.000"
+    ],
+    "source": "PADDLE_FOOTER"
+  },
+  "recognizer": "PP-OCRv5_server_det + latin_PP-OCRv5_mobile_rec",
+  "coordinate_system": "pixels_on_footer_upright_png",
+  "orientation_clockwise": 0,
+  "display": {
+    "rows": [
+      {
+        "text": "Thuế suất GTGT: 0%",
+        "segments": [
+          {
+            "block_id": "p0_b000028",
+            "text": "Thuế suất GTGT: 0%",
+            "source": "apple-vision"
+          }
+        ]
+      },
+      {
+        "text": "Cộng tiền hàng: 43.000",
+        "segments": [
+          {
+            "block_id": "p0_b000029",
+            "text": "Cộng tiền hàng: 43.000",
+            "source": "apple-vision"
+          }
+        ]
+      },
+      {
+        "text": "Tiền thuế GTGT: 0",
+        "segments": [
+          {
+            "block_id": "p0_b000030",
+            "text": "Tiền thuế GTGT: 0",
+            "source": "apple-vision"
+          }
+        ]
+      },
+      {
+        "text": "Tổng thanh toán: 43.000",
+        "segments": [
+          {
+            "block_id": "p0_b000031",
+            "text": "Tổng thanh toán: 43.000",
+            "source": "apple-vision"
+          }
+        ]
+      },
+      {
+        "text": "Tiền tệ: VND",
+        "segments": [
+          {
+            "block_id": "p0_b000032",
+            "text": "Tiền tệ: VND",
+            "source": "apple-vision"
+          }
+        ]
+      },
+      {
+        "text": "DỮ LIỆU GIÁ LẬP - KHÔNG CÔ GIÁ TRỊ THANH TOÁN",
+        "segments": [
+          {
+            "block_id": "p0_b000033",
+            "text": "DỮ LIỆU GIÁ LẬP - KHÔNG CÔ GIÁ TRỊ THANH TOÁN",
+            "source": "apple-vision"
+          }
+        ]
+      }
+    ],
+    "reader_ocr_run_id": "fbb4fcc4-a5e0-436f-83f3-4e13e57d281d"
+  }
+}

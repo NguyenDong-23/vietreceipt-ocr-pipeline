@@ -1,0 +1,987 @@
+
+>>> 1/20 · R001.jpg
+  reader         OK
+  segmentation   OK
+  table          OK
+  header         OK
+  footer         OK
+
+=== PHÂN VÙNG · PP-DocLayoutV3 ===
+  Đầu biên lai         region-1 [0.0, 63.6, 331.4, 192.5]
+  Bảng mặt hàng        region-2 [6.6, 192.6, 416.4, 354.4]
+  Vùng cuối            region-3 [0.6, 361.6, 420.4, 564.0]
+  Cảnh báo: Không có
+  Liên kết OCR: 31 đã gán, 0 mơ hồ, 0 chưa gán.
+
+=== HEADER · VietOCR checkpoint ===
+  Mẫu số               — [UNKNOWN]
+  Ký hiệu              — [UNKNOWN]
+  Số hóa đơn           — [UNKNOWN]
+  Ngày hóa đơn         — [UNKNOWN]
+  Tên người bán        MINIMART ANAN [AMBIGUOUS]
+  MST người bán        — [UNKNOWN]
+  Địa chỉ người bán    Chợ Sủi Phú Thị Gia Lâm [AMBIGUOUS]
+  Tên người mua        — [UNKNOWN]
+  MST người mua        — [UNKNOWN]
+  Mã giao dịch         000AC2212008001576 [Thông tin giao dịch]
+  Ngày giao dịch       2020-08-12 [Thông tin giao dịch]
+  Số khung đọc lại: 31
+
+=== BẢNG MẶT HÀNG · Retail Table ===
+  2 dòng
+  Tên hàng | ĐVT | SL | Đơn giá | Thành tiền
+  1. BVS diana mỏng cánh [PRESENT] | GOI [PRESENT] | 6.0 [PRESENT] | 16500 [PRESENT] | 99000 [PRESENT]
+  2. con thú đồ chơi [PRESENT] | CAI [PRESENT] | 1.0 [PRESENT] | 14000 [PRESENT] | 14000 [PRESENT]
+  Apple Vision đọc lại 3 ô.
+
+=== FOOTER ===
+  Vùng đọc trên ảnh đã chỉnh chiều: [0, 356, 423, 564]
+  Dòng ghép từ Apple Vision và Reader
+  Tổng số: 7
+  Tổng cộng : 113,000
+  Tổng tiền : 113,000
+  Tiền khách trả: VND 113,000
+  Số GD: 000AC2212008001576 Ngày: 12/08/2020-16:26
+  Thu ngân: BH3
+  Xin cám ơn và hẹn gặp lại quý khách !
+  Số tiền thanh toán: 113.000 VND [PRESENT] · Nguồn Reader + PP Footer
+
+Kết quả lưu tại /Users/mathew/Documents/ChatGPT/VietReceipt/output/vietreceipt-terminal/runs/table-footer-checked-20261116-124445/001-R001 · 28.2s
+
+>>> 2/20 · VRSYN2-00001__clean_png.png
+  reader         OK
+  segmentation   OK
+  table          OK
+  header         OK
+  footer         OK
+
+=== PHÂN VÙNG · PP-DocLayoutV3 ===
+  Đầu biên lai         region-1 [44.0, 22.0, 651.0, 205.0]
+  Bảng mặt hàng        region-2 [44.0, 273.0, 768.0, 483.0]
+  Vùng cuối            region-3 [44.0, 513.0, 676.0, 700.0]
+  Cảnh báo: Không có
+  Liên kết OCR: 46 đã gán, 0 mơ hồ, 0 chưa gán.
+
+=== HEADER · VietOCR checkpoint ===
+  Mẫu số               1 [PRESENT]
+  Ký hiệu              C26T1A [PRESENT]
+  Số hóa đơn           00000001 [PRESENT]
+  Ngày hóa đơn         2026-01-01 [PRESENT]
+  Tên người bán        CỬA HÀNG MẪU SAO VIỆT [PRESENT] · Nguồn Apple Vision
+  MST người bán        0000000001 [PRESENT]
+  Địa chỉ người bán    1 Đường Mẫu, Thành phố Hà Nội [PRESENT]
+  Tên người mua        KHÁCH HÀNG THỬ NGHIỆM [PRESENT] · Nguồn Apple Vision
+  MST người mua        0000003001 [PRESENT]
+  Số khung đọc lại: 46
+
+=== BẢNG MẶT HÀNG · Retail Table ===
+  5 dòng
+  Tên hàng | ĐVT | SL | Đơn giá | Thành tiền
+  1. Bìa hồ sơ [PRESENT] | Cai [PRESENT] | 6.0 [PRESENT] | 7000 [PRESENT] | 42000 [PRESENT]
+  2. Bút bi xanh [PRESENT] | Cây [PRESENT] | 4.0 [PRESENT] | 5000 [PRESENT] | 20000 [PRESENT]
+  3. Bút bi xanh [PRESENT] | Cây [PRESENT] | 5.0 [PRESENT] | 5000 [PRESENT] | 25000 [PRESENT]
+  4. Số tay văn phòng [PRESENT] | Quyển [PRESENT] | 4.0 [PRESENT] | 18000 [PRESENT] | 72000 [PRESENT]
+  5. Mực máy in [PRESENT] | Hop [PRESENT] | 5.0 [PRESENT] | 145000 [PRESENT] | 725000 [PRESENT]
+  Apple Vision đọc lại 8 ô.
+
+=== FOOTER ===
+  Vùng đọc trên ảnh đã chỉnh chiều: [44, 533, 678, 1263]
+  Dòng ghép từ Apple Vision và Reader
+  Thuế suất GTGT: 0%
+  Cộng tiền hàng: 884.000
+  Tiền thuế GTGT: 0
+  Tổng thanh toán: 884.000
+  Tiền tệ: VND
+  DỮ LIỆU GIÁ LẬP - KHÔNG CÓ GIÁ TRỊ THANH TOÁN
+  Số tiền thanh toán: 884.000 VND [PRESENT] · Nguồn Paddle Footer
+
+Kết quả lưu tại /Users/mathew/Documents/ChatGPT/VietReceipt/output/vietreceipt-terminal/runs/table-footer-checked-20261116-124445/002-VRSYN2-00001__clean_png · 35.4s
+
+>>> 3/20 · VRSYN2-00002__blur_png.png
+  reader         OK
+  segmentation   OK
+  table          OK
+  header         OK
+  footer         OK
+
+=== PHÂN VÙNG · PP-DocLayoutV3 ===
+  Đầu biên lai         region-1 [22.2, 20.2, 499.8, 292.8]
+  Bảng mặt hàng        region-2 [24.2, 318.2, 589.8, 424.8]
+  Vùng cuối            region-3 [23.2, 451.2, 341.8, 631.8]
+  Cảnh báo: Không có
+  Liên kết OCR: 31 đã gán, 0 mơ hồ, 0 chưa gán.
+
+=== HEADER · VietOCR checkpoint ===
+  Mẫu số               1 [PRESENT]
+  Ký hiệu              C26T2A [PRESENT]
+  Số hóa đơn           00000002 [PRESENT]
+  Ngày hóa đơn         2026-02-02 [PRESENT]
+  Tên người bán        CÔNG TY MẪU HOA SEN [PRESENT] · Nguồn Apple Vision
+  MST người bán        0000000002 [PRESENT]
+  Địa chỉ người bán    2 Đường Mẫu, Thành phố Hà Nội [PRESENT]
+  Tên người mua        KHÁCH HÀNG THỬ NGHIỆM [PRESENT] · Nguồn Apple Vision
+  MST người mua        0000003002 [PRESENT]
+  Số khung đọc lại: 31
+
+=== BẢNG MẶT HÀNG · Retail Table ===
+  2 dòng
+  Tên hàng | ĐVT | SL | Đơn giá | Thành tiền
+  1. Số tay văn phòng [PRESENT] | Quyển [PRESENT] | 3.0 [PRESENT] | 18000 [PRESENT] | 54000 [PRESENT]
+  2. Bia hồ sơ [PRESENT] | Cai [PRESENT] | 5.0 [PRESENT] | 7000 [PRESENT] | 35000 [PRESENT]
+  Apple Vision đọc lại 3 ô.
+
+=== FOOTER ===
+  Vùng đọc trên ảnh đã chỉnh chiều: [21, 469, 344, 1140]
+  Dòng ghép từ Apple Vision và Reader
+  Thuế suất GTGT: 5%
+  Công tiền hàng: 89.000
+  Tiền thuế GTGT: 4.450
+  Tổng thanh toán: 93.450
+  Tiền tệ: VND
+  DỮ LIỆU GIẢ LẠP - KHÔNG CÓ GIÁ TRỊ THANH TOÁN
+  Số tiền thanh toán: 93.450 VND [PRESENT] · Nguồn Paddle Footer
+
+Kết quả lưu tại /Users/mathew/Documents/ChatGPT/VietReceipt/output/vietreceipt-terminal/runs/table-footer-checked-20261116-124445/003-VRSYN2-00002__blur_png · 34.6s
+
+>>> 4/20 · VRSYN2-00003__clean_png.png
+  reader         OK
+  segmentation   OK
+  table          OK
+  header         OK
+  footer         OK
+
+=== PHÂN VÙNG · PP-DocLayoutV3 ===
+  Đầu biên lai         region-1 [58.0, 22.0, 422.0, 326.0]
+  Bảng mặt hàng        region-2 [59.0, 360.0, 759.0, 532.0]
+  Vùng cuối            region-3 [58.0, 565.0, 374.0, 765.0]
+  Cảnh báo: Không có
+  Liên kết OCR: 41 đã gán, 0 mơ hồ, 0 chưa gán.
+
+=== HEADER · VietOCR checkpoint ===
+  Mẫu số               1 [PRESENT]
+  Ký hiệu              C26T3A [PRESENT]
+  Số hóa đơn           00000003 [PRESENT]
+  Ngày hóa đơn         2026-03-03 [PRESENT]
+  Tên người bán        Công Ty Mẫu Minh AN [PRESENT]
+  MST người bán        0000000003 [PRESENT]
+  Địa chỉ người bán    3 Đường Mẫu, Thành phố Hà Nội [PRESENT]
+  Tên người mua        KHÁCH HÀNG THỬ NGHIỆM [PRESENT] · Nguồn Apple Vision
+  MST người mua        0000003003 [PRESENT]
+  Số khung đọc lại: 41
+
+=== BẢNG MẶT HÀNG · Retail Table ===
+  4 dòng
+  Tên hàng | ĐVT | SL | Đơn giá | Thành tiền
+  1. Bìa hồ sơ [PRESENT] | Cai [PRESENT] | 1.0 [PRESENT] | 7000 [PRESENT] | 7000 [PRESENT]
+  2. Số tay văn phòng [PRESENT] | Quyển [PRESENT] | 3.0 [PRESENT] | 18000 [PRESENT] | 54000 [PRESENT]
+  3. Bìa hồ sơ [PRESENT] | Cai [PRESENT] | 6.0 [PRESENT] | 7000 [PRESENT] | 42000 [PRESENT]
+  4. Số tay văn phòng [PRESENT] | Quyển [PRESENT] | 4.0 [PRESENT] | 18000 [PRESENT] | 72000 [PRESENT]
+  Apple Vision đọc lại 6 ô.
+
+=== FOOTER ===
+  Vùng đọc trên ảnh đã chỉnh chiều: [56, 588, 375, 1263]
+  Dòng ghép từ Apple Vision và Reader
+  Thuế suất GTGT: 8%
+  Cộng tiền hàng: 175.000
+  Tiền thuế GTGT: 14.000
+  Tổng thanh toán: 189.000
+  Tiền tệ: VND
+  DỮ LIỆU GIẢ LẬP - KHÔNG CÓ GIÁ TRỊ THANH TOÁN
+  Số tiền thanh toán: 189.000 VND [PRESENT] · Nguồn Paddle Footer
+
+Kết quả lưu tại /Users/mathew/Documents/ChatGPT/VietReceipt/output/vietreceipt-terminal/runs/table-footer-checked-20261116-124445/004-VRSYN2-00003__clean_png · 31.3s
+
+>>> 5/20 · VRSYN2-00004__clean_png.png
+  reader         OK
+  segmentation   OK
+  table          OK
+  header         OK
+  footer         OK
+
+=== PHÂN VÙNG · PP-DocLayoutV3 ===
+  Đầu biên lai         region-1 [36.0, 21.0, 938.0, 212.0]
+  Bảng mặt hàng        region-2 [40.0, 244.0, 1077.0, 354.0]
+  Vùng cuối            region-3 [37.0, 389.0, 868.0, 582.0]
+  Cảnh báo: Không có
+  Liên kết OCR: 31 đã gán, 0 mơ hồ, 0 chưa gán.
+
+=== HEADER · VietOCR checkpoint ===
+  Mẫu số               1 [PRESENT]
+  Ký hiệu              C26T4A [PRESENT]
+  Số hóa đơn           00000004 [PRESENT]
+  Ngày hóa đơn         2026-04-04 [PRESENT]
+  Tên người bán        Cửa Hàng Mẫu Sao Việt [PRESENT]
+  MST người bán        0000000004 [PRESENT]
+  Địa chỉ người bán    4 Đường Mẫu, Thành phố Hà Nội [PRESENT]
+  Tên người mua        KHÁCH HÀNG THỬ NGHIỆM [PRESENT] · Nguồn Apple Vision
+  MST người mua        0000003004 [PRESENT]
+  Số khung đọc lại: 31
+
+=== BẢNG MẶT HÀNG · Retail Table ===
+  2 dòng
+  Tên hàng | ĐVT | SL | Đơn giá | Thành tiền
+  1. Bút bi xanh [PRESENT] | Cây [PRESENT] | 4.0 [PRESENT] | 5000 [PRESENT] | 20000 [PRESENT]
+  2. Bút bi xanh [PRESENT] | Cây [PRESENT] | 4.0 [PRESENT] | 5000 [PRESENT] | 20000 [PRESENT]
+  Apple Vision đọc lại 4 ô.
+
+=== FOOTER ===
+  Vùng đọc trên ảnh đã chỉnh chiều: [37, 410, 869, 1050]
+  Dòng ghép từ Apple Vision và Reader
+  Thuế suất GTGT: 10%
+  Cộng tiền hàng: 40.000
+  Tiền thuế GTGT: 4.000
+  Tổng thanh toán: 44.000
+  Tiền tệ: VND
+  DỮ LIỆU GIẢ LẬP - KHÔNG CÓ GIÁ TRỊ THANH TOÁN
+  Số tiền thanh toán: 44.000 VND [PRESENT] · Nguồn Paddle Footer
+
+Kết quả lưu tại /Users/mathew/Documents/ChatGPT/VietReceipt/output/vietreceipt-terminal/runs/table-footer-checked-20261116-124445/005-VRSYN2-00004__clean_png · 49.2s
+
+>>> 6/20 · VRSYN2-00007__blur_png.png
+  reader         OK
+  segmentation   OK
+  table          OK
+  header         OK
+  footer         OK
+
+=== PHÂN VÙNG · PP-DocLayoutV3 ===
+  Đầu biên lai         region-1 [41.4, 20.4, 651.6, 207.6]
+  Bảng mặt hàng        region-2 [43.4, 271.4, 768.6, 375.6]
+  Vùng cuối            region-3 [41.4, 402.4, 668.6, 593.6]
+  Cảnh báo: Không có
+  Liên kết OCR: 31 đã gán, 0 mơ hồ, 0 chưa gán.
+
+=== HEADER · VietOCR checkpoint ===
+  Mẫu số               1 [PRESENT]
+  Ký hiệu              C26T7A [PRESENT] · Nguồn Tesseract tiếng Việt
+    Đối chiếu vietocr-checkpoint C2617A · reader C26T7A
+  Số hóa đơn           00000007 [PRESENT] · Nguồn VietOCR
+  Ngày hóa đơn         2026-07-07 [PRESENT] · Nguồn VietOCR
+  Tên người bán        CỬA HÀNG MẪU SAO VIỆT [PRESENT] · Nguồn Apple Vision
+  MST người bán        0000000007 [PRESENT] · Nguồn Reader
+  Địa chỉ người bán    7 Đường Mãu, Thành phố Hà Nội [PRESENT] · Nguồn Apple Vision
+  Tên người mua        KHÁCH HÀNG THỨ NGHIỆM [PRESENT] · Nguồn Apple Vision
+  MST người mua        0000003007 [PRESENT] · Nguồn Reader
+  Số khung đọc lại: 31
+
+=== BẢNG MẶT HÀNG · Retail Table ===
+  2 dòng
+  Tên hàng | ĐVT | SL | Đơn giá | Thành tiền
+  1. Büt bi xanh Cay [PRESENT] | — [NOT_PRESENT] | 3.0 [PRESENT] | 5000 [PRESENT] | 15000 [PRESENT]
+  2. Giầy in A4 [PRESENT] | Ram [PRESENT] | 1.0 [PRESENT] | 65000 [PRESENT] | 65000 [PRESENT]
+  Apple Vision đọc lại 2 ô.
+
+=== FOOTER ===
+  Vùng đọc trên ảnh đã chỉnh chiều: [41, 423, 672, 1263]
+  Dòng ghép từ Apple Vision và Reader
+  Thuế suất GTGT: 8%
+  Cộng tiền hàng: 80.000
+  Tiền thuế GTGT: 6.400
+  Tổng thanh toán: 86.400
+  Tiền tệ: VND
+  DỮ LIỆU GIÁ LẠP - KHÔNG CÓ GIÁ TRỊ THANH TOÀN
+  Số tiền thanh toán: 86.400 VND [PRESENT] · Nguồn Paddle Footer
+
+Kết quả lưu tại /Users/mathew/Documents/ChatGPT/VietReceipt/output/vietreceipt-terminal/runs/table-footer-checked-20261116-124445/006-VRSYN2-00007__blur_png · 31.8s
+
+>>> 7/20 · VRSYN2-00008__clean_png.png
+  reader         OK
+  segmentation   OK
+  table          OK
+  header         OK
+  footer         OK
+
+=== PHÂN VÙNG · PP-DocLayoutV3 ===
+  Đầu biên lai         region-1 [25.0, 22.0, 498.0, 290.0]
+  Bảng mặt hàng        region-2 [26.0, 319.0, 588.0, 494.0]
+  Vùng cuối            region-3 [25.0, 524.0, 341.0, 702.0]
+  Cảnh báo: Không có
+  Liên kết OCR: 41 đã gán, 0 mơ hồ, 0 chưa gán.
+
+=== HEADER · VietOCR checkpoint ===
+  Mẫu số               1 [PRESENT]
+  Ký hiệu              C26T8A [PRESENT]
+  Số hóa đơn           00000008 [PRESENT]
+  Ngày hóa đơn         2026-08-08 [PRESENT]
+  Tên người bán        Công Ty Mẫu Hoa SEN [PRESENT]
+  MST người bán        0000000008 [PRESENT]
+  Địa chỉ người bán    8 Đường Mẫu, Thành phố Hà Nội [PRESENT]
+  Tên người mua        KHÁCH HÀNG THỬ NGHIỆM [PRESENT]
+  MST người mua        0000003008 [PRESENT]
+  Số khung đọc lại: 41
+
+=== BẢNG MẶT HÀNG · Retail Table ===
+  4 dòng
+  Tên hàng | ĐVT | SL | Đơn giá | Thành tiền
+  1. Số tay văn phòng [PRESENT] | Quyển [PRESENT] | 5.0 [PRESENT] | 18000 [PRESENT] | 90000 [PRESENT]
+  2. Số tay văn phòng [PRESENT] | Quyển [PRESENT] | 2.0 [PRESENT] | 18000 [PRESENT] | 36000 [PRESENT]
+  3. Giây in A4 [PRESENT] | Ram [PRESENT] | 1.0 [PRESENT] | 65000 [PRESENT] | 65000 [PRESENT]
+  4. Mực máy in [PRESENT] | Hop [PRESENT] | 1.0 [PRESENT] | 145000 [PRESENT] | 145000 [PRESENT]
+  Apple Vision đọc lại 7 ô.
+
+=== FOOTER ===
+  Vùng đọc trên ảnh đã chỉnh chiều: [22, 543, 341, 1140]
+  Dòng ghép từ Apple Vision và Reader
+  Thuế suất GTGT: 10%
+  Cộng tiền hàng: 336.000
+  Tiền thuế GTGT: 33.600
+  Tổng thanh toán: 369.600
+  Tiền tệ: VND
+  DỮ LIỆU GIẢ LẬP - KHÔNG CÓ GIÁ TRỊ THANH TOÁN
+  Số tiền thanh toán: 369.600 VND [PRESENT] · Nguồn Paddle Footer
+
+Kết quả lưu tại /Users/mathew/Documents/ChatGPT/VietReceipt/output/vietreceipt-terminal/runs/table-footer-checked-20261116-124445/007-VRSYN2-00008__clean_png · 30.5s
+
+>>> 8/20 · VRSYN2-00009__clean_png.png
+  reader         OK
+  segmentation   OK
+  table          OK
+  header         OK
+  footer         OK
+
+=== PHÂN VÙNG · PP-DocLayoutV3 ===
+  Đầu biên lai         region-1 [58.0, 22.0, 422.0, 326.0]
+  Bảng mặt hàng        region-2 [60.0, 359.0, 760.0, 570.0]
+  Vùng cuối            region-3 [58.0, 601.0, 374.0, 801.0]
+  Cảnh báo: Không có
+  Liên kết OCR: 46 đã gán, 0 mơ hồ, 0 chưa gán.
+
+=== HEADER · VietOCR checkpoint ===
+  Mẫu số               1 [PRESENT]
+  Ký hiệu              C26T9A [PRESENT]
+  Số hóa đơn           00000009 [PRESENT]
+  Ngày hóa đơn         2026-09-09 [PRESENT]
+  Tên người bán        Công Ty Mẫu Minh AN [PRESENT]
+  MST người bán        0000000009 [PRESENT]
+  Địa chỉ người bán    9 Đường Mẫu, Thành phố Hà Nội [PRESENT]
+  Tên người mua        KHÁCH HÀNG THỬ NGHIỆM [PRESENT] · Nguồn Apple Vision
+  MST người mua        0000003009 [PRESENT]
+  Số khung đọc lại: 46
+
+=== BẢNG MẶT HÀNG · Retail Table ===
+  5 dòng
+  Tên hàng | ĐVT | SL | Đơn giá | Thành tiền
+  1. Bút bi xanh [PRESENT] | Cây [PRESENT] | 6.0 [PRESENT] | 5000 [PRESENT] | 30000 [PRESENT]
+  2. Giấy in A4 [PRESENT] | Ram [PRESENT] | 6.0 [PRESENT] | 65000 [PRESENT] | 390000 [PRESENT]
+  3. Số tay văn phòng [PRESENT] | Quyển [PRESENT] | 2.0 [PRESENT] | 18000 [PRESENT] | 36000 [PRESENT]
+  4. Mực máy in [PRESENT] | Hop [PRESENT] | 1.0 [PRESENT] | 145000 [PRESENT] | 145000 [PRESENT]
+  5. Mực máy in [PRESENT] | Hộp [PRESENT] | 1.0 [PRESENT] | 145000 [PRESENT] | 145000 [PRESENT]
+  Apple Vision đọc lại 9 ô.
+
+=== FOOTER ===
+  Vùng đọc trên ảnh đã chỉnh chiều: [57, 624, 375, 1263]
+  Dòng ghép từ Apple Vision và Reader
+  Thuế suất GTGT: 0%
+  Cộng tiền hàng: 746.000
+  Tiền thuế GTGT: 0
+  Tổng thanh toán: 746.000
+  Tiền tệ: VND
+  DỮ LIỆU GIẢ LẶP - KHÔNG CÓ GIÁ TRỊ THANH TOÁN
+  Số tiền thanh toán: 746.000 VND [PRESENT] · Nguồn Paddle Footer
+
+Kết quả lưu tại /Users/mathew/Documents/ChatGPT/VietReceipt/output/vietreceipt-terminal/runs/table-footer-checked-20261116-124445/008-VRSYN2-00009__clean_png · 30.7s
+
+>>> 9/20 · VRSYN2-00010__blur_png.png
+  reader         OK
+  segmentation   OK
+  table          OK
+  header         OK
+  footer         OK
+
+=== PHÂN VÙNG · PP-DocLayoutV3 ===
+  Đầu biên lai         region-1 [33.1, 20.1, 948.9, 191.0]
+  Bảng mặt hàng        region-2 [38.1, 239.1, 1078.0, 398.0]
+  Vùng cuối            region-3 [35.1, 430.1, 880.9, 626.0]
+  Cảnh báo: Không có
+  Liên kết OCR: 34 đã gán, 0 mơ hồ, 0 chưa gán.
+
+=== HEADER · VietOCR checkpoint ===
+  Mẫu số               1 [PRESENT]
+  Ký hiệu              C26T0A [PRESENT] · Nguồn Tesseract tiếng Việt
+    Đối chiếu vietocr-checkpoint C26TOA · reader C26T0A
+  Số hóa đơn           00000010 [PRESENT]
+  Ngày hóa đơn         2026-10-10 [PRESENT]
+  Tên người bán        CỬA HÀNG MẪU SAO VIỆT [PRESENT] · Nguồn Apple Vision
+  MST người bán        0000000010 [PRESENT]
+  Địa chỉ người bán    10 Đường Mẫu, Thành phố Hà Nội [PRESENT]
+  Tên người mua        — [UNKNOWN]
+  MST người mua        — [UNKNOWN]
+  Số khung đọc lại: 34
+
+=== BẢNG MẶT HÀNG · Retail Table ===
+  3 dòng
+  Tên hàng | ĐVT | SL | Đơn giá | Thành tiền
+  1. Dich vu in tai ligu Lan [PRESENT] | — [NOT_PRESENT] | 1.0 [PRESENT] | 12000 [PRESENT] | 12000 [PRESENT]
+  2. Số tay văn phòng [PRESENT] | Quyển [PRESENT] | 5.0 [PRESENT] | 18000 [PRESENT] | 90000 [PRESENT]
+  3. Dich vu in tai ligu Lan [PRESENT] | — [NOT_PRESENT] | 6.0 [PRESENT] | 12000 [PRESENT] | 72000 [PRESENT]
+  Apple Vision đọc lại 2 ô.
+
+=== FOOTER ===
+  Vùng đọc trên ảnh đã chỉnh chiều: [32, 449, 880, 1050]
+  Dòng ghép từ Apple Vision và Reader
+  Thuế suất GTGT: 5%
+  Cộng tiền hàng: 174.000
+  Tiền thuế GTGT: 8.700
+  Tổng thanh toán: 182.700
+  Tiền tệ: VND
+  DỮ LIỆU GIÁ LẠP - KHÔNG CÓ GIÁ TRỊ THANH TOÁN
+  Số tiền thanh toán: 182.700 VND [PRESENT] · Nguồn Paddle Footer
+
+Kết quả lưu tại /Users/mathew/Documents/ChatGPT/VietReceipt/output/vietreceipt-terminal/runs/table-footer-checked-20261116-124445/009-VRSYN2-00010__blur_png · 31.5s
+
+>>> 10/20 · VRSYN2-00013__clean_png.png
+  reader         OK
+  segmentation   OK
+  table          OK
+  header         OK
+  footer         OK
+
+=== PHÂN VÙNG · PP-DocLayoutV3 ===
+  Đầu biên lai         region-1 [44.0, 22.0, 651.0, 205.0]
+  Bảng mặt hàng        region-2 [44.0, 273.0, 768.0, 483.0]
+  Vùng cuối            region-3 [44.0, 513.0, 676.0, 700.0]
+  Cảnh báo: Không có
+  Liên kết OCR: 46 đã gán, 0 mơ hồ, 0 chưa gán.
+
+=== HEADER · VietOCR checkpoint ===
+  Mẫu số               1 [PRESENT]
+  Ký hiệu              C26T3A [PRESENT]
+  Số hóa đơn           00000013 [PRESENT]
+  Ngày hóa đơn         2026-01-13 [PRESENT]
+  Tên người bán        CỬA HÀNG MẪU SAO VIỆT [PRESENT] · Nguồn Apple Vision
+  MST người bán        0000000013 [PRESENT]
+  Địa chỉ người bán    13 Đường Mẫu, Thành phố Hà Nội [PRESENT]
+  Tên người mua        KHÁCH HÀNG THỬ NGHIỆM [PRESENT] · Nguồn Apple Vision
+  MST người mua        0000003013 [PRESENT]
+  Số khung đọc lại: 46
+
+=== BẢNG MẶT HÀNG · Retail Table ===
+  5 dòng
+  Tên hàng | ĐVT | SL | Đơn giá | Thành tiền
+  1. Số tay văn phòng [PRESENT] | Quyển [PRESENT] | 2.0 [PRESENT] | 18000 [PRESENT] | 36000 [PRESENT]
+  2. Bút bi xanh [PRESENT] | Cây [PRESENT] | 1.0 [PRESENT] | 5000 [PRESENT] | 5000 [PRESENT]
+  3. Dịch vụ in tài liệu [PRESENT] | Lần [PRESENT] | 6.0 [PRESENT] | 12000 [PRESENT] | 72000 [PRESENT]
+  4. Giấy in A4 [PRESENT] | Ram [PRESENT] | 4.0 [PRESENT] | 65000 [PRESENT] | 260000 [PRESENT]
+  5. Bút bi xanh [PRESENT] | Cây [PRESENT] | 2.0 [PRESENT] | 5000 [PRESENT] | 10000 [PRESENT]
+  Apple Vision đọc lại 10 ô.
+
+=== FOOTER ===
+  Vùng đọc trên ảnh đã chỉnh chiều: [44, 533, 678, 1263]
+  Dòng ghép từ Apple Vision và Reader
+  Thuế suất GTGT: 0%
+  Cộng tiền hàng: 383.000
+  Tiền thuế GTGT: 0
+  Tổng thanh toán: 383.000
+  Tiền tệ: VND
+  DỮ LIỆU GIÁ LẬP - KHÔNG CÓ GIÁ TRỊ THANH TOÁN
+  Số tiền thanh toán: 383.000 VND [PRESENT] · Nguồn Paddle Footer
+
+Kết quả lưu tại /Users/mathew/Documents/ChatGPT/VietReceipt/output/vietreceipt-terminal/runs/table-footer-checked-20261116-124445/010-VRSYN2-00013__clean_png · 36.5s
+
+>>> 11/20 · VRSYN2-00014__clean_png.png
+  reader         OK
+  segmentation   OK
+  table          OK
+  header         OK
+  footer         OK
+
+=== PHÂN VÙNG · PP-DocLayoutV3 ===
+  Đầu biên lai         region-1 [23.0, 22.0, 498.0, 290.0]
+  Bảng mặt hàng        region-2 [25.0, 319.0, 589.0, 528.0]
+  Vùng cuối            region-3 [25.0, 561.0, 341.0, 738.0]
+  Cảnh báo: Không có
+  Liên kết OCR: 46 đã gán, 0 mơ hồ, 0 chưa gán.
+
+=== HEADER · VietOCR checkpoint ===
+  Mẫu số               1 [PRESENT]
+  Ký hiệu              C26T4A [PRESENT]
+  Số hóa đơn           00000014 [PRESENT]
+  Ngày hóa đơn         2026-02-14 [PRESENT]
+  Tên người bán        Công Ty Mẫu Hoa SEN [PRESENT]
+  MST người bán        0000000014 [PRESENT]
+  Địa chỉ người bán    14 Đường Mẫu, Thành phố Hà Nội [PRESENT]
+  Tên người mua        KHÁCH HÀNG THỬ NGHIỆM [PRESENT] · Nguồn Apple Vision
+  MST người mua        0000003014 [PRESENT]
+  Số khung đọc lại: 46
+
+=== BẢNG MẶT HÀNG · Retail Table ===
+  5 dòng
+  Tên hàng | ĐVT | SL | Đơn giá | Thành tiền
+  1. Giấy in A4 [PRESENT] | Ram [PRESENT] | 2.0 [PRESENT] | 65000 [PRESENT] | 130000 [PRESENT]
+  2. Số tay văn phòng [PRESENT] | Quyển [PRESENT] | 1.0 [PRESENT] | 18000 [PRESENT] | 18000 [PRESENT]
+  3. Giây in A4 [PRESENT] | Ram [PRESENT] | 2.0 [PRESENT] | 65000 [PRESENT] | 130000 [PRESENT]
+  4. Mực máy in [PRESENT] | Hop [PRESENT] | 3.0 [PRESENT] | 145000 [PRESENT] | 435000 [PRESENT]
+  5. Mực máy in [PRESENT] | Hộp [PRESENT] | 3.0 [PRESENT] | 145000 [PRESENT] | 435000 [PRESENT]
+  Apple Vision đọc lại 9 ô.
+
+=== FOOTER ===
+  Vùng đọc trên ảnh đã chỉnh chiều: [21, 579, 342, 1140]
+  Dòng ghép từ Apple Vision và Reader
+  Thuế suất GTGT: 5%
+  Cộng tiền hàng: 1.148.000
+  Tiền thuế GTGT: 57.400
+  Tổng thanh toán: 1.205.400
+  Tiền tệ: VND
+  DỮ LIỆU GIẢ LẶP - KHÔNG CÓ GIÁ TRỊ THANH TOÁN
+  Số tiền thanh toán: 1.205.400 VND [PRESENT] · Nguồn Paddle Footer
+
+Kết quả lưu tại /Users/mathew/Documents/ChatGPT/VietReceipt/output/vietreceipt-terminal/runs/table-footer-checked-20261116-124445/011-VRSYN2-00014__clean_png · 32.4s
+
+>>> 12/20 · VRSYN2-00015__blur_png.png
+  reader         OK
+  segmentation   OK
+  table          OK
+  header         OK
+  footer         OK
+
+=== PHÂN VÙNG · PP-DocLayoutV3 ===
+  Đầu biên lai         region-1 [54.2, 20.2, 432.8, 275.8]
+  Bảng mặt hàng        region-2 [58.2, 304.2, 760.8, 444.8]
+  Vùng cuối            region-3 [56.2, 472.2, 375.8, 677.8]
+  Cảnh báo: Không có
+  Liên kết OCR: 34 đã gán, 0 mơ hồ, 0 chưa gán.
+
+=== HEADER · VietOCR checkpoint ===
+  Mẫu số               1 [PRESENT]
+  Ký hiệu              C26T5A [PRESENT] · Nguồn Tesseract tiếng Việt
+    Đối chiếu vietocr-checkpoint C26TSA · reader C26T5A
+  Số hóa đơn           00000015 [PRESENT]
+  Ngày hóa đơn         2026-03-15 [PRESENT]
+  Tên người bán        CÔNG TY MẪU MINH AN [PRESENT] · Nguồn Apple Vision
+  MST người bán        0000000015 [PRESENT]
+  Địa chỉ người bán    15 Đường Mẫu, Thành phố Hà Nội [PRESENT]
+  Tên người mua        — [UNKNOWN]
+  MST người mua        — [UNKNOWN]
+  Số khung đọc lại: 34
+
+=== BẢNG MẶT HÀNG · Retail Table ===
+  3 dòng
+  Tên hàng | ĐVT | SL | Đơn giá | Thành tiền
+  1. Dich vu in tai liu Lan [PRESENT] | — [NOT_PRESENT] | 1.0 [PRESENT] | 12000 [PRESENT] | 12000 [PRESENT]
+  2. Dịch vụ in tài liệu [PRESENT] | Lần [PRESENT] | 2.0 [PRESENT] | 12000 [PRESENT] | 24000 [PRESENT]
+  3. Giấy in A4 [PRESENT] | Ram [PRESENT] | 6.0 [PRESENT] | 65000 [PRESENT] | 390000 [PRESENT]
+  Apple Vision đọc lại 4 ô.
+
+=== FOOTER ===
+  Vùng đọc trên ảnh đã chỉnh chiều: [51, 494, 378, 1263]
+  Dòng ghép từ Apple Vision và Reader
+  Thuế suất GTGT: 8%
+  Cộng tiền hàng: 426.000
+  Tiền thuế GTGT: 34.080
+  Tổng thanh toán: 460.080
+  Tiền tệ: VND
+  DỮ LIỆU GIÁ LẠP - KHÔNG CÓ GIÁ TRỊ THANH TOÀN
+  Số tiền thanh toán: 460.080 VND [PRESENT] · Nguồn Paddle Footer
+
+Kết quả lưu tại /Users/mathew/Documents/ChatGPT/VietReceipt/output/vietreceipt-terminal/runs/table-footer-checked-20261116-124445/012-VRSYN2-00015__blur_png · 28.5s
+
+>>> 13/20 · VRSYN2-00016__clean_png.png
+  reader         OK
+  segmentation   OK
+  table          OK
+  header         OK
+  footer         OK
+
+=== PHÂN VÙNG · PP-DocLayoutV3 ===
+  Đầu biên lai         region-1 [35.8, 20.8, 946.2, 212.2]
+  Bảng mặt hàng        region-2 [37.8, 243.8, 1076.2, 478.2]
+  Vùng cuối            region-3 [36.8, 514.8, 877.2, 707.2]
+  Cảnh báo: Không có
+  Liên kết OCR: 46 đã gán, 0 mơ hồ, 0 chưa gán.
+
+=== HEADER · VietOCR checkpoint ===
+  Mẫu số               1 [PRESENT]
+  Ký hiệu              C26T6A [PRESENT]
+  Số hóa đơn           00000016 [PRESENT]
+  Ngày hóa đơn         2026-04-16 [PRESENT]
+  Tên người bán        Cửa Hàng Mẫu Sao Việt [PRESENT]
+  MST người bán        0000000016 [PRESENT]
+  Địa chỉ người bán    16 Đường Mẫu, Thành phố Hà Nội [PRESENT]
+  Tên người mua        KHÁCH HÀNG THỬ NGHIỆM [PRESENT]
+  MST người mua        0000003016 [PRESENT]
+  Số khung đọc lại: 46
+
+=== BẢNG MẶT HÀNG · Retail Table ===
+  5 dòng
+  Tên hàng | ĐVT | SL | Đơn giá | Thành tiền
+  1. Số tay văn phòng [PRESENT] | Quyển [PRESENT] | 2.0 [PRESENT] | 18000 [PRESENT] | 36000 [PRESENT]
+  2. Số tay văn phòng [PRESENT] | Quyển [PRESENT] | 3.0 [PRESENT] | 18000 [PRESENT] | 54000 [PRESENT]
+  3. Số tay văn phòng [PRESENT] | Quyển [PRESENT] | 4.0 [PRESENT] | 18000 [PRESENT] | 72000 [PRESENT]
+  4. Mực máy in [PRESENT] | Hop [PRESENT] | 2.0 [PRESENT] | 145000 [PRESENT] | 290000 [PRESENT]
+  5. Giấy in A4 [PRESENT] | Ram [PRESENT] | 6.0 [PRESENT] | 65000 [PRESENT] | 390000 [PRESENT]
+  Apple Vision đọc lại 9 ô.
+
+=== FOOTER ===
+  Vùng đọc trên ảnh đã chỉnh chiều: [37, 537, 878, 1050]
+  Dòng ghép từ Apple Vision và Reader
+  Thuế suất GTGT: 10%
+  Cộng tiền hàng: 842.000
+  Tiền thuế GTGT: 84.200
+  Tổng thanh toán: 926.200
+  Tiền tệ: VND
+  DỮ LIỆU GIÁ LẬP - KHÔNG CÓ GIÁ TRỊ THANH TOÁN
+  Số tiền thanh toán: 926.200 VND [PRESENT] · Nguồn Paddle Footer
+
+Kết quả lưu tại /Users/mathew/Documents/ChatGPT/VietReceipt/output/vietreceipt-terminal/runs/table-footer-checked-20261116-124445/013-VRSYN2-00016__clean_png · 36.4s
+
+>>> 14/20 · VRSYN2-00019__clean_png.png
+  reader         OK
+  segmentation   OK
+  table          OK
+  header         OK
+  footer         OK
+
+=== PHÂN VÙNG · PP-DocLayoutV3 ===
+  Đầu biên lai         region-1 [44.0, 22.0, 651.0, 205.0]
+  Bảng mặt hàng        region-2 [44.0, 273.0, 768.0, 483.0]
+  Vùng cuối            region-3 [43.0, 513.0, 677.0, 700.0]
+  Cảnh báo: Không có
+  Liên kết OCR: 46 đã gán, 0 mơ hồ, 0 chưa gán.
+
+=== HEADER · VietOCR checkpoint ===
+  Mẫu số               1 [PRESENT]
+  Ký hiệu              C26T9A [PRESENT]
+  Số hóa đơn           00000019 [PRESENT]
+  Ngày hóa đơn         2026-07-19 [PRESENT]
+  Tên người bán        CỬA HÀNG MẪU SAO VIỆT [PRESENT] · Nguồn Apple Vision
+  MST người bán        0000000019 [PRESENT]
+  Địa chỉ người bán    19 Đường Mẫu, Thành phố Hà Nội [PRESENT]
+  Tên người mua        KHÁCH HÀNG THỬ NGHIỆM [PRESENT] · Nguồn Apple Vision
+  MST người mua        0000003019 [PRESENT]
+  Số khung đọc lại: 46
+
+=== BẢNG MẶT HÀNG · Retail Table ===
+  5 dòng
+  Tên hàng | ĐVT | SL | Đơn giá | Thành tiền
+  1. Số tay văn phòng [PRESENT] | Quyển [PRESENT] | 4.0 [PRESENT] | 18000 [PRESENT] | 72000 [PRESENT]
+  2. Số tay văn phòng [PRESENT] | Quyển [PRESENT] | 5.0 [PRESENT] | 18000 [PRESENT] | 90000 [PRESENT]
+  3. Dịch vụ in tài liệu [PRESENT] | Lần [PRESENT] | 1.0 [PRESENT] | 12000 [PRESENT] | 12000 [PRESENT]
+  4. Mực máy in [PRESENT] | Hop [PRESENT] | 2.0 [PRESENT] | 145000 [PRESENT] | 290000 [PRESENT]
+  5. Mực máy in [PRESENT] | Hop [PRESENT] | 1.0 [PRESENT] | 145000 [PRESENT] | 145000 [PRESENT]
+  Apple Vision đọc lại 8 ô.
+
+=== FOOTER ===
+  Vùng đọc trên ảnh đã chỉnh chiều: [44, 533, 677, 1263]
+  Dòng ghép từ Apple Vision và Reader
+  Thuế suất GTGT: 8%
+  Cộng tiền hàng: 609.000
+  Tiền thuế GTGT: 48.720
+  Tổng thanh toán: 657.720
+  Tiền tệ: VND
+  DỮ LIỆU GIÁ LẬP - KHÔNG CÓ GIÁ TRỊ THANH TOÁN
+  Số tiền thanh toán: 657.720 VND [PRESENT] · Nguồn Paddle Footer
+
+Kết quả lưu tại /Users/mathew/Documents/ChatGPT/VietReceipt/output/vietreceipt-terminal/runs/table-footer-checked-20261116-124445/014-VRSYN2-00019__clean_png · 35.7s
+
+>>> 15/20 · VRSYN2-00020__blur_png.png
+  reader         OK
+  segmentation   OK
+  table          OK
+  header         OK
+  footer         OK
+
+=== PHÂN VÙNG · PP-DocLayoutV3 ===
+  Đầu biên lai         region-1 [22.4, 20.4, 499.6, 247.6]
+  Bảng mặt hàng        region-2 [24.4, 273.4, 590.6, 449.6]
+  Vùng cuối            region-3 [21.4, 477.4, 342.6, 659.6]
+  Cảnh báo: Không có
+  Liên kết OCR: 39 đã gán, 0 mơ hồ, 0 chưa gán.
+
+=== HEADER · VietOCR checkpoint ===
+  Mẫu số               1 [PRESENT]
+  Ký hiệu              C26TOA [AMBIGUOUS]
+    Đối chiếu vietocr-checkpoint C26TOA · reader C26T0A
+  Số hóa đơn           00000020 [PRESENT]
+  Ngày hóa đơn         2026-08-20 [PRESENT]
+  Tên người bán        CÔNG TY MẪU HOA SEN [PRESENT] · Nguồn Apple Vision
+  MST người bán        0000000020 [PRESENT]
+  Địa chỉ người bán    20 Đường Mẫu, Thành phố Hà Nội [PRESENT]
+  Tên người mua        — [UNKNOWN]
+  MST người mua        — [UNKNOWN]
+  Số khung đọc lại: 39
+
+=== BẢNG MẶT HÀNG · Retail Table ===
+  4 dòng
+  Tên hàng | ĐVT | SL | Đơn giá | Thành tiền
+  1. Mực máy in [PRESENT] | Hop [PRESENT] | 6.0 [PRESENT] | 145000 [PRESENT] | 870000 [PRESENT]
+  2. Mực máy in [PRESENT] | Hop [PRESENT] | 4.0 [PRESENT] | 145000 [PRESENT] | 580000 [PRESENT]
+  3. Số tay văn phòng [PRESENT] | Quyển [PRESENT] | 6.0 [PRESENT] | 18000 [PRESENT] | 108000 [PRESENT]
+  4. Giầy in A4 [PRESENT] | Ram [PRESENT] | 6.0 [PRESENT] | 65000 [PRESENT] | 390000 [PRESENT]
+  Apple Vision đọc lại 6 ô.
+
+=== FOOTER ===
+  Vùng đọc trên ảnh đã chỉnh chiều: [20, 496, 343, 1140]
+  Dòng ghép từ Apple Vision và Reader
+  Thuế suất GTGT: 10%
+  Cộng tiền hàng: 1.948.000
+  Tiền thuế GTGT: 194.800
+  Tổng thanh toán: 2.142.800
+  Tiền tệ: VND
+  DỮ LIỆU GIÁ LẠP - KHÔNG CÓ GIÁ TRỊ THANH TOÀN
+  Số tiền thanh toán: 2.142.800 VND [PRESENT] · Nguồn Paddle Footer
+
+Kết quả lưu tại /Users/mathew/Documents/ChatGPT/VietReceipt/output/vietreceipt-terminal/runs/table-footer-checked-20261116-124445/015-VRSYN2-00020__blur_png · 31.9s
+
+>>> 16/20 · VRSYN2-00021__clean_png.png
+  reader         OK
+  segmentation   OK
+  table          OK
+  header         OK
+  footer         OK
+
+=== PHÂN VÙNG · PP-DocLayoutV3 ===
+  Đầu biên lai         region-1 [57.9, 21.9, 431.1, 326.1]
+  Bảng mặt hàng        region-2 [59.9, 358.9, 760.1, 569.1]
+  Vùng cuối            region-3 [57.9, 600.9, 374.1, 801.1]
+  Cảnh báo: Không có
+  Liên kết OCR: 46 đã gán, 0 mơ hồ, 0 chưa gán.
+
+=== HEADER · VietOCR checkpoint ===
+  Mẫu số               1 [PRESENT]
+  Ký hiệu              C26T1A [PRESENT]
+  Số hóa đơn           00000021 [PRESENT]
+  Ngày hóa đơn         2026-09-21 [PRESENT]
+  Tên người bán        Công Ty Mẫu Minh AN [PRESENT]
+  MST người bán        0000000021 [PRESENT]
+  Địa chỉ người bán    21 Đường Mẫu, Thành phố Hà Nội [PRESENT]
+  Tên người mua        KHÁCH HÀNG THỬ NGHIỆM [PRESENT] · Nguồn Apple Vision
+  MST người mua        0000003021 [PRESENT]
+  Số khung đọc lại: 46
+
+=== BẢNG MẶT HÀNG · Retail Table ===
+  5 dòng
+  Tên hàng | ĐVT | SL | Đơn giá | Thành tiền
+  1. Số tay văn phòng [PRESENT] | Quyển [PRESENT] | 2.0 [PRESENT] | 18000 [PRESENT] | 36000 [PRESENT]
+  2. Dịch vụ in tài liệu [PRESENT] | Lần [PRESENT] | 1.0 [PRESENT] | 12000 [PRESENT] | 12000 [PRESENT]
+  3. Số tay văn phòng [PRESENT] | Quyển [PRESENT] | 2.0 [PRESENT] | 18000 [PRESENT] | 36000 [PRESENT]
+  4. Mực máy in [PRESENT] | Hop [PRESENT] | 1.0 [PRESENT] | 145000 [PRESENT] | 145000 [PRESENT]
+  5. Giấy in A4 [PRESENT] | Ram [PRESENT] | 3.0 [PRESENT] | 65000 [PRESENT] | 195000 [PRESENT]
+  Apple Vision đọc lại 9 ô.
+
+=== FOOTER ===
+  Vùng đọc trên ảnh đã chỉnh chiều: [57, 624, 375, 1263]
+  Dòng ghép từ Apple Vision và Reader
+  Thuế suất GTGT: 0%
+  Cộng tiền hàng: 424.000
+  Tiền thuế GTGT: 0
+  Tổng thanh toán: 424.000
+  Tiền tệ: VND
+  DỮ LIỆU GIẢ LẶP - KHÔNG CÓ GIÁ TRỊ THANH TOÁN
+  Số tiền thanh toán: 424.000 VND [PRESENT] · Nguồn Paddle Footer
+
+Kết quả lưu tại /Users/mathew/Documents/ChatGPT/VietReceipt/output/vietreceipt-terminal/runs/table-footer-checked-20261116-124445/016-VRSYN2-00021__clean_png · 40.3s
+
+>>> 17/20 · VRSYN2-00022__clean_png.png
+  reader         OK
+  segmentation   OK
+  table          OK
+  header         OK
+  footer         OK
+
+=== PHÂN VÙNG · PP-DocLayoutV3 ===
+  Đầu biên lai         region-1 [35.8, 20.8, 946.2, 212.2]
+  Bảng mặt hàng        region-2 [39.8, 243.8, 1076.2, 436.2]
+  Vùng cuối            region-3 [36.8, 472.8, 877.2, 666.2]
+  Cảnh báo: Không có
+  Liên kết OCR: 41 đã gán, 0 mơ hồ, 0 chưa gán.
+
+=== HEADER · VietOCR checkpoint ===
+  Mẫu số               1 [PRESENT]
+  Ký hiệu              C26T2A [PRESENT]
+  Số hóa đơn           00000022 [PRESENT]
+  Ngày hóa đơn         2026-10-22 [PRESENT]
+  Tên người bán        Cửa Hàng Mẫu Sao Việt [PRESENT]
+  MST người bán        0000000022 [PRESENT]
+  Địa chỉ người bán    22 Đường Mẫu, Thành phố Hà Nội [PRESENT]
+  Tên người mua        KHÁCH HÀNG THỬ NGHIỆM [PRESENT] · Nguồn Apple Vision
+  MST người mua        0000003022 [PRESENT]
+  Số khung đọc lại: 41
+
+=== BẢNG MẶT HÀNG · Retail Table ===
+  4 dòng
+  Tên hàng | ĐVT | SL | Đơn giá | Thành tiền
+  1. Dịch vụ in tài liệu [PRESENT] | Lần [PRESENT] | 2.0 [PRESENT] | 12000 [PRESENT] | 24000 [PRESENT]
+  2. Bìa hồ sơ [PRESENT] | Cai [PRESENT] | 4.0 [PRESENT] | 7000 [PRESENT] | 28000 [PRESENT]
+  3. Bìa hồ sơ [PRESENT] | Cai [PRESENT] | 2.0 [PRESENT] | 7000 [PRESENT] | 14000 [PRESENT]
+  4. Giay in A4 Ram o [PRESENT] | — [NOT_PRESENT] | — [NOT_PRESENT] | 65000 [PRESENT] | 325000 [PRESENT]
+  Apple Vision đọc lại 4 ô.
+
+=== FOOTER ===
+  Vùng đọc trên ảnh đã chỉnh chiều: [37, 493, 879, 1050]
+  Dòng ghép từ Apple Vision và Reader
+  Thuế suất GTGT: 5%
+  Cộng tiền hàng: 391.000
+  Tiền thuế GTGT: 19.550
+  Tổng thanh toán: 410.550
+  Tiền tệ: VND
+  DỮ LIỆU GIẢ LẬP - KHÔNG CÓ GIÁ TRỊ THANH TOÁN
+  Số tiền thanh toán: 410.550 VND [PRESENT] · Nguồn Paddle Footer
+
+Kết quả lưu tại /Users/mathew/Documents/ChatGPT/VietReceipt/output/vietreceipt-terminal/runs/table-footer-checked-20261116-124445/017-VRSYN2-00022__clean_png · 35.4s
+
+>>> 18/20 · VRSYN2-00025__blur_png.png
+  reader         OK
+  segmentation   OK
+  table          OK
+  header         OK
+  footer         OK
+
+=== PHÂN VÙNG · PP-DocLayoutV3 ===
+  Đầu biên lai         region-1 [41.3, 20.3, 651.7, 184.7]
+  Bảng mặt hàng        region-2 [42.3, 270.3, 768.7, 412.7]
+  Vùng cuối            region-3 [41.3, 439.3, 668.7, 628.7]
+  Cảnh báo: Không có
+  Liên kết OCR: 34 đã gán, 0 mơ hồ, 0 chưa gán.
+
+=== HEADER · VietOCR checkpoint ===
+  Mẫu số               1 [PRESENT]
+  Ký hiệu              C26T5A [PRESENT] · Nguồn Tesseract tiếng Việt
+    Đối chiếu vietocr-checkpoint C26TSA · reader C26T5A
+  Số hóa đơn           00000025 [PRESENT] · Nguồn VietOCR
+  Ngày hóa đơn         2026-01-25 [PRESENT] · Nguồn Reader
+  Tên người bán        CỬA HÀNG MẪU SAO VIỆT [PRESENT] · Nguồn Apple Vision
+  MST người bán        0000000025 [PRESENT] · Nguồn Reader
+  Địa chỉ người bán    25 Đường Mấu, Thành phố Hà Nội [PRESENT] · Nguồn Apple Vision
+  Tên người mua        — [UNKNOWN]
+  MST người mua        — [UNKNOWN]
+  Số khung đọc lại: 34
+
+=== BẢNG MẶT HÀNG · Retail Table ===
+  3 dòng
+  Tên hàng | ĐVT | SL | Đơn giá | Thành tiền
+  1. Số tay văn phòng [PRESENT] | Quyển [PRESENT] | 1.0 [PRESENT] | 18000 [PRESENT] | 18000 [PRESENT]
+  2. But bi xanh Cay [PRESENT] | — [NOT_PRESENT] | 1.0 [PRESENT] | 5000 [PRESENT] | 5000 [PRESENT]
+  3. But bi xanh Cay [PRESENT] | — [NOT_PRESENT] | 4.0 [PRESENT] | 5000 [PRESENT] | 20000 [PRESENT]
+  Apple Vision đọc lại 2 ô.
+
+=== FOOTER ===
+  Vùng đọc trên ảnh đã chỉnh chiều: [40, 460, 671, 1263]
+  Dòng ghép từ Apple Vision và Reader
+  Thuế suất GTGT: 0%
+  Cộng tiền hàng: 43.000
+  Tiền thuế GTGT: 0
+  Tổng thanh toán: 43.000
+  Tiền tệ: VND
+  DỮ LIỆU GIÁ LẬP - KHÔNG CÔ GIÁ TRỊ THANH TOÁN
+  Số tiền thanh toán: 43.000 VND [PRESENT] · Nguồn Paddle Footer
+
+Kết quả lưu tại /Users/mathew/Documents/ChatGPT/VietReceipt/output/vietreceipt-terminal/runs/table-footer-checked-20261116-124445/018-VRSYN2-00025__blur_png · 40.2s
+
+>>> 19/20 · VRSYN2-00026__clean_png.png
+  reader         OK
+  segmentation   OK
+  table          OK
+  header         OK
+  footer         OK
+
+=== PHÂN VÙNG · PP-DocLayoutV3 ===
+  Đầu biên lai         region-1 [25.3, 22.3, 497.7, 289.7]
+  Bảng mặt hàng        region-2 [27.3, 319.3, 588.7, 383.7]
+  Vùng cuối            region-3 [25.3, 417.3, 340.7, 593.7]
+  Cảnh báo: Không có
+  Liên kết OCR: 26 đã gán, 0 mơ hồ, 0 chưa gán.
+
+=== HEADER · VietOCR checkpoint ===
+  Mẫu số               1 [PRESENT]
+  Ký hiệu              C26T6A [PRESENT]
+  Số hóa đơn           00000026 [PRESENT]
+  Ngày hóa đơn         2026-02-26 [PRESENT]
+  Tên người bán        Công TY Mẫu Hoa SEN [PRESENT]
+  MST người bán        0000000026 [PRESENT]
+  Địa chỉ người bán    26 Đường Mẫu, Thành phố Hà Nội [PRESENT]
+  Tên người mua        KHÁCH HÀNG THỬ NGHIỆM [PRESENT] · Nguồn Apple Vision
+  MST người mua        0000003026 [PRESENT]
+  Số khung đọc lại: 26
+
+=== BẢNG MẶT HÀNG · Retail Table ===
+  1 dòng
+  Tên hàng | ĐVT | SL | Đơn giá | Thành tiền
+  1. Bìa hồ sơ [PRESENT] | Cai [PRESENT] | 1.0 [PRESENT] | 7000 [PRESENT] | 7000 [PRESENT]
+  Apple Vision đọc lại 1 ô.
+
+=== FOOTER ===
+  Vùng đọc trên ảnh đã chỉnh chiều: [21, 434, 341, 1140]
+  Dòng ghép từ Apple Vision và Reader
+  Thuế suất GTGT: 5%
+  Cộng tiền hàng: 7.000
+  Tiền thuế GTGT: 350
+  Tổng thanh toán: 7.350
+  Tiền tệ: VND
+  DỮ LIỆU GIÁ LẬP - KHÔNG CÓ GIÁ TRỊ THANH TOÁN
+  Số tiền thanh toán: 7.350 VND [PRESENT] · Nguồn Paddle Footer
+
+Kết quả lưu tại /Users/mathew/Documents/ChatGPT/VietReceipt/output/vietreceipt-terminal/runs/table-footer-checked-20261116-124445/019-VRSYN2-00026__clean_png · 29.4s
+
+>>> 20/20 · VRSYN2-00027__clean_png.png
+  reader         OK
+  segmentation   OK
+  table          OK
+  header         OK
+  footer         OK
+
+=== PHÂN VÙNG · PP-DocLayoutV3 ===
+  Đầu biên lai         region-1 [58.0, 22.0, 430.0, 327.0]
+  Bảng mặt hàng        region-2 [59.0, 360.0, 759.0, 497.0]
+  Vùng cuối            region-3 [58.0, 529.0, 374.0, 730.0]
+  Cảnh báo: Không có
+  Liên kết OCR: 36 đã gán, 0 mơ hồ, 0 chưa gán.
+
+=== HEADER · VietOCR checkpoint ===
+  Mẫu số               1 [PRESENT]
+  Ký hiệu              C26T7A [PRESENT]
+  Số hóa đơn           00000027 [PRESENT]
+  Ngày hóa đơn         2026-03-27 [PRESENT]
+  Tên người bán        Công Ty Mẫu Minh AN [PRESENT]
+  MST người bán        0000000027 [PRESENT]
+  Địa chỉ người bán    27 Đường Mẫu, Thành phố Hà Nội [PRESENT]
+  Tên người mua        KHÁCH HÀNG THỬ NGHIỆM [PRESENT] · Nguồn Apple Vision
+  MST người mua        0000003027 [PRESENT]
+  Số khung đọc lại: 36
+
+=== BẢNG MẶT HÀNG · Retail Table ===
+  3 dòng
+  Tên hàng | ĐVT | SL | Đơn giá | Thành tiền
+  1. Giấy in A4 [PRESENT] | Ram [PRESENT] | 2.0 [PRESENT] | 65000 [PRESENT] | 130000 [PRESENT]
+  2. Bút bi xanh [PRESENT] | Cây [PRESENT] | 1.0 [PRESENT] | 5000 [PRESENT] | 5000 [PRESENT]
+  3. Bìa hồ sơ [PRESENT] | Cai [PRESENT] | 2.0 [PRESENT] | 7000 [PRESENT] | 14000 [PRESENT]
+  Apple Vision đọc lại 5 ô.
+
+=== FOOTER ===
+  Vùng đọc trên ảnh đã chỉnh chiều: [56, 552, 375, 1263]
+  Dòng ghép từ Apple Vision và Reader
+  Thuế suất GTGT: 8%
+  Cộng tiền hàng: 149.000
+  Tiền thuế GTGT: 11.920
+  Tổng thanh toán: 160.920
+  Tiền tệ: VND
+  DỮ LIỆU GIẢ LẶP - KHÔNG CÓ GIÁ TRỊ THANH TOÁN
+  Số tiền thanh toán: 160.920 VND [PRESENT] · Nguồn Paddle Footer
+
+Kết quả lưu tại /Users/mathew/Documents/ChatGPT/VietReceipt/output/vietreceipt-terminal/runs/table-footer-checked-20261116-124445/020-VRSYN2-00027__clean_png · 29.4s
+Trước và sau {'before': Counter({'table_reference_rows': 70, 'table_amount_exact': 70, 'total_exact': 19, 'table_description_exact': 0}), 'after': Counter({'table_reference_rows': 70, 'table_amount_exact': 70, 'table_description_exact': 39, 'total_exact': 19})}
+R001.jpg                            Có bản chép tay để xem từng dòng, chưa có nhãn tọa độ ba vùng.
+  table → footer  T&ngs: 7
+  table → footer  T&ng cong 113,000
+VRSYN2-00001__clean_png.png         header 9/9 | table 5/5 | footer 4/4
+VRSYN2-00002__blur_png.png          header 9/9 | table 2/2 | footer 4/4
+VRSYN2-00003__clean_png.png         header 9/9 | table 4/4 | footer 4/4
+VRSYN2-00004__clean_png.png         header 9/9 | table 2/2 | footer 4/4
+VRSYN2-00007__blur_png.png          header 9/9 | table 2/2 | footer 4/4
+VRSYN2-00008__clean_png.png         header 9/9 | table 4/4 | footer 4/4
+VRSYN2-00009__clean_png.png         header 9/9 | table 5/5 | footer 4/4
+VRSYN2-00010__blur_png.png          header 7/7 | table 3/3 | footer 4/4
+VRSYN2-00013__clean_png.png         header 9/9 | table 5/5 | footer 4/4
+VRSYN2-00014__clean_png.png         header 9/9 | table 5/5 | footer 4/4
+VRSYN2-00015__blur_png.png          header 7/7 | table 3/3 | footer 4/4
+VRSYN2-00016__clean_png.png         header 9/9 | table 5/5 | footer 4/4
+VRSYN2-00019__clean_png.png         header 9/9 | table 5/5 | footer 4/4
+VRSYN2-00020__blur_png.png          header 7/7 | table 4/4 | footer 4/4
+VRSYN2-00021__clean_png.png         header 9/9 | table 5/5 | footer 4/4
+VRSYN2-00022__clean_png.png         header 9/9 | table 4/4 | footer 4/4
+VRSYN2-00025__blur_png.png          header 7/7 | table 3/3 | footer 4/4
+VRSYN2-00026__clean_png.png         header 9/9 | table 1/1 | footer 4/4
+VRSYN2-00027__clean_png.png         header 9/9 | table 3/3 | footer 4/4
+Hoàn tất 20/20 · reader 20/20 · segmentation 20/20 · table 20/20 · header 20/20 · footer 20/20
+Phủ nhãn ≥ 90% · Đầu biên lai 163/163 · Bảng mặt hàng 70/70 · Vùng cuối 76/76
+Header khớp 159/163 trường · UNKNOWN trên trường có nhãn 0/163 · Số dòng hàng khớp trên 19/19 ảnh · Tên hàng khớp 39/70 dòng theo thứ tự · Thành tiền khớp 70/70 dòng theo thứ tự · Tổng tiền khớp trên 19/19 ảnh
+Báo cáo ảnh /Users/mathew/Documents/ChatGPT/VietReceipt/output/vietreceipt-terminal/runs/table-footer-checked-20261116-124445/index.html

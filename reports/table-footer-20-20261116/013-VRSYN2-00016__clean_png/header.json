@@ -1,0 +1,250 @@
+{
+  "schema_version": "header-study-1.0",
+  "receipt_id": "60888455-4805-4b5b-9f5c-f2988069c774",
+  "ocr_run_id": "74ad0df0-36f8-437f-9080-b4996afb0df4",
+  "fields": {
+    "invoice_template_number": {
+      "raw_text": "Mẫu số: 1",
+      "predicted_value": "1",
+      "normalized_value": "1",
+      "normalization": {
+        "rule": "identity_string",
+        "version": "normalization-v0.1"
+      },
+      "value_status": "PRESENT",
+      "confidence": null,
+      "heuristic_score": 0.95,
+      "score_version": "invoice-heuristic-2.0.0",
+      "machine_needs_review": true,
+      "review_reasons": [
+        "OCR_RECOGNIZER_DISAGREEMENT"
+      ],
+      "review_policy_version": "invoice-review-2.0.0",
+      "source_block_ids": [
+        "p0_b000001"
+      ]
+    },
+    "invoice_symbol": {
+      "raw_text": "Ký hiệu: C26T6A",
+      "predicted_value": "C26T6A",
+      "normalized_value": "C26T6A",
+      "normalization": {
+        "rule": "identity_string",
+        "version": "normalization-v0.1"
+      },
+      "value_status": "PRESENT",
+      "confidence": null,
+      "heuristic_score": 0.95,
+      "score_version": "invoice-heuristic-2.0.0",
+      "machine_needs_review": true,
+      "review_reasons": [
+        "OCR_RECOGNIZER_DISAGREEMENT"
+      ],
+      "review_policy_version": "invoice-review-2.0.0",
+      "source_block_ids": [
+        "p0_b000003"
+      ]
+    },
+    "invoice_number": {
+      "raw_text": "Số hóa đơn: 00000016",
+      "predicted_value": "00000016",
+      "normalized_value": "00000016",
+      "normalization": {
+        "rule": "identity_string",
+        "version": "normalization-v0.1"
+      },
+      "value_status": "PRESENT",
+      "confidence": null,
+      "heuristic_score": 0.95,
+      "score_version": "invoice-heuristic-2.0.0",
+      "machine_needs_review": true,
+      "review_reasons": [
+        "OCR_RECOGNIZER_DISAGREEMENT"
+      ],
+      "review_policy_version": "invoice-review-2.0.0",
+      "source_block_ids": [
+        "p0_b000005"
+      ]
+    },
+    "invoice_date": {
+      "raw_text": "Ngày lập: 2026-04-16",
+      "predicted_value": "2026-04-16",
+      "normalized_value": "2026-04-16",
+      "normalization": {
+        "rule": "iso_date",
+        "version": "normalization-v0.1"
+      },
+      "value_status": "PRESENT",
+      "confidence": null,
+      "heuristic_score": 0.95,
+      "score_version": "invoice-heuristic-2.0.0",
+      "machine_needs_review": true,
+      "review_reasons": [
+        "OCR_RECOGNIZER_DISAGREEMENT"
+      ],
+      "review_policy_version": "invoice-review-2.0.0",
+      "source_block_ids": [
+        "p0_b000007"
+      ]
+    },
+    "seller_name": {
+      "raw_text": "Đơn vị bán hàng: Cửa Hàng Mẫu Sao Việt",
+      "predicted_value": "Cửa Hàng Mẫu Sao Việt",
+      "normalized_value": "Cửa Hàng Mẫu Sao Việt",
+      "normalization": {
+        "rule": "identity_string",
+        "version": "normalization-v0.1"
+      },
+      "value_status": "PRESENT",
+      "confidence": null,
+      "heuristic_score": 0.95,
+      "score_version": "invoice-heuristic-2.0.0",
+      "machine_needs_review": true,
+      "review_reasons": [
+        "OCR_RECOGNIZER_DISAGREEMENT"
+      ],
+      "review_policy_version": "invoice-review-2.0.0",
+      "source_block_ids": [
+        "p0_b000002"
+      ]
+    },
+    "seller_tax_id": {
+      "raw_text": "MST người bán: 0000000016",
+      "predicted_value": "0000000016",
+      "normalized_value": "0000000016",
+      "normalization": {
+        "rule": "tax_id_printed_separators",
+        "version": "invoice-normalization-2.0.0"
+      },
+      "value_status": "PRESENT",
+      "confidence": null,
+      "heuristic_score": 0.95,
+      "score_version": "invoice-heuristic-2.0.0",
+      "machine_needs_review": true,
+      "review_reasons": [
+        "OCR_RECOGNIZER_DISAGREEMENT"
+      ],
+      "review_policy_version": "invoice-review-2.0.0",
+      "source_block_ids": [
+        "p0_b000004"
+      ]
+    },
+    "seller_address": {
+      "raw_text": "Địa chỉ người bán: 16 Đường Mẫu, Thành phố Hà Nội",
+      "predicted_value": "16 Đường Mẫu, Thành phố Hà Nội",
+      "normalized_value": "16 Đường Mẫu, Thành phố Hà Nội",
+      "normalization": {
+        "rule": "identity_string",
+        "version": "normalization-v0.1"
+      },
+      "value_status": "PRESENT",
+      "confidence": null,
+      "heuristic_score": 0.95,
+      "score_version": "invoice-heuristic-2.0.0",
+      "machine_needs_review": true,
+      "review_reasons": [
+        "OCR_RECOGNIZER_DISAGREEMENT"
+      ],
+      "review_policy_version": "invoice-review-2.0.0",
+      "source_block_ids": [
+        "p0_b000006"
+      ]
+    },
+    "buyer_name": {
+      "raw_text": "Người mua: KHÁCH HÀNG THỬ NGHIỆM",
+      "predicted_value": "KHÁCH HÀNG THỬ NGHIỆM",
+      "normalized_value": "KHÁCH HÀNG THỬ NGHIỆM",
+      "normalization": {
+        "rule": "identity_string",
+        "version": "normalization-v0.1"
+      },
+      "value_status": "PRESENT",
+      "confidence": null,
+      "heuristic_score": 0.95,
+      "score_version": "invoice-heuristic-2.0.0",
+      "machine_needs_review": true,
+      "review_reasons": [
+        "OCR_RECOGNIZER_DISAGREEMENT"
+      ],
+      "review_policy_version": "invoice-review-2.0.0",
+      "source_block_ids": [
+        "p0_b000008"
+      ]
+    },
+    "buyer_tax_id": {
+      "raw_text": "MST người mua: 0000003016",
+      "predicted_value": "0000003016",
+      "normalized_value": "0000003016",
+      "normalization": {
+        "rule": "tax_id_printed_separators",
+        "version": "invoice-normalization-2.0.0"
+      },
+      "value_status": "PRESENT",
+      "confidence": null,
+      "heuristic_score": 0.95,
+      "score_version": "invoice-heuristic-2.0.0",
+      "machine_needs_review": true,
+      "review_reasons": [
+        "OCR_RECOGNIZER_DISAGREEMENT"
+      ],
+      "review_policy_version": "invoice-review-2.0.0",
+      "source_block_ids": [
+        "p0_b000009"
+      ]
+    }
+  },
+  "excluded_table_block_ids": [
+    "p0_b000010",
+    "p0_b000011",
+    "p0_b000012",
+    "p0_b000013",
+    "p0_b000014",
+    "p0_b000015",
+    "p0_b000016",
+    "p0_b000017",
+    "p0_b000018",
+    "p0_b000019",
+    "p0_b000020",
+    "p0_b000021",
+    "p0_b000022",
+    "p0_b000023",
+    "p0_b000024",
+    "p0_b000025",
+    "p0_b000026",
+    "p0_b000027",
+    "p0_b000028",
+    "p0_b000029",
+    "p0_b000030",
+    "p0_b000031",
+    "p0_b000032",
+    "p0_b000033",
+    "p0_b000034",
+    "p0_b000035",
+    "p0_b000036",
+    "p0_b000037",
+    "p0_b000038",
+    "p0_b000039"
+  ],
+  "ocr_block_count": 46,
+  "field_sources": {},
+  "supplemental_ocr": {
+    "apple-vision": {
+      "ocr_run_id": "a9e757c3-b499-4c86-afed-239b304f3174",
+      "parent_ocr_run_id": "267b0209-3ca3-4835-8ba5-e3e42462bc4e",
+      "reads": {
+        "p0_b000006": {
+          "confidence": 1,
+          "text": "Địa chỉ người bán: 16 Đường Mẫu, Thành phố Hà Nội"
+        },
+        "p0_b000008": {
+          "confidence": 1,
+          "text": "Người mua: KHÁCH HÀNG THỬ NGHIỆM"
+        },
+        "p0_b000002": {
+          "confidence": 1,
+          "text": "Đơn vị bán hàng: CỬA HÀNG MẪU SAO VIỆT"
+        }
+      }
+    }
+  }
+}

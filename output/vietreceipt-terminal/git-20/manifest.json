@@ -1,0 +1,300 @@
+{
+  "samples": [
+    {
+      "image": "R001.jpg",
+      "kind": "demo",
+      "commit": "07c7cd00b0a12a555ec98f1ba45c7d1f1584e5eb",
+      "path": "frontend/assets/fixtures/R001.jpg",
+      "url": "https://github.com/vietreceipt-team/vietreceipt/blob/07c7cd00b0a12a555ec98f1ba45c7d1f1584e5eb/frontend/assets/fixtures/R001.jpg",
+      "sha256": "843b701344253fc538bfafd53a7f52125a47ce6b5f19ebb6c31adca24270b453",
+      "reference": {
+        "transcription.txt": "R001.jpg.transcription.txt"
+      }
+    },
+    {
+      "image": "VRSYN2-00001__clean_png.png",
+      "kind": "synthetic_clean",
+      "commit": "89281198ebaf419e511b4c99321ca3355e94fcf1",
+      "path": "data/handoffs/tv4-dev-v1.zip",
+      "url": "https://github.com/vietreceipt-team/vietreceipt/blob/89281198ebaf419e511b4c99321ca3355e94fcf1/data/handoffs/tv4-dev-v1.zip",
+      "sha256": "394930960c8858b1e4e8d82f94fee9d1065cb54dfcd10677fb3e79a34c0bc03c",
+      "zip_member": "records/VRSYN2-00001__clean_png/source.png",
+      "reference": {
+        "source-gold.json": "VRSYN2-00001__clean_png.png.source-gold.json",
+        "source-regions.json": "VRSYN2-00001__clean_png.png.source-regions.json",
+        "source-row-regions.json": "VRSYN2-00001__clean_png.png.source-row-regions.json",
+        "record.json": "VRSYN2-00001__clean_png.png.record.json"
+      }
+    },
+    {
+      "image": "VRSYN2-00002__blur_png.png",
+      "kind": "synthetic_blur",
+      "commit": "89281198ebaf419e511b4c99321ca3355e94fcf1",
+      "path": "data/handoffs/tv4-dev-v1.zip",
+      "url": "https://github.com/vietreceipt-team/vietreceipt/blob/89281198ebaf419e511b4c99321ca3355e94fcf1/data/handoffs/tv4-dev-v1.zip",
+      "sha256": "278fafccd7e539ab638856e52aa5e52451c0fbc484cab7f1f41060a6e862e9fe",
+      "zip_member": "records/VRSYN2-00002__blur_png/source.png",
+      "reference": {
+        "source-gold.json": "VRSYN2-00002__blur_png.png.source-gold.json",
+        "source-regions.json": "VRSYN2-00002__blur_png.png.source-regions.json",
+        "source-row-regions.json": "VRSYN2-00002__blur_png.png.source-row-regions.json",
+        "record.json": "VRSYN2-00002__blur_png.png.record.json"
+      }
+    },
+    {
+      "image": "VRSYN2-00003__clean_png.png",
+      "kind": "synthetic_clean",
+      "commit": "89281198ebaf419e511b4c99321ca3355e94fcf1",
+      "path": "data/handoffs/tv4-dev-v1.zip",
+      "url": "https://github.com/vietreceipt-team/vietreceipt/blob/89281198ebaf419e511b4c99321ca3355e94fcf1/data/handoffs/tv4-dev-v1.zip",
+      "sha256": "10fa4ca631151437327dfc9d690b2b3e2c35d19ffe98762c736abcfa4aa427e5",
+      "zip_member": "records/VRSYN2-00003__clean_png/source.png",
+      "reference": {
+        "source-gold.json": "VRSYN2-00003__clean_png.png.source-gold.json",
+        "source-regions.json": "VRSYN2-00003__clean_png.png.source-regions.json",
+        "source-row-regions.json": "VRSYN2-00003__clean_png.png.source-row-regions.json",
+        "record.json": "VRSYN2-00003__clean_png.png.record.json"
+      }
+    },
+    {
+      "image": "VRSYN2-00004__clean_png.png",
+      "kind": "synthetic_clean",
+      "commit": "89281198ebaf419e511b4c99321ca3355e94fcf1",
+      "path": "data/handoffs/tv4-dev-v1.zip",
+      "url": "https://github.com/vietreceipt-team/vietreceipt/blob/89281198ebaf419e511b4c99321ca3355e94fcf1/data/handoffs/tv4-dev-v1.zip",
+      "sha256": "7a27a38d87e1f0211f08b38c4300ffd67c4930c9d6f302d56a924d859e747904",
+      "zip_member": "records/VRSYN2-00004__clean_png/source.png",
+      "reference": {
+        "source-gold.json": "VRSYN2-00004__clean_png.png.source-gold.json",
+        "source-regions.json": "VRSYN2-00004__clean_png.png.source-regions.json",
+        "source-row-regions.json": "VRSYN2-00004__clean_png.png.source-row-regions.json",
+        "record.json": "VRSYN2-00004__clean_png.png.record.json"
+      }
+    },
+    {
+      "image": "VRSYN2-00007__blur_png.png",
+      "kind": "synthetic_blur",
+      "commit": "89281198ebaf419e511b4c99321ca3355e94fcf1",
+      "path": "data/handoffs/tv4-dev-v1.zip",
+      "url": "https://github.com/vietreceipt-team/vietreceipt/blob/89281198ebaf419e511b4c99321ca3355e94fcf1/data/handoffs/tv4-dev-v1.zip",
+      "sha256": "8f22a9b78fa7e77c6b32843e24f32834511bda8fe17e6ef4221f622ca93d4d04",
+      "zip_member": "records/VRSYN2-00007__blur_png/source.png",
+      "reference": {
+        "source-gold.json": "VRSYN2-00007__blur_png.png.source-gold.json",
+        "source-regions.json": "VRSYN2-00007__blur_png.png.source-regions.json",
+        "source-row-regions.json": "VRSYN2-00007__blur_png.png.source-row-regions.json",
+        "record.json": "VRSYN2-00007__blur_png.png.record.json"
+      }
+    },
+    {
+      "image": "VRSYN2-00008__clean_png.png",
+      "kind": "synthetic_clean",
+      "commit": "89281198ebaf419e511b4c99321ca3355e94fcf1",
+      "path": "data/handoffs/tv4-dev-v1.zip",
+      "url": "https://github.com/vietreceipt-team/vietreceipt/blob/89281198ebaf419e511b4c99321ca3355e94fcf1/data/handoffs/tv4-dev-v1.zip",
+      "sha256": "23461d271eac69ffb519348d94c0a8696ca0538501314b9c76f197af273758f7",
+      "zip_member": "records/VRSYN2-00008__clean_png/source.png",
+      "reference": {
+        "source-gold.json": "VRSYN2-00008__clean_png.png.source-gold.json",
+        "source-regions.json": "VRSYN2-00008__clean_png.png.source-regions.json",
+        "source-row-regions.json": "VRSYN2-00008__clean_png.png.source-row-regions.json",
+        "record.json": "VRSYN2-00008__clean_png.png.record.json"
+      }
+    },
+    {
+      "image": "VRSYN2-00009__clean_png.png",
+      "kind": "synthetic_clean",
+      "commit": "89281198ebaf419e511b4c99321ca3355e94fcf1",
+      "path": "data/handoffs/tv4-dev-v1.zip",
+      "url": "https://github.com/vietreceipt-team/vietreceipt/blob/89281198ebaf419e511b4c99321ca3355e94fcf1/data/handoffs/tv4-dev-v1.zip",
+      "sha256": "d887d8085a6149ac19c9f4d20738b7c1fdfe516492728fe2f90db3808e995405",
+      "zip_member": "records/VRSYN2-00009__clean_png/source.png",
+      "reference": {
+        "source-gold.json": "VRSYN2-00009__clean_png.png.source-gold.json",
+        "source-regions.json": "VRSYN2-00009__clean_png.png.source-regions.json",
+        "source-row-regions.json": "VRSYN2-00009__clean_png.png.source-row-regions.json",
+        "record.json": "VRSYN2-00009__clean_png.png.record.json"
+      }
+    },
+    {
+      "image": "VRSYN2-00010__blur_png.png",
+      "kind": "synthetic_blur",
+      "commit": "89281198ebaf419e511b4c99321ca3355e94fcf1",
+      "path": "data/handoffs/tv4-dev-v1.zip",
+      "url": "https://github.com/vietreceipt-team/vietreceipt/blob/89281198ebaf419e511b4c99321ca3355e94fcf1/data/handoffs/tv4-dev-v1.zip",
+      "sha256": "2d5f70740947bab638943adb311db0ab810286ffb7331deebcb1812d404d29cf",
+      "zip_member": "records/VRSYN2-00010__blur_png/source.png",
+      "reference": {
+        "source-gold.json": "VRSYN2-00010__blur_png.png.source-gold.json",
+        "source-regions.json": "VRSYN2-00010__blur_png.png.source-regions.json",
+        "source-row-regions.json": "VRSYN2-00010__blur_png.png.source-row-regions.json",
+        "record.json": "VRSYN2-00010__blur_png.png.record.json"
+      }
+    },
+    {
+      "image": "VRSYN2-00013__clean_png.png",
+      "kind": "synthetic_clean",
+      "commit": "89281198ebaf419e511b4c99321ca3355e94fcf1",
+      "path": "data/handoffs/tv4-dev-v1.zip",
+      "url": "https://github.com/vietreceipt-team/vietreceipt/blob/89281198ebaf419e511b4c99321ca3355e94fcf1/data/handoffs/tv4-dev-v1.zip",
+      "sha256": "d1dac6087a597340bc57c4811fdd1b3d236f10e75e9581f190568367d3455f34",
+      "zip_member": "records/VRSYN2-00013__clean_png/source.png",
+      "reference": {
+        "source-gold.json": "VRSYN2-00013__clean_png.png.source-gold.json",
+        "source-regions.json": "VRSYN2-00013__clean_png.png.source-regions.json",
+        "source-row-regions.json": "VRSYN2-00013__clean_png.png.source-row-regions.json",
+        "record.json": "VRSYN2-00013__clean_png.png.record.json"
+      }
+    },
+    {
+      "image": "VRSYN2-00014__clean_png.png",
+      "kind": "synthetic_clean",
+      "commit": "89281198ebaf419e511b4c99321ca3355e94fcf1",
+      "path": "data/handoffs/tv4-dev-v1.zip",
+      "url": "https://github.com/vietreceipt-team/vietreceipt/blob/89281198ebaf419e511b4c99321ca3355e94fcf1/data/handoffs/tv4-dev-v1.zip",
+      "sha256": "916ff1c9a8cac4b54367f04c1c9ead48c28135acfdf03a10f4b41bd5c9cd45c1",
+      "zip_member": "records/VRSYN2-00014__clean_png/source.png",
+      "reference": {
+        "source-gold.json": "VRSYN2-00014__clean_png.png.source-gold.json",
+        "source-regions.json": "VRSYN2-00014__clean_png.png.source-regions.json",
+        "source-row-regions.json": "VRSYN2-00014__clean_png.png.source-row-regions.json",
+        "record.json": "VRSYN2-00014__clean_png.png.record.json"
+      }
+    },
+    {
+      "image": "VRSYN2-00015__blur_png.png",
+      "kind": "synthetic_blur",
+      "commit": "89281198ebaf419e511b4c99321ca3355e94fcf1",
+      "path": "data/handoffs/tv4-dev-v1.zip",
+      "url": "https://github.com/vietreceipt-team/vietreceipt/blob/89281198ebaf419e511b4c99321ca3355e94fcf1/data/handoffs/tv4-dev-v1.zip",
+      "sha256": "cb23a12d8cb9aafadb00216a0f4ae031d3b64ef1511cde857b67afa88d77e7f3",
+      "zip_member": "records/VRSYN2-00015__blur_png/source.png",
+      "reference": {
+        "source-gold.json": "VRSYN2-00015__blur_png.png.source-gold.json",
+        "source-regions.json": "VRSYN2-00015__blur_png.png.source-regions.json",
+        "source-row-regions.json": "VRSYN2-00015__blur_png.png.source-row-regions.json",
+        "record.json": "VRSYN2-00015__blur_png.png.record.json"
+      }
+    },
+    {
+      "image": "VRSYN2-00016__clean_png.png",
+      "kind": "synthetic_clean",
+      "commit": "89281198ebaf419e511b4c99321ca3355e94fcf1",
+      "path": "data/handoffs/tv4-dev-v1.zip",
+      "url": "https://github.com/vietreceipt-team/vietreceipt/blob/89281198ebaf419e511b4c99321ca3355e94fcf1/data/handoffs/tv4-dev-v1.zip",
+      "sha256": "9607252e873dbcd288cc448e85ad0ccb11a622d2e80f58c048ef87a15f9b3fc8",
+      "zip_member": "records/VRSYN2-00016__clean_png/source.png",
+      "reference": {
+        "source-gold.json": "VRSYN2-00016__clean_png.png.source-gold.json",
+        "source-regions.json": "VRSYN2-00016__clean_png.png.source-regions.json",
+        "source-row-regions.json": "VRSYN2-00016__clean_png.png.source-row-regions.json",
+        "record.json": "VRSYN2-00016__clean_png.png.record.json"
+      }
+    },
+    {
+      "image": "VRSYN2-00019__clean_png.png",
+      "kind": "synthetic_clean",
+      "commit": "89281198ebaf419e511b4c99321ca3355e94fcf1",
+      "path": "data/handoffs/tv4-dev-v1.zip",
+      "url": "https://github.com/vietreceipt-team/vietreceipt/blob/89281198ebaf419e511b4c99321ca3355e94fcf1/data/handoffs/tv4-dev-v1.zip",
+      "sha256": "6988e2e82114a4bcb1711163b3c8a042878a59d71556a5b3359cac001089e56b",
+      "zip_member": "records/VRSYN2-00019__clean_png/source.png",
+      "reference": {
+        "source-gold.json": "VRSYN2-00019__clean_png.png.source-gold.json",
+        "source-regions.json": "VRSYN2-00019__clean_png.png.source-regions.json",
+        "source-row-regions.json": "VRSYN2-00019__clean_png.png.source-row-regions.json",
+        "record.json": "VRSYN2-00019__clean_png.png.record.json"
+      }
+    },
+    {
+      "image": "VRSYN2-00020__blur_png.png",
+      "kind": "synthetic_blur",
+      "commit": "89281198ebaf419e511b4c99321ca3355e94fcf1",
+      "path": "data/handoffs/tv4-dev-v1.zip",
+      "url": "https://github.com/vietreceipt-team/vietreceipt/blob/89281198ebaf419e511b4c99321ca3355e94fcf1/data/handoffs/tv4-dev-v1.zip",
+      "sha256": "cd6e412515571bfadb00e7d3ddd1f34109f80ad739bfa202cf6089cb43257175",
+      "zip_member": "records/VRSYN2-00020__blur_png/source.png",
+      "reference": {
+        "source-gold.json": "VRSYN2-00020__blur_png.png.source-gold.json",
+        "source-regions.json": "VRSYN2-00020__blur_png.png.source-regions.json",
+        "source-row-regions.json": "VRSYN2-00020__blur_png.png.source-row-regions.json",
+        "record.json": "VRSYN2-00020__blur_png.png.record.json"
+      }
+    },
+    {
+      "image": "VRSYN2-00021__clean_png.png",
+      "kind": "synthetic_clean",
+      "commit": "89281198ebaf419e511b4c99321ca3355e94fcf1",
+      "path": "data/handoffs/tv4-dev-v1.zip",
+      "url": "https://github.com/vietreceipt-team/vietreceipt/blob/89281198ebaf419e511b4c99321ca3355e94fcf1/data/handoffs/tv4-dev-v1.zip",
+      "sha256": "18e74e8cd8ae440d2e94a0b616214ccff8238514381c9d168ddac2c14a1940e1",
+      "zip_member": "records/VRSYN2-00021__clean_png/source.png",
+      "reference": {
+        "source-gold.json": "VRSYN2-00021__clean_png.png.source-gold.json",
+        "source-regions.json": "VRSYN2-00021__clean_png.png.source-regions.json",
+        "source-row-regions.json": "VRSYN2-00021__clean_png.png.source-row-regions.json",
+        "record.json": "VRSYN2-00021__clean_png.png.record.json"
+      }
+    },
+    {
+      "image": "VRSYN2-00022__clean_png.png",
+      "kind": "synthetic_clean",
+      "commit": "89281198ebaf419e511b4c99321ca3355e94fcf1",
+      "path": "data/handoffs/tv4-dev-v1.zip",
+      "url": "https://github.com/vietreceipt-team/vietreceipt/blob/89281198ebaf419e511b4c99321ca3355e94fcf1/data/handoffs/tv4-dev-v1.zip",
+      "sha256": "c9b863971e232293b72ef45be0a4c423547d8e8cc87a9a0421abe970fe7608e9",
+      "zip_member": "records/VRSYN2-00022__clean_png/source.png",
+      "reference": {
+        "source-gold.json": "VRSYN2-00022__clean_png.png.source-gold.json",
+        "source-regions.json": "VRSYN2-00022__clean_png.png.source-regions.json",
+        "source-row-regions.json": "VRSYN2-00022__clean_png.png.source-row-regions.json",
+        "record.json": "VRSYN2-00022__clean_png.png.record.json"
+      }
+    },
+    {
+      "image": "VRSYN2-00025__blur_png.png",
+      "kind": "synthetic_blur",
+      "commit": "89281198ebaf419e511b4c99321ca3355e94fcf1",
+      "path": "data/handoffs/tv4-dev-v1.zip",
+      "url": "https://github.com/vietreceipt-team/vietreceipt/blob/89281198ebaf419e511b4c99321ca3355e94fcf1/data/handoffs/tv4-dev-v1.zip",
+      "sha256": "7287506d365c2421327170285d78e716d3ccf035e2f7a681dc0a294e204c4bfc",
+      "zip_member": "records/VRSYN2-00025__blur_png/source.png",
+      "reference": {
+        "source-gold.json": "VRSYN2-00025__blur_png.png.source-gold.json",
+        "source-regions.json": "VRSYN2-00025__blur_png.png.source-regions.json",
+        "source-row-regions.json": "VRSYN2-00025__blur_png.png.source-row-regions.json",
+        "record.json": "VRSYN2-00025__blur_png.png.record.json"
+      }
+    },
+    {
+      "image": "VRSYN2-00026__clean_png.png",
+      "kind": "synthetic_clean",
+      "commit": "89281198ebaf419e511b4c99321ca3355e94fcf1",
+      "path": "data/handoffs/tv4-dev-v1.zip",
+      "url": "https://github.com/vietreceipt-team/vietreceipt/blob/89281198ebaf419e511b4c99321ca3355e94fcf1/data/handoffs/tv4-dev-v1.zip",
+      "sha256": "fa5bfaf467e8711fdd5289afb6705af33adca8d36c70cc4d83b7d815506bd1a1",
+      "zip_member": "records/VRSYN2-00026__clean_png/source.png",
+      "reference": {
+        "source-gold.json": "VRSYN2-00026__clean_png.png.source-gold.json",
+        "source-regions.json": "VRSYN2-00026__clean_png.png.source-regions.json",
+        "source-row-regions.json": "VRSYN2-00026__clean_png.png.source-row-regions.json",
+        "record.json": "VRSYN2-00026__clean_png.png.record.json"
+      }
+    },
+    {
+      "image": "VRSYN2-00027__clean_png.png",
+      "kind": "synthetic_clean",
+      "commit": "89281198ebaf419e511b4c99321ca3355e94fcf1",
+      "path": "data/handoffs/tv4-dev-v1.zip",
+      "url": "https://github.com/vietreceipt-team/vietreceipt/blob/89281198ebaf419e511b4c99321ca3355e94fcf1/data/handoffs/tv4-dev-v1.zip",
+      "sha256": "7c8edd828e22cc9f715cc2d96735645d18844c30a37f5cd54e7c6b1afc2cd42b",
+      "zip_member": "records/VRSYN2-00027__clean_png/source.png",
+      "reference": {
+        "source-gold.json": "VRSYN2-00027__clean_png.png.source-gold.json",
+        "source-regions.json": "VRSYN2-00027__clean_png.png.source-regions.json",
+        "source-row-regions.json": "VRSYN2-00027__clean_png.png.source-row-regions.json",
+        "record.json": "VRSYN2-00027__clean_png.png.record.json"
+      }
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+[
+  {
+    "line_id": "VRSYN2-00007-L01",
+    "page_index": 0,
+    "bounds": [
+      0.05714285714285714,
+      0.24714964370546316,
+      0.8296930147058823,
+      0.26211401425178144
+    ],
+    "annotation_origin": "source render geometry; independent spatial QA pending"
+  },
+  {
+    "line_id": "VRSYN2-00007-L02",
+    "page_index": 0,
+    "bounds": [
+      0.05714285714285714,
+      0.2756532066508314,
+      0.8296930147058823,
+      0.29061757719714965
+    ],
+    "annotation_origin": "source render geometry; independent spatial QA pending"
+  }
+]

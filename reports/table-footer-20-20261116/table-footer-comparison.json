@@ -1,0 +1,98 @@
+{
+  "scores": {
+    "before": {
+      "table_reference_rows": 70,
+      "table_amount_exact": 70,
+      "table_description_exact": 0,
+      "total_exact": 19
+    },
+    "after": {
+      "table_reference_rows": 70,
+      "table_amount_exact": 70,
+      "table_description_exact": 39,
+      "total_exact": 19
+    }
+  },
+  "changed": [
+    [
+      "R001.jpg",
+      3
+    ],
+    [
+      "VRSYN2-00001__clean_png.png",
+      8
+    ],
+    [
+      "VRSYN2-00002__blur_png.png",
+      3
+    ],
+    [
+      "VRSYN2-00003__clean_png.png",
+      6
+    ],
+    [
+      "VRSYN2-00004__clean_png.png",
+      4
+    ],
+    [
+      "VRSYN2-00007__blur_png.png",
+      2
+    ],
+    [
+      "VRSYN2-00008__clean_png.png",
+      7
+    ],
+    [
+      "VRSYN2-00009__clean_png.png",
+      9
+    ],
+    [
+      "VRSYN2-00010__blur_png.png",
+      2
+    ],
+    [
+      "VRSYN2-00013__clean_png.png",
+      10
+    ],
+    [
+      "VRSYN2-00014__clean_png.png",
+      9
+    ],
+    [
+      "VRSYN2-00015__blur_png.png",
+      4
+    ],
+    [
+      "VRSYN2-00016__clean_png.png",
+      9
+    ],
+    [
+      "VRSYN2-00019__clean_png.png",
+      8
+    ],
+    [
+      "VRSYN2-00020__blur_png.png",
+      6
+    ],
+    [
+      "VRSYN2-00021__clean_png.png",
+      9
+    ],
+    [
+      "VRSYN2-00022__clean_png.png",
+      4
+    ],
+    [
+      "VRSYN2-00025__blur_png.png",
+      2
+    ],
+    [
+      "VRSYN2-00026__clean_png.png",
+      1
+    ],
+    [
+      "VRSYN2-00027__clean_png.png",
+      5
+    ]
+  ]
+}

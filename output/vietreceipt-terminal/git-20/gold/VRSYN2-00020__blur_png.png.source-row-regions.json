@@ -1,0 +1,46 @@
+[
+  {
+    "line_id": "VRSYN2-00020-L01",
+    "page_index": 0,
+    "bounds": [
+      0.05,
+      0.2751315789473684,
+      0.8619379882812499,
+      0.2917105263157895
+    ],
+    "annotation_origin": "source render geometry; independent spatial QA pending"
+  },
+  {
+    "line_id": "VRSYN2-00020-L02",
+    "page_index": 0,
+    "bounds": [
+      0.05,
+      0.3067105263157895,
+      0.8619379882812499,
+      0.3232894736842105
+    ],
+    "annotation_origin": "source render geometry; independent spatial QA pending"
+  },
+  {
+    "line_id": "VRSYN2-00020-L03",
+    "page_index": 0,
+    "bounds": [
+      0.05,
+      0.33828947368421053,
+      0.8619379882812499,
+      0.35486842105263156
+    ],
+    "annotation_origin": "source render geometry; independent spatial QA pending"
+  },
+  {
+    "line_id": "VRSYN2-00020-L04",
+    "page_index": 0,
+    "bounds": [
+      0.05,
+      0.3698684210526316,
+      0.8619379882812499,
+      0.3864473684210526
+    ],
+    "annotation_origin": "source render geometry; independent spatial QA pending"
+  }
+]

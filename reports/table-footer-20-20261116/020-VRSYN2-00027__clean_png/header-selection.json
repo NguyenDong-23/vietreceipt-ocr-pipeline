@@ -1,0 +1,17 @@
+{
+  "schema_version": "header-recognizer-selection-1.0",
+  "primary_recognizer": "vietocr-checkpoint",
+  "effective_text_source": "vietocr-checkpoint",
+  "checkpoint_sha256": "a4b7a6985859b8817af993870c1de5ffef8e3c3322c4e317f3964d07d317a2c2",
+  "source_sha256": "7c8edd828e22cc9f715cc2d96735645d18844c30a37f5cd54e7c6b1afc2cd42b",
+  "header_ocr_run_id": "a3a52f2c-4198-4481-8438-133c1bacda95",
+  "parent_ocr_run_id": "961b29da-d35f-4f4b-8b29-7af78fd6d754",
+  "reader_calls_in_this_adapter": 0,
+  "paddle_text_role": "reference_only; never substituted into OCR blocks",
+  "paddle_fallback": false,
+  "uses_gold_for_selection": false,
+  "empty_prediction_policy": "omit_and_record; do_not_fill_using_paddle",
+  "checkpoint_failure_policy": "raise_error; do_not_silently_switch_to_paddle",
+  "pdf_text_policy": "preserve native PDF text; rerecognize OCR pages only",
+  "adapter_bundle": "HEADER-CHECKPOINT-TICH-HOP"
+}

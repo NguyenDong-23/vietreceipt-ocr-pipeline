@@ -1,0 +1,21 @@
+{
+  "extractor": "retail-table-0.1.0",
+  "metric_policy": "same-name-similarity-0.55-as-existing-20-image-probe",
+  "limitations": [
+    "Development replay on the same 20 first-pass labels used to inspect the failure.",
+    "Name-based pairing is exploratory; independent review and held-out images are required."
+  ],
+  "metrics": {
+    "gold_rows": 64,
+    "predicted_rows": 64,
+    "matched_rows": 64,
+    "cells_scored": 320,
+    "cells_correct": 233,
+    "complete_rows": 2,
+    "row_precision": 1.0,
+    "row_recall": 1.0,
+    "row_f1": 1.0,
+    "cell_accuracy_on_matched_rows": 0.728125,
+    "complete_row_recall": 0.03125
+  }
+}

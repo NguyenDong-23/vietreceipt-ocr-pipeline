@@ -1,0 +1,160 @@
+{
+  "annotation_schema_version": "2.0",
+  "receipt_id": "325e215c-26cb-5ffb-83e2-285279fb24f5",
+  "dataset_family": "vietreceipt_synthetic",
+  "dataset_snapshot": "0.2.0",
+  "sample_id": "VRSYN2-00007",
+  "synthetic": true,
+  "split": "train",
+  "mapping_version": "vietreceipt-source-gold-2.0",
+  "template_id": "corporate",
+  "parent_sample_id": null,
+  "fields": {
+    "invoice_template_number": {
+      "annotation_status": "PRESENT",
+      "raw_value": "1",
+      "normalized_value": "1",
+      "source_block_ids": []
+    },
+    "invoice_symbol": {
+      "annotation_status": "PRESENT",
+      "raw_value": "C26T7A",
+      "normalized_value": "C26T7A",
+      "source_block_ids": []
+    },
+    "invoice_number": {
+      "annotation_status": "PRESENT",
+      "raw_value": "00000007",
+      "normalized_value": "00000007",
+      "source_block_ids": []
+    },
+    "invoice_date": {
+      "annotation_status": "PRESENT",
+      "raw_value": "2026-07-07",
+      "normalized_value": "2026-07-07",
+      "source_block_ids": []
+    },
+    "seller_name": {
+      "annotation_status": "PRESENT",
+      "raw_value": "CỬA HÀNG MẪU SAO VIỆT",
+      "normalized_value": "CỬA HÀNG MẪU SAO VIỆT",
+      "source_block_ids": []
+    },
+    "seller_tax_id": {
+      "annotation_status": "PRESENT",
+      "raw_value": "0000000007",
+      "normalized_value": "0000000007",
+      "source_block_ids": []
+    },
+    "seller_address": {
+      "annotation_status": "PRESENT",
+      "raw_value": "7 Đường Mẫu, Thành phố Hà Nội",
+      "normalized_value": "7 Đường Mẫu, Thành phố Hà Nội",
+      "source_block_ids": []
+    },
+    "buyer_name": {
+      "annotation_status": "PRESENT",
+      "raw_value": "KHÁCH HÀNG THỬ NGHIỆM",
+      "normalized_value": "KHÁCH HÀNG THỬ NGHIỆM",
+      "source_block_ids": []
+    },
+    "buyer_tax_id": {
+      "annotation_status": "PRESENT",
+      "raw_value": "0000003007",
+      "normalized_value": "0000003007",
+      "source_block_ids": []
+    },
+    "subtotal": {
+      "annotation_status": "PRESENT",
+      "raw_value": 80000,
+      "normalized_value": 80000,
+      "source_block_ids": []
+    },
+    "tax_amount": {
+      "annotation_status": "PRESENT",
+      "raw_value": 6400,
+      "normalized_value": 6400,
+      "source_block_ids": []
+    },
+    "total_amount": {
+      "annotation_status": "PRESENT",
+      "raw_value": 86400,
+      "normalized_value": 86400,
+      "source_block_ids": []
+    },
+    "currency": {
+      "annotation_status": "PRESENT",
+      "raw_value": "VND",
+      "normalized_value": "VND",
+      "source_block_ids": []
+    }
+  },
+  "line_items": [
+    {
+      "line_id": "VRSYN2-00007-L01",
+      "description": {
+        "annotation_status": "PRESENT",
+        "raw_value": "Bút bi xanh",
+        "normalized_value": "Bút bi xanh",
+        "source_block_ids": []
+      },
+      "unit": {
+        "annotation_status": "PRESENT",
+        "raw_value": "Cây",
+        "normalized_value": "Cây",
+        "source_block_ids": []
+      },
+      "quantity": {
+        "annotation_status": "PRESENT",
+        "raw_value": 3,
+        "normalized_value": 3,
+        "source_block_ids": []
+      },
+      "unit_price": {
+        "annotation_status": "PRESENT",
+        "raw_value": 5000,
+        "normalized_value": 5000,
+        "source_block_ids": []
+      },
+      "amount": {
+        "annotation_status": "PRESENT",
+        "raw_value": 15000,
+        "normalized_value": 15000,
+        "source_block_ids": []
+      }
+    },
+    {
+      "line_id": "VRSYN2-00007-L02",
+      "description": {
+        "annotation_status": "PRESENT",
+        "raw_value": "Giấy in A4",
+        "normalized_value": "Giấy in A4",
+        "source_block_ids": []
+      },
+      "unit": {
+        "annotation_status": "PRESENT",
+        "raw_value": "Ram",
+        "normalized_value": "Ram",
+        "source_block_ids": []
+      },
+      "quantity": {
+        "annotation_status": "PRESENT",
+        "raw_value": 1,
+        "normalized_value": 1,
+        "source_block_ids": []
+      },
+      "unit_price": {
+        "annotation_status": "PRESENT",
+        "raw_value": 65000,
+        "normalized_value": 65000,
+        "source_block_ids": []
+      },
+      "amount": {
+        "annotation_status": "PRESENT",
+        "raw_value": 65000,
+        "normalized_value": 65000,
+        "source_block_ids": []
+      }
+    }
+  ]
+}

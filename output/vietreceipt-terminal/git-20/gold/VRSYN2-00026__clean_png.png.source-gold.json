@@ -1,0 +1,127 @@
+{
+  "annotation_schema_version": "2.0",
+  "receipt_id": "a53c8413-3daa-53dd-8689-00d63308c37d",
+  "dataset_family": "vietreceipt_synthetic",
+  "dataset_snapshot": "0.2.0",
+  "sample_id": "VRSYN2-00026",
+  "synthetic": true,
+  "split": "train",
+  "mapping_version": "vietreceipt-source-gold-2.0",
+  "template_id": "retail",
+  "parent_sample_id": null,
+  "fields": {
+    "invoice_template_number": {
+      "annotation_status": "PRESENT",
+      "raw_value": "1",
+      "normalized_value": "1",
+      "source_block_ids": []
+    },
+    "invoice_symbol": {
+      "annotation_status": "PRESENT",
+      "raw_value": "C26T6A",
+      "normalized_value": "C26T6A",
+      "source_block_ids": []
+    },
+    "invoice_number": {
+      "annotation_status": "PRESENT",
+      "raw_value": "00000026",
+      "normalized_value": "00000026",
+      "source_block_ids": []
+    },
+    "invoice_date": {
+      "annotation_status": "PRESENT",
+      "raw_value": "2026-02-26",
+      "normalized_value": "2026-02-26",
+      "source_block_ids": []
+    },
+    "seller_name": {
+      "annotation_status": "PRESENT",
+      "raw_value": "CÔNG TY MẪU HOA SEN",
+      "normalized_value": "CÔNG TY MẪU HOA SEN",
+      "source_block_ids": []
+    },
+    "seller_tax_id": {
+      "annotation_status": "PRESENT",
+      "raw_value": "0000000026",
+      "normalized_value": "0000000026",
+      "source_block_ids": []
+    },
+    "seller_address": {
+      "annotation_status": "PRESENT",
+      "raw_value": "26 Đường Mẫu, Thành phố Hà Nội",
+      "normalized_value": "26 Đường Mẫu, Thành phố Hà Nội",
+      "source_block_ids": []
+    },
+    "buyer_name": {
+      "annotation_status": "PRESENT",
+      "raw_value": "KHÁCH HÀNG THỬ NGHIỆM",
+      "normalized_value": "KHÁCH HÀNG THỬ NGHIỆM",
+      "source_block_ids": []
+    },
+    "buyer_tax_id": {
+      "annotation_status": "PRESENT",
+      "raw_value": "0000003026",
+      "normalized_value": "0000003026",
+      "source_block_ids": []
+    },
+    "subtotal": {
+      "annotation_status": "PRESENT",
+      "raw_value": 7000,
+      "normalized_value": 7000,
+      "source_block_ids": []
+    },
+    "tax_amount": {
+      "annotation_status": "PRESENT",
+      "raw_value": 350,
+      "normalized_value": 350,
+      "source_block_ids": []
+    },
+    "total_amount": {
+      "annotation_status": "PRESENT",
+      "raw_value": 7350,
+      "normalized_value": 7350,
+      "source_block_ids": []
+    },
+    "currency": {
+      "annotation_status": "PRESENT",
+      "raw_value": "VND",
+      "normalized_value": "VND",
+      "source_block_ids": []
+    }
+  },
+  "line_items": [
+    {
+      "line_id": "VRSYN2-00026-L01",
+      "description": {
+        "annotation_status": "PRESENT",
+        "raw_value": "Bìa hồ sơ",
+        "normalized_value": "Bìa hồ sơ",
+        "source_block_ids": []
+      },
+      "unit": {
+        "annotation_status": "PRESENT",
+        "raw_value": "Cái",
+        "normalized_value": "Cái",
+        "source_block_ids": []
+      },
+      "quantity": {
+        "annotation_status": "PRESENT",
+        "raw_value": 1,
+        "normalized_value": 1,
+        "source_block_ids": []
+      },
+      "unit_price": {
+        "annotation_status": "PRESENT",
+        "raw_value": 7000,
+        "normalized_value": 7000,
+        "source_block_ids": []
+      },
+      "amount": {
+        "annotation_status": "PRESENT",
+        "raw_value": 7000,
+        "normalized_value": 7000,
+        "source_block_ids": []
+      }
+    }
+  ]
+}

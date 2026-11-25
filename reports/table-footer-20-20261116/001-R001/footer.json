@@ -1,0 +1,397 @@
+{
+  "box": [
+    0,
+    356,
+    423,
+    564
+  ],
+  "method": "summary cue",
+  "text": "Tngsδ: 7\nTng cng : 113,10)00\nTng tin : 113,0)00\nTin khách trà: VND 113,0)00\nS6 GD: 000AC2212008001576 Ngày: 12/08/2020-16:26\nThu ngân: BH3\nXin cám ơn và hn gp li quý khách !",
+  "lines": [
+    {
+      "text": "Tngsδ:",
+      "score": 0.833004,
+      "poly": [
+        [
+          5.0,
+          364.0
+        ],
+        [
+          76.0,
+          364.0
+        ],
+        [
+          76.0,
+          387.0
+        ],
+        [
+          5.0,
+          387.0
+        ]
+      ]
+    },
+    {
+      "text": "7",
+      "score": 0.999896,
+      "poly": [
+        [
+          134.0,
+          369.0
+        ],
+        [
+          147.0,
+          369.0
+        ],
+        [
+          147.0,
+          385.0
+        ],
+        [
+          134.0,
+          385.0
+        ]
+      ]
+    },
+    {
+      "text": "Tng cng :",
+      "score": 0.959316,
+      "poly": [
+        [
+          4.0,
+          390.0
+        ],
+        [
+          99.0,
+          390.0
+        ],
+        [
+          99.0,
+          412.0
+        ],
+        [
+          4.0,
+          412.0
+        ]
+      ]
+    },
+    {
+      "text": "113,10)00",
+      "score": 0.902175,
+      "poly": [
+        [
+          349.0,
+          386.0
+        ],
+        [
+          415.0,
+          386.0
+        ],
+        [
+          415.0,
+          409.0
+        ],
+        [
+          349.0,
+          409.0
+        ]
+      ]
+    },
+    {
+      "text": "Tng tin :",
+      "score": 0.977958,
+      "poly": [
+        [
+          3.0,
+          424.0
+        ],
+        [
+          89.0,
+          424.0
+        ],
+        [
+          89.0,
+          447.0
+        ],
+        [
+          3.0,
+          447.0
+        ]
+      ]
+    },
+    {
+      "text": "113,0)00",
+      "score": 0.891421,
+      "poly": [
+        [
+          350.0,
+          423.0
+        ],
+        [
+          415.0,
+          423.0
+        ],
+        [
+          415.0,
+          443.0
+        ],
+        [
+          350.0,
+          443.0
+        ]
+      ]
+    },
+    {
+      "text": "Tin khách trà:",
+      "score": 0.950752,
+      "poly": [
+        [
+          3.0,
+          449.0
+        ],
+        [
+          130.0,
+          449.0
+        ],
+        [
+          130.0,
+          471.0
+        ],
+        [
+          3.0,
+          471.0
+        ]
+      ]
+    },
+    {
+      "text": "VND",
+      "score": 0.997886,
+      "poly": [
+        [
+          199.0,
+          451.0
+        ],
+        [
+          240.0,
+          451.0
+        ],
+        [
+          240.0,
+          471.0
+        ],
+        [
+          199.0,
+          471.0
+        ]
+      ]
+    },
+    {
+      "text": "113,0)00",
+      "score": 0.923226,
+      "poly": [
+        [
+          351.0,
+          450.0
+        ],
+        [
+          415.0,
+          450.0
+        ],
+        [
+          415.0,
+          470.0
+        ],
+        [
+          351.0,
+          470.0
+        ]
+      ]
+    },
+    {
+      "text": "S6 GD: 000AC2212008001576 Ngày: 12/08/2020-16:26",
+      "score": 0.978781,
+      "poly": [
+        [
+          23.0,
+          486.0
+        ],
+        [
+          410.0,
+          485.0
+        ],
+        [
+          410.0,
+          508.0
+        ],
+        [
+          23.0,
+          509.0
+        ]
+      ]
+    },
+    {
+      "text": "Thu ngân: BH3",
+      "score": 0.990025,
+      "poly": [
+        [
+          157.0,
+          515.0
+        ],
+        [
+          275.0,
+          513.0
+        ],
+        [
+          276.0,
+          536.0
+        ],
+        [
+          158.0,
+          538.0
+        ]
+      ]
+    },
+    {
+      "text": "Xin cám ơn và hn gp li quý khách !",
+      "score": 0.943061,
+      "poly": [
+        [
+          63.0,
+          537.0
+        ],
+        [
+          358.0,
+          537.0
+        ],
+        [
+          358.0,
+          559.0
+        ],
+        [
+          63.0,
+          559.0
+        ]
+      ]
+    }
+  ],
+  "row_geometry": [
+    22.0,
+    0.0
+  ],
+  "layout_input_shape": [
+    564,
+    465
+  ],
+  "layout_seconds": 6.712,
+  "footer_seconds": 1.976,
+  "payment": {
+    "status": "PRESENT",
+    "amount_vnd": 113000,
+    "source_rows": [
+      "T&ng tien: 113,000"
+    ],
+    "source": "READER_PP_FOOTER"
+  },
+  "recognizer": "PP-OCRv5_server_det + latin_PP-OCRv5_mobile_rec",
+  "coordinate_system": "pixels_on_footer_upright_png",
+  "orientation_clockwise": 0,
+  "display": {
+    "rows": [
+      {
+        "text": "Tổng số: 7",
+        "segments": [
+          {
+            "block_id": "p0_b000019",
+            "text": "Tổng số:",
+            "source": "apple-vision"
+          },
+          {
+            "block_id": "p0_b000020",
+            "text": "7",
+            "source": "apple-vision"
+          }
+        ]
+      },
+      {
+        "text": "Tổng cộng : 113,000",
+        "segments": [
+          {
+            "block_id": "p0_b000021",
+            "text": "Tổng cộng :",
+            "source": "apple-vision"
+          },
+          {
+            "block_id": "p0_b000022",
+            "text": "113,000",
+            "source": "reader"
+          }
+        ]
+      },
+      {
+        "text": "Tổng tiền : 113,000",
+        "segments": [
+          {
+            "block_id": "p0_b000023",
+            "text": "Tổng tiền :",
+            "source": "apple-vision"
+          },
+          {
+            "block_id": "p0_b000024",
+            "text": "113,000",
+            "source": "reader"
+          }
+        ]
+      },
+      {
+        "text": "Tiền khách trả: VND 113,000",
+        "segments": [
+          {
+            "block_id": "p0_b000025",
+            "text": "Tiền khách trả:",
+            "source": "apple-vision"
+          },
+          {
+            "block_id": "p0_b000026",
+            "text": "VND",
+            "source": "apple-vision"
+          },
+          {
+            "block_id": "p0_b000027",
+            "text": "113,000",
+            "source": "apple-vision"
+          }
+        ]
+      },
+      {
+        "text": "Số GD: 000AC2212008001576 Ngày: 12/08/2020-16:26",
+        "segments": [
+          {
+            "block_id": "p0_b000028",
+            "text": "Số GD: 000AC2212008001576 Ngày: 12/08/2020-16:26",
+            "source": "apple-vision"
+          }
+        ]
+      },
+      {
+        "text": "Thu ngân: BH3",
+        "segments": [
+          {
+            "block_id": "p0_b000029",
+            "text": "Thu ngân: BH3",
+            "source": "apple-vision"
+          }
+        ]
+      },
+      {
+        "text": "Xin cám ơn và hẹn gặp lại quý khách !",
+        "segments": [
+          {
+            "block_id": "p0_b000030",
+            "text": "Xin cám ơn và hẹn gặp lại quý khách !",
+            "source": "apple-vision"
+          }
+        ]
+      }
+    ],
+    "reader_ocr_run_id": "84e23786-eacc-4538-a668-f3eddbd0d631"
+  }
+}

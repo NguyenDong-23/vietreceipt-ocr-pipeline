@@ -1,0 +1,401 @@
+{
+  "schema_version": "header-study-1.0",
+  "receipt_id": "7e47f326-893e-4b89-8e6e-8a9c4915db90",
+  "ocr_run_id": "8fec2069-a0b4-4a0a-9201-710d3b0d13f1",
+  "fields": {
+    "invoice_template_number": {
+      "raw_text": "Mẫu số 1",
+      "predicted_value": "1",
+      "normalized_value": "1",
+      "normalization": {
+        "rule": "identity_string",
+        "version": "normalization-v0.1"
+      },
+      "value_status": "PRESENT",
+      "confidence": null,
+      "heuristic_score": 0.95,
+      "score_version": "invoice-heuristic-2.0.0",
+      "machine_needs_review": true,
+      "review_reasons": [
+        "OCR_RECOGNIZER_DISAGREEMENT"
+      ],
+      "review_policy_version": "invoice-review-2.0.0",
+      "source_block_ids": [
+        "p0_b000002"
+      ]
+    },
+    "invoice_symbol": {
+      "raw_text": "Ký hiệu C26T7A",
+      "predicted_value": "C26T7A",
+      "normalized_value": "C26T7A",
+      "normalization": {
+        "rule": "labelled_second_pass",
+        "version": "1.0"
+      },
+      "value_status": "PRESENT",
+      "confidence": null,
+      "heuristic_score": 0.0,
+      "score_version": "header-second-pass-1.0",
+      "machine_needs_review": true,
+      "review_reasons": [
+        "OCR_RECOGNIZER_DISAGREEMENT"
+      ],
+      "review_policy_version": "invoice-review-2.0.0",
+      "source_block_ids": [
+        "p0_b000004"
+      ]
+    },
+    "invoice_number": {
+      "raw_text": "Số haa đơn: 00000007",
+      "predicted_value": "00000007",
+      "normalized_value": "00000007",
+      "normalization": {
+        "rule": "identity_string",
+        "version": "normalization-v0.1"
+      },
+      "value_status": "PRESENT",
+      "confidence": null,
+      "heuristic_score": 0.95,
+      "score_version": "invoice-heuristic-2.0.0",
+      "machine_needs_review": false,
+      "review_reasons": [],
+      "review_policy_version": "invoice-review-2.0.0",
+      "source_block_ids": [
+        "p0_b000006"
+      ]
+    },
+    "invoice_date": {
+      "raw_text": "Ngây lân 2026-07-07",
+      "predicted_value": "2026-07-07",
+      "normalized_value": "2026-07-07",
+      "normalization": {
+        "rule": "iso_date",
+        "version": "normalization-v0.1"
+      },
+      "value_status": "PRESENT",
+      "confidence": null,
+      "heuristic_score": 0.95,
+      "score_version": "invoice-heuristic-2.0.0",
+      "machine_needs_review": false,
+      "review_reasons": [],
+      "review_policy_version": "invoice-review-2.0.0",
+      "source_block_ids": [
+        "p0_b000008"
+      ]
+    },
+    "seller_name": {
+      "raw_text": "Đơn vị bản hàng: CỬA HÀNG MẪU SAO VIỆT",
+      "predicted_value": "CỬA HÀNG MẪU SAO VIỆT",
+      "normalized_value": "CỬA HÀNG MẪU SAO VIỆT",
+      "normalization": {
+        "rule": "labelled_second_pass",
+        "version": "1.0"
+      },
+      "value_status": "PRESENT",
+      "confidence": null,
+      "heuristic_score": 0.0,
+      "score_version": "header-second-pass-1.0",
+      "machine_needs_review": true,
+      "review_reasons": [
+        "OCR_RECOGNIZER_DISAGREEMENT"
+      ],
+      "review_policy_version": "invoice-review-2.0.0",
+      "source_block_ids": [
+        "p0_b000001"
+      ]
+    },
+    "seller_tax_id": {
+      "raw_text": "MST ngui ban: 0000000007",
+      "predicted_value": "0000000007",
+      "normalized_value": "0000000007",
+      "normalization": {
+        "rule": "tax_id_printed_separators",
+        "version": "invoice-normalization-2.0.0"
+      },
+      "value_status": "PRESENT",
+      "confidence": null,
+      "heuristic_score": 0.95,
+      "score_version": "invoice-heuristic-2.0.0",
+      "machine_needs_review": true,
+      "review_reasons": [
+        "OCR_RECOGNIZER_DISAGREEMENT"
+      ],
+      "review_policy_version": "invoice-review-2.0.0",
+      "source_block_ids": [
+        "p0_b000003"
+      ]
+    },
+    "seller_address": {
+      "raw_text": "Địa chỉ người bán: 7 Đường Mãu, Thành phố Hà Nội",
+      "predicted_value": "7 Đường Mãu, Thành phố Hà Nội",
+      "normalized_value": "7 Đường Mãu, Thành phố Hà Nội",
+      "normalization": {
+        "rule": "labelled_second_pass",
+        "version": "1.0"
+      },
+      "value_status": "PRESENT",
+      "confidence": null,
+      "heuristic_score": 0.0,
+      "score_version": "header-second-pass-1.0",
+      "machine_needs_review": true,
+      "review_reasons": [
+        "OCR_RECOGNIZER_DISAGREEMENT"
+      ],
+      "review_policy_version": "invoice-review-2.0.0",
+      "source_block_ids": [
+        "p0_b000005"
+      ]
+    },
+    "buyer_name": {
+      "raw_text": "Người mua: KHÁCH HÀNG THỨ NGHIỆM",
+      "predicted_value": "KHÁCH HÀNG THỨ NGHIỆM",
+      "normalized_value": "KHÁCH HÀNG THỨ NGHIỆM",
+      "normalization": {
+        "rule": "labelled_second_pass",
+        "version": "1.0"
+      },
+      "value_status": "PRESENT",
+      "confidence": null,
+      "heuristic_score": 0.0,
+      "score_version": "header-second-pass-1.0",
+      "machine_needs_review": true,
+      "review_reasons": [
+        "OCR_RECOGNIZER_DISAGREEMENT"
+      ],
+      "review_policy_version": "invoice-review-2.0.0",
+      "source_block_ids": [
+        "p0_b000007"
+      ]
+    },
+    "buyer_tax_id": {
+      "raw_text": "MST ngui mua:0000003007",
+      "predicted_value": "0000003007",
+      "normalized_value": "0000003007",
+      "normalization": {
+        "rule": "tax_id_printed_separators",
+        "version": "invoice-normalization-2.0.0"
+      },
+      "value_status": "PRESENT",
+      "confidence": null,
+      "heuristic_score": 0.95,
+      "score_version": "invoice-heuristic-2.0.0",
+      "machine_needs_review": true,
+      "review_reasons": [
+        "OCR_RECOGNIZER_DISAGREEMENT"
+      ],
+      "review_policy_version": "invoice-review-2.0.0",
+      "source_block_ids": [
+        "p0_b000009"
+      ]
+    }
+  },
+  "excluded_table_block_ids": [
+    "p0_b000010",
+    "p0_b000011",
+    "p0_b000012",
+    "p0_b000013",
+    "p0_b000014",
+    "p0_b000015",
+    "p0_b000016",
+    "p0_b000017",
+    "p0_b000018",
+    "p0_b000019",
+    "p0_b000020",
+    "p0_b000021",
+    "p0_b000022",
+    "p0_b000023",
+    "p0_b000024"
+  ],
+  "ocr_block_count": 31,
+  "review_alternatives": {
+    "invoice_symbol": {
+      "vietocr-checkpoint": {
+        "value": "C2617A",
+        "raw_text": "Ký hiuu C2617A",
+        "source_block_ids": [
+          "p0_b000004"
+        ],
+        "ocr_run_id": "8fec2069-a0b4-4a0a-9201-710d3b0d13f1"
+      },
+      "reader": {
+        "value": "C26T7A",
+        "raw_text": "Ky hiuC26T7A",
+        "source_block_ids": [
+          "p0_b000004"
+        ],
+        "ocr_run_id": "bdd74392-0b48-49b0-b699-1532415875bd"
+      }
+    }
+  },
+  "field_sources": {
+    "invoice_symbol": {
+      "engine": "tesseract-vie",
+      "ocr_run_id": "c2706178-cadf-462e-b1a1-e4110cb1cc0e"
+    },
+    "invoice_number": {
+      "engine": "vietocr-checkpoint",
+      "ocr_run_id": "8fec2069-a0b4-4a0a-9201-710d3b0d13f1"
+    },
+    "invoice_date": {
+      "engine": "vietocr-checkpoint",
+      "ocr_run_id": "8fec2069-a0b4-4a0a-9201-710d3b0d13f1"
+    },
+    "seller_name": {
+      "engine": "apple-vision",
+      "ocr_run_id": "6ecac439-5ac9-4313-8aa8-f4cfddba338d"
+    },
+    "seller_address": {
+      "engine": "apple-vision",
+      "ocr_run_id": "6ecac439-5ac9-4313-8aa8-f4cfddba338d"
+    },
+    "seller_tax_id": {
+      "engine": "reader",
+      "ocr_run_id": "bdd74392-0b48-49b0-b699-1532415875bd"
+    },
+    "buyer_name": {
+      "engine": "apple-vision",
+      "ocr_run_id": "6ecac439-5ac9-4313-8aa8-f4cfddba338d"
+    },
+    "buyer_tax_id": {
+      "engine": "reader",
+      "ocr_run_id": "bdd74392-0b48-49b0-b699-1532415875bd"
+    }
+  },
+  "pre_refinement_fields": {
+    "seller_name": {
+      "cell": {
+        "raw_text": "Don vi ban hang CUA HANG MAU SAO VIET",
+        "predicted_value": "CUA HANG MAU SAO VIET",
+        "normalized_value": "CUA HANG MAU SAO VIET",
+        "normalization": {
+          "rule": "identity_string",
+          "version": "normalization-v0.1"
+        },
+        "value_status": "PRESENT",
+        "confidence": null,
+        "heuristic_score": 0.95,
+        "score_version": "invoice-heuristic-2.0.0",
+        "machine_needs_review": true,
+        "review_reasons": [
+          "OCR_RECOGNIZER_DISAGREEMENT"
+        ],
+        "review_policy_version": "invoice-review-2.0.0",
+        "source_block_ids": [
+          "p0_b000001"
+        ]
+      },
+      "source": {
+        "engine": "reader",
+        "ocr_run_id": "bdd74392-0b48-49b0-b699-1532415875bd"
+      }
+    },
+    "seller_address": {
+      "cell": {
+        "raw_text": "Dja chi nguoi ban: 7 Durong Mau, Thanh ph6 Ha Ni",
+        "predicted_value": "7 Durong Mau, Thanh ph6 Ha Ni",
+        "normalized_value": "7 Durong Mau, Thanh ph6 Ha Ni",
+        "normalization": {
+          "rule": "identity_string",
+          "version": "normalization-v0.1"
+        },
+        "value_status": "PRESENT",
+        "confidence": null,
+        "heuristic_score": 0.95,
+        "score_version": "invoice-heuristic-2.0.0",
+        "machine_needs_review": true,
+        "review_reasons": [
+          "OCR_RECOGNIZER_DISAGREEMENT"
+        ],
+        "review_policy_version": "invoice-review-2.0.0",
+        "source_block_ids": [
+          "p0_b000005"
+        ]
+      },
+      "source": {
+        "engine": "reader",
+        "ocr_run_id": "bdd74392-0b48-49b0-b699-1532415875bd"
+      }
+    },
+    "buyer_name": {
+      "cell": {
+        "raw_text": "Ngui mua: KHACH HANG THU NGHIEM",
+        "predicted_value": "KHACH HANG THU NGHIEM",
+        "normalized_value": "KHACH HANG THU NGHIEM",
+        "normalization": {
+          "rule": "identity_string",
+          "version": "normalization-v0.1"
+        },
+        "value_status": "PRESENT",
+        "confidence": null,
+        "heuristic_score": 0.95,
+        "score_version": "invoice-heuristic-2.0.0",
+        "machine_needs_review": true,
+        "review_reasons": [
+          "OCR_RECOGNIZER_DISAGREEMENT"
+        ],
+        "review_policy_version": "invoice-review-2.0.0",
+        "source_block_ids": [
+          "p0_b000007"
+        ]
+      },
+      "source": {
+        "engine": "reader",
+        "ocr_run_id": "bdd74392-0b48-49b0-b699-1532415875bd"
+      }
+    },
+    "invoice_symbol": {
+      "cell": {
+        "raw_text": "Ký hiuu C2617A",
+        "predicted_value": "C2617A",
+        "normalized_value": null,
+        "normalization": null,
+        "value_status": "AMBIGUOUS",
+        "confidence": null,
+        "heuristic_score": 0.95,
+        "score_version": "invoice-heuristic-2.0.0",
+        "machine_needs_review": true,
+        "review_reasons": [
+          "OCR_RECOGNIZER_DISAGREEMENT"
+        ],
+        "review_policy_version": "invoice-review-2.0.0",
+        "source_block_ids": [
+          "p0_b000004"
+        ]
+      },
+      "source": {
+        "engine": "vietocr-checkpoint",
+        "ocr_run_id": "8fec2069-a0b4-4a0a-9201-710d3b0d13f1"
+      }
+    }
+  },
+  "supplemental_ocr": {
+    "apple-vision": {
+      "ocr_run_id": "6ecac439-5ac9-4313-8aa8-f4cfddba338d",
+      "parent_ocr_run_id": "bdd74392-0b48-49b0-b699-1532415875bd",
+      "reads": {
+        "p0_b000005": {
+          "text": "Địa chỉ người bán: 7 Đường Mãu, Thành phố Hà Nội",
+          "confidence": 1
+        },
+        "p0_b000007": {
+          "text": "Người mua: KHÁCH HÀNG THỨ NGHIỆM",
+          "confidence": 1
+        },
+        "p0_b000001": {
+          "text": "Đơn vị bản hàng: CỬA HÀNG MẪU SAO VIỆT",
+          "confidence": 1
+        }
+      }
+    },
+    "tesseract-vie": {
+      "ocr_run_id": "c2706178-cadf-462e-b1a1-e4110cb1cc0e",
+      "parent_ocr_run_id": "bdd74392-0b48-49b0-b699-1532415875bd",
+      "reads": {
+        "p0_b000004": {
+          "text": "Ký hiệu C26T7A",
+          "confidence": 0.5531105933333333
+        }
+      }
+    }
+  }
+}

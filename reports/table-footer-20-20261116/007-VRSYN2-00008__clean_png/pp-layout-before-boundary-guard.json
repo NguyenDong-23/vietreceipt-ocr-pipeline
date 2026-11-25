@@ -1,0 +1,177 @@
+{
+  "schema_version": "tv2-layout-handoff-0.1",
+  "media_type": "image/png",
+  "page_count": 1,
+  "annotation_status": "PREDICTION_PENDING_REVIEW",
+  "source": {
+    "sha256": "23461d271eac69ffb519348d94c0a8696ca0538501314b9c76f197af273758f7",
+    "encoded_width_px": 660,
+    "encoded_height_px": 1140,
+    "exif_orientation": 1
+  },
+  "pages": [
+    {
+      "page_index": 0,
+      "width_px": 660,
+      "height_px": 1140,
+      "regions": [
+        {
+          "region_id": "region-1",
+          "label": "header",
+          "polygon_original_pixels": [
+            [
+              25.039867999999995,
+              22.039867999999995
+            ],
+            [
+              497.960132,
+              22.039867999999995
+            ],
+            [
+              497.960132,
+              289.95991200000003
+            ],
+            [
+              25.039867999999995,
+              289.95991200000003
+            ]
+          ],
+          "bbox_original_pixels": [
+            25.039867999999995,
+            22.039867999999995,
+            497.960132,
+            289.95991200000003
+          ],
+          "polygon_original_normalized": [
+            {
+              "x": 0.037939193939393934,
+              "y": 0.019333217543859645
+            },
+            {
+              "x": 0.7544850484848484,
+              "y": 0.019333217543859645
+            },
+            {
+              "x": 0.7544850484848484,
+              "y": 0.25435080000000004
+            },
+            {
+              "x": 0.037939193939393934,
+              "y": 0.25435080000000004
+            }
+          ]
+        },
+        {
+          "region_id": "region-2",
+          "label": "table",
+          "polygon_original_pixels": [
+            [
+              26.040167999999998,
+              319.039488
+            ],
+            [
+              587.959812,
+              319.039488
+            ],
+            [
+              587.959812,
+              493.960632
+            ],
+            [
+              26.040167999999998,
+              493.960632
+            ]
+          ],
+          "bbox_original_pixels": [
+            26.040167999999998,
+            319.039488,
+            587.959812,
+            493.960632
+          ],
+          "polygon_original_normalized": [
+            {
+              "x": 0.0394548,
+              "y": 0.27985920000000003
+            },
+            {
+              "x": 0.8908482000000001,
+              "y": 0.27985920000000003
+            },
+            {
+              "x": 0.8908482000000001,
+              "y": 0.4332988
+            },
+            {
+              "x": 0.0394548,
+              "y": 0.4332988
+            }
+          ]
+        },
+        {
+          "region_id": "region-3",
+          "label": "footer",
+          "polygon_original_pixels": [
+            [
+              25.039867999999995,
+              524.039988
+            ],
+            [
+              340.960132,
+              524.039988
+            ],
+            [
+              340.960132,
+              701.960472
+            ],
+            [
+              25.039867999999995,
+              701.960472
+            ]
+          ],
+          "bbox_original_pixels": [
+            25.039867999999995,
+            524.039988,
+            340.960132,
+            701.960472
+          ],
+          "polygon_original_normalized": [
+            {
+              "x": 0.037939193939393934,
+              "y": 0.4596842
+            },
+            {
+              "x": 0.5166062606060606,
+              "y": 0.4596842
+            },
+            {
+              "x": 0.5166062606060606,
+              "y": 0.6157547999999999
+            },
+            {
+              "x": 0.037939193939393934,
+              "y": 0.6157547999999999
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "provenance": {
+    "layout_model": "PP-DocLayoutV3",
+    "checkpoint_sha256": "5ea422c6cc5fe759a47e1357c35639b58173508e025a3131cbe4b6ac59e2b85e",
+    "semantic_adapter": "PP native + original Reader text and coordinates",
+    "ocr": {
+      "name": "paddleocr",
+      "version": "3.0.3"
+    },
+    "code_sha256": {
+      "pipeline": "9a5bece7d97a5d01d53f93d15461dfaf9e59048e4a4ff8a0cc22e8a7584fc7a1",
+      "image_input": "e14ec59791cf6ef5b32d7ff7e288b90625baf648a4e1714f8391141373fe1398",
+      "ocr_engine": "1846c2380ef06ed98756deefdf5b86a567c6ae3684dd316a0abd32fe4f7844fb",
+      "region_rules": "7655ea01a541dfd00fdd8b46ee3a45f042db293d71eecc27a1a0f937a8f5d190",
+      "visual_fallback": "b5cff5dbde131764f3ce3ba2dce6f73f94ace1a62e2a4696c455f213d5a8c633",
+      "boundary_refiner": "874a0ebd6bda9f654d515b2433c723d8fdd99952f23ea6f69ea236c01cb290f9",
+      "compact_regions": "9d61b0c61f974f3791303396fbf201e84c28dd5253427d2b355da6816ddac7b5"
+    }
+  }
+}

@@ -1,0 +1,498 @@
+"""Label candidates and page-local table reconstruction, without absolute positions."""
+
+import re
+
+from .cells import Candidate, add_reason, select
+from .config import (
+    CONTINUATION_HEIGHTS,
+    HEADER_FIELDS,
+    LINE_FIELDS,
+    REVIEW_VERSION,
+    ROW_OVERLAP,
+)
+from .evidence import same_row
+from .normalization import folded, text
+
+LABELS = {
+    "invoice_template_number": r"mau so|invoice template(?: number)?",
+    "invoice_symbol": r"ky hieu|invoice symbol|serial",
+    "invoice_number": (
+        r"so\s*hoa\s*don|so\s*hd(?=\s|[:#：]|$)|so\s*phieu|s\s*phieu"
+        r"|invoice (?:number|no\.?)|so\s*\(no\.?\)"
+        # Bare Số must introduce an identifier or an explicit delimiter, so
+        # the start of Số tham chiếu cannot become an invoice number label.
+        r"|so(?=\s*[:#：]|\s*[a-z]*\d|\s*$)"
+    ),
+    "invoice_date": r"ngay lap(?: hoa don)?|ngay hoa don|invoice date|date|ngay",
+    "seller_name": r"(?:ten )?(?:don vi ban hang|nguoi ban|ben ban)|seller(?: name)?",
+    "buyer_name": r"(?:ho ten )?nguoi mua(?: hang)?|(?:ten )?(?:don vi mua hang|ben mua)|buyer(?: name)?|khach hang|bill to|to(?=\s*:)",
+    "seller_tax_id": r"(?:ma so thue|mst)(?: nguoi ban| ben ban)|seller tax (?:id|code)",
+    "buyer_tax_id": r"(?:ma so thue|mst)(?: nguoi mua| ben mua)|buyer tax (?:id|code)",
+    "seller_address": r"dia chi (?:nguoi ban|ben ban)|seller address",
+    "subtotal": r"cong tien hang|tien hang|tong (?:tien )?truoc thue|tam tinh|subtotal|sub total",
+    "tax_amount": r"tong tien thue(?: gtgt)?|tien thue(?: gtgt)?|tax amount|total tax|vat amount",
+    "total_amount": r"tong cong(?: tien thanh toan)?|tong tien thanh toan|tong thanh toan|tong(?=\s*:|$)|grand total|total(?: amount)?",
+    "currency": r"don vi tien te|loai tien|currency",
+}
+GENERIC = {
+    "tax_id": r"ma so thue|mst|tax\s*(?:id|code)",
+    "address": r"dia chi|address|d\s*c\.?",
+    "name": r"ten don vi|company name",
+}
+LINE_LABELS = {
+    "description": r"ten hang(?: hoa)?(?:,? dich vu)?|mat hang|hang hoa(?:,? dich vu)?|description|item|revenue sharing of (?:the )?service",
+    "unit": r"don vi tinh|dvt|unit",
+    "quantity": r"so luong|sl|quantity|qty",
+    "unit_price": r"don gia|gia|unit price|price",
+    "amount": r"thanh tien|t\s*tien|amount",
+}
+TAX_LABELS = {
+    "rate": r"thue suat(?: gtgt)?|tax rate|vat",
+    "taxable_amount": r"tien tinh thue|gia tri tinh thue|taxable amount",
+    "tax_amount": r"tien thue(?: gtgt)?|tax amount",
+}
+CURRENCY_PATTERN = re.compile(
+    r"(?<!\w)(?:VND|VNĐ|USD|EUR|GBP|JPY|CNY|đ)(?!\w)|[₫$€¥]", re.IGNORECASE
+)
+OCR_INVOICE_NUMBER_LABELS = {
+    "invoice_number": r"s6\s*hd|shd|s6(?=\s*[:#：])",
+}
+
+
+def label_match(value, patterns, *, split_camel=True):
+    if split_camel:
+        value = re.sub(r"(?<=[a-z])(?=[A-Z])", " ", value)
+    normalized = text(value)
+    matches = []
+    for field, pattern in patterns.items():
+        match = re.match(
+            rf"^(?:{pattern})(?=\s|[:#：]|\d|$)\s*[:#：]?\s*", folded(normalized)
+        )
+        if match:
+            matches.append((match.end(), field))
+    if not matches:
+        return None
+    end, field = max(matches)
+    return field, normalized[end:]
+
+
+def header_candidates(blocks, excluded):
+    result = {field: [] for field in HEADER_FIELDS}
+    anchors = []
+    # A unique company letterhead above INVOICE supplies a seller candidate.
+    # Preserve this inferred role for explicit review after selection.
+    titles = [
+        b
+        for b in blocks
+        if folded(b.text) == "invoice"
+        or folded(b.text).replace(" ", "").startswith("hoadon")
+    ]
+    letterheads = [
+        b
+        for b in blocks
+        if any(b.page == t.page and b.bottom < t.top for t in titles)
+        and re.search(
+            r"\b(?:company|corporation|limited|ltd|jsc)\b|^cong ty", folded(b.text)
+        )
+        and not label_match(b.text, GENERIC)
+        and not label_match(b.text, LABELS)
+    ]
+    if len(letterheads) == 1:
+        head = letterheads[0]
+        sources = [head]
+        for other in sorted(blocks, key=lambda b: (b.page, b.top)):
+            previous = sources[-1]
+            if (
+                other.page == head.page
+                and 0 <= other.top - previous.bottom <= 1.2 * previous.height
+                and head.left - head.height <= other.left
+                and other.right <= head.right + head.height
+                and other not in titles
+                and not label_match(other.text, GENERIC)
+                and not label_match(other.text, LABELS)
+                and not re.match(r"^(?:dt|tel|phone|attn)\b", folded(other.text))
+            ):
+                sources.append(other)
+                break
+        result["seller_name"].append(
+            Candidate(" ".join(b.text for b in sources), tuple(sources))
+        )
+        anchors.append(("seller", head))
+    for block in blocks:
+        match = label_match(block.text, LABELS)
+        if (
+            block.block_id not in excluded
+            and match
+            and match[0] in {"seller_name", "buyer_name"}
+        ):
+            anchors.append((match[0].split("_")[0], block))
+    for block in blocks:
+        if block.block_id in excluded:
+            continue
+        match = label_match(block.text, LABELS)
+        recovered_number_label = False
+        if match is None and block.evidence_confidence is not None:
+            match = label_match(block.text, OCR_INVOICE_NUMBER_LABELS, split_camel=False)
+            recovered_number_label = match is not None
+        generic = label_match(block.text, GENERIC) if match is None else None
+        explicit = True
+        context = []
+        if generic:
+            suffix, value = generic
+            # Bank remittance fields do not identify the invoice seller/buyer.
+            if any(
+                b.page == block.page
+                and b.top < block.top
+                and re.match(r"^(?:please remit|beneficiary|bank\s*:)", folded(b.text))
+                for b in blocks
+            ):
+                continue
+            # Relative section geometry handles side-by-side roles even when
+            # reading order interleaves seller and buyer blocks.
+            nearby = [
+                (
+                    abs(block.left - anchor.left) + abs(block.top - anchor.top),
+                    role,
+                    anchor,
+                )
+                for role, anchor in anchors
+                if anchor.page == block.page
+                and anchor.top <= block.top
+                and anchor.block_id != block.block_id
+            ]
+            nearby.sort(key=lambda item: (item[0], item[2].reading_order))
+            unclear = (
+                len(nearby) > 1
+                and nearby[0][1] != nearby[1][1]
+                and abs(nearby[0][0] - nearby[1][0]) < block.height
+            )
+            if nearby and not unclear:
+                _, role, role_block = nearby[0]
+                field = f"{role}_{suffix}"
+                context = [role_block]
+                match = (field, value)
+            elif suffix == "tax_id":
+                # Preserve unassigned tax evidence for both roles, never guess seller.
+                for field in ("seller_tax_id", "buyer_tax_id"):
+                    result[field].append(
+                        Candidate(value, (block,), explicit_role=False)
+                    )
+        if match:
+            field, value = match
+            if field not in result:
+                continue
+            sources = context + [block]
+            if not value:
+                neighbors = [
+                    b
+                    for b in blocks
+                    if b.block_id not in excluded
+                    and b.block_id != block.block_id
+                    and same_row(b, block)
+                    and b.left >= block.right
+                ]
+                if recovered_number_label:
+                    # Stop at the first right-hand block; skipping a Date
+                    # label could pull its value into an empty invoice number.
+                    neighbors = sorted(
+                        neighbors, key=lambda b: (b.left, b.reading_order)
+                    )[:1]
+                neighbors = [
+                    b
+                    for b in neighbors
+                    if not label_match(b.text, LABELS)
+                    and not label_match(b.text, GENERIC)
+                ]
+                if neighbors:
+                    nearest = min(neighbors, key=lambda b: (b.left, b.reading_order))
+                    value = nearest.text
+                    sources.append(nearest)
+                    if (
+                        field in {"invoice_number", "invoice_date"}
+                        and not recovered_number_label
+                    ):
+                        for following in sorted(neighbors, key=lambda b: b.left):
+                            if (
+                                following.left >= sources[-1].right
+                                and following.left - sources[-1].right
+                                <= 1.5 * sources[-1].height
+                            ):
+                                value += " " + following.text
+                                sources.append(following)
+                    value = re.sub(r"^\s*[:#：]\s*", "", value)
+            # The generic date label retains its word form for explicit component dates.
+            if field == "invoice_date" and "thang" in folded(value):
+                value = "ngày " + value
+            numeric_date = re.fullmatch(r"(\d{1,2})/(\d{1,2})/(\d{4})", value)
+            if (
+                field == "invoice_date"
+                and numeric_date
+                and any(
+                    t.page == block.page
+                    and folded(t.text).replace(" ", "").startswith("hoadon")
+                    for t in titles
+                )
+            ):
+                day, month, year = numeric_date.groups()
+                value = f"ngày {day} tháng {month} năm {year}"
+            if field in {"buyer_name", "seller_name", "seller_address"} and value:
+                previous = sources[-1]
+                for neighbor in sorted(blocks, key=lambda b: (b.page, b.top, b.left)):
+                    if (
+                        neighbor.page == previous.page
+                        and neighbor.block_id not in excluded
+                        and 0 <= neighbor.top - previous.bottom <= 1.1 * previous.height
+                        and (
+                            abs(neighbor.left - previous.left) < previous.height
+                            or field == "seller_address"
+                            and previous.left <= neighbor.left <= previous.right
+                            and neighbor.right <= previous.right + previous.height
+                        )
+                        and not label_match(neighbor.text, LABELS)
+                        and not label_match(neighbor.text, GENERIC)
+                        and not re.match(
+                            r"^(?:attn|contract|invoice|bank|beneficiary|dt|tel)(?=\W|\d|$)",
+                            folded(neighbor.text),
+                        )
+                    ):
+                        value += " " + neighbor.text
+                        sources.append(neighbor)
+                        previous = neighbor
+            # A degraded label is only useful with an identifier-shaped value.
+            if not recovered_number_label or (
+                re.fullmatch(r"[A-Za-z0-9][A-Za-z0-9._/ -]*", value)
+                and re.search(r"[0-9]", value)
+            ):
+                result[field].append(
+                    Candidate(
+                        value,
+                        tuple(dict.fromkeys(sources)),
+                        explicit,
+                        aligned=not recovered_number_label,
+                    )
+                )
+        for marker in CURRENCY_PATTERN.finditer(block.text):
+            result["currency"].append(Candidate(marker.group(), (block,)))
+    vn_titles = [
+        t for t in titles if folded(t.text).replace(" ", "").startswith("hoadon")
+    ]
+    if not result["currency"] and vn_titles and result["total_amount"]:
+        if all(
+            re.fullmatch(r"\d{1,3}(?:[.,]\d{3})+", c.value)
+            for c in result["total_amount"]
+        ):
+            result["currency"].append(Candidate("VND", (vn_titles[0],)))
+    return result
+
+
+def visual_rows(blocks):
+    rows = []
+    for block in sorted(blocks, key=lambda b: (b.page, b.top, b.left, b.reading_order)):
+        matches = [row for row in rows if same_row(row[0], block, ROW_OVERLAP)]
+        if matches:
+            min(matches, key=lambda row: abs(row[0].top - block.top)).append(block)
+        else:
+            rows.append([block])
+    return [sorted(row, key=lambda b: (b.left, b.reading_order)) for row in rows]
+
+
+def table_header(row, patterns):
+    columns = {}
+    for block in row:
+        match = label_match(block.text, patterns)
+        if match and not match[1]:
+            columns[match[0]] = block
+    return columns
+
+
+def table_regions(
+    blocks, *, line_labels=None, line_stop_pattern=None, preserve_numeric_rows=False
+):
+    """Detect tables by semantic headers; carry columns only within a page."""
+    regions = []
+    current = None
+    excluded = set()
+    for row in visual_rows(blocks):
+        line_columns = table_header(
+            row, LINE_LABELS if line_labels is None else line_labels
+        )
+        tax_columns = table_header(row, TAX_LABELS)
+        if "description" in line_columns and len(line_columns) >= 2:
+            current = ("line", line_columns, [])
+            regions.append(current)
+            excluded.update(b.block_id for b in row)
+            continue
+        if "rate" in tax_columns and len(tax_columns) >= 2:
+            current = ("tax", tax_columns, [])
+            regions.append(current)
+            excluded.update(b.block_id for b in row)
+            continue
+        if current:
+            _, columns, data = current
+            numeric_item = False
+            if preserve_numeric_rows and current[0] == "line":
+                cells = group_columns(row, columns)
+                numeric_item = (
+                    bool(cells.get("description"))
+                    and sum(
+                        len(cells.get(f, [])) == 1
+                        and bool(
+                            re.fullmatch(
+                                r"[0-9]+(?:[.,][0-9]+)*", cells[f][0].text.strip()
+                            )
+                        )
+                        for f in ("quantity", "unit_price", "amount")
+                    )
+                    >= 2
+                )
+            if (
+                not data
+                and "description" in columns
+                and folded(columns["description"].text).startswith("revenue sharing")
+                and all(re.fullmatch(r"\([^)]*\)", text(b.text)) for b in row)
+            ):
+                excluded.update(b.block_id for b in row)
+                continue
+            if (
+                row[0].page != next(iter(columns.values())).page
+                or (
+                    current[0] == "line"
+                    and line_stop_pattern is not None
+                    and any(re.match(line_stop_pattern, folded(b.text)) for b in row)
+                )
+                or (not numeric_item and any(label_match(b.text, LABELS) for b in row))
+                or (
+                    not numeric_item
+                    and any(
+                        re.match(
+                            r"^(?:tong sl\b|nguoi |ky ten|signature|ghi chu|notes?\b|chi dung de\b|cam on\b|thank you\b)",
+                            folded(b.text),
+                        )
+                        for b in row
+                    )
+                )
+            ):
+                current = None
+            else:
+                data.append(row)
+                excluded.update(b.block_id for b in row)
+    return regions, excluded
+
+
+def group_columns(row, columns):
+    groups = {field: [] for field in columns}
+    centers = {field: (b.left + b.right) / 2 for field, b in columns.items()}
+    for block in row:
+        # Left alignment handles long descriptions; center alignment handles numbers.
+        field = min(
+            columns,
+            key=lambda f: min(
+                abs(block.left - columns[f].left),
+                abs((block.left + block.right) / 2 - centers[f]),
+            ),
+        )
+        groups[field].append(block)
+    return groups
+
+
+def row_metadata(row):
+    cells = [row[f] for f in LINE_FIELDS]
+    row["source_block_ids"] = list(
+        dict.fromkeys(i for c in cells for i in c["source_block_ids"])
+    )
+    row["review_policy_version"] = REVIEW_VERSION
+    row["review_reasons"] = list(
+        dict.fromkeys(r for c in cells for r in c["review_reasons"])
+    )
+    row["machine_needs_review"] = any(c["machine_needs_review"] for c in cells)
+
+
+def extract_tables(regions, currency, *, line_grouper=None):
+    lines, taxes = [], []
+    for kind, columns, rows in regions:
+        grouped = []
+        continuations = set()
+        previous_bottom = None
+        for row in rows:
+            grouper = line_grouper if kind == "line" and line_grouper else group_columns
+            groups = grouper(row, columns)
+            nonempty = {f for f, values in groups.items() if values}
+            if (
+                kind == "line"
+                and nonempty == {"description"}
+                and grouped
+                and min(b.top for b in row) - previous_bottom
+                <= CONTINUATION_HEIGHTS * max(b.height for b in row)
+            ):
+                grouped[-1]["description"].extend(groups["description"])
+                # A description-only fragment could also be a partial new item.
+                # Preserve its evidence and surface the grouping uncertainty.
+                continuations.add(len(grouped) - 1)
+            else:
+                grouped.append(groups)
+            previous_bottom = max(b.bottom for b in row)
+        for group_index, groups in enumerate(grouped):
+            fields = LINE_FIELDS if kind == "line" else tuple(TAX_LABELS)
+            item = {}
+            for field in fields:
+                sources = sorted(
+                    groups.get(field, []), key=lambda b: (b.page, b.reading_order)
+                )
+                candidates = (
+                    [Candidate("\n".join(b.text for b in sources), tuple(sources))]
+                    if sources
+                    else []
+                )
+                item[field] = select(
+                    field,
+                    candidates,
+                    currency=currency,
+                    absent=field == "unit" and field not in columns,
+                )
+                # Multiple numeric blocks in one cell are preserved for review.
+                if len(sources) > 1 and field not in {"description", "unit"}:
+                    item[field].update(
+                        value_status="AMBIGUOUS",
+                        normalized_value=None,
+                        normalization=None,
+                    )
+                    add_reason(item[field], "MULTIPLE_CANDIDATES")
+            if kind == "line":
+                if group_index in continuations:
+                    add_reason(item["description"], "AMBIGUOUS_FORMAT")
+                item["line_id"] = f"line-{len(lines) + 1:04d}"
+                row_metadata(item)
+                lines.append(item)
+            else:
+                taxes.append(item)
+    return lines, taxes
+
+
+def inline_taxes(blocks, excluded, currency):
+    """Explicit printed rate + labeled amounts, including nonstandard categories."""
+    taxes = []
+    pattern = re.compile(
+        r"^(?:vat|thue suat(?: gtgt)?)\s*:?\s*([0-9]+(?:[.,][0-9]+)?\s*%|kct|kkkt)",
+        re.IGNORECASE,
+    )
+    for row in visual_rows([b for b in blocks if b.block_id not in excluded]):
+        for block in row:
+            match = pattern.match(folded(block.text))
+            if not match:
+                continue
+            item = {
+                "rate": select(
+                    "rate", [Candidate(match.group(1), (block,))], currency=currency
+                )
+            }
+            for field in ("taxable_amount", "tax_amount"):
+                candidates = []
+                for source in row:
+                    # Supports a single block with semicolon-separated labels too.
+                    for segment in source.text.split(";"):
+                        found = label_match(segment.strip(), {field: TAX_LABELS[field]})
+                        if found:
+                            candidates.append(Candidate(found[1], (source,)))
+                item[field] = select(field, candidates, currency=currency)
+            taxes.append(item)
+    return taxes

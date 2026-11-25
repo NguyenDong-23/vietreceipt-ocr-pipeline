@@ -1,0 +1,16 @@
+{
+  "parent_ocr_run_id": "2785c109-3fd3-488c-a8d9-fcfe6785fcd2",
+  "ocr_run_id": "764b2052-de3b-41d1-bd5b-d589afcae0c1",
+  "checkpoint_sha256": "a4b7a6985859b8817af993870c1de5ffef8e3c3322c4e317f3964d07d317a2c2",
+  "recognizer": "vietocr-pos-disambiguation",
+  "source_evidence_sha256": "bbf65eb06306f5ca56a05966bd0e8480e2516ba0eb80ea0892b8bfcf74d3aae9",
+  "geometry_policy": "reuse_reader_polygons_in_source_frame; do_not_generate_new_boxes",
+  "confidence_semantics": "VietOCR mean token probability, not calibrated against Paddle; never copy Paddle confidence to VietOCR",
+  "ocr_blocks_processed": 46,
+  "changed_text_blocks": 29,
+  "omitted_empty_block_ids": [],
+  "pdf_text_pages_preserved": [],
+  "decode_length_limit_block_ids": [],
+  "seconds": 0.8339064160245471,
+  "review_status": "EXPERIMENTAL_PENDING_GROUP_REVIEW"
+}

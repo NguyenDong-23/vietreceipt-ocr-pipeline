@@ -1,0 +1,84 @@
+{
+  "status": "ACTIVE_DEVELOPMENT_RULES_NOT_FINAL",
+  "rules_version": "pp-ocr-regions-0.8-candidate",
+  "rules_sha256": "6cc46e45a39468781b01dde31f011c266906f3fa6f1a5c81d8c91801dca459fe",
+  "visual_fallback_version": "unreadable-geometry-0.3",
+  "visual_fallback_sha256": "70f2f3bd9d6611e97665770d5cb1ace92a7a1fac67e256a4710bd6de216034ba",
+  "config": {
+    "ocr_min_confidence": 0.4,
+    "max_skew_degrees": 15,
+    "row_overlap": 0.35,
+    "padding_line_height": 0.22,
+    "allow_multiple_regions_per_class": true
+  },
+  "uses_gold_for_inference": false,
+  "training_performed": false,
+  "pp_checkpoint": {
+    "repo": "PaddlePaddle/PP-DocLayoutV3_safetensors",
+    "revision": "e4f489dc536556fc1be02b973ba06756e0d4a2ac",
+    "file": "model.safetensors",
+    "bytes": 133270468,
+    "sha256": "5ea422c6cc5fe759a47e1357c35639b58173508e025a3131cbe4b6ac59e2b85e",
+    "lfs_sha256_verified": true
+  },
+  "ocr_recognizer": {
+    "repo": "truonggiabao7/ocrdoc-models",
+    "revision": "9b5346432fb84a447fdc4d780a7741126b446b0f",
+    "model_sha256": "767305d37d06728fe9578ff8132595ce23f66139df5e2937fd4131bd1dc34f12",
+    "charset_sha256": "5d801bf60472c4c1b184b6b6843aa2c754d8daf1429247e07658ee0bd79ab448"
+  },
+  "note": "Rules use generic lexical/layout cues; previous LP/RV cases were seen during development. Review pending. No claim of independent final accuracy.",
+  "baseline_rules_sha256": "47e367d6692d203c1e84d16b421491b1ab5de60fc039bdd977e136183ae934d9",
+  "baseline_location": "baseline-v0.7",
+  "validation": "54 replays; focused visual review of7 user-reported cases; live NB14 no-table smoke; labels unchanged; not independent accuracy",
+  "boundary_refiner_version": "ink-boundaries-0.1",
+  "boundary_refiner_sha256": "874a0ebd6bda9f654d515b2433c723d8fdd99952f23ea6f69ea236c01cb290f9",
+  "input_pipeline": {
+    "schema_version": "layout-prediction-1.1",
+    "exif_policy": "Both PP and OCR receive identical EXIF-normalized RGB/BGR pixels",
+    "prediction_coordinate_frame": "pixel_xy_on_exif_normalized_image",
+    "source_frame_regions": "regions_original",
+    "code_sha256": {
+      "compact_regions.py": "9d61b0c61f974f3791303396fbf201e84c28dd5253427d2b355da6816ddac7b5",
+      "export_blocks.py": "6ab9cf2a481d80a07d992c3ddc88a42c54b71f287318b686d9bf83ddc5faba41",
+      "test_compact_export.py": "49e58a06075f0e91820fdd852055fbb4c2d4410a966a6219573aa9736a2f8156",
+      "preview_render.py": "a33bae18254ef9461df698e8d7c1084b33c06d0ff4f1badf6fcafe4bba08072f",
+      "image_input.py": "e14ec59791cf6ef5b32d7ff7e288b90625baf648a4e1714f8391141373fe1398",
+      "pipeline.py": "913617496fb379a5c32136747e38b44079f4b9cfbba1621400c7366cf6645e07",
+      "predict_layout.py": "961c336f1ab6839d34e3846abc7e980cc8baba420dfeed6665bb804c45e913b2",
+      "test_image.py": "11d1251cc72363e155fd843ee746c0bdbe3ebaf892ceb24c9ff3099bfd36657b",
+      "ocr_engine.py": "1846c2380ef06ed98756deefdf5b86a567c6ae3684dd316a0abd32fe4f7844fb",
+      "test_image_input.py": "557a8e95ff60d5921efc8bb6468859539903593a2c47345b94ff376642ad3b94",
+      "smoke_image_pipeline.py": "b359da60e4422dc9baa12f30c641a19ac9078b0201332590db7cb4f8df496d75",
+      "HOW_TO_RUN.md": "82b23a54df07b2cb7d1205bc28213de241749705da3e8d933ff331c097ebc30d"
+    },
+    "checks": {
+      "status": "PASS",
+      "live_receipt_inputs": 6,
+      "intentionally_corrupt_inputs": 1,
+      "raw_exif_inputs": [
+        "NB01",
+        "NB03",
+        "NB24"
+      ],
+      "exif_jpeg_vs_normalized_png": "Identical region geometry for NB03",
+      "vs_prior_v08_replay": "Identical regions for NB01/NB03/NB24/NB06/NB14",
+      "source_coordinate_roundtrip": "PASS",
+      "negative_no_table": "NB14 has Header/Footer only",
+      "input_label_changes": false,
+      "training": false,
+      "accuracy": null
+    }
+  },
+  "boundary_refinement_policy": "SHARED_GAP_TRIM_ONLY_NO_CLASS_REASSIGNMENT",
+  "delivery_version": "0.8.2-development",
+  "delivery_code_sha256": {
+    "region_rules.py": "6cc46e45a39468781b01dde31f011c266906f3fa6f1a5c81d8c91801dca459fe",
+    "visual_fallback.py": "b5cff5dbde131764f3ce3ba2dce6f73f94ace1a62e2a4696c455f213d5a8c633",
+    "boundary_refiner.py": "874a0ebd6bda9f654d515b2433c723d8fdd99952f23ea6f69ea236c01cb290f9",
+    "compact_regions.py": "9d61b0c61f974f3791303396fbf201e84c28dd5253427d2b355da6816ddac7b5",
+    "pipeline.py": "913617496fb379a5c32136747e38b44079f4b9cfbba1621400c7366cf6645e07",
+    "preview_render.py": "a33bae18254ef9461df698e8d7c1084b33c06d0ff4f1badf6fcafe4bba08072f",
+    "export_blocks.py": "6ab9cf2a481d80a07d992c3ddc88a42c54b71f287318b686d9bf83ddc5faba41"
+  }
+}

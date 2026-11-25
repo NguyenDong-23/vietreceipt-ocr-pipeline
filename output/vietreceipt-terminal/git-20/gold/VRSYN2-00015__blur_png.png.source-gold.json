@@ -1,0 +1,193 @@
+{
+  "annotation_schema_version": "2.0",
+  "receipt_id": "77dd6d09-a67c-5277-b05f-92ba71f95b46",
+  "dataset_family": "vietreceipt_synthetic",
+  "dataset_snapshot": "0.2.0",
+  "sample_id": "VRSYN2-00015",
+  "synthetic": true,
+  "split": "train",
+  "mapping_version": "vietreceipt-source-gold-2.0",
+  "template_id": "service",
+  "parent_sample_id": null,
+  "fields": {
+    "invoice_template_number": {
+      "annotation_status": "PRESENT",
+      "raw_value": "1",
+      "normalized_value": "1",
+      "source_block_ids": []
+    },
+    "invoice_symbol": {
+      "annotation_status": "PRESENT",
+      "raw_value": "C26T5A",
+      "normalized_value": "C26T5A",
+      "source_block_ids": []
+    },
+    "invoice_number": {
+      "annotation_status": "PRESENT",
+      "raw_value": "00000015",
+      "normalized_value": "00000015",
+      "source_block_ids": []
+    },
+    "invoice_date": {
+      "annotation_status": "PRESENT",
+      "raw_value": "2026-03-15",
+      "normalized_value": "2026-03-15",
+      "source_block_ids": []
+    },
+    "seller_name": {
+      "annotation_status": "PRESENT",
+      "raw_value": "CÔNG TY MẪU MINH AN",
+      "normalized_value": "CÔNG TY MẪU MINH AN",
+      "source_block_ids": []
+    },
+    "seller_tax_id": {
+      "annotation_status": "PRESENT",
+      "raw_value": "0000000015",
+      "normalized_value": "0000000015",
+      "source_block_ids": []
+    },
+    "seller_address": {
+      "annotation_status": "PRESENT",
+      "raw_value": "15 Đường Mẫu, Thành phố Hà Nội",
+      "normalized_value": "15 Đường Mẫu, Thành phố Hà Nội",
+      "source_block_ids": []
+    },
+    "buyer_name": {
+      "annotation_status": "UNKNOWN",
+      "raw_value": null,
+      "normalized_value": null,
+      "source_block_ids": []
+    },
+    "buyer_tax_id": {
+      "annotation_status": "UNKNOWN",
+      "raw_value": null,
+      "normalized_value": null,
+      "source_block_ids": []
+    },
+    "subtotal": {
+      "annotation_status": "PRESENT",
+      "raw_value": 426000,
+      "normalized_value": 426000,
+      "source_block_ids": []
+    },
+    "tax_amount": {
+      "annotation_status": "PRESENT",
+      "raw_value": 34080,
+      "normalized_value": 34080,
+      "source_block_ids": []
+    },
+    "total_amount": {
+      "annotation_status": "PRESENT",
+      "raw_value": 460080,
+      "normalized_value": 460080,
+      "source_block_ids": []
+    },
+    "currency": {
+      "annotation_status": "PRESENT",
+      "raw_value": "VND",
+      "normalized_value": "VND",
+      "source_block_ids": []
+    }
+  },
+  "line_items": [
+    {
+      "line_id": "VRSYN2-00015-L01",
+      "description": {
+        "annotation_status": "PRESENT",
+        "raw_value": "Dịch vụ in tài liệu",
+        "normalized_value": "Dịch vụ in tài liệu",
+        "source_block_ids": []
+      },
+      "unit": {
+        "annotation_status": "PRESENT",
+        "raw_value": "Lần",
+        "normalized_value": "Lần",
+        "source_block_ids": []
+      },
+      "quantity": {
+        "annotation_status": "PRESENT",
+        "raw_value": 1,
+        "normalized_value": 1,
+        "source_block_ids": []
+      },
+      "unit_price": {
+        "annotation_status": "PRESENT",
+        "raw_value": 12000,
+        "normalized_value": 12000,
+        "source_block_ids": []
+      },
+      "amount": {
+        "annotation_status": "PRESENT",
+        "raw_value": 12000,
+        "normalized_value": 12000,
+        "source_block_ids": []
+      }
+    },
+    {
+      "line_id": "VRSYN2-00015-L02",
+      "description": {
+        "annotation_status": "PRESENT",
+        "raw_value": "Dịch vụ in tài liệu",
+        "normalized_value": "Dịch vụ in tài liệu",
+        "source_block_ids": []
+      },
+      "unit": {
+        "annotation_status": "PRESENT",
+        "raw_value": "Lần",
+        "normalized_value": "Lần",
+        "source_block_ids": []
+      },
+      "quantity": {
+        "annotation_status": "PRESENT",
+        "raw_value": 2,
+        "normalized_value": 2,
+        "source_block_ids": []
+      },
+      "unit_price": {
+        "annotation_status": "PRESENT",
+        "raw_value": 12000,
+        "normalized_value": 12000,
+        "source_block_ids": []
+      },
+      "amount": {
+        "annotation_status": "PRESENT",
+        "raw_value": 24000,
+        "normalized_value": 24000,
+        "source_block_ids": []
+      }
+    },
+    {
+      "line_id": "VRSYN2-00015-L03",
+      "description": {
+        "annotation_status": "PRESENT",
+        "raw_value": "Giấy in A4",
+        "normalized_value": "Giấy in A4",
+        "source_block_ids": []
+      },
+      "unit": {
+        "annotation_status": "PRESENT",
+        "raw_value": "Ram",
+        "normalized_value": "Ram",
+        "source_block_ids": []
+      },
+      "quantity": {
+        "annotation_status": "PRESENT",
+        "raw_value": 6,
+        "normalized_value": 6,
+        "source_block_ids": []
+      },
+      "unit_price": {
+        "annotation_status": "PRESENT",
+        "raw_value": 65000,
+        "normalized_value": 65000,
+        "source_block_ids": []
+      },
+      "amount": {
+        "annotation_status": "PRESENT",
+        "raw_value": 390000,
+        "normalized_value": 390000,
+        "source_block_ids": []
+      }
+    }
+  ]
+}

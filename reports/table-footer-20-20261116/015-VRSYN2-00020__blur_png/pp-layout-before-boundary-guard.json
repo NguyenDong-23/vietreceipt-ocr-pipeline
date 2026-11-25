@@ -1,0 +1,177 @@
+{
+  "schema_version": "tv2-layout-handoff-0.1",
+  "media_type": "image/png",
+  "page_count": 1,
+  "annotation_status": "PREDICTION_PENDING_REVIEW",
+  "source": {
+    "sha256": "cd6e412515571bfadb00e7d3ddd1f34109f80ad739bfa202cf6089cb43257175",
+    "encoded_width_px": 660,
+    "encoded_height_px": 1140,
+    "exif_orientation": 1
+  },
+  "pages": [
+    {
+      "page_index": 0,
+      "width_px": 660,
+      "height_px": 1140,
+      "regions": [
+        {
+          "region_id": "region-1",
+          "label": "header",
+          "polygon_original_pixels": [
+            [
+              22.380013199999993,
+              20.380013199999993
+            ],
+            [
+              499.6199868,
+              20.380013199999993
+            ],
+            [
+              499.6199868,
+              247.6201068
+            ],
+            [
+              22.380013199999993,
+              247.6201068
+            ]
+          ],
+          "bbox_original_pixels": [
+            22.380013199999993,
+            20.380013199999993,
+            499.6199868,
+            247.6201068
+          ],
+          "polygon_original_normalized": [
+            {
+              "x": 0.0339091109090909,
+              "y": 0.017877204561403504
+            },
+            {
+              "x": 0.75699998,
+              "y": 0.017877204561403504
+            },
+            {
+              "x": 0.75699998,
+              "y": 0.21721062
+            },
+            {
+              "x": 0.0339091109090909,
+              "y": 0.21721062
+            }
+          ]
+        },
+        {
+          "region_id": "region-2",
+          "label": "table",
+          "polygon_original_pixels": [
+            [
+              24.37975319999999,
+              273.3804132
+            ],
+            [
+              590.6201268,
+              273.3804132
+            ],
+            [
+              590.6201268,
+              449.6201268
+            ],
+            [
+              24.37975319999999,
+              449.6201268
+            ]
+          ],
+          "bbox_original_pixels": [
+            24.37975319999999,
+            273.3804132,
+            590.6201268,
+            449.6201268
+          ],
+          "polygon_original_normalized": [
+            {
+              "x": 0.03693901999999998,
+              "y": 0.23980738000000001
+            },
+            {
+              "x": 0.89487898,
+              "y": 0.23980738000000001
+            },
+            {
+              "x": 0.89487898,
+              "y": 0.39440361999999995
+            },
+            {
+              "x": 0.03693901999999998,
+              "y": 0.39440361999999995
+            }
+          ]
+        },
+        {
+          "region_id": "region-3",
+          "label": "footer",
+          "polygon_original_pixels": [
+            [
+              21.380013199999993,
+              477.3800132
+            ],
+            [
+              342.6199868,
+              477.3800132
+            ],
+            [
+              342.6199868,
+              659.6195268
+            ],
+            [
+              21.380013199999993,
+              659.6195268
+            ]
+          ],
+          "bbox_original_pixels": [
+            21.380013199999993,
+            477.3800132,
+            342.6199868,
+            659.6195268
+          ],
+          "polygon_original_normalized": [
+            {
+              "x": 0.03239395939393938,
+              "y": 0.4187543975438597
+            },
+            {
+              "x": 0.5191211921212121,
+              "y": 0.4187543975438597
+            },
+            {
+              "x": 0.5191211921212121,
+              "y": 0.57861362
+            },
+            {
+              "x": 0.03239395939393938,
+              "y": 0.57861362
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "provenance": {
+    "layout_model": "PP-DocLayoutV3",
+    "checkpoint_sha256": "5ea422c6cc5fe759a47e1357c35639b58173508e025a3131cbe4b6ac59e2b85e",
+    "semantic_adapter": "PP native + original Reader text and coordinates",
+    "ocr": {
+      "name": "paddleocr",
+      "version": "3.0.3"
+    },
+    "code_sha256": {
+      "pipeline": "9a5bece7d97a5d01d53f93d15461dfaf9e59048e4a4ff8a0cc22e8a7584fc7a1",
+      "image_input": "e14ec59791cf6ef5b32d7ff7e288b90625baf648a4e1714f8391141373fe1398",
+      "ocr_engine": "1846c2380ef06ed98756deefdf5b86a567c6ae3684dd316a0abd32fe4f7844fb",
+      "region_rules": "7655ea01a541dfd00fdd8b46ee3a45f042db293d71eecc27a1a0f937a8f5d190",
+      "visual_fallback": "b5cff5dbde131764f3ce3ba2dce6f73f94ace1a62e2a4696c455f213d5a8c633",
+      "boundary_refiner": "874a0ebd6bda9f654d515b2433c723d8fdd99952f23ea6f69ea236c01cb290f9",
+      "compact_regions": "9d61b0c61f974f3791303396fbf201e84c28dd5253427d2b355da6816ddac7b5"
+    }
+  }
+}

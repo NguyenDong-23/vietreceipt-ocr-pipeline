@@ -1,0 +1,572 @@
+[
+  {
+    "cell": "fields.seller_name",
+    "page_index": 0,
+    "text": "Đơn vị bán hàng: CÔNG TY MẪU MINH AN",
+    "selected_value_text": "CÔNG TY MẪU MINH AN",
+    "bounds": [
+      0.07394957983193277,
+      0.06769596199524941,
+      0.40158219537815126,
+      0.08432304038004751
+    ],
+    "coordinate_system": "normalized top-left source page",
+    "annotation_origin": "generator render specification, not OCR/KIE",
+    "qa_status": "AUTOMATED_SOURCE_CHECK_ONLY"
+  },
+  {
+    "cell": "fields.seller_tax_id",
+    "page_index": 0,
+    "text": "MST người bán: 0000000009",
+    "selected_value_text": "0000000009",
+    "bounds": [
+      0.07394957983193277,
+      0.08907363420427554,
+      0.29431624212184876,
+      0.10570071258907364
+    ],
+    "coordinate_system": "normalized top-left source page",
+    "annotation_origin": "generator render specification, not OCR/KIE",
+    "qa_status": "AUTOMATED_SOURCE_CHECK_ONLY"
+  },
+  {
+    "cell": "fields.seller_address",
+    "page_index": 0,
+    "text": "Địa chỉ người bán: 9 Đường Mẫu, Thành phố Hà Nội",
+    "selected_value_text": "9 Đường Mẫu, Thành phố Hà Nội",
+    "bounds": [
+      0.07394957983193277,
+      0.11045130641330166,
+      0.4669708508403361,
+      0.12707838479809977
+    ],
+    "coordinate_system": "normalized top-left source page",
+    "annotation_origin": "generator render specification, not OCR/KIE",
+    "qa_status": "AUTOMATED_SOURCE_CHECK_ONLY"
+  },
+  {
+    "cell": "fields.buyer_name",
+    "page_index": 0,
+    "text": "Người mua: KHÁCH HÀNG THỬ NGHIỆM",
+    "selected_value_text": "KHÁCH HÀNG THỬ NGHIỆM",
+    "bounds": [
+      0.07394957983193277,
+      0.13182897862232779,
+      0.3935235031512605,
+      0.14845605700712589
+    ],
+    "coordinate_system": "normalized top-left source page",
+    "annotation_origin": "generator render specification, not OCR/KIE",
+    "qa_status": "AUTOMATED_SOURCE_CHECK_ONLY"
+  },
+  {
+    "cell": "fields.buyer_tax_id",
+    "page_index": 0,
+    "text": "MST người mua: 0000003009",
+    "selected_value_text": "0000003009",
+    "bounds": [
+      0.07394957983193277,
+      0.15320665083135393,
+      0.29896927521008404,
+      0.16983372921615203
+    ],
+    "coordinate_system": "normalized top-left source page",
+    "annotation_origin": "generator render specification, not OCR/KIE",
+    "qa_status": "AUTOMATED_SOURCE_CHECK_ONLY"
+  },
+  {
+    "cell": "fields.invoice_template_number",
+    "page_index": 0,
+    "text": "Mẫu số: 1",
+    "selected_value_text": "1",
+    "bounds": [
+      0.07394957983193277,
+      0.17458432304038005,
+      0.1477498030462185,
+      0.19121140142517815
+    ],
+    "coordinate_system": "normalized top-left source page",
+    "annotation_origin": "generator render specification, not OCR/KIE",
+    "qa_status": "AUTOMATED_SOURCE_CHECK_ONLY"
+  },
+  {
+    "cell": "fields.invoice_symbol",
+    "page_index": 0,
+    "text": "Ký hiệu: C26T9A",
+    "selected_value_text": "C26T9A",
+    "bounds": [
+      0.07394957983193277,
+      0.19596199524940616,
+      0.20100118172268908,
+      0.21258907363420426
+    ],
+    "coordinate_system": "normalized top-left source page",
+    "annotation_origin": "generator render specification, not OCR/KIE",
+    "qa_status": "AUTOMATED_SOURCE_CHECK_ONLY"
+  },
+  {
+    "cell": "fields.invoice_number",
+    "page_index": 0,
+    "text": "Số hóa đơn: 00000009",
+    "selected_value_text": "00000009",
+    "bounds": [
+      0.07394957983193277,
+      0.2173396674584323,
+      0.24571789653361345,
+      0.2339667458432304
+    ],
+    "coordinate_system": "normalized top-left source page",
+    "annotation_origin": "generator render specification, not OCR/KIE",
+    "qa_status": "AUTOMATED_SOURCE_CHECK_ONLY"
+  },
+  {
+    "cell": "fields.invoice_date",
+    "page_index": 0,
+    "text": "Ngày lập: 2026-09-09",
+    "selected_value_text": "2026-09-09",
+    "bounds": [
+      0.07394957983193277,
+      0.23871733966745842,
+      0.23559118960084033,
+      0.25534441805225655
+    ],
+    "coordinate_system": "normalized top-left source page",
+    "annotation_origin": "generator render specification, not OCR/KIE",
+    "qa_status": "AUTOMATED_SOURCE_CHECK_ONLY"
+  },
+  {
+    "cell": "line_items.0.description",
+    "page_index": 0,
+    "text": "Bút bi xanh",
+    "selected_value_text": "Bút bi xanh",
+    "bounds": [
+      0.07394957983193277,
+      0.31603325415676964,
+      0.14963153230042017,
+      0.33099762470308786
+    ],
+    "coordinate_system": "normalized top-left source page",
+    "annotation_origin": "generator render specification, not OCR/KIE",
+    "qa_status": "AUTOMATED_SOURCE_CHECK_ONLY"
+  },
+  {
+    "cell": "line_items.0.unit",
+    "page_index": 0,
+    "text": "Cây",
+    "selected_value_text": "Cây",
+    "bounds": [
+      0.4659159663865547,
+      0.31603325415676964,
+      0.4928149290966387,
+      0.33099762470308786
+    ],
+    "coordinate_system": "normalized top-left source page",
+    "annotation_origin": "generator render specification, not OCR/KIE",
+    "qa_status": "AUTOMATED_SOURCE_CHECK_ONLY"
+  },
+  {
+    "cell": "line_items.0.quantity",
+    "page_index": 0,
+    "text": "6",
+    "selected_value_text": "6",
+    "bounds": [
+      0.5596470588235294,
+      0.31603325415676964,
+      0.5680594472163865,
+      0.33099762470308786
+    ],
+    "coordinate_system": "normalized top-left source page",
+    "annotation_origin": "generator render specification, not OCR/KIE",
+    "qa_status": "AUTOMATED_SOURCE_CHECK_ONLY"
+  },
+  {
+    "cell": "line_items.0.unit_price",
+    "page_index": 0,
+    "text": "5.000",
+    "selected_value_text": "5.000",
+    "bounds": [
+      0.6448571428571429,
+      0.31603325415676964,
+      0.6827091977415967,
+      0.33099762470308786
+    ],
+    "coordinate_system": "normalized top-left source page",
+    "annotation_origin": "generator render specification, not OCR/KIE",
+    "qa_status": "AUTOMATED_SOURCE_CHECK_ONLY"
+  },
+  {
+    "cell": "line_items.0.amount",
+    "page_index": 0,
+    "text": "30.000",
+    "selected_value_text": "30.000",
+    "bounds": [
+      0.7726722689075629,
+      0.31603325415676964,
+      0.8189367121848738,
+      0.33099762470308786
+    ],
+    "coordinate_system": "normalized top-left source page",
+    "annotation_origin": "generator render specification, not OCR/KIE",
+    "qa_status": "AUTOMATED_SOURCE_CHECK_ONLY"
+  },
+  {
+    "cell": "line_items.1.description",
+    "page_index": 0,
+    "text": "Giấy in A4",
+    "selected_value_text": "Giấy in A4",
+    "bounds": [
+      0.07394957983193277,
+      0.3445368171021378,
+      0.14373030462184874,
+      0.35950118764845607
+    ],
+    "coordinate_system": "normalized top-left source page",
+    "annotation_origin": "generator render specification, not OCR/KIE",
+    "qa_status": "AUTOMATED_SOURCE_CHECK_ONLY"
+  },
+  {
+    "cell": "line_items.1.unit",
+    "page_index": 0,
+    "text": "Ram",
+    "selected_value_text": "Ram",
+    "bounds": [
+      0.4659159663865547,
+      0.3445368171021378,
+      0.49785202205882356,
+      0.35950118764845607
+    ],
+    "coordinate_system": "normalized top-left source page",
+    "annotation_origin": "generator render specification, not OCR/KIE",
+    "qa_status": "AUTOMATED_SOURCE_CHECK_ONLY"
+  },
+  {
+    "cell": "line_items.1.quantity",
+    "page_index": 0,
+    "text": "6",
+    "selected_value_text": "6",
+    "bounds": [
+      0.5596470588235294,
+      0.3445368171021378,
+      0.5680594472163865,
+      0.35950118764845607
+    ],
+    "coordinate_system": "normalized top-left source page",
+    "annotation_origin": "generator render specification, not OCR/KIE",
+    "qa_status": "AUTOMATED_SOURCE_CHECK_ONLY"
+  },
+  {
+    "cell": "line_items.1.unit_price",
+    "page_index": 0,
+    "text": "65.000",
+    "selected_value_text": "65.000",
+    "bounds": [
+      0.6448571428571429,
+      0.3445368171021378,
+      0.6911215861344537,
+      0.35950118764845607
+    ],
+    "coordinate_system": "normalized top-left source page",
+    "annotation_origin": "generator render specification, not OCR/KIE",
+    "qa_status": "AUTOMATED_SOURCE_CHECK_ONLY"
+  },
+  {
+    "cell": "line_items.1.amount",
+    "page_index": 0,
+    "text": "390.000",
+    "selected_value_text": "390.000",
+    "bounds": [
+      0.7726722689075629,
+      0.3445368171021378,
+      0.827349100577731,
+      0.35950118764845607
+    ],
+    "coordinate_system": "normalized top-left source page",
+    "annotation_origin": "generator render specification, not OCR/KIE",
+    "qa_status": "AUTOMATED_SOURCE_CHECK_ONLY"
+  },
+  {
+    "cell": "line_items.2.description",
+    "page_index": 0,
+    "text": "Sổ tay văn phòng",
+    "selected_value_text": "Sổ tay văn phòng",
+    "bounds": [
+      0.07394957983193277,
+      0.37304038004750595,
+      0.19168608849789917,
+      0.3880047505938242
+    ],
+    "coordinate_system": "normalized top-left source page",
+    "annotation_origin": "generator render specification, not OCR/KIE",
+    "qa_status": "AUTOMATED_SOURCE_CHECK_ONLY"
+  },
+  {
+    "cell": "line_items.2.unit",
+    "page_index": 0,
+    "text": "Quyển",
+    "selected_value_text": "Quyển",
+    "bounds": [
+      0.4659159663865547,
+      0.37304038004750595,
+      0.5104816832983193,
+      0.3880047505938242
+    ],
+    "coordinate_system": "normalized top-left source page",
+    "annotation_origin": "generator render specification, not OCR/KIE",
+    "qa_status": "AUTOMATED_SOURCE_CHECK_ONLY"
+  },
+  {
+    "cell": "line_items.2.quantity",
+    "page_index": 0,
+    "text": "2",
+    "selected_value_text": "2",
+    "bounds": [
+      0.5596470588235294,
+      0.37304038004750595,
+      0.5680594472163865,
+      0.3880047505938242
+    ],
+    "coordinate_system": "normalized top-left source page",
+    "annotation_origin": "generator render specification, not OCR/KIE",
+    "qa_status": "AUTOMATED_SOURCE_CHECK_ONLY"
+  },
+  {
+    "cell": "line_items.2.unit_price",
+    "page_index": 0,
+    "text": "18.000",
+    "selected_value_text": "18.000",
+    "bounds": [
+      0.6448571428571429,
+      0.37304038004750595,
+      0.6911215861344537,
+      0.3880047505938242
+    ],
+    "coordinate_system": "normalized top-left source page",
+    "annotation_origin": "generator render specification, not OCR/KIE",
+    "qa_status": "AUTOMATED_SOURCE_CHECK_ONLY"
+  },
+  {
+    "cell": "line_items.2.amount",
+    "page_index": 0,
+    "text": "36.000",
+    "selected_value_text": "36.000",
+    "bounds": [
+      0.7726722689075629,
+      0.37304038004750595,
+      0.8189367121848738,
+      0.3880047505938242
+    ],
+    "coordinate_system": "normalized top-left source page",
+    "annotation_origin": "generator render specification, not OCR/KIE",
+    "qa_status": "AUTOMATED_SOURCE_CHECK_ONLY"
+  },
+  {
+    "cell": "line_items.3.description",
+    "page_index": 0,
+    "text": "Mực máy in",
+    "selected_value_text": "Mực máy in",
+    "bounds": [
+      0.07394957983193277,
+      0.40154394299287416,
+      0.152992056197479,
+      0.4165083135391924
+    ],
+    "coordinate_system": "normalized top-left source page",
+    "annotation_origin": "generator render specification, not OCR/KIE",
+    "qa_status": "AUTOMATED_SOURCE_CHECK_ONLY"
+  },
+  {
+    "cell": "line_items.3.unit",
+    "page_index": 0,
+    "text": "Hộp",
+    "selected_value_text": "Hộp",
+    "bounds": [
+      0.4659159663865547,
+      0.40154394299287416,
+      0.49366429227941183,
+      0.4165083135391924
+    ],
+    "coordinate_system": "normalized top-left source page",
+    "annotation_origin": "generator render specification, not OCR/KIE",
+    "qa_status": "AUTOMATED_SOURCE_CHECK_ONLY"
+  },
+  {
+    "cell": "line_items.3.quantity",
+    "page_index": 0,
+    "text": "1",
+    "selected_value_text": "1",
+    "bounds": [
+      0.5596470588235294,
+      0.40154394299287416,
+      0.5680594472163865,
+      0.4165083135391924
+    ],
+    "coordinate_system": "normalized top-left source page",
+    "annotation_origin": "generator render specification, not OCR/KIE",
+    "qa_status": "AUTOMATED_SOURCE_CHECK_ONLY"
+  },
+  {
+    "cell": "line_items.3.unit_price",
+    "page_index": 0,
+    "text": "145.000",
+    "selected_value_text": "145.000",
+    "bounds": [
+      0.6448571428571429,
+      0.40154394299287416,
+      0.6995339745273109,
+      0.4165083135391924
+    ],
+    "coordinate_system": "normalized top-left source page",
+    "annotation_origin": "generator render specification, not OCR/KIE",
+    "qa_status": "AUTOMATED_SOURCE_CHECK_ONLY"
+  },
+  {
+    "cell": "line_items.3.amount",
+    "page_index": 0,
+    "text": "145.000",
+    "selected_value_text": "145.000",
+    "bounds": [
+      0.7726722689075629,
+      0.40154394299287416,
+      0.827349100577731,
+      0.4165083135391924
+    ],
+    "coordinate_system": "normalized top-left source page",
+    "annotation_origin": "generator render specification, not OCR/KIE",
+    "qa_status": "AUTOMATED_SOURCE_CHECK_ONLY"
+  },
+  {
+    "cell": "line_items.4.description",
+    "page_index": 0,
+    "text": "Mực máy in",
+    "selected_value_text": "Mực máy in",
+    "bounds": [
+      0.07394957983193277,
+      0.4300475059382423,
+      0.152992056197479,
+      0.44501187648456053
+    ],
+    "coordinate_system": "normalized top-left source page",
+    "annotation_origin": "generator render specification, not OCR/KIE",
+    "qa_status": "AUTOMATED_SOURCE_CHECK_ONLY"
+  },
+  {
+    "cell": "line_items.4.unit",
+    "page_index": 0,
+    "text": "Hộp",
+    "selected_value_text": "Hộp",
+    "bounds": [
+      0.4659159663865547,
+      0.4300475059382423,
+      0.49366429227941183,
+      0.44501187648456053
+    ],
+    "coordinate_system": "normalized top-left source page",
+    "annotation_origin": "generator render specification, not OCR/KIE",
+    "qa_status": "AUTOMATED_SOURCE_CHECK_ONLY"
+  },
+  {
+    "cell": "line_items.4.quantity",
+    "page_index": 0,
+    "text": "1",
+    "selected_value_text": "1",
+    "bounds": [
+      0.5596470588235294,
+      0.4300475059382423,
+      0.5680594472163865,
+      0.44501187648456053
+    ],
+    "coordinate_system": "normalized top-left source page",
+    "annotation_origin": "generator render specification, not OCR/KIE",
+    "qa_status": "AUTOMATED_SOURCE_CHECK_ONLY"
+  },
+  {
+    "cell": "line_items.4.unit_price",
+    "page_index": 0,
+    "text": "145.000",
+    "selected_value_text": "145.000",
+    "bounds": [
+      0.6448571428571429,
+      0.4300475059382423,
+      0.6995339745273109,
+      0.44501187648456053
+    ],
+    "coordinate_system": "normalized top-left source page",
+    "annotation_origin": "generator render specification, not OCR/KIE",
+    "qa_status": "AUTOMATED_SOURCE_CHECK_ONLY"
+  },
+  {
+    "cell": "line_items.4.amount",
+    "page_index": 0,
+    "text": "145.000",
+    "selected_value_text": "145.000",
+    "bounds": [
+      0.7726722689075629,
+      0.4300475059382423,
+      0.827349100577731,
+      0.44501187648456053
+    ],
+    "coordinate_system": "normalized top-left source page",
+    "annotation_origin": "generator render specification, not OCR/KIE",
+    "qa_status": "AUTOMATED_SOURCE_CHECK_ONLY"
+  },
+  {
+    "cell": "fields.subtotal",
+    "page_index": 0,
+    "text": "Cộng tiền hàng: 746.000",
+    "selected_value_text": "746.000",
+    "bounds": [
+      0.07394957983193277,
+      0.5,
+      0.2580439206932773,
+      0.5166270783847982
+    ],
+    "coordinate_system": "normalized top-left source page",
+    "annotation_origin": "generator render specification, not OCR/KIE",
+    "qa_status": "AUTOMATED_SOURCE_CHECK_ONLY"
+  },
+  {
+    "cell": "fields.tax_amount",
+    "page_index": 0,
+    "text": "Tiền thuế GTGT: 0",
+    "selected_value_text": "0",
+    "bounds": [
+      0.07394957983193277,
+      0.5213776722090261,
+      0.2140575761554622,
+      0.5380047505938242
+    ],
+    "coordinate_system": "normalized top-left source page",
+    "annotation_origin": "generator render specification, not OCR/KIE",
+    "qa_status": "AUTOMATED_SOURCE_CHECK_ONLY"
+  },
+  {
+    "cell": "fields.total_amount",
+    "page_index": 0,
+    "text": "Tổng thanh toán: 746.000",
+    "selected_value_text": "746.000",
+    "bounds": [
+      0.07394957983193277,
+      0.5414489311163895,
+      0.2857060793067227,
+      0.5597387173396675
+    ],
+    "coordinate_system": "normalized top-left source page",
+    "annotation_origin": "generator render specification, not OCR/KIE",
+    "qa_status": "AUTOMATED_SOURCE_CHECK_ONLY"
+  },
+  {
+    "cell": "fields.currency",
+    "page_index": 0,
+    "text": "Tiền tệ: VND",
+    "selected_value_text": "VND",
+    "bounds": [
+      0.07394957983193277,
+      0.5641330166270784,
+      0.1701532956932773,
+      0.5807600950118765
+    ],
+    "coordinate_system": "normalized top-left source page",
+    "annotation_origin": "generator render specification, not OCR/KIE",
+    "qa_status": "AUTOMATED_SOURCE_CHECK_ONLY"
+  }
+]

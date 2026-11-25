@@ -1,0 +1,9 @@
+__pycache__/
+*.py[cod]
+output/pp-doclayout-v3-1511/.venv/
+output/pp-doclayout-v3-1511/paddle-models/
+output/vietreceipt-terminal/.venv-footer/
+output/vietreceipt-terminal/footer-paddle-cache/
+output/vietreceipt-terminal/bundles/footer/.paddlex/
+output/vietreceipt-terminal/runs/*
+.DS_Store

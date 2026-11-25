@@ -1,0 +1,9 @@
+/Users/mathew/Documents/ChatGPT/VietReceipt/output/pp-doclayout-v3-1511/.venv/lib/python3.12/site-packages/paddle/utils/cpp_extension/extension_utils.py:711: UserWarning: No ccache found. Please be aware that recompiling all source files may be required. You can download and install ccache from: https://github.com/ccache/ccache/blob/master/doc/INSTALL.md
+  warnings.warn(warning_message)
+Using official model (PP-LCNet_x1_0_doc_ori), the model files will be automatically downloaded and saved in /Users/mathew/Documents/ChatGPT/VietReceipt/output/pp-doclayout-v3-1511/paddle-models/official_models.
+Creating model: ('PP-OCRv3_mobile_det', None)
+Using official model (PP-OCRv3_mobile_det), the model files will be automatically downloaded and saved in /Users/mathew/Documents/ChatGPT/VietReceipt/output/pp-doclayout-v3-1511/paddle-models/official_models.
+Creating model: ('latin_PP-OCRv3_mobile_rec', None)
+Using official model (latin_PP-OCRv3_mobile_rec), the model files will be automatically downloaded and saved in /Users/mathew/Documents/ChatGPT/VietReceipt/output/pp-doclayout-v3-1511/paddle-models/official_models.
+The image processor of type `PPDocLayoutV3ImageProcessor` is now loaded as a fast processor by default, even if the model checkpoint was saved with a slow processor. This is a breaking change and may produce slightly different outputs. To continue using the slow processor, instantiate this class with `use_fast=False`. 
+Loading weights:   0%|          | 0/858 [00:00<?, ?it/s]Loading weights: 100%|██████████| 858/858 [00:00<00:00, 38366.63it/s]
